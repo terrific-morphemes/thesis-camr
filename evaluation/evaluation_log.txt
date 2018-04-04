@@ -1,0 +1,6 @@
+Error: File 2 has less AMRs than file 1
+Ignoring remaining AMRs
+Error: File 2 has less AMRs than file 1
+Ignoring remaining AMRs
+Error: File 2 has less AMRs than file 1
+Ignoring remaining AMRs

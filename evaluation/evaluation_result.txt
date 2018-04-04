@@ -1,0 +1,10 @@
+Smatch -> P: 0.55, R: 0.50, F: 0.52
+Unlabeled -> P: 0.62, R: 0.56, F: 0.59
+No WSD -> P: 0.55, R: 0.50, F: 0.52
+Named Ent. -> P: 0.50, R: 0.50, F: 0.50
+Wikification -> P: 0.00, R: 0.00, F: 0.00
+Negations -> P: 0.57, R: 0.60, F: 0.59
+IgnoreVars -> P: 0.27, R: 0.24, F: 0.25
+Concepts -> P: 0.72, R: 0.69, F: 0.70
+Reentrancies -> P: 0.43, R: 0.21, F: 0.29
+SRL -> P: 0.00, R: 0.00, F: 0.00
