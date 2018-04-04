@@ -1,0 +1,1 @@
+nohup python -u amr_parsing.py -m train --corpus_version 10k --model models/amr_zh_10k.train.basic_abt_feat --feat feature/basic_abt_feats.templates -iter 5 --smatcheval --amrfmt amr data/camrnew/amr_zh_10k.txt > log/train.10k.log 2>&1
