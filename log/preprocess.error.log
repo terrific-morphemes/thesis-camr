@@ -1,0 +1,355 @@
+[main] INFO edu.stanford.nlp.tagger.maxent.TaggerConfig - Loading default properties from tagger /home/j/llc/cwang24/Tools/stanford-corenlp-full-2016-10-31/edu/stanford/nlp/models/pos-tagger/chinese-distsim/chinese-distsim.tagger
+[main] INFO edu.stanford.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from /home/j/llc/cwang24/Tools/stanford-corenlp-full-2016-10-31/edu/stanford/nlp/models/pos-tagger/chinese-distsim/chinese-distsim.tagger ... done [1.7 sec].
+[main] INFO edu.stanford.nlp.tagger.maxent.MaxentTagger - Tagged 227610 words at 18072.89 words per second.
+[main] INFO edu.stanford.nlp.ie.crf.CRFClassifier - Invoked on Fri Jan 19 23:50:07 EST 2018 with arguments: -loadClassifier /home/j/llc/cwang24/Tools/stanford-corenlp-full-2016-10-31/edu/stanford/nlp/models/ner/chinese.misc.distsim.crf.ser.gz -textFile data/amr_zh_all.txt.seg
+[main] INFO edu.stanford.nlp.sequences.SeqClassifierFlags - loadClassifier=/home/j/llc/cwang24/Tools/stanford-corenlp-full-2016-10-31/edu/stanford/nlp/models/ner/chinese.misc.distsim.crf.ser.gz
+[main] INFO edu.stanford.nlp.sequences.SeqClassifierFlags - textFile=data/amr_zh_all.txt.seg
+[main] INFO edu.stanford.nlp.ie.AbstractSequenceClassifier - Loading classifier from /home/j/llc/cwang24/Tools/stanford-corenlp-full-2016-10-31/edu/stanford/nlp/models/ner/chinese.misc.distsim.crf.ser.gz ... done [4.3 sec].
+[main] WARN edu.stanford.nlp.process.PTBLexer - Untokenizable: Ⅲ (U+2162, decimal: 8546)
+[main] INFO edu.stanford.nlp.ie.AbstractSequenceClassifier - CRFClassifier tagged 228659 words in 308 documents at 13062.50 words per second.
+[main] INFO edu.stanford.nlp.parser.lexparser.LexicalizedParser - Loading parser from serialized file /home/j/llc/cwang24/Tools/stanford-corenlp-full-2016-10-31/edu/stanford/nlp/models/lexparser/chineseFactored.ser.gz ... done [4.5 sec].
+Parsing file: data/amr_zh_all.txt.seg
+Parsing [sent. 1 len. 27]: 最近 ， 我们 通过 知情 人士 从 衡阳市 殡葬 管理处 财务 部门 复印 出 部分 原始 发票 凭证 11 份 （ 共计 有 30余 份 ） 。
+Parsing [sent. 2 len. 85]: 在 这些 原始 凭证 上 ， 我们 可以 清清楚楚 地 看到 如此 的 批示 ： “ 招待 省 高院 民三庭 法官 来 衡阳 调查 取证 餐费 ” 、 “ 到 省 高院 协调 与 明田 公司 诉讼 问题 ， 招待 上级 领导 ” 、 “ 局 领导 去 高院 ， 招待 费用 ” 、 “ 招待 省 高院 领导 ” 、 “ 省 高院 到 衡阳 协调 我 单位 与 明田 公司 合同 纠纷 一 案 ” 等等 （ 证据 复印件 附 后 ） 。
+[main] INFO edu.stanford.nlp.parser.lexparser.BiLexPCFGParser - FactoredParser: exceeded MAX_ITEMS work limit [200000 items]; aborting.
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 3 len. 22]: 这些 原始 发票 凭证 足以 证明 ， 这 是 一 起 典型 的 司法 不公 、 司法 腐败 案 ， 铁证如山 ！
+Parsing [sent. 4 len. 36]: 2005年 6月 ， 衡阳市 政府 将 新 殡仪馆 建设 项目 对 外 招商 ， 明田 （ 湖南 ） 企业 有限 公司 （ 系 台 、 港 合资 企业 ） 应邀 多次 前往 衡阳 实地 考察 ，
+[main] INFO edu.stanford.nlp.parser.lexparser.BiLexPCFGParser - FactoredParser: exceeded MAX_ITEMS work limit [200000 items]; aborting.
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 5 len. 23]: 并 于 当年 10月 31日 ， 与 衡阳市 民政局 、 殡葬 管理处 签订 《 衡阳市 新 殡仪馆 投资 承包 经营 合同 》 。
+Parsing [sent. 6 len. 15]: 随后 ， 明田 公司 于 规定 的 期限 内 先后 按时 投资 3600多万 元 。
+Parsing [sent. 7 len. 77]: 然而 ， 由于 衡阳市 民政局 、 殡葬 管理处 不 按照 投资 承包 经营 合同 第一 章 第2 条 、 第三 章 第8 条 的 约定 ， 未 办理 好 有关 批文 和 证照 ， 尤其是 不 按 国务院 令 第225 号 《 殡葬 管理 条例 》 第八 条 的 规定 向 民政厅 、 民政部 报批 ， 使 明田 公司 没有 合法 的 经营 资格 ， 无法 正当 经营 以及 后续 开发 资金 不 能 正常 投入 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 8 len. 41]: 同时 ， 衡阳市 民政局 、 殡葬 管理处 不但 违反 合同 第三 章 第10 条 的 约定 —— 违法 批准 放纵 私人 企业 火化 业务 ， 也 违反 第11 条 的 约定 —— 不 启动 殡葬 改革 ， 放任 棺葬 橫行 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 9 len. 35]: 为 此 ， 明田 公司 多次 向 政府 有关 部门 递交 报告 ， 请求 衡阳市 民政局 、 殡葬 管理处 按 合同 约定 履行 相关 责任 和 义务 ， 但 迟迟 都 不 予 解决 。
+Parsing [sent. 10 len. 38]: 明田 公司 为 维护 自身 的 合法 权益 ， 被迫 于 2007年 11月 31日 向 湖南省 高级 人民 法院 提起 诉讼 ， 要求 解除 承包 经营 合同 ， 并 返还 投资 及 赔偿 各 项 经济 损失 。
+Parsing [sent. 11 len. 22]: 此 案 一 审 由 湖南省 高级 人民 法院 民三庭 审理 ， 庭长 曹道成 、 审判长 曾志红 、 主审 法官 邓国红 。
+Parsing [sent. 12 len. 30]: 在 案件 审理 过程 中 ， 被告 在 法庭 上 明知 违约 和 理亏 ， 为了 逃避 违约 赔偿 责任 ， 使用 各 种 手段 干扰 正常 审案 程序 ，
+Parsing [sent. 13 len. 21]: 一 方面 补贴 、 派 车 多次 鼓动 老 员工 到 省 政府 、 省 信访局 、 省 高院 闹事 ；
+Parsing [sent. 14 len. 51]: 另 一 方面 四处 活动 ， 先后 30余 次 与 省 高级 法院 审案 法官 曹道成 等 人 吃吃喝喝 、 送礼 送钱 、 住 五星级 酒店 ， 致使 这 一 案件 严重 超 期限 审理 长 达 4 年 之 久 ， 并 最终 做出 极其 不 公正 的 判决 。
+Parsing [sent. 15 len. 32]: 中央 政法委 2009年 发布 “ 四 条 禁令 ” ， 其中 第一 条 就 明确 规定 ： “ 绝对 禁止 政法 干警 接受 案件 当事人 请 吃喝 、 送 钱物 ” 。
+Parsing [sent. 16 len. 28]: 最高 人民 法院 也 同时 公布 “ 五 个 严禁 ” ， 明确 规定 ： “ 严禁 接受 案件 当事人 及 相关 人员 的 请客 送礼 ” 。
+Parsing [sent. 17 len. 28]: 然而 ， 省 高院 民三庭 审案 法官 却 顶风 犯禁 ， 明目张胆 地 先后 几十 次 与 案件 当事人 吃喝 ， 并 接受 案件 当事人 的 钱物 。
+Parsing [sent. 18 len. 38]: 30余 张 “ 腐败 票据 ” 必然 导致 对 此 案 作出 违背 事实 和 法律 的 不 公正 判决 ， 让 投资者 受 损失 ， 让 守法者 受 伤害 ， 让 神圣 的 法律 遭 亵渎 ！
+Parsing [sent. 19 len. 33]: 在 此 ， 我们 强烈 请求 有关 部门 严肃 查处 省 高院 曹道成 等 法官 的 违禁 违纪 违法 事实 ， 将 危害 司法 公正 的 害群之马 坚决 清理 出 法官 队伍 。
+Parsing [sent. 20 len. 9]: 常言 道 ： 人间 自 有 公道 在 。
+Parsing [sent. 21 len. 20]: 有 正义感 的 人士 ， 实在 看 不 下去 ， 拿出 了 他们 贪赃枉法 ， 违反 禁令 的 证据 。
+Parsing [sent. 22 len. 11]: 感谢 敢于 披露 “ 腐败 发票 ” 的 正义 人士 ！！！！！
+Parsing [sent. 23 len. 17]: 这 本 是 一 场 地位 悬殊 ， 且 极 不 平等 的 民事 诉讼 官司 ，
+Parsing [sent. 24 len. 59]: 但是 ， 衡阳市 民政局 和 殡葬 管理处 作为 被告 ， 凭 其 占有 强大 的 政府 权力 资源 ， 竟然 还 拿 大 笔 的 公款 请 吃 请 喝 、 送礼 送钱 、 住 五星级 宾馆 ， 用 人民 纳税 的 血汗 钱 为 自己 “ 擦 屁股 ” ， 为 自己 所 犯 的 错误 买单 ！
+[main] INFO edu.stanford.nlp.parser.lexparser.BiLexPCFGParser - FactoredParser: exceeded MAX_ITEMS work limit [200000 items]; aborting.
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 25 len. 18]: 实在 让 人 感到 羞耻 、 实在 让 人 感到 愤怒 ， 实在 天理 良心 所 不 容
+Parsing [sent. 26 len. 40]: 最高 人民 法院 规定 ： 对于 触犯 “ 五 个 严禁 ” 规定 的 法官 ， 既然 是 “ 严禁 ” ， 既然 已经 触犯 ， 不 能 给予 第二 次 机会 ， 应当 坚决 清理 出 法官 队伍 。
+Parsing [sent. 27 len. 20]: 针对 这 次 “ 腐败 发票 ” 事件 ， 最高 人民 法院 能够 说到 做到 吗 ！ 老百姓 拭目以待 ！！！！！
+Parsing [sent. 28 len. 34]: “ 腐败 发票 ” 事件 让 我们 看到 ， 少数 法官 贪赃枉法 、 徇私舞弊 、 腐化 堕落 ， 严重 损害 了 人民 法院 和 人民 法官 在 人民 群众 心目 中 的 形象 ，
+Parsing [sent. 29 len. 16]: 损害 了 司法 权威性 和 司法 公信力 ， 希望 有关 部门 严肃 处理 腐败 法官 ！
+Parsing [sent. 30 len. 29]: 一 个 精神 和 思维 正常 的 人 ， 难道 会 拿 几千万 的 投资 与 政府 职能 部门 的 官员 玩 “ 躲猫猫 ” 的 游戏 吗 ？
+Parsing [sent. 31 len. 52]: 六 年 来 ， 明田 公司 不幸 遭遇 了 这 个 投资 陷阱 ， 诉讼 又 遭遇 枉法 判决 ， 这些 都 是 有 真凭实据 的 ， 是 不 能 抵赖 和 消弭 的 ， 但 明田 公司 始终 相信 泱泱 中华 大 国 总 有 一 个 说理 的 地方 。
+Parsing [sent. 32 len. 26]: 中石油 的 “ 发票 门 ” 事件 让 国人 惊叹 ！ 然而 ， 湖南省 高院 的 “ 发票 门 ” 事件 更 让 人 惊荒 ！
+Parsing [sent. 33 len. 28]: 法院 是 老百姓 维护 自身 权益 的 最后 一 道 屏障 ， 屏障 腐朽 了 ， 老百姓 还 有 什么 希望 啊 ！ 能 不 惊荒 吗 ？
+Parsing [sent. 34 len. 7]: 法官 被 吃喝 送钱 者 侵蚀 ！
+Parsing [sent. 35 len. 6]: 法律 被 贪赃枉法 者 亵渎 ！
+Parsing [sent. 36 len. 7]: 咱 老百姓 还 有 什么 指望 ？
+Parsing [sent. 37 len. 7]: 法律 公正 还 有 什么 希望 ？
+Parsing [sent. 38 len. 46]: 开 “ 腐败 发票 ” 的 人 应该 追究 单位 行贿罪 ， 享受 了 “ 腐败 发票 ” 的 人 应该 追究 受贿罪 ， 只有 这样 严肃 处理 ， 看看 谁 以后 还 敢 开 “ 腐败 发票 ” 和 享受 “ 腐败 发票 ” ！
+Parsing [sent. 39 len. 24]: 吃 人家 的 嘴 柔 ， 拿 人家 的 手 短 ， 法院 做出 不 公正 判决 ， 这 也 非常 正常 啊 ，
+Parsing [sent. 40 len. 18]: 因为 法官 吃 了 政府 的 ， 拿 了 政府 的 ， 当然 要 维护 政府 啊 ，
+Parsing [sent. 41 len. 29]: 谁 让 你 不 加倍 请 法官 吃 、 喝 、 拿 、 玩 啊 ， 这 就 是 现实 生活 中 打 官司 的 “ 潜规则 ” ！
+Parsing [sent. 42 len. 20]: 法院 应该 “ 以 实事 为 依据 ， 以 法律 为 准绳 ” , 做出 公平 公正 的 判决 ，
+Parsing [sent. 43 len. 25]: 湖南省 高院 的 法官 怎么 可以 “ 以 金钱 为 依据 ， 以 政府 为 准绳 ” ， 做出 如此 判决 来 呢 ？ ！
+Parsing [sent. 44 len. 26]: 现在 法院 出 问题 了 ， 检察院 、 人大 、 纪委 应该 出面 管 一 管 这 件 事 ！ 给 老百姓 一 个 交待 ！
+Parsing [sent. 45 len. 30]: 最高 人民 法院 在 公布 “ 五 个 严禁 ” 时 说 ： 面对 司法 腐败 的 潜规则 ， 根除 的 方法 就 是 要 将 潜规则 予以 曝光 ，
+Parsing [sent. 46 len. 33]: 面向 社会 公开 其 丑陋 ， 让 社会 舆论 给予 监督 、 揭发 ， 让 那些 敢于 触摸 高压线 的 腐败 分子 无 藏身之处 ， 将 害群之马 坚决 清理 出 法官 队伍 。
+Parsing [sent. 47 len. 23]: 闹 得 轰轰扬扬 沸腾 一时 的 合肥 中学 “ 少女 毁容 案件 ” ， 随着 媒体 暴光 大众 关注 有 新 进展 。
+Parsing [sent. 48 len. 18]: 受害人 伤情 已 鉴定 出 “ 重伤 ” ， 即将 进入 民事 赔偿 与 司法 审批 程序 。
+Parsing [sent. 49 len. 19]: 随之 最 引 争议 眼球 的 ， 就 在 这 个 “ 赔偿 ” 与 “ 定罪 ” 。
+Parsing [sent. 50 len. 25]: 围绕 此 相关 法律 人士 、 刑事 人员 纷纷 作说 ， 与 受害人 与 大家 一同 探讨 分析 以 求得 一 个 好 结局 。
+Parsing [sent. 51 len. 24]: 据 最新 消息 显示 ， 周 家 在 咨询 过 专业 人员 后 开出 索偿 是 ， 280万 元 加 一 套 房子 。
+Parsing [sent. 52 len. 18]: 第一 感觉 就 是 低 了 ， 能 保证 把 周岩 治好 包括 其 一生 保障 费用 ！
+Parsing [sent. 53 len. 23]: 看 专业 医生 病情 讲解 、 整容 医师 问答 可 知 ， 那 远远 不 足 太 小 了 这 个 数 。
+Parsing [sent. 54 len. 15]: 据 上海 一 家 等级 权威性 医院 讲 ， 要 治好 至少 得 400多万 。
+Parsing [sent. 55 len. 13]: 还 只 是 个 估量 ， 现实 情况 也许 还 远 不止 。
+Parsing [sent. 56 len. 20]: 腾讯 “ 微博 说客 ” 视频 里 主持人 一 句 ， 我 觉得 要 一千万 都 不 算 过 。
+Parsing [sent. 57 len. 14]: 的确 ， 这些 伤害 已 是 非 金钱 是 无 物 可 掂衡 。
+Parsing [sent. 58 len. 33]: 事实上 我们 都 知道 ， 即便 给 多少 钱 多少 补偿 都 没用 挽 不 回 青春 容貌 人生 ， 人 都 变 那样 了 谁 会 稀罕 毫 无 作用 意义 。
+Parsing [sent. 59 len. 19]: 现在 只 能 说 “ 尽量 ” 去 把 人 治好 ， 让 重新 步入 社会 里 去 。
+Parsing [sent. 60 len. 14]: 那 想 也 是 大家 期望 ， 退步 最 好 的 召唤 希冀 。
+Parsing [sent. 61 len. 26]: 另外 ， 法律 上 有 规定 ， 对于 终身 伤害 非 一次性 能 赔清 的 ， 以后 在 需要 时 还 可 继续 提出 索赔 。
+Parsing [sent. 62 len. 21]: 只要 保留 相关 字据 如 医院 费用 单据 ， 能 说明 是 应用 在 这 个 事 上 便 可 。
+Parsing [sent. 63 len. 16]: 加之 大家 解囊 捐赠 相助 ， 相信 这些 都 不 会 再 成 问题 了 。
+Parsing [sent. 64 len. 24]: 最新 报道 ， 在 大家 帮助 下 周岩 昨天 （ 3月 5日 ） 已 到 北京 接受 治疗 且 院方 费用 全 免 。
+Parsing [sent. 65 len. 25]: 多么 振奋 人心 的 消息 小 姑娘 有 希望 了 ！ 汇以 众人 之 力 面对 解决 ， 祈祷 奇迹 真情 爱心 暖 天地 。
+Parsing [sent. 66 len. 24]: 周 家 原 并 不 曾 想 会 把 这 事 弄 网上 ， 更 没 想 会 引来 如此 之 大 效应 。
+Parsing [sent. 67 len. 23]: 他们 想 着 陶 家 会 ‘ 积极 ’ 赔偿 履行 诺言 ， 陪同 着 孩子 一直 治疗 直 到 好 为止 。
+Parsing [sent. 68 len. 31]: 然而 没 想 的 是 ， 陶 家 中途 露形 分道扬镳 。 意识 到 那 是 个 “ 无底洞 ” 难以 填补 ， 只 想 尽快 脱身 一次性 解决 付清 。
+Parsing [sent. 69 len. 24]: 而 在 “ 取保 候审 ” 问题 上 ， 给 周 家 的 “ 情况 说明书 ” 严重 失实 而 让 拒绝 签字 。
+Parsing [sent. 70 len. 24]: 包括 后面 弄出 “ 早恋 ” “ 嗳味 ” “ 照片 ” 一一 被 否定 澄清 ， 是 他们 耍 的 手段 招式 。
+Parsing [sent. 71 len. 24]: 如果 他们 能 “ 诚恳 ” 些 事情 或许 早 有 了结 ， 可 谓 是 被 ‘ 逼出 ’ 的 回应 了 。
+Parsing [sent. 72 len. 21]: 从 索赔 数据 也 可 看出 ， 周 家 的 老实 无夸 更 不 诈 试问 陶 家 颜容 何在 ！
+Parsing [sent. 73 len. 25]: 拿出 点 “ 良心 良知 ” 来 好好 认真 对待 吧 ， 那样 才 是 对 孩子 最好 属罪 也 是 判决 最好 帮助 。
+Parsing [sent. 74 len. 15]: 还 有 个 是 案件 “ 性质 ” 问题 ， 关系 到 怎么 定罪 。
+Parsing [sent. 75 len. 19]: 警方 提出 是 “ 故意 伤害 罪 ” ， 周 家 不 接受 坚称 “ 故意 杀人 。 ”
+Parsing [sent. 76 len. 18]: 不同 动机 ， 对 量刑 的 决定性 。 两 者 相酌 ， 前者 固然 比 后者 轻 。
+Parsing [sent. 77 len. 37]: 故意 伤害 他人 身体 致 人 重伤 的 ， 处 三 年 以上 十 年 以下 有期 徒刑 ， 故意 杀人 罪 最 高 可 处 死刑 、 无期 徒刑 或者 十 年 以上 有期 徒刑 。
+[main] INFO edu.stanford.nlp.parser.lexparser.BiLexPCFGParser - FactoredParser: exceeded MAX_ITEMS work limit [200000 items]; aborting.
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 78 len. 35]: 问题 是 如何 鉴定 ， 这 个 出发点 有 争歧 。 不 排除 是 报复性 伤人 有意 惩治 致 伤重 ， 也 有 可能 本身 就 抱 夺 命 之 念 却 没 杀成 。
+[main] INFO edu.stanford.nlp.parser.lexparser.BiLexPCFGParser - FactoredParser: exceeded MAX_ITEMS work limit [200000 items]; aborting.
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 79 len. 25]: 周 家 说法 认定 杀人 是 因 ， 若 非 现场 有 人 （ 小姨 ） 而 救起 孩子 怕 早 丢 命 了 。
+Parsing [sent. 80 len. 29]: 施害人 纵容 这 种 行为 发生 显然 就 是 有 杀人 倾向 ， 当时 对方 是 站 一边 看 着 烧 不 动 还 不 让 人 救 。
+Parsing [sent. 81 len. 25]: 就 目前 形势 来 看 这 个 案子 怕 不 好 结 ， 如 李昌奎 案 的 骑虎难下 法律 民声 舆论 的 交织 汹涌 。
+Parsing [sent. 82 len. 20]: 判 得 轻 周 家 不 会 认 可能 上诉 ， 同样 难免 激起 民愤 新 一 轮 唾战 。
+Parsing [sent. 83 len. 19]: 且 此 中 还 涉及 到 ‘ 未成年人 ’ ， 量刑 上 有 斟酌 或 减轻 也 难免 。
+Parsing [sent. 84 len. 23]: 不管 怎样 但愿 此 案 能 完满 了结 ， 既 适用 了 法律 也 经 得 起 历史 与 正义 的 考验 。
+Parsing [sent. 85 len. 22]: 最后 一 个 说 的 是 ， 若 双方 都 拿 不 出 这么 多 钱财 时 如何 保障 受害者 权益 。
+Parsing [sent. 86 len. 17]: 这 该 不 是 个案 而 是 普遍 反映 ， 值得 深思 与 解决 的 话题 。
+Parsing [sent. 87 len. 31]: 社会 国家 该 建立 这 种 救助 体制 ， 由 此 可 避免 “ 逃跑 作为 ” 包括 交通 事故 中 的 “ 撞伤 撞残 不 如 撞死 ” 现象 。
+Parsing [sent. 88 len. 31]: 很多 时候 只要 环境 提供 成熟 ， 许多 事情 原 是 可 避免 的 。 看 我们 有 无 心 去 推行 ， 国民 国民 真正 的 国 利于 民 。
+Parsing [sent. 89 len. 23]: 闹 得 轰轰扬扬 沸腾 一时 的 合肥 中学 “ 少女 毁容 案件 ” ， 随着 媒体 暴光 大众 关注 有 新 进展 。
+Parsing [sent. 90 len. 18]: 受害人 伤情 已 鉴定 出 “ 重伤 ” ， 即将 进入 民事 赔偿 与 司法 审批 程序 。
+Parsing [sent. 91 len. 19]: 随之 最 引 争议 眼球 的 ， 就 在 这 个 “ 赔偿 ” 与 “ 定罪 ” 。
+Parsing [sent. 92 len. 15]: 还 有 个 是 案件 “ 性质 ” 问题 ， 关系 到 怎么 定罪 。
+Parsing [sent. 93 len. 9]: 请问 任志强 ： 开发商 在 哪里 倒 夜壶 ？
+Parsing [sent. 94 len. 18]: 提要 ： 任志强 把 开发商 比作 夜壶 ， 表态 了 对 中央 调控 政策 的 强烈 不满 。
+Parsing [sent. 95 len. 37]: 其 背后 的 动因 就 是 ， 对 暴利 可 持续 的 渴望 ， 对 既 得 利益 的 坚守 ， 而 对于 倒 夜壶 地方 发生 了 什么 ， 开发商 是 从来 不 关心 的 。
+Parsing [sent. 96 len. 23]: 从 去年 至今 的 房产 调控 ， 没有 像 以前 的 数 次 那样 ， 雷声 大 雨点 小 ， 最后 不了了之 。
+Parsing [sent. 97 len. 22]: 这 次 中央 很 执着 ， 要求 明确 ， 措施 有力 ， 紧紧 咬住 让 房价 回归 合理 水平 不 放 。
+Parsing [sent. 98 len. 18]: 去年 10月 ， 温家宝 总理 在 南宁 考察 时 指出 ， 要 进一步 巩固 房产 调控 成果 。
+Parsing [sent. 99 len. 30]: 今年 2月 ， 温家宝 总理 在 中南海 主持 召开 座谈会 时 又 强调 ， 为了 促进 公平 和 稳定 ， 政府 调控 （ 房产 ） 也 不 能 松 。
+Parsing [sent. 100 len. 24]: 一些 地方 屡屡 想 为 房产 松绑 ， 但 一 露出 苗头 ， 马上 就 被 中央 有关 部门 “ 弹压 ” 了 。
+Parsing [sent. 101 len. 26]: 在 这 种 情况 下 ， 做 了 将近 30 年 中国 经济 宠儿 的 开发商 ， 首 次 感到 的 坐 不 住 了 。
+Parsing [sent. 102 len. 32]: 2月 16日 ， 在 凤凰网 举办 的 “ 2012 金凤凰 地产 峰会 暨 2011 年度 颁奖 盛典 ” 上 ， 华远 地产 董事长 任志强 公然 指责 中央 所 开发商 当 夜壶 。
+Parsing [sent. 103 len. 24]: 任志强 说 ， 这 个 行业 被 不得已 而 为 之 的 行政 手段 打倒 的 ， 但是 这个 是 个 阶段性 的 ，
+Parsing [sent. 104 len. 30]: 一般 要 抓 兔子 的 时候 就 把 狗 养 的 肥肥 的 让 他 抓 兔子 ， 兔子 抓完 的 时候 一般 就 把 这 狗 杀 了 ，
+Parsing [sent. 105 len. 28]: 我们 一般 说 的 就 是 这 个 胡适 先生 说 的 ， 撒尿 要 把 夜壶 提 出来 ， 撒完 尿 再 把 夜壶 塞 回去 ，
+Parsing [sent. 106 len. 25]: 我们 就 是 当 这 夜壶 的 ， 需要 拉动 的 时候 我们 就 拉动 ， 不 需要 拉动 的 时候 我们 就 靠边站 ，
+Parsing [sent. 107 len. 15]: 不管是 灰头土脸 也好 还是 打翻 在 地 也好 ， 这 时候 不 太 需要 ，
+Parsing [sent. 108 len. 33]: 有 人 说 把 地产商 都 打倒 了 ， 如果 没有 地产商 保障性 住房 都 谁 盖 的 ， 没有 地产商 了 你 的 房 就 能 住 得 更 好 吗 。
+Parsing [sent. 109 len. 16]: 任志强 的 “ 开发商 是 夜壶 ” 论 显然 在 开发商 中 引起 了 共鸣 。
+Parsing [sent. 110 len. 28]: 出席 2012 金凤凰 地产 峰会 的 全国 经理人 联盟 副秘书 陈宝存 也 在 微博 中 就 任志强 的 “ 开发商 是 夜壶 ” 论 进行 了 热议 ：
+Parsing [sent. 111 len. 18]: 任 总 说 开发商 像 夜壶 ， 需要 的话 提 出来 ， 不 需要 踢到 床 底下 。
+Parsing [sent. 112 len. 21]: 任 总 对 调控 的 总 观点 和 我 认识 一致 ： “ 调控 手段 全 是 错误 的 。 ”
+Parsing [sent. 113 len. 32]: SOHO 中国 董事长 潘石屹 也 在 微博 中 就 任志强 的 “ 开发商 是 夜壶 ” 论 发表 了 看法 ： 你们 这些 夜壶 啊 ！ 有 用途 就 不错 了 。
+Parsing [sent. 114 len. 19]: 在 我 看来 ， 任志强 的 “ 开发商 是 夜壶 ” 论 是 开发商 心理 的 生动 写照 ，
+Parsing [sent. 115 len. 44]: 其 背后 显然 的 动因 ， 就 是 眼看 暴利 将 不 可 持续 ， 对 既 得 利益 被 切割 的 强烈 不满 ， 如此 才 会 狗急跳墙 ， 如此 才 会 口吐 脏言 ， 如此 才 会 狂吠 中央 调控 政策 。
+Parsing [sent. 116 len. 8]: 中央 为何 这么 坚定 地 调控 房产 ？
+Parsing [sent. 117 len. 33]: 很 显然 ， 房产业 的 无序 发展 已经 使 中国 经济 严重 失衡 ， 再 不 进行 有效 、 有力 调控 ， 就 会 给 中国 经济 带来 灾难性 的 严重 后果 。
+Parsing [sent. 118 len. 31]: 很 显然 ， 中国 的 高 房价 已 使 民怨 沸腾 ， 再 不 进行 有效 、 有力 调控 ， 就 会 中国 社会 稳定 带来 灾难性 的 严重 后果 。
+Parsing [sent. 119 len. 36]: 很 显然 ， 中国 的 房产业 已 成为 腐败 的 重灾区 ， 再 不 进行 有效 、 有力 调控 ， 就 会 给 党 的 事业 、 国家 的 前程 带来 灾难性 的 严重 后果 。
+Parsing [sent. 120 len. 35]: 再说 相对 房产业 的 重病 ， 中央 的 调控 政策 还 显得 相当 温柔 ， 还 没有 使用 西医 疗法 在 要害处 直接 动 下刀 ， 而 是 采用 中医 疗法 讲究 阴阳 调和 。
+Parsing [sent. 121 len. 17]: 可是 任志强 之 流 的 开发商 不得 不 知 感激 ， 反面 忘恩负义 地 骂 娘 。
+Parsing [sent. 122 len. 16]: 看来 ， 温家宝 总理 要求 开发商 血管 有 道德 血液 ， 简直 是 对牛弹琴 与虎谋皮 。
+Parsing [sent. 123 len. 11]: 所以 ， 中央 是否 把 开发商 当 夜壶 大家 心知肚明 。
+Parsing [sent. 124 len. 34]: 但 还 有 一 个 问题 大家 也 心知肚明 ， 这 是 要 问 任志强 的 ， 既然 开发商 自认 是 夜壶 ， 那么 请问 ： 发商 是 在 哪里 倒 夜壶 的 ？
+Parsing [sent. 125 len. 8]: 夜壶 喝 尿 喝 红 了 眼 。
+Parsing [sent. 126 len. 40]: 能够 让 你们 倒 夜壶 就 不错 了 ， 要 知道 当 你们 有 钱 挥霍 的 时候 ， 有些 人 辗转 在 租 房子 ， 有些 人 为了 房子 找 不 到 方向 ， 找 不 到 北 ，
+Parsing [sent. 127 len. 25]: 现在 放 点 血 ， 你们 还 有 钱 投资 其他 的 ， 有些 人 一旦 失去 工作 ， 就 面临 着 破产 了 ！
+Parsing [sent. 128 len. 17]: 毛 主席 时代 任志强 的 言论 是 何等 的 反 党 反 人民 下埸 会 怎样 .
+Parsing [sent. 129 len. 19]: 哈哈 原来 这些 商界 精英 社会 名流 和 贤达 竟 也 说 得 出 如此 污秽不堪 的 语言 来
+Parsing [sent. 130 len. 21]: 啊 看来 利益 所 致 就是 绅士 也 不 能 幸免于 不 气急败坏 而 轮于 不齿 之 徒 一样 的 啊
+Parsing [sent. 131 len. 16]: 对 房地产 的 调控 是 国家 现在 首要 的 任务 ， 国内 物价 持续 上涨 ；
+Parsing [sent. 132 len. 19]: 如果 国家 不 及时 采取 措施 ， 我 觉得 会 给 国家 80% 的 人口 带了 经济 危机 ；
+Parsing [sent. 133 len. 14]: 在 此 也 请 夜壶 不 要 乱 倒 ， 以免 影响 环境 ！！！
+Parsing [sent. 134 len. 28]: 这些 年 丶 中国 的 开发商 组成 了 统一 思想 的 宗派 , 与 国家 和 人民 博弈 , 发 了 大 财 还 要 显 妊威 ,
+Parsing [sent. 135 len. 35]: 搞 的 地方 政府 背离 社会 丶 搞 的 官员 腐败 丶 搞 的 物价 暴涨 丶 搞 的 人心 混乱 丶 搞 的 风气 丧落 丶丶丶丶丶丶 是 开革 开放 的 最 大 罪者 .
+[main] INFO edu.stanford.nlp.parser.lexparser.BiLexPCFGParser - FactoredParser: exceeded MAX_ITEMS work limit [200000 items]; aborting.
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 136 len. 18]: 请 ' 尿壶 ' 们 不 要 太 狂妄 了 丶 历史 会 证明 你们 遣臭万年 的 ,
+Parsing [sent. 137 len. 38]: 你们 所 抄 的 房价 和 各 地 平均 工资 比例 , 在 仼何 一 个 国家 都 无法 忍受 丶 狼子野心 何其 毒 也 丶 百姓 不 会 饶恕 你 丶 历史 一定 会 惩罚 你 ！
+Parsing [sent. 138 len. 20]: 各 地 政府 为 月嫂 限 工资 ， 却 相方设法 涨 房价 。 真 不 让 老百姓 过 了 。
+Parsing [sent. 139 len. 2]: 关注 。
+Parsing [sent. 140 len. 18]: 地产商 这些 既 得 利益 者 当然 不 愿意 到 嘴 的 肥肉 被 老百姓 平分 了 。
+Parsing [sent. 141 len. 37]: 房价 只有 快速 下降 50 - 70% 回到 与 老百姓 购买力 相当 的 合理 价位 ， 才 能 使 房地产 市场 火爆 ， 老百姓 都 买 得 起 房 ， 才 有 钱 去 消费 其他它 。
+Parsing [sent. 142 len. 17]: 中国 经济 才 能 健康 均衡 发展 ！ 否则 僵持 、 观望 下去 后果 更 严重 ！！
+Parsing [sent. 143 len. 33]: 当 老百姓 的 夜壶 就 算 你 祖上 积德 ， 可 你 不 知 天下 还 有 羞耻 二 字 ， 钻进 钱眼 ， 利令智昏 ， 执迷不悟 ， 一 派 的 胡言乱语 ，
+Parsing [sent. 144 len. 9]: 已 成 过街 老鼠 ， 人人 喊 打 。
+Parsing [sent. 145 len. 13]: 悲 哉 ！ 良药 苦口 利于 病 ， 忠言 逆耳 利于 行 。
+Parsing [sent. 146 len. 15]: 给 你 指 一 促 醒悟 良方 ： 摘掉 黑心 ， 换 颗 良心 。
+Parsing [sent. 147 len. 28]: · 我 国 企业 跨国 并购 者 日 众 ， 十 年 内 将 达 十万亿 美金 ， 为 低 成本 与 模仿 受阻 后 之 出路 。
+Parsing [sent. 148 len. 22]: · 中国 “ 乔丹 体育 ” 被 乔丹 投诉 侵犯 姓名 与 身份 权 ， 回应 ： 受 中国 法律 保护 。
+Parsing [sent. 149 len. 10]: 据查 ， 有 80% 的 网民 认为 侵权 成立 。
+Parsing [sent. 150 len. 20]: 有 舆论 称 ： 我 国 企业 靠 抢注 之类 的 小 聪明 ， 钻 空子 ， 难以 强大 。
+Parsing [sent. 151 len. 25]: · 我 国 商标 抢注 成风 ， 周立波 被 注 丰胸 广告 、 谢霆锋 被 注 止泻 广告 、 林书豪 亦 在 此 列 。
+Parsing [sent. 152 len. 23]: · 香港 的 深圳 “ 唯冠 ” 诉 苹果 手机 侵犯 其 抢注 的 商标权 ， 在 上海 浦东 法院 被 驳回 。
+Parsing [sent. 153 len. 24]: · “ 神州 租车 ” 在 国内 连年 亏损 ， 不 能 上市 ， 决定 到 美国 上市 ， 预计 融资 三亿多 美金 。
+Parsing [sent. 154 len. 28]: · 福建 “ 归真堂 ” 为 入市 称 其 活 熊 取 胆 令 熊 愉快 ， 并 反驳 质疑者 ： 你 如何 知 其 不 愉快 ？
+Parsing [sent. 155 len. 25]: · 广东 肇庆 出现 开 豪车 “ 碰瓷 ” 者 ， 制造 事故 后 ， 以 被 刮蹭 为 名 ， 索要 高额 赔偿 。
+Parsing [sent. 156 len. 26]: · 上海 宽松 楼市 限制 的 新 规 ： 外地人 居 沪 三 年 者 ， 可 购 第二 套 住房 ， 合格者 约 67万 。
+Parsing [sent. 157 len. 25]: · 银行业 高速 增长 ， 存贷款 利差 占 收入 80% ， 利润 12 倍 于 工业 ， 恳请 ： 不 要 太 爱 钱 。
+Parsing [sent. 158 len. 25]: · 信用卡 设 签名 被 盗取 由 银行 负责 ， 设 密码 由 用户 负责 ， 国外 多 设 签名 国内 多 设 密码 。
+Parsing [sent. 159 len. 19]: · 阿里巴巴 以 股权 私有化 退市 ， 邀约 上市 价格 回购 股票 ， 中 小 股民 普遍 吃亏 。
+Parsing [sent. 160 len. 28]: · 北京 去年 70% 的 医院 遭受 “ 医闹 ” ， 有 大 闹 大 赔 ， 小 闹 小 赔 ， 不 闹 不 赔 者 。
+Parsing [sent. 161 len. 25]: 原因 ： 检查费 过 高 、 医生 态度 不 好 、 遇到 问题 缺乏 解释 ， 以及 病人 对 医生 、 医院 缺乏 信任 。
+Parsing [sent. 162 len. 39]: 我们 中国 ， 这些 年 来 ， 靠 垄断 发财 的 国营 企业 与 靠 血汗 工厂 盘剥 农民工 发财 的 民营 企业 ， 在 现有 的 非 民主 社会 管理 模式 下 ， 已经 走到 头 了 。
+Parsing [sent. 163 len. 40]: 所以 ， 趁 欧 美 经济 危机 ， 寄 希望 于 并购 外企 ， 以为 是 一 条 出路 。 其实 ， 贴 肉 不 长膘 ， 别人 的 屁股 做 不 得 脸 ， 那 只 是 妄想 。
+Parsing [sent. 164 len. 51]: 日本人 就 曾经 如此 ，， 尽管 其 基础 远远 好于 我们 ， 结果 还是 帮 别人 做 了 奶妈 ， 等到 人家 缓 过 气 来 ， 自己 强弩之末 ， 一 翻 掌 ， 犹如 抢注 的 商标 还 得 卖 回去 ， 顶多 是 沾 了 点 小 便宜 。
+[main] INFO edu.stanford.nlp.parser.lexparser.BiLexPCFGParser - FactoredParser: exceeded MAX_ITEMS work limit [200000 items]; aborting.
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 165 len. 28]: 确确实实 ， 做人 做事 只 能 相信 规律 ， 靠 小 聪明 、 钻 空子 的 崛起 ， 翘 起来 的 只 能 是 挨打 的 屁股 。
+Parsing [sent. 166 len. 27]: 香港 的 深圳 “ 唯冠 ” 就 是 个 典型 ， 自己 的 公司 都 做 倒 了 ， 靠 抢注 的 稻草 ， 行 吗 ？
+Parsing [sent. 167 len. 25]: 朝前 看 ， 依照 我们 现在 的 这 条 非 民主 的 社会 管理 之 途 ， 出路 ， 还 真的 是 很 渺茫 。
+Parsing [sent. 168 len. 27]: 政治 上 的 山穷水尽 ， 从 不 公开 但 又 人人 皆 知 的 叠出 事件 中 ， 已经 连 瞎子 都 感觉 得 出来 了 。
+Parsing [sent. 169 len. 25]: 而 经济 上 的 头 撞 南墙 ， 通过 通胀 和 股市 的 必然性 低落 ， 以及 莫名其妙 的 暴涨 ， 也 已经 众所周知 。
+Parsing [sent. 170 len. 51]: 可笑 的 是 ， 走投无路 之下 ， 还 有 人 认为 美国 佬 最 傻 ， 最 容易 上当 ， 要 到 美国 去 上市 圈 票子 ， 殊 不 知 那里 正 是 来 这 手 的 祖宗 ， 五指山 下 等 猴 尿 ， 叫做 ： 没 跑 。
+Parsing [sent. 171 len. 36]: 至于 ， 下作 到 将 取 活 熊 胆 当作 出路 者 ， 早晚 其 自身 的 胆汁 也 要 被 其 之 失算 榨 出来 ， 届时 ， 就 知道 有 多 舒服 了 。
+Parsing [sent. 172 len. 25]: 对比 起来 ， 真 还 不 如 开 豪车 “ 碰瓷 ” ， 拼 一下 ， 就是 坐牢 ， 好歹 还 有 饭 吃 。
+Parsing [sent. 173 len. 50]: 当然 ， 眼下 最 愁 吃 不 上 饭 的 是 地方 政府 ， 上海 就 把 放松 楼市 调控 当作 出路 。 与 其 所 类似 的 ， 全国 已 有 17 个 城市 ， 但 其中 佛山 被 喝止 、 芜湖 遭 叫停 、 宁波 在 装傻 ……
+Parsing [sent. 174 len. 30]: 唯有 上海 ， 好像 有 大 靠山 ， 没 人 敢 奈何 ， 依旧 在 走 自选 的 出路 ， 或许 ， 这 同 政治 上 的 山穷水尽 有关 ？
+Parsing [sent. 175 len. 22]: 可知 ， 中国 的 根本 问题 在 政治 ， 在 社会 管理 的 方法 ， 在 有 ， 或者 没有 民主 。
+Parsing [sent. 176 len. 31]: 比如 ， 没有 民主 ， 银行 的 出路 就 在 盘剥 储户 、 就 在 乱 收费 、 就 在 抑制 包括 工业 在内 的 ， 国民 经济 的 发展 ……
+Parsing [sent. 177 len. 20]: 它 就 会 成为 社会 的 公害 ， 连 小小 的 信用卡 使用 都 要 为 客户 设 陷阱 。
+Parsing [sent. 178 len. 38]: 又 如 阿里巴巴 ， 在 非 民主 的 ， 老百姓 说 不 上 话 的 管理 之下 ， 它 就 能够 在 心满意足 地 圈完 钱 之后 ， 来 个 合法 的 “ 卷包会 ” —— 溜之大吉 。
+[main] INFO edu.stanford.nlp.parser.lexparser.BiLexPCFGParser - FactoredParser: exceeded MAX_ITEMS work limit [200000 items]; aborting.
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 179 len. 11]: 让 上当者 的 五 年 持股 ， 约 等于 零 。
+Parsing [sent. 180 len. 29]: 再 如 医疗 ， 全 世界 二百多 个 国家 ， 只 有 二十几 个 要 老百姓 看病 付钱 的 ， 我们 在 非 民主 之下 成为 其中 之一 。
+Parsing [sent. 181 len. 6]: 这 还 会 不 闹 ？
+Parsing [sent. 182 len. 16]: 当年 城乡 的 公费 加 合作 医疗 ， 为何 从 不 闻 其 闹 呢 ？
+Parsing [sent. 183 len. 28]: 嘻 ， 为政 春眠 起 何 迟 ， 窗 外 民主 胜 柳丝 ； 规律 送 绿 安 可 拂 ， 唯 当 启 户 共舞 之 。
+[main] INFO edu.stanford.nlp.parser.lexparser.BiLexPCFGParser - FactoredParser: exceeded MAX_ITEMS work limit [200000 items]; aborting.
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 184 len. 11]: 其实 出路 在 眼前 ， 只 需 体制 得 改变 。
+Parsing [sent. 185 len. 10]: 规律 民主 不 可 挡 ， 逆流 冲进 死亡线 ！
+Parsing [sent. 186 len. 7]: 玩 把 洋 的 试 末途 ，
+Parsing [sent. 187 len. 6]: 病 急 投医 乱成 糊 。
+Parsing [sent. 188 len. 4]: 骑虎难下 早晚 事 ，
+Parsing [sent. 189 len. 8]: 葬身 之 地 有 也 无 ？ ！
+Parsing [sent. 190 len. 4]: 病态 思维 混 日子
+Parsing [sent. 191 len. 4]: 缩进 龟壳 装 孙子
+Parsing [sent. 192 len. 5]: 其实 只 想 保 面子
+Parsing [sent. 193 len. 3]: 最终 留下 污迹子
+Parsing [sent. 194 len. 4]: 江山 惨烂 总 高潮
+Parsing [sent. 195 len. 3]: 大吹特擂 胆气 豪
+Parsing [sent. 196 len. 4]: 万事 世界 充 第一
+Parsing [sent. 197 len. 4]: 十三亿 民 苦 煎熬
+Parsing [sent. 198 len. 4]: 紫禁城 里 寄生 时
+Parsing [sent. 199 len. 7]: 九 头 恶 鸟 乐 难 支
+Parsing [sent. 200 len. 5]: 私欲 膨胀 敢 吞 日
+Parsing [sent. 201 len. 4]: 到了 化为 碳 渣滓
+Parsing [sent. 202 len. 6]: 哪 知 预想 面 全 非
+Parsing [sent. 203 len. 4]: 地狱 迎得 恶魔 归
+Parsing [sent. 204 len. 5]: 休想 害 民 能 自免
+Parsing [sent. 205 len. 4]: 从来 瓜豆 要 收回
+Parsing [sent. 206 len. 6]: 扬 旗 扯 幡 脚步 急
+Parsing [sent. 207 len. 5]: 惟恐 填土 来 不 及
+Parsing [sent. 208 len. 4]: 乾坤 反覆 须臾 事
+Parsing [sent. 209 len. 5]: 民愤 如 火 烧 眼皮
+Parsing [sent. 210 len. 6]: 重新 洗牌 行 不 行 ？
+Parsing [sent. 211 len. 4]: 走投无路 只好 行 。
+Parsing [sent. 212 len. 5]: 休看 今天 嘴巴 硬 ，
+Parsing [sent. 213 len. 5]: 其实 骨头 已 归零 ！
+Parsing [sent. 214 len. 32]: 当 网络 曝光 “ 近日 ， 一 份 署名 “ 司法厅 全体 领导 干部 ” 的 举报 信 ， 直 指 现任 河南省 司法厅 厅长 王文海 的 档案 年龄 涉嫌 造假 。
+Parsing [sent. 215 len. 34]: 该 举报 称 ， “ 13 岁 参军 ， 刚 满 16 岁 就 入D ， 真 是 神人 啊 ！ ” 的 新闻 曝光 的 时候 ， 引发 了 网友们 的 关注 ，
+Parsing [sent. 216 len. 62]: 正 如 某 个 网友 质疑 “ 更加 令 人 深思 的 是 , 简造 历 得 这样 假 , 是 如何 通过 组织 部门 审查 步步高升 的 ? ” 说 的 一样 ， 其实 一 想 这 是 中国 ， 什么 都 想通 了 ， 所以 造假 并 不 可怕 ， 也 不 可耻 ， 反之 是 被 认可 的 。
+[main] INFO edu.stanford.nlp.parser.lexparser.BiLexPCFGParser - FactoredParser: exceeded MAX_ITEMS work limit [200000 items]; aborting.
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 217 len. 60]: 对于 这 个 司法 厅长 ， 其实 还是 有 许多 故事 的 ， 正 如 “ 2011年 年 9月 ， 洛阳市 公安局 原 副局长 李小选 、 刑警 支队 党委 成员 张建岳 、 民警 尤益民 等 人 ， 对 王文海 进行 实名 举报 ， 指 其 曾 在 1998年 交通 肇事 后 逃逸 ， 并 找 人 “ 顶包 ” 。
+[main] INFO edu.stanford.nlp.parser.lexparser.BiLexPCFGParser - FactoredParser: exceeded MAX_ITEMS work limit [200000 items]; aborting.
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 218 len. 8]: 对 此 ， 王文海 称 系 诬陷 。
+Parsing [sent. 219 len. 36]: 曾 有 南方 都市报 记者 对 此 事 进行 采访 ， 采访 期间 ， 该 记者 手机 账单 上 莫名 多出 3000 元 话费 ， 该 记者 称 系 王文海 强行 为 其 充值 。 ”
+Parsing [sent. 220 len. 38]: 这 段 故事 说明 ， 其实 该 厅长 确实 是 造假 制假 行家 高手 ， 也 算是 组织 培养 的 一 个 优秀 人才 ， 所以 此 才 若 不 用 ， 当前 弃 之 可惜 啊 ，
+Parsing [sent. 221 len. 28]: 毕竟 得 花费 上亿 才 培养 个 厅级 干部 ， 就 这样 完蛋 求 ， 岂 非 不 是 如 重庆 的 公按部 英雄 文强 一样 吗 ？
+Parsing [sent. 222 len. 25]: 文强 已 死 ， 是 中国 的 悲剧 ， 虽然 文强 死 了 ， 但 依旧 和 夏明翰 一样 值得 广大 重庆 人民 悼念 ，
+Parsing [sent. 223 len. 12]: 怎么 说 文强 也 曾经 是 重庆 的 救星 过 嘛 ，
+Parsing [sent. 224 len. 19]: 当年 他 也 曾经 打黑 过 ， 所以 对待 文强 一般 的 官员 ， 建议 还是 保护 为好 ，
+Parsing [sent. 225 len. 32]: 因为 处处 是 文强 ， 不 保护 ， 上 的 新 文强 说不定 更 牛B ， 这个 是 13 岁 参军 ， 那个 说不定 3 岁 参军 就 可以 打枪 了 ，
+Parsing [sent. 226 len. 31]: 所以 正 如 某 个 网友 惊叹 说 “ 都 是 人才 啊 ！ 神童 啊 ！ 中国 官场 是 一 个 创造 奇迹 ， 制造 奇迹 的 地方 ！ ”
+Parsing [sent. 227 len. 33]: 说穿 了 ， 当官 谁 不 想 当 长 点 ， 谁 不 想 自己 年轻 点 ， 只有 不 当 官员 的 才 希望 自己 赶快 年纪 大 点 好 退休 ，
+Parsing [sent. 228 len. 48]: 所以 我 可以 理解 为什么 河南省 司法厅 厅长 为何 能 13 岁 参军 ， 16 岁 入D ， 其实 领导 也 是 为了 方便 多 呆 在 位置 几 年 嘛 ， 毕竟 没有 监督 ， 权 无限 大 的 位置 上 谁 不 想 当 呢 ？
+[main] INFO edu.stanford.nlp.parser.lexparser.BiLexPCFGParser - FactoredParser: exceeded MAX_ITEMS work limit [200000 items]; aborting.
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 229 len. 47]: 我们 有 句 话 说 得 好 ， “ 不 想 当 将军 的 不 是 好 兵 ” ， 所以 在 “ 不 想 当 书妓 的 公务员 不 是 好 干部 ” 的 环境 下 ， 为了 当官 ， 一切 都 不 是 奇迹 ，
+Parsing [sent. 230 len. 29]: 十三 岁 参军 ， 没有 什么 大不了 的 嘛 ， 要 能 改 ， 三 岁 参军 都 可以 ， 童子军 嘛 ， 难道 不 是 参军 吗 ？
+Parsing [sent. 231 len. 32]: 其实 13 岁 当兵 是 有 的 ， 以前 部队 里 文艺 演员 ， 运动员 很多 都 是 很 小 就 招 进去 了 ， 进去 了 就 开始 算 军龄 了
+[main] INFO edu.stanford.nlp.parser.lexparser.BiLexPCFGParser - FactoredParser: exceeded MAX_ITEMS work limit [200000 items]; aborting.
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 232 len. 21]: 关键 是 他 到底 为 老百姓 做 了 什么 ？ 为了 当官 而 当官 ， 老百姓 可 就 惨 了 。
+Parsing [sent. 233 len. 13]: 悲催 啊 ， 我 户口本 上 改 个 年龄 好 困难 呀 。
+Parsing [sent. 234 len. 6]: 看看 人家 厅长 多 牛 。
+Parsing [sent. 235 len. 16]: 我 要 我 的 孙子 也 当 厅长 ， 给 我 把 年龄 改 过来 。
+Parsing [sent. 236 len. 15]: 都 说 法律 面前 人人 平等 ， 切 ， 我 看 不 一定 吧 ？
+Parsing [sent. 237 len. 26]: 你 老百姓 就 是 冤大头 ， 你 反应 个 问题 吧 还 说 你 是 个 刁民 ， 不 安分 ， 看来 还 是 当官 好
+Parsing [sent. 238 len. 21]: 我 就 是 16 岁 去 当兵 的 ， 我 有 战友 是 14 岁 跟 我 一起 当兵 的 啊
+Parsing [sent. 239 len. 30]: 我们 要 响应 领导 的 号招 ； 对于 这 位 13 岁 参军 的 厅长 大人 ； 要 开启 包容性 的 政治 进程 ；； 为 和谐 社会 在 作 贡献
+Parsing [sent. 240 len. 11]: 这 就 是 所谓 的 “ 自古 英雄 出 少年 ”
+Parsing [sent. 241 len. 41]: 吃饱 了 没 事 干 ， 通缉犯 都 能 办 一 个 新 身份证 ， 人家 一 个 厅长 改 个 年龄 想 多 干 几 年 不 是 什么 个 事情 ， 狗 咬 狗 的 有 什么 意思 ？
+Parsing [sent. 242 len. 37]: 把 自己 的 日子 过 好 ， 不 要 天天 想 把 谁 搞 下去 ， 自己 如果 呆 在 那 个 位子 ， 没准 咬 你 的 人 更 多 。 风险 大 着 呢 。。。。。。
+Parsing [sent. 243 len. 23]: 特招 的 兵 也 有 八 九 岁 的 看看 是 什么 兵 了 16 岁 入D 那 就 不 符合 章程 了
+Parsing [sent. 244 len. 5]: 腐败 的 政府 无奇不有 !!!
+Parsing [sent. 245 len. 8]: 参军 的 好 早 ， 童子军 吗 ？
+Parsing [sent. 246 len. 11]: 现在 社会 就 是 这样 的 了 也 没 什么 办法
+Parsing [sent. 247 len. 7]: 看 政府 什么 时候 能 透明 啊
+Parsing [sent. 248 len. 6]: 实话实说 ， 当今 社会 就 这样
+Parsing [sent. 249 len. 21]: 上梁 不 正 下梁 歪 呀 ， 警察 都 能 说出 ， 带 套 不 算 强奸 的 话 来 。
+Parsing [sent. 250 len. 15]: 小偷 都 能 在 官员 家 偷出 5000万 。 百姓 还 能 指望 什么 、、、、
+Parsing [sent. 251 len. 31]: 总理 叫 开发商 流 着 道德 的 血 ， 可是 我们 的 官员 就 没 流 着 道德 的 血 ， 他们 与 开发商 狼狈为奸 ， 造成 目前 的 房价 。
+Parsing [sent. 252 len. 9]: 官员 的 血 就 流 着 就 不道德 。
+Parsing [sent. 253 len. 24]: 总理 还 说 ， 叫 百姓 活着 有 尊严 ， 可是 ， 现在 的 工资 高低 工资 相差 几 倍 甚至 十几 倍 。
+Parsing [sent. 254 len. 17]: 退休金 还 实行 双轨制 ， 相差 数 倍 。 这 怎么 叫 百姓 活着 有 尊严 呀
+Parsing [sent. 255 len. 9]: 13 岁 当兵 的 我 都 认识 2 个
+Parsing [sent. 256 len. 18]: 都 是 酒精 考验 出来 的 党 的 好 干部 ， 这 点 能耐 算 啥 了 ？
+Parsing [sent. 257 len. 38]: 13 岁 当兵 是 有 的 ， 但是 16 岁 入党 不 会 是 毛泽东 时代 的 事 ， 肯定 是 改革 开放 以后 的 事 ， 有 中国 特色 的 社会主义 吗 ， 就 是 这样 。
+Parsing [sent. 258 len. 9]: 要不 现 政府 怎么 会 越来越 腐败 呢 。
+Parsing [sent. 259 len. 44]: 这 算 什么 啊 ， 不 记得 毛 主席 他 老人家 说 的 吗 ， “ 在 共产党 的 领导 下 ， 只要 有 了 人 ， 什么 人间 奇迹 也 能 造 出来 。 ” 这 可 是 原话 哦 ， 呵呵 。
+Parsing [sent. 260 len. 10]: 我 是 15 岁 当兵 ， 很 正常 啊 ，
+Parsing [sent. 261 len. 3]: 文 / 心雨
+Parsing [sent. 262 len. 109]: 话说 最近 江湖 又 起 波澜 ， 公考 状元 因 体检 被 刷 一 事 今 得以 平反 该 生 正在 办理 入职 手续 。 从古至今 无论 是 中考 、 高考 、 甚至 公务员 考试 ， 都 有 各 路 人士 纷纷 报考 更 有 胆大 人士 暗箱 操作 左右 考试 。 小 到 考场 舞弊 ， 大 到 收受 贿赂 。 时 至 今日 已经 形成 了 一 条 近似于 完整 的 链条 ， 其 目的 无非 就 是 讨 碗 饭 、 升升官 、 发发财 。 行话 ： 给 钱 、 办事 。 值得 注意 的 是 ， 这 一 链条 的 规模 尚 待 考证 。
+JVMDUMP039I Processing dump event "systhrow", detail "java/lang/OutOfMemoryError" at 2018/01/19 23:58:47 - please wait.
+JVMDUMP032I JVM requested System dump using '/home/g/grad/nam37/Documents/thesis/amrz/core.20180119.235847.19597.0001.dmp' in response to an event
+JVMDUMP010I System dump written to /home/g/grad/nam37/Documents/thesis/amrz/core.20180119.235847.19597.0001.dmp
+JVMDUMP032I JVM requested Heap dump using '/home/g/grad/nam37/Documents/thesis/amrz/heapdump.20180119.235847.19597.0002.phd' in response to an event
+JVMDUMP010I Heap dump written to /home/g/grad/nam37/Documents/thesis/amrz/heapdump.20180119.235847.19597.0002.phd
+JVMDUMP032I JVM requested Java dump using '/home/g/grad/nam37/Documents/thesis/amrz/javacore.20180119.235847.19597.0003.txt' in response to an event
+JVMDUMP010I Java dump written to /home/g/grad/nam37/Documents/thesis/amrz/javacore.20180119.235847.19597.0003.txt
+JVMDUMP032I JVM requested Snap dump using '/home/g/grad/nam37/Documents/thesis/amrz/Snap.20180119.235847.19597.0004.trc' in response to an event
+JVMDUMP039I Processing dump event "systhrow", detail "java/lang/OutOfMemoryError" at 2018/01/20 00:03:08 - please wait.
+JVMDUMP010I Snap dump written to /home/g/grad/nam37/Documents/thesis/amrz/Snap.20180119.235847.19597.0004.trc
+JVMDUMP013I Processed dump event "systhrow", detail "java/lang/OutOfMemoryError".
+JVMDUMP032I JVM requested Heap dump using '/home/g/grad/nam37/Documents/thesis/amrz/heapdump.20180120.000308.19597.0005.phd' in response to an event
+JVMDUMP010I Heap dump written to /home/g/grad/nam37/Documents/thesis/amrz/heapdump.20180120.000308.19597.0005.phd
+JVMDUMP032I JVM requested Java dump using '/home/g/grad/nam37/Documents/thesis/amrz/javacore.20180120.000308.19597.0006.txt' in response to an event
+JVMDUMP010I Java dump written to /home/g/grad/nam37/Documents/thesis/amrz/javacore.20180120.000308.19597.0006.txt
+JVMDUMP032I JVM requested Snap dump using '/home/g/grad/nam37/Documents/thesis/amrz/Snap.20180120.000308.19597.0007.trc' in response to an event
+JVMDUMP010I Snap dump written to /home/g/grad/nam37/Documents/thesis/amrz/Snap.20180120.000308.19597.0007.trc
+JVMDUMP013I Processed dump event "systhrow", detail "java/lang/OutOfMemoryError".
+
+*******************************************************
+***  WARNING!! OUT OF MEMORY! THERE WAS NOT ENOUGH  ***
+***  MEMORY TO RUN ALL PARSERS.  EITHER GIVE THE    ***
+***  JVM MORE MEMORY, SET THE MAXIMUM SENTENCE      ***
+***  LENGTH WITH -maxLength, OR PERHAPS YOU ARE     ***
+***  HAPPY TO HAVE THE PARSER FALL BACK TO USING    ***
+***  A SIMPLER PARSER FOR VERY LONG SENTENCES.      ***
+*******************************************************
+
+Sentence too long for dependency parser.  Falling back to PCFG parse...
+Parsing [sent. 263 len. 192]: 不 知道 从 什么 时候 起 ， 江湖 上 有 着 一 条 不 成文 的 规定 。 办事儿 没有 人 可以 ， 没有 钱 那 是 绝对 不 行 。 盖章 卡戳 ， 交 点 钱 ； 考试 升职 ， 交 点 钱 ； 钱 钱 钱 ， 只要 有 钱 什么 都 行 。 从而 催生 了 很多 “ 萝卜 ” 考试 ， 即 在 没 考试 之前 录取 人员 就 已经 内定 。 至于 有 几 个 不 怕 死 的 在 考试 的 时候 真的 考 了 高分 ， 也 会 因为 各 种 理由 被 刷 下去 。 这 阵子 的 公考 状元 因 体检 被 刷 就 是 其中 的 一 例 。 可悲 的 是 ， 被 刷 的 人 一般 除了 才气 之外 并 没有 什么 多余 的 实力 。 比如 ： 钱 、 人 。 在 不 认识 人 又 没有 多少 钱 的 情况 下 ， 他们 的 选择 一般 都 是 保持 沉默 。 间或 有 被 平反 的 也 多 出于 幸运 ， 但是 大多数 人 都 没 那么 幸运 。 所以 “ 萝卜 考试 ” 才 得以 留存 。
+JVMDUMP039I Processing dump event "systhrow", detail "java/lang/OutOfMemoryError" at 2018/01/20 00:03:30 - please wait.
+JVMDUMP032I JVM requested Heap dump using '/home/g/grad/nam37/Documents/thesis/amrz/heapdump.20180120.000330.19597.0008.phd' in response to an event
+JVMDUMP010I Heap dump written to /home/g/grad/nam37/Documents/thesis/amrz/heapdump.20180120.000330.19597.0008.phd
+JVMDUMP032I JVM requested Java dump using '/home/g/grad/nam37/Documents/thesis/amrz/javacore.20180120.000330.19597.0009.txt' in response to an event
+JVMDUMP010I Java dump written to /home/g/grad/nam37/Documents/thesis/amrz/javacore.20180120.000330.19597.0009.txt
+JVMDUMP032I JVM requested Snap dump using '/home/g/grad/nam37/Documents/thesis/amrz/Snap.20180120.000330.19597.0010.trc' in response to an event
+JVMDUMP039I Processing dump event "systhrow", detail "java/lang/OutOfMemoryError" at 2018/01/20 00:03:41 - please wait.
+JVMDUMP010I Snap dump written to /home/g/grad/nam37/Documents/thesis/amrz/Snap.20180120.000330.19597.0010.trc
+JVMDUMP013I Processed dump event "systhrow", detail "java/lang/OutOfMemoryError".
+JVMDUMP032I JVM requested Heap dump using '/home/g/grad/nam37/Documents/thesis/amrz/heapdump.20180120.000341.19597.0011.phd' in response to an event
+JVMDUMP010I Heap dump written to /home/g/grad/nam37/Documents/thesis/amrz/heapdump.20180120.000341.19597.0011.phd
+JVMDUMP032I JVM requested Java dump using '/home/g/grad/nam37/Documents/thesis/amrz/javacore.20180120.000341.19597.0012.txt' in response to an event
+JVMDUMP010I Java dump written to /home/g/grad/nam37/Documents/thesis/amrz/javacore.20180120.000341.19597.0012.txt
+JVMDUMP032I JVM requested Snap dump using '/home/g/grad/nam37/Documents/thesis/amrz/Snap.20180120.000341.19597.0013.trc' in response to an event
+JVMDUMP010I Snap dump written to /home/g/grad/nam37/Documents/thesis/amrz/Snap.20180120.000341.19597.0013.trc
+JVMDUMP013I Processed dump event "systhrow", detail "java/lang/OutOfMemoryError".
+Sentence has no parse using PCFG grammar (or no PCFG fallback).  Skipping...
+Exception in thread "main" edu.stanford.nlp.parser.common.NoSuchParseException
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestParse(LexicalizedParserQuery.java:404)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestParse(LexicalizedParserQuery.java:376)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.processResults(ParseFiles.java:272)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.parseFiles(ParseFiles.java:216)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.parseFiles(ParseFiles.java:75)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParser.main(LexicalizedParser.java:1517)

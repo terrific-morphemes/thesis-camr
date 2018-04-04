@@ -1,0 +1,19 @@
+(CTB):
+File: ./data/possible_sample.txt.amr
+Encoding: UTF-8
+-------------------------------
+[main] INFO edu.stanford.nlp.ie.crf.CRFClassifier - Invoked on Tue Apr 03 23:08:14 EDT 2018 with arguments: -sighanCorporaDict /home/j/llc/cwang24/Tools/stanford-corenlp-full-2016-10-31/edu/stanford/nlp/models/segmenter/chinese -textFile ./data/possible_sample.txt.amr -inputEncoding UTF-8 -sighanPostProcessing true -keepAllWhitespaces false -loadClassifier /home/j/llc/cwang24/Tools/stanford-corenlp-full-2016-10-31/edu/stanford/nlp/models/segmenter/chinese/ctb.gz -serDictionary /home/j/llc/cwang24/Tools/stanford-corenlp-full-2016-10-31/edu/stanford/nlp/models/segmenter/chinese/dict-chris6.ser.gz
+[main] INFO edu.stanford.nlp.sequences.SeqClassifierFlags - serDictionary=/home/j/llc/cwang24/Tools/stanford-corenlp-full-2016-10-31/edu/stanford/nlp/models/segmenter/chinese/dict-chris6.ser.gz
+[main] INFO edu.stanford.nlp.sequences.SeqClassifierFlags - loadClassifier=/home/j/llc/cwang24/Tools/stanford-corenlp-full-2016-10-31/edu/stanford/nlp/models/segmenter/chinese/ctb.gz
+[main] INFO edu.stanford.nlp.sequences.SeqClassifierFlags - sighanCorporaDict=/home/j/llc/cwang24/Tools/stanford-corenlp-full-2016-10-31/edu/stanford/nlp/models/segmenter/chinese
+[main] INFO edu.stanford.nlp.sequences.SeqClassifierFlags - inputEncoding=UTF-8
+[main] INFO edu.stanford.nlp.sequences.SeqClassifierFlags - textFile=./data/possible_sample.txt.amr
+[main] INFO edu.stanford.nlp.sequences.SeqClassifierFlags - sighanPostProcessing=true
+[main] INFO edu.stanford.nlp.sequences.SeqClassifierFlags - keepAllWhitespaces=false
+[main] INFO edu.stanford.nlp.wordseg.ChineseDictionary - Loading Chinese dictionaries from 1 file:
+[main] INFO edu.stanford.nlp.wordseg.ChineseDictionary -   /home/j/llc/cwang24/Tools/stanford-corenlp-full-2016-10-31/edu/stanford/nlp/models/segmenter/chinese/dict-chris6.ser.gz
+[main] INFO edu.stanford.nlp.wordseg.ChineseDictionary - Done. Unique words in ChineseDictionary is: 423200.
+[main] INFO edu.stanford.nlp.ie.AbstractSequenceClassifier - Loading classifier from /home/j/llc/cwang24/Tools/stanford-corenlp-full-2016-10-31/edu/stanford/nlp/models/segmenter/chinese/ctb.gz ... done [15.0 sec].
+[main] INFO edu.stanford.nlp.wordseg.CorpusChar - Loading character dictionary file from /home/j/llc/cwang24/Tools/stanford-corenlp-full-2016-10-31/edu/stanford/nlp/models/segmenter/chinese/dict/character_list [done].
+[main] INFO edu.stanford.nlp.wordseg.AffixDictionary - Loading affix dictionary from /home/j/llc/cwang24/Tools/stanford-corenlp-full-2016-10-31/edu/stanford/nlp/models/segmenter/chinese/dict/in.ctb [done].
+[main] INFO edu.stanford.nlp.ie.AbstractSequenceClassifier - CRFClassifier tagged 2018 words in 243 documents at 672.67 words per second.
