@@ -1,0 +1,7597 @@
+# ::id export_amr.1 ::2017-02-10 13:29:53
+# ::snt 最近 ， 我们 通过 知情 人士 从 衡阳市 殡葬 管理处 财务 部门 复印 出 部分 原始 发票 凭证 11 份 （ 共计 有 30余 份 ） 。
+(x13 / 复印-01
+	:arg0 (x3 / 我们)
+	:time (x1 / 最近)
+	:manner (x4 / 通过-01
+		:arg1 (x6 / 人士
+			:arg0-of (x5 / 知情-01)))
+	:arg1 (x18 / 凭证
+		:quant (x19 / 11
+			:subset-of (x24_3 / 余-01
+				:op1 (x24_1_2 / 30)))
+		:mod (x17 / 发票
+			:quant (x15 / 部分)
+			:arg0-of (x16 / 原始-01)))
+	:location (x12 / 部门
+		:mod (x11 / 财务)
+		:poss (x85 / government-organization
+			:name (x9_x10 / name
+				:op1 "殡葬"
+				:op2 "管理处")
+			:location (x87 / city
+				:name (x8 / name
+					:op1 "衡阳市")))))
+
+# ::id export_amr.2 ::2017-02-10 13:30:35
+# ::snt 在 这些 原始 凭证 上 ， 我们 可以 清清楚楚 地 看到 如此 的 批示 ： “ 招待 省 高院 民三庭 法官 来 衡阳 调查 取证 餐费 ” 、 “ 到 省 高院 协调 与 明田 公司 诉讼 问题 ， 招待 上级 领导 ” 、 “ 局 领导 去 高院 ， 招待 费用 ” 、 “ 招待 省 高院 领导 ” 、 “ 省 高院 到 衡阳 协调 我 单位 与 明田 公司 合同 纠纷 一 案 ” 等等 （ 证据 复印件 附 后 ） 。
+(x8 / 可以-01
+	:arg0 (x11 / 看到-01
+		:arg0 (x7 / 我们)
+		:arg1 (x14 / 批示
+			:arg0-of (x100 / mean
+				:arg1 (x101 / and
+					:op1 (x26 / 餐费
+						:mod (x17 / 招待-01
+							:arg1 (x21 / 法官
+								:arg0-of (x22 / 来-01
+									:arg1 (x179 / city
+										:name (x23 / name
+											:op1 "衡阳")))
+								:arg0-of (x24 / 调查-01)
+								:arg0-of (x25 / 取证-01)
+								:mod (x169 / government-organization))))
+					:op2 (x40 / 招待-01
+						:arg1 (x42 / 领导
+							:mod (x41 / 上级))
+						:time (x30 / 到-01
+							:purpose (x33 / 协调-01
+								:arg1 (x38 / 问题
+									:arg0-of (x131 / mean
+										:arg1 (x37 / 诉讼-01
+											:arg1 (x36 / 公司
+												:name (x35 / name
+													:op1 "明田"))))))
+							:arg1 (x171 / government-organization
+								:name (x31_x32 / name
+									:op1 "省"
+									:op2 "高院"))))
+					:op3 (x52 / 费用
+						:mod (x51 / 招待-01
+							:arg1 (x47 / 领导
+								:mod (x46 / 局)
+								:arg0-of (x48 / 去-01
+									:arg1 (x49 / x171)))))
+					:op4 (x56 / 招待-01
+						:arg1 (x59 / 领导
+							:mod (x57_x58 / x171)))
+					:op5 (x76 / 案
+						:quant (x75 / 1)
+						:arg0-of (x149 / mean
+							:arg1 (x65 / 到-01
+								:purpose (x67 / 协调-01
+									:arg1 (x74 / 纠纷
+										:mod (x73 / 合同)
+										:arg0 (x70 / and
+											:op1 (x69 / 单位
+												:mod (x68 / 我))
+											:op2 (x71_x72 / x173))))
+								:arg0 (x63_x64 / x171)
+								:arg1 (x66 / x179))))
+					:op6 (x78 / 等等)))
+			:arg0-of (x164 / mean
+				:arg1 (x80 / 证据
+					:poss-of (x81 / 复印件
+						:arg0-of (x82 / 附-01
+							:arg2 (x83 / 后)))))
+			:arg0-of (x12 / 如此))
+		:location (x4 / 凭证
+			:mod (x2 / 这些)
+			:arg0-of (x3 / 原始-01))
+		:manner (x9 / 清清楚楚)))
+
+# ::id export_amr.3 ::2017-01-11 16:29:33
+# ::snt 这些 原始 发票 凭证 足以 证明 ， 这 是 一 起 典型 的 司法 不公 、 司法 腐败 案 ， 铁证如山 ！
+(x24 / and
+	:op2 (x21 / 铁证如山
+		:mode (x59 / expressive))
+	:op1 (x5 / 足以-01
+		:arg1 (x6 / 证明-01
+			:arg0 (x4 / 凭证
+				:mod (x3 / 发票
+					:arg0-of (x2 / 原始-01
+						:quant (x1 / 这些))))
+			:arg1 (x19 / 案
+				:mod (x41 / and
+					:op1 (x15 / 不公-01
+						:arg0 (x14 / 司法))
+					:op2 (x18 / 腐败-01
+						:arg0 (x17 / 司法)))
+				:domain (x8 / 这)
+				:quant (x10 / 1)
+				:cunit (x11 / 起)
+				:arg0-of (x12 / 典型-01)))))
+
+# ::id export_amr.4 ::2017-01-11 16:34:07
+# ::snt 2005年 6月 ， 衡阳市 政府 将 新 殡仪馆 建设 项目 对 外 招商 ， 明田 （ 湖南 ） 企业 有限 公司 （ 系 台 、 港 合资 企业 ） 应邀 多次 前往 衡阳 实地 考察 ，
+(x38 / and
+	:op1 (x13 / 招商-01
+		:arg1 (x10 / 项目
+			:topic (x9 / 建设-01
+				:arg1 (x8 / 殡仪馆
+					:arg0-of (x7 / 新-01))))
+		:direction (x12 / 外)
+		:arg0 (x140 / government-organization
+			:name (x4_x5 / name
+				:op1 "衡阳市"
+				:op2 "政府")))
+	:op2 (x32 / 前往-01
+		:purpose (x35 / 考察-01
+			:manner (x34 / 实地)
+			:arg0 (x143 / company
+				:name (x15_x19_x20_x21 / name
+					:op1 "明田"
+					:op2 "企业"
+					:op3 "有限"
+					:op4 "公司")
+				:location (x146 / province
+					:name (x17 / name
+						:op1 "湖南"))
+				:arg0-of (x147 / mean
+					:arg1 (x28 / 企业
+						:mod (x27 / 合资-01
+							:arg0 (x97 / and
+								:op1 (x148 / country-region
+									:name (x24 / name
+										:op1 "台"))
+								:op2 (x150 / country-region
+									:name (x26 / name
+										:op1 "港"))))))))
+		:cause (x30 / 应邀-01
+			:arg0 x143)
+		:frequency (x31 / 多次)
+		:arg1 (x142 / city
+			:name (x33 / name
+				:op1 "衡阳")))
+	:time (x105 / date-entity
+		:year (x111 / 2005)
+		:month (x113 / 6)))
+
+# ::id export_amr.5 ::2017-01-11 16:42:00
+# ::snt 并 于 当年 10月 31日 ， 与 衡阳市 民政局 、 殡葬 管理处 签订 《 衡阳市 新 殡仪馆 投资 承包 经营 合同 》 。
+(x25 / and
+	:op2 (x13 / 签订-01
+		:time (x45 / date-entity
+			:year (x3 / 当)
+			:month (x4 / 10)
+			:day (x5 / 31))
+		:arg0 (x38 / and
+			:op2 (x61 / and
+				:op1 (x57 / government-organization
+					:name (x9 / name
+						:op1 "民政局"))
+				:op2 (x59 / government-organization
+					:name (x11_x12 / name
+						:op1 "殡葬"
+						:op2 "管理处"))
+				:location (x58 / city
+					:name (x8 / name
+						:op1 "衡阳市")))
+			:op1 (x62 / company))
+		:arg1 (x55 / treaty
+			:name (x15_x16_x17_x18_x19_x20_x21 / name
+				:op1 "衡阳市"
+				:op2 "新"
+				:op3 "殡仪馆"
+				:op4 "投资"
+				:op5 "承包"
+				:op6 "经营"
+				:op7 "合同"))))
+
+# ::id export_amr.6 ::2017-02-10 13:31:27
+# ::snt 随后 ， 明田 公司 于 规定 的 期限 内 先后 按时 投资 3600多万 元 。
+(x1 / temporal
+	:arg2 (x12 / 投资-01
+		:manner (x11 / 按时)
+		:manner (x10 / 先后)
+		:arg2 (x46 / monetary-quantity
+			:quant (x13_5 / 多
+				:op1 (x48 / 36000000))
+			:cunit (x14 / 元))
+		:time (x9 / 内
+			:op1 (x8 / 期限
+				:arg1-of (x6 / 规定-01)))
+		:arg0 (x4 / 公司
+			:name (x3 / name
+				:op1 "明田"))))
+
+# ::id export_amr.7 ::2017-02-10 13:35:41
+# ::snt 然而 ， 由于 衡阳市 民政局 、 殡葬 管理处 不 按照 投资 承包 经营 合同 第一 章 第2 条 、 第三 章 第8 条 的 约定 ， 未 办理 好 有关 批文 和 证照 ， 尤其是 不 按 国务院 令 第225 号 《 殡葬 管理 条例 》 第八 条 的 规定 向 民政厅 、 民政部 报批 ， 使 明田 公司 没有 合法 的 经营 资格 ， 无法 正当 经营 以及 后续 开发 资金 不 能 正常 投入 。
+(x79 / contrast
+	:arg2 (x83 / causation
+		:arg1 (x93 / progression
+			:arg1 (x107 / and
+				:op1 (x10 / 按照-01
+					:arg0 (x87 / and
+						:op1 (x188 / government-organization
+							:name (x7_x8 / name
+								:op1 "殡葬"
+								:op2 "管理处"))
+						:op2 (x190 / government-organization
+							:name (x5 / name
+								:op1 "民政局")
+							:location (x191 / city
+								:name (x4 / name
+									:op1 "衡阳市"))))
+					:arg1 (x25 / 约定
+						:subset-of (x14 / 合同
+							:topic (x102 / and
+								:op1 (x11 / 投资)
+								:op2 (x12 / 承包-01)
+								:op3 (x13 / 经营)))
+						:ord (x130 / and
+							:op1 (x131 / ordinal-entity
+								:value (x17 / 2)
+								:cunit (x18 / 条)
+								:poss (x16 / 章
+									:ord (x122 / ordinal-entity
+										:value (x15 / 1))))
+							:op2 (x135 / ordinal-entity
+								:value (x22 / 8)
+								:cunit (x23 / 条)
+								:poss (x21 / 章
+									:ord (x128 / ordinal-entity
+										:value (x20 / 3))))))
+					:polarity (x9 / -))
+				:op2 (x28 / 办理-01
+					:polarity (x27 / -)
+					:manner (x29 / 好)
+					:arg1 (x32 / and
+						:op1 (x31 / 批文)
+						:op2 (x33 / 证照)
+						:mod (x30 / 有关))
+					:arg0 x87))
+			:arg2 (x55 / 报批-01
+				:arg2 (x140 / and
+					:op1 (x192 / government-organization
+						:name (x52 / name
+							:op1 "民政厅"))
+					:op2 (x194 / government-organization
+						:name (x54 / name
+							:op1 "民政部")))
+				:manner (x37 / 按-02
+					:polarity (x36 / -)
+					:arg1 (x50 / 规定-01
+						:ord (x173 / ordinal-entity
+							:value (x47 / 8)
+							:cunit (x48 / 条))
+						:subset-of (x45 / 条例
+							:ord (x182 / ordinal-entity
+								:value (x40 / 225)
+								:cunit (x41 / 号))
+							:topic (x44 / 管理-01
+								:arg1 (x43 / 殡葬))
+							:subset-of (x38_x39 / 国务院令))
+						:arg0 (x195 / government-organization
+							:name (x38 / name
+								:op1 "国务院")))
+					:arg0 x87)
+				:arg0 x87))
+		:arg2 (x150 / causation
+			:arg1 (x60_2 / 有-01
+				:arg1 (x64 / 资格
+					:mod (x63 / 经营)
+					:mod (x61 / 合法))
+				:arg0 (x59 / 公司
+					:name (x58 / name
+						:op1 "明田")))
+			:arg2 (x69 / and
+				:op1 (x66 / 无法-01
+					:arg1 (x68 / 经营
+						:arg0-of (x67 / 正当-01)))
+				:op2 (x74 / 能-01
+					:arg0 (x76 / 投入-01
+						:arg1 (x72 / 资金
+							:mod (x71 / 开发)
+							:mod (x70 / 后续))
+						:arg0-of (x75 / 正常-01))
+					:polarity (x73 / -))))))
+
+# ::id export_amr.8 ::2017-02-10 14:55:42
+# ::snt 同时 ， 衡阳市 民政局 、 殡葬 管理处 不但 违反 合同 第三 章 第10 条 的 约定 —— 违法 批准 放纵 私人 企业 火化 业务 ， 也 违反 第11 条 的 约定 —— 不 启动 殡葬 改革 ， 放任 棺葬 橫行 。
+(x1 / and
+	:op2 (x67 / progression
+		:arg1 (x9 / 违反-01
+			:arg0 (x48 / and
+				:op1 (x84 / government-organization
+					:name (x3_x4 / name
+						:op1 "衡阳市"
+						:op2 "民政局"))
+				:op2 (x86 / government-organization
+					:name (x6_x7 / name
+						:op1 "殡葬"
+						:op2 "管理处")))
+			:arg1 (x16 / 约定-01
+				:subset-of (x10 / 合同)
+				:arg0-of (x55 / mean
+					:arg1 (x56 / and
+						:op1 (x19 / 批准-01
+							:arg1 (x24 / 业务
+								:mod (x23 / 火化)
+								:poss (x22 / 企业
+									:arg0-of (x21 / 私人))))
+						:op2 (x20 / 放纵-01
+							:arg1 x24)
+						:manner (x18 / 违法)))))
+		:arg2 (x27 / 违反-01
+			:arg1 (x31 / 约定-01
+				:arg0-of (x72 / mean
+					:arg1 (x73 / and
+						:op1 (x34 / 启动-01
+							:polarity (x33 / -)
+							:arg1 (x36 / 改革-01
+								:arg1 (x35 / 殡葬)))
+						:op2 (x38 / 放任-01
+							:arg1 (x39 / 棺葬)
+							:arg2 (x40 / 橫行))))
+				:ord (x81 / ordinal-entity
+					:value (x28 / 11)
+					:cunit (x29 / 条))))))
+
+# ::id export_amr.9 ::2017-02-10 14:59:33
+# ::snt 为 此 ， 明田 公司 多次 向 政府 有关 部门 递交 报告 ， 请求 衡阳市 民政局 、 殡葬 管理处 按 合同 约定 履行 相关 责任 和 义务 ， 但 迟迟 都 不 予 解决 。
+(x1_x2 / causation
+	:arg1 (x116 / contrast
+		:arg1 (x11 / 递交-01
+			:arg0 (x5 / 公司
+				:name (x4 / name
+					:op1 "明田"))
+			:arg1 (x12 / 报告)
+			:arg2 (x10 / 部门
+				:mod (x9 / 有关-01)
+				:subset-of (x8 / 政府))
+			:frequency (x6 / 多次)
+			:purpose (x14 / 请求-01
+				:arg0 x5
+				:arg2 (x23 / 履行-01
+					:arg1 (x26 / and
+						:op1 (x25 / 责任)
+						:op2 (x27 / 义务)
+						:arg0-of (x24 / 相关-01))
+					:manner (x20 / 按-02
+						:arg1 (x22 / 约定
+							:mod (x21 / 合同)))
+					:arg0 (x133 / and
+						:op1 (x137 / government-organization
+							:name (x16 / name
+								:op1 "民政局")
+							:location (x142 / city
+								:name (x15 / name
+									:op1 "衡阳市")))
+						:op2 (x139 / government-organization
+							:name (x18_x19 / name
+								:op1 "殡葬"
+								:op2 "管理处"))))
+				:arg1 x133))
+		:arg2 (x34 / 解决-01
+			:polarity (x32 / -)
+			:manner (x30 / 迟迟))))
+
+# ::id export_amr.10 ::2017-02-10 15:02:07
+# ::snt 明田 公司 为 维护 自身 的 合法 权益 ， 被迫 于 2007年 11月 31日 向 湖南省 高级 人民 法院 提起 诉讼 ， 要求 解除 承包 经营 合同 ， 并 返还 投资 及 赔偿 各 项 经济 损失 。
+(x10 / 被迫-01
+	:arg1 (x20 / 提起-02
+		:arg1 (x21 / 诉讼-01
+			:purpose (x23 / 要求-03
+				:arg1 (x73 / and
+					:op1 (x24 / 解除-01
+						:arg1 (x27 / 合同
+							:topic (x26 / 经营-01
+								:manner (x25 / 承包))))
+					:op2 (x30 / 返还-01
+						:arg1 (x31 / 投资))
+					:op3 (x33 / 赔偿-01
+						:arg1 (x37 / 损失-01
+							:arg1 (x36 / 经济)
+							:mod (x107 / 各项))))
+				:arg0 (x2 / 公司
+					:name (x1 / name
+						:op1 "明田")))
+			:arg0 x2)
+		:cause (x4 / 维护-01
+			:arg1 (x8 / 权益
+				:arg0-of (x7 / 合法-01))
+			:poss (x5 / x2))
+		:arg0 x2
+		:time (x125 / date-entity
+			:year (x12 / 2007)
+			:month (x13 / 11)
+			:day (x14 / 31))
+		:direction (x133 / government-organization
+			:name (x17_x18_x19 / name
+				:op1 "高级"
+				:op2 "人民"
+				:op3 "法院")
+			:location (x135 / province
+				:name (x16 / name
+					:op1 "湖南省"))))
+	:arg0 x2)
+
+# ::id export_amr.11 ::2017-02-10 15:51:28
+# ::snt 此 案 一 审 由 湖南省 高级 人民 法院 民三庭 审理 ， 庭长 曹道成 、 审判长 曾志红 、 主审 法官 邓国红 。
+(x24 / and
+	:op2 (x47 / and
+		:op1 (x69 / person
+			:name (x14 / name
+				:op1 "曹道成")
+			:domain (x13 / 庭长))
+		:op2 (x70 / person
+			:name (x17 / name
+				:op1 "曾志红")
+			:domain (x16 / 审判长))
+		:op3 (x71 / person
+			:name (x21 / name
+				:op1 "邓国红")
+			:domain (x20 / 法官
+				:arg0-of (x19 / 主审-01))))
+	:op1 (x11 / 审理-01
+		:arg1 (x2 / 案
+			:mod (x1 / 此))
+		:ord (x43 / ordinal-entity
+			:value (x3 / 1)
+			:cunit (x4 / 审))
+		:arg0 (x76 / government-organization
+			:name (x7_x8_x9_x10 / name
+				:op1 "高级"
+				:op2 "人民"
+				:op3 "法院"
+				:op4 "民三庭")
+			:location (x78 / province
+				:name (x6 / name
+					:op1 "湖南省")))))
+
+# ::id export_amr.12 ::2017-02-10 15:53:17
+# ::snt 在 案件 审理 过程 中 ， 被告 在 法庭 上 明知 违约 和 理亏 ， 为了 逃避 违约 赔偿 责任 ， 使用 各 种 手段 干扰 正常 审案 程序 ，
+(x32 / concession
+	:arg1 (x11 / 明知-01
+		:arg0 (x7 / 被告)
+		:arg2 (x13 / and
+			:op1 (x12 / 违约-01
+				:arg0 x7)
+			:op2 (x14 / 理亏-01
+				:arg0 x7))
+		:location (x9 / 法庭))
+	:arg2 (x22 / 使用-01
+		:arg0 x7
+		:arg1 (x25 / 手段
+			:mod (x23_x24 / 各种))
+		:arg2 (x26 / 干扰-01
+			:arg1 (x29 / 程序
+				:mod (x28 / 审案)
+				:arg0-of (x27 / 正常-01))
+			:arg0 x7)
+		:purpose (x17 / 逃避-01
+			:arg1 (x20 / 责任-01
+				:arg1 (x19 / 赔偿-01
+					:cause (x18 / 违约-01
+						:arg0 x7)
+					:arg0 x7))
+			:arg0 x7))
+	:time (x4 / 过程
+		:mod (x3 / 审理-01
+			:arg1 (x2 / 案件))))
+
+# ::id export_amr.13 ::2017-02-10 15:55:24
+# ::snt 一 方面 补贴 、 派 车 多次 鼓动 老 员工 到 省 政府 、 省 信访局 、 省 高院 闹事 ；
+(x41 / and
+	:op1 (x8 / 鼓动-01
+		:manner (x3 / 补贴)
+		:manner (x5 / 派-01
+			:arg1 (x6 / 车))
+		:frequency (x7 / 多次)
+		:arg1 (x20 / 闹事-01
+			:arg0 (x10 / 员工
+				:arg0-of (x9 / 老-01))
+			:location (x33 / and
+				:op1 (x44 / government-organization
+					:name (x12_x13 / name
+						:op1 "省"
+						:op2 "政府"))
+				:op2 (x47 / government-organization
+					:name (x15_x16 / name
+						:op1 "省"
+						:op2 "信访局"))
+				:op3 (x49 / government-organization
+					:name (x18_x19 / name
+						:op1 "省"
+						:op2 "高院"))))))
+
+# ::id export_amr.14 ::2017-02-10 15:56:55
+# ::snt 另 一 方面 四处 活动 ， 先后 30余 次 与 省 高级 法院 审案 法官 曹道成 等 人 吃吃喝喝 、 送礼 送钱 、 住 五星级 酒店 ， 致使 这 一 案件 严重 超 期限 审理 长 达 4 年 之 久 ， 并 最终 做出 极其 不 公正 的 判决 。
+(x56 / and
+	:op2 (x58 / and
+		:op1 (x5 / 活动
+			:range (x4 / 四处))
+		:op2 (x61 / and
+			:op1 (x19 / 吃喝-01)
+			:op2 (x21 / 送礼-01)
+			:op3 (x22 / 送钱)
+			:op4 (x24 / 住-01
+				:arg1 (x26 / 酒店
+					:mod (x25 / 五星级)))
+			:accompanier (x18 / 人
+				:arg1-of (x69 / include
+					:arg2 (x70 / and
+						:op1 (x71 / person
+							:name (x16 / name
+								:op1 "曹道成")
+							:arg0-of (x73 / have-org-role
+								:arg2 (x15 / 法官
+									:arg0-of (x14 / 审案-01))
+								:arg1 (x105 / government-organization
+									:name (x11_x12_x13 / name
+										:op1 "省"
+										:op2 "高级"
+										:op3 "法院")))))))
+			:arg1-of (x80 / have-frequency
+				:arg2 (x8_3 / 余
+					:op1 (x8_1_2 / 30))
+				:unit (x9 / 次)))
+		:op3 (x28 / 致使-01
+			:arg0 x61
+			:arg1 (x31 / 案件
+				:quant (x30 / 1)
+				:mod (x29 / 这))
+			:arg2 (x98 / and
+				:op1 (x35 / 审理
+					:manner (x33 / 超-01
+						:arg1 (x34 / 期限)
+						:degree (x32 / 严重))
+					:duration (x36 / 长-02
+						:arg1 (x37 / 达-01
+							:arg1 (x41 / 久
+								:degree (x91 / temporal-quantity
+									:quant (x38 / 4)
+									:unit (x39 / 年))))
+						:arg0 x35))
+				:op2 (x45 / 做出-01
+					:arg1 (x50 / 判决-01
+						:arg0-of (x48 / 公正-01
+							:polarity (x47 / -
+								:degree (x46 / 极其)))
+						:arg1 x31)
+					:time (x44 / 最终))))))
+
+# ::id export_amr.15 ::2017-02-10 15:57:48
+# ::snt 中央 政法委 2009年 发布 “ 四 条 禁令 ” ， 其中 第一 条 就 明确 规定 ： “ 绝对 禁止 政法 干警 接受 案件 当事人 请 吃喝 、 送 钱物 ” 。
+(x4 / 发布-01
+	:time (x49 / date-entity
+		:year (x3 / 2009))
+	:arg1 (x8 / 禁令
+		:quant (x6 / 4)
+		:cunit (x7 / 条)
+		:subset (x55 / thing
+			:ord (x56 / ordinary
+				:value (x12 / 1))
+			:arg0-of (x16 / 规定-01
+				:arg1 (x20 / 禁止-01
+					:degree (x19 / 绝对-01)
+					:arg1 (x23 / 接受-01
+						:arg0 (x22 / 干警
+							:mod (x21 / 政法))
+						:arg1 (x26 / 请-01
+							:arg0 (x25 / 当事人
+								:mod (x24 / 案件))
+							:arg2 (x69 / and
+								:op1 (x27 / 吃喝-01
+									:arg0 x22)
+								:op2 (x29 / 送-01
+									:arg1 (x30 / 钱物)
+									:arg0 x25))
+							:arg1 x22)))
+				:mod (x14 / 就)
+				:arg0-of (x15 / 明确-01))))
+	:arg0 (x76 / government-organization
+		:name (x1_x2 / name
+			:op1 "中央"
+			:op2 "政法委")))
+
+# ::id export_amr.16 ::2017-02-10 16:00:13
+# ::snt 最高 人民 法院 也 同时 公布 “ 五 个 严禁 ” ， 明确 规定 ： “ 严禁 接受 案件 当事人 及 相关 人员 的 请客 送礼 ” 。
+(x30 / and
+	:op1 (x6 / 公布-01
+		:time (x5 / 同时)
+		:arg1 (x10 / 严禁
+			:quant (x8 / 5)
+			:cunit (x9 / 个))
+		:mod (x4 / 也)
+		:arg0 (x57 / government-organization
+			:name (x1_x2_x3 / name
+				:op1 "最高"
+				:op2 "人民"
+				:op3 "法院")))
+	:op2 (x14 / 规定-01
+		:arg0 x10
+		:arg1 (x17 / 严禁-01
+			:arg1 (x18 / 接受-01
+				:arg1 (x49 / and
+					:op1 (x25 / 请客-01
+						:arg0 (x21 / and
+							:op1 (x20 / 当事人
+								:mod (x19 / 案件))
+							:op2 (x23 / 人员
+								:mod (x22 / 相关))))
+					:op2 (x26 / 送礼-01
+						:arg0 x21))))
+		:manner (x13 / 明确)))
+
+# ::id export_amr.17 ::2017-02-10 16:02:41
+# ::snt 然而 ， 省 高院 民三庭 审案 法官 却 顶风 犯禁 ， 明目张胆 地 先后 几十 次 与 案件 当事人 吃喝 ， 并 接受 案件 当事人 的 钱物 。
+(x30 / contrast
+	:arg2 (x10 / 犯禁-01
+		:manner (x9 / 顶风-01)
+		:arg0-of (x39 / mean
+			:arg1 (x40 / and
+				:op1 (x20 / 吃喝-01
+					:accompanier (x19 / 当事人
+						:mod (x18 / 案件))
+					:time (x14 / 先后)
+					:manner (x12 / 明目张胆-01
+						:arg0 (x60 / person
+							:arg0-of (x61 / have-org-role
+								:arg1 (x62 / government-organization
+									:name (x3_x4_x5 / name
+										:op1 "省"
+										:op2 "高院"
+										:op3 "民三庭"))
+								:arg2 (x7 / 法官
+									:arg0-of (x6 / 审案-01)))))
+					:frequency (x51 / rate-entity
+						:quant (x15_1 / 几
+							:op1 (x55 / 10)))
+					:arg0 x60)
+				:op2 (x23 / 接受-01
+					:arg1 (x27 / 钱物
+						:poss (x25 / 当事人
+							:mod (x24 / 案件)))
+					:arg0 x60)))
+		:arg0 x60))
+
+# ::id export_amr.18 ::2017-02-10 16:29:06
+# ::snt 30余 张 “ 腐败 票据 ” 必然 导致 对 此 案 作出 违背 事实 和 法律 的 不 公正 判决 ， 让 投资者 受 损失 ， 让 守法者 受 伤害 ， 让 神圣 的 法律 遭 亵渎 ！
+(x7 / 必然-01
+	:arg0 (x93 / and
+		:op1 (x8 / 导致-01
+			:arg0 (x5 / 票据
+				:mod (x4 / 腐败)
+				:quant (x1_3 / 余
+					:op1 (x78 / 30)))
+			:arg1 (x12 / 作出-01
+				:arg0 (x20 / 判决-01
+					:arg1 (x11 / 案
+						:mod (x10 / 此))
+					:arg0-of (x13 / 违背-01
+						:arg1 (x15 / and
+							:op1 (x14 / 事实)
+							:op2 (x16 / 法律)))
+					:arg0-of (x19 / 公正-01
+						:polarity (x18 / -)))))
+		:op2 (x22 / 让-02
+			:arg2 (x24 / 受-01
+				:arg1 (x25 / 损失-01
+					:arg0 (x23 / 投资者))
+				:arg0 x23)
+			:arg1 x23
+			:arg0 x5)
+		:op3 (x27 / 让-02
+			:arg2 (x29 / 受-01
+				:arg1 (x30 / 伤害-01
+					:arg0 (x28 / 守法者))
+				:arg0 x28)
+			:arg0 x5
+			:arg1 x28)
+		:op4 (x32 / 让-02
+			:arg2 (x36 / 遭-01
+				:arg1 (x37 / 亵渎-01
+					:arg1 (x35 / 法律
+						:arg0-of (x33 / 神圣-01))))
+			:arg0 x5
+			:arg1 x35))
+	:mode (x38 / expressive))
+
+# ::id export_amr.19 ::2017-02-10 16:38:10
+# ::snt 在 此 ， 我们 强烈 请求 有关 部门 严肃 查处 省 高院 曹道成 等 法官 的 违禁 违纪 违法 事实 ， 将 危害 司法 公正 的 害群之马 坚决 清理 出 法官 队伍 。
+(x6 / 请求-01
+	:arg0 (x4 / 我们)
+	:degree (x5 / 强烈)
+	:arg2 (x39 / and
+		:op1 (x10 / 查处-01
+			:arg0 (x8 / 部门
+				:mod (x7 / 有关-01))
+			:manner (x9 / 严肃)
+			:arg1 (x20 / 事实
+				:arg0-of (x46 / mean
+					:arg1 (x47 / and
+						:op1 (x17 / 违禁-01
+							:arg0 (x15 / 法官
+								:example (x53 / and
+									:op1 (x54 / person
+										:name (x13 / name
+											:op1 "曹道成")
+										:arg0-of (x58 / have-org-role
+											:arg1 (x70 / government-organization
+												:name (x11_x12 / name
+													:op1 "省"
+													:op2 "高院"))))
+									:op2 (x14 / 等))))
+						:op2 (x18 / 违纪-01
+							:arg0 x15)
+						:op3 (x19 / 违法-01
+							:arg0 x15)))))
+		:op2 (x29 / 清理-03
+			:manner (x28 / 坚决)
+			:arg1 (x27 / 害群之马
+				:arg0-of (x23 / 危害-01
+					:arg1 (x25 / 公正
+						:mod (x24 / 司法))))
+			:cause-of (x30 / 出-01
+				:arg1 (x32 / 队伍
+					:mod (x31 / 法官)))))
+	:time (x1_x2 / 在此)
+	:arg1 x8)
+
+# ::id export_amr.20 ::2017-02-10 16:38:43
+# ::snt 常言 道 ： 人间 自 有 公道 在 。
+(x2 / 道-01
+	:arg2 (x1 / 常言)
+	:arg1 (x6 / 有-01
+		:arg0 (x4 / 人间)
+		:arg1 (x7 / 公道)
+		:mod (x5 / 自)))
+
+# ::id export_amr.21 ::2017-02-10 16:39:26
+# ::snt 有 正义感 的 人士 ， 实在 看 不 下去 ， 拿出 了 他们 贪赃枉法 ， 违反 禁令 的 证据 。
+(x22 / causation
+	:arg2 (x11 / 拿出-01
+		:arg1 (x19 / 证据
+			:mod (x14 / 贪赃枉法
+				:arg0 (x13 / 他们))
+			:mod (x16 / 违反-01
+				:arg1 (x17 / 禁令)
+				:arg0 x13))
+		:arg0 (x4 / 人士
+			:arg0-of (x1 / 有-02
+				:arg0-of (x2 / 正义感)))
+		:aspect (x12 / 了))
+	:arg1 (x66 / possible
+		:arg0 (x7 / 看-02
+			:arg0 x4
+			:mod (x6 / 实在))
+		:polarity (x8 / -)))
+
+# ::id export_amr.22 ::2017-02-10 16:39:42
+# ::snt 感谢 敢于 披露 “ 腐败 发票 ” 的 正义 人士 ！！！！！
+(x1 / 感谢-02
+	:arg1 (x10 / 人士
+		:arg0-of (x2 / 敢于-01
+			:arg1 (x3 / 披露-01
+				:arg1 (x6 / 发票
+					:mod (x5 / 腐败))))
+		:arg0-of (x9 / 正义-01))
+	:mode (x11 / expressive))
+
+# ::id export_amr.23 ::2017-02-10 16:40:29
+# ::snt 这 本 是 一 场 地位 悬殊 ， 且 极 不 平等 的 民事 诉讼 官司 ，
+(x16 / 官司
+	:topic (x15 / 诉讼-01
+		:arg1 (x14 / 民事))
+	:mod (x7 / 悬殊-01
+		:arg0 (x6 / 地位))
+	:quant (x4 / 1)
+	:domain (x1 / 这)
+	:cunit (x5 / 场)
+	:mod (x2 / 本)
+	:arg0-of (x12 / 平等-01
+		:degree (x10 / 极)
+		:polarity (x11 / -)))
+
+# ::id export_amr.24 ::2017-02-10 16:47:29
+# ::snt 但是 ， 衡阳市 民政局 和 殡葬 管理处 作为 被告 ， 凭 其 占有 强大 的 政府 权力 资源 ， 竟然 还 拿 大 笔 的 公款 请 吃 请 喝 、 送礼 送钱 、 住 五星级 宾馆 ， 用 人民 纳税 的 血汗 钱 为 自己 “ 擦 屁股 ” ， 为 自己 所 犯 的 错误 买单 ！
+(x184 / contrast
+	:arg2 (x147 / and
+		:op1 (x188 / and
+			:op1 (x27 / 请-01
+				:arg2 (x28 / 吃)
+				:arg0 (x5 / and
+					:op1 (x196 / government-organization
+						:name (x4 / name
+							:op1 "民政局")
+						:location (x198 / city
+							:name (x3 / name
+								:op1 "衡阳市")))
+					:op2 (x199 / government-organization
+						:name (x6_x7 / name
+							:op1 "殡葬"
+							:op2 "管理处"))))
+			:op2 (x29 / 请-01
+				:arg2 (x30 / 喝)
+				:arg0 x5)
+			:manner (x22 / 拿-01
+				:arg1 (x26 / 公款
+					:mod (x23_x24 / 大笔))
+				:arg0 x5))
+		:op2 (x189 / and
+			:op1 (x32 / 送礼-01
+				:arg0 x5)
+			:op2 (x33 / 送钱))
+		:op3 (x191 / and
+			:op1 (x48 / 擦-01
+				:arg1 (x49 / 屁股)
+				:beneficiary (x46 / x5)
+				:arg0 x5)
+			:op2 (x58 / 买单-01
+				:cause (x57 / 错误
+					:arg1-of (x55 / 犯-04
+						:arg0 x5)
+					:poss (x53 / x5))
+				:arg0 x5)
+			:instrument (x44 / 钱
+				:mod (x43 / 血汗)
+				:poss (x40 / 人民)
+				:mod (x41 / 纳税-01
+					:arg0 x40)))
+		:manner (x8 / 作为-03
+			:mode (x59 / expressive)
+			:arg1 (x9 / 被告)
+			:arg0 x5)))
+
+# ::id export_amr.25 ::2017-02-10 16:52:36
+# ::snt 实在 让 人 感到 羞耻 、 实在 让 人 感到 愤怒 ， 实在 天理 良心 所 不 容
+(x59 / and
+	:op3 (x18 / 容-01
+		:polarity (x17 / -)
+		:arg0 (x54 / and
+			:op1 (x14 / 天理)
+			:op2 (x15 / 良心))
+		:mod (x1 / 实在))
+	:op2 (x8 / 让-02
+		:arg0 (x45 / thing)
+		:arg1 (x10 / 感到-01
+			:arg0 (x9 / 人)
+			:arg1 (x11 / 愤怒-01
+				:arg0 x9))
+		:mod (x7 / 实在-01))
+	:op1 (x2 / 让-02
+		:arg0 (x37 / thing)
+		:arg1 (x4 / 感到-01
+			:arg0 (x3 / 人)
+			:arg1 (x5 / 羞耻-01
+				:arg0 x3))
+		:mod (x13 / 实在)))
+
+# ::id export_amr.26 ::2017-02-10 16:54:42
+# ::snt 最高 人民 法院 规定 ： 对于 触犯 “ 五 个 严禁 ” 规定 的 法官 ， 既然 是 “ 严禁 ” ， 既然 已经 触犯 ， 不 能 给予 第二 次 机会 ， 应当 坚决 清理 出 法官 队伍 。
+(x4 / 规定-01
+	:arg1 (x88 / and
+		:op1 (x15 / 法官
+			:arg0-of (x7 / 触犯-01
+				:arg1 (x13 / 规定
+					:arg0 (x76 / mean
+						:arg1 (x11 / 严禁
+							:quant (x9 / 5)
+							:cunit (x10 / 个))))))
+		:op2 (x17 / causation
+			:arg1 (x79 / and
+				:op1 (x20 / 严禁
+					:domain x11)
+				:op2 (x25 / 触犯-01
+					:time (x24 / 已经)
+					:arg0 x15
+					:arg1 x13))
+			:arg2 (x82 / and
+				:op1 (x28 / 能-01
+					:polarity (x27 / -)
+					:arg0 (x29 / 给予-01
+						:arg1 (x32 / 机会
+							:ord (x61 / ordinary-entity
+								:value (x30 / 2))
+							:cunit (x31 / 次))
+						:arg2 x15))
+				:op2 (x34 / 应当-01
+					:arg0 (x36 / 清理-03
+						:arg1 (x38 / 法官)
+						:arg2 (x39 / 队伍
+							:mod x38))
+					:manner (x35 / 坚决)))))
+	:arg0 (x107 / government-organization
+		:name (x1_x2_x3 / name
+			:op1 "最高"
+			:op2 "人民"
+			:op3 "法院")))
+
+# ::id export_amr.27 ::2017-02-10 16:57:56
+# ::snt 针对 这 次 “ 腐败 发票 ” 事件 ， 最高 人民 法院 能够 说到 做到 吗 ！ 老百姓 拭目以待 ！！！！！
+(x19 / 拭目以待-01
+	:arg0 (x18 / 老百姓)
+	:arg1 (x13 / 能够-01
+		:arg0 (x27 / condition
+			:arg1 (x14 / 说到-01
+				:arg0 (x41 / government-organization
+					:name (x10_x11_x12 / name
+						:op1 "最高"
+						:op2 "人民"
+						:op3 "法院")))
+			:arg2 (x15 / 做到-01
+				:arg0 x41)
+			:topic (x8 / 事件
+				:topic (x6 / 发票
+					:mod (x5 / 腐败))
+				:mod (x2 / 这)
+				:cunit (x3 / 次)))
+		:mode (x16 / interrogative)
+		:mode (x17 / expressive))
+	:mode (x20 / expressive))
+
+# ::id export_amr.28 ::2017-02-10 17:04:02
+# ::snt “ 腐败 发票 ” 事件 让 我们 看到 ， 少数 法官 贪赃枉法 、 徇私舞弊 、 腐化 堕落 ， 严重 损害 了 人民 法院 和 人民 法官 在 人民 群众 心目 中 的 形象 ，
+(x6 / 让-02
+	:arg0 (x5 / 事件
+		:topic (x3 / 发票
+			:mod (x2 / 腐败)))
+	:arg1 (x7 / 我们)
+	:arg2 (x8 / 看到-01
+		:arg0 x7
+		:arg1 (x20 / 损害-01
+			:degree (x19 / 严重-01)
+			:arg0 (x46 / and
+				:op1 (x12 / 贪赃枉法
+					:arg0 (x11 / 法官
+						:quant (x10 / 少数)))
+				:op2 (x14 / 徇私舞弊
+					:arg0 x11)
+				:op3 (x49 / and
+					:op1 (x16 / 腐化-01
+						:arg0 x11)
+					:op2 (x17 / 堕落-01
+						:arg0 x11)))
+			:arg1 (x33 / 形象-01
+				:arg1 (x29 / 群众
+					:mod (x28 / 人民))
+				:arg0 (x24 / and
+					:op2 (x26 / 法官
+						:mod (x25 / 人民))
+					:op1 (x68 / government-organization
+						:name (x22_x23 / name
+							:op1 "人民"
+							:op2 "法院")))))))
+
+# ::id export_amr.29 ::2016-11-29 21:20:57
+# ::snt 损害 了 司法 权威性 和 司法 公信力 ， 希望 有关 部门 严肃 处理 腐败 法官 ！
+(x22 / causation
+	:arg1 (x1 / 损害-01
+		:arg1 (x5 / and
+			:op1 (x4 / 权威性
+				:mod (x3 / 司法))
+			:op2 (x7 / 公信力
+				:mod (x6 / 司法)))
+		:aspect (x2 / 了))
+	:arg2 (x9 / 希望-01
+		:arg1 (x13 / 处理-01
+			:arg0 (x11 / 部门
+				:mod (x10 / 有关))
+			:arg1 (x15 / 法官
+				:mod (x14 / 腐败))
+			:manner (x12 / 严肃))
+		:mode (x16 / expressive)))
+
+# ::id export_amr.30 ::2017-02-10 17:05:33
+# ::snt 一 个 精神 和 思维 正常 的 人 ， 难道 会 拿 几千万 的 投资 与 政府 职能 部门 的 官员 玩 “ 躲猫猫 ” 的 游戏 吗 ？
+(x10 / 难道
+	:arg0 (x11 / 会-02
+		:mode (x28_x29 / interrogative)
+		:arg0 (x22 / 玩
+			:arg0 (x8 / 人
+				:poss-of (x4 / and
+					:op1 (x3 / 精神)
+					:op2 (x5 / 思维)
+					:arg0-of (x6 / 正常-01))
+				:quant (x1 / 1)
+				:cunit (x2 / 个))
+			:arg1 (x27 / 游戏
+				:name (x24 / name
+					:op1 "躲猫猫"))
+			:accompanier (x21 / 官员
+				:mod (x19 / 部门
+					:mod (x18 / 职能)
+					:mod (x17 / 政府)))
+			:manner (x12 / 拿-03
+				:arg1 (x15 / 投资-01
+					:arg2 (x68 / monetary-quantity
+						:quant (x13_1 / 几
+							:op1 (x56 / 10000000))))
+				:arg0 x8))))
+
+# ::id export_amr.31 ::2017-02-10 17:08:35
+# ::snt 六 年 来 ， 明田 公司 不幸 遭遇 了 这 个 投资 陷阱 ， 诉讼 又 遭遇 枉法 判决 ， 这些 都 是 有 真凭实据 的 ， 是 不 能 抵赖 和 消弭 的 ， 但 明田 公司 始终 相信 泱泱 中华 大 国 总 有 一 个 说理 的 地方 。
+(x54 / contrast
+	:arg1 (x75 / and
+		:op1 (x24 / 有-03
+			:arg1 (x25 / 真凭实据)
+			:arg0 (x85 / progression
+				:arg1 (x8 / 遭遇-01
+					:arg0 (x6 / 公司
+						:name (x5 / name
+							:op1 "明田"))
+					:arg1 (x13 / 陷阱
+						:mod (x12 / 投资)
+						:mod (x10 / 这))
+					:manner (x7 / 不幸-01
+						:arg0 x6))
+				:arg2 (x17 / 遭遇-01
+					:arg0 (x15 / 诉讼-01
+						:arg0 x6)
+					:arg1 (x19 / 判决
+						:manner (x18 / 枉法)))
+				:duration (x107 / temporal-quantity
+					:quant (x1 / 6)
+					:unit (x2 / 年)))
+			:mod (x22 / 都))
+		:op2 (x30 / 能-01
+			:arg0 (x32 / and
+				:op1 (x31 / 抵赖-01
+					:arg1 x85)
+				:op2 (x33 / 消弭-01
+					:arg2 x85)
+				:mode (x28_x34 / judgement))
+			:polarity (x29 / -)))
+	:arg2 (x40 / 相信-01
+		:manner (x39 / 始终)
+		:arg0 (x37_x38 / x6)
+		:arg1 (x46 / 有-03
+			:arg0 (x44 / 国
+				:mod (x41 / 泱泱)
+				:name (x42 / name
+					:op1 "中华")
+				:arg0-of (x43 / 大-01))
+			:arg1 (x51 / 地方
+				:cunit (x48 / 个)
+				:quant (x47 / 1)
+				:location-of (x49 / 说理))
+			:mod (x45 / 总))))
+
+# ::id export_amr.32 ::2017-02-10 17:11:12
+# ::snt 中石油 的 “ 发票 门 ” 事件 让 国人 惊叹 ！ 然而 ， 湖南省 高院 的 “ 发票 门 ” 事件 更 让 人 惊荒 ！
+(x28 / progression
+	:arg1 (x10 / 惊叹-01
+		:arg0 (x9 / 国人)
+		:cause (x7 / 事件
+			:poss (x43 / company
+				:name (x1 / name
+					:op1 "中石油"))
+			:name (x4_x5 / name
+				:op1 "发票"
+				:op2 "门"))
+		:mode (x11 / expressive))
+	:arg2 (x25 / 惊慌-01
+		:arg0 (x24 / 人)
+		:cause (x21 / 事件
+			:name (x18_x19 / name
+				:op1 "发票"
+				:op2 "门")
+			:poss (x47 / government-organization
+				:name (x15 / name
+					:op1 "高院")
+				:location (x48 / province
+					:name (x14 / name
+						:op1 "湖南省"))))
+		:mode (x26 / expressive)))
+
+# ::id export_amr.33 ::2017-02-10 17:12:58
+# ::snt 法院 是 老百姓 维护 自身 权益 的 最后 一 道 屏障 ， 屏障 腐朽 了 ， 老百姓 还 有 什么 希望 啊 ！ 能 不 惊荒 吗 ？
+(x30 / causation
+	:arg1 (x11 / 屏障
+		:mod (x8 / 最后)
+		:quant (x9 / 1)
+		:cunit (x10 / 道-01)
+		:instrument-of (x4 / 维护-01
+			:arg0 (x3 / 老百姓)
+			:arg1 (x6 / 权益
+				:poss (x5 / x3)))
+		:domain (x1 / 法院))
+	:arg2 (x41 / condition
+		:arg1 (x14 / 腐朽
+			:arg0 (x13 / 屏障)
+			:aspect (x15 / 了))
+		:arg2 (x44 / and
+			:op1 (x19 / 有-01
+				:arg1 (x21 / 希望
+					:mod (x20 / amr-unknown))
+				:mode (x22_x23 / expressive)
+				:mod (x18 / 还)
+				:arg0 (x17 / x3))
+			:op2 (x24 / 能-01
+				:mode (x27_x28 / interrogative)
+				:arg0 (x26 / 惊慌-01
+					:polarity (x25 / -)
+					:arg0 x3)))))
+
+# ::id export_amr.34 ::2017-02-10 17:13:44
+# ::snt 法官 被 吃喝 送钱 者 侵蚀 ！
+(x6 / 侵蚀-01
+	:mode (x7 / expressive)
+	:arg1 (x1 / 法官)
+	:arg0 (x5 / 者
+		:arg0-of (x4 / 送钱)
+		:arg0-of (x3 / 吃喝-01)))
+
+# ::id export_amr.35 ::2017-02-10 17:14:03
+# ::snt 法律 被 贪赃枉法 者 亵渎 ！
+(x5 / 亵渎-01
+	:arg1 (x1 / 法律)
+	:mode (x6 / expressive)
+	:arg0 (x4 / 者
+		:arg0-of (x3 / 贪赃枉法)))
+
+# ::id export_amr.36 ::2017-02-10 17:14:33
+# ::snt 咱 老百姓 还 有 什么 指望 ？
+(x6 / 指望-01
+	:arg0 (x1 / 咱
+		:arg0-of (x16 / mean
+			:arg1 (x2 / 老百姓)))
+	:mode (x7 / interrogative)
+	:mod (x3 / 还)
+	:arg1 (x5 / amr-unknown))
+
+# ::id export_amr.37 ::2016-11-29 21:35:11
+# ::snt 法律 公正 还 有 什么 希望 ？
+(x4 / 有-05
+	:arg0 (x2 / 公正-01
+		:arg0 (x1 / 法律))
+	:arg1 (x6 / 希望-01
+		:mod (x5 / amr-unknown))
+	:mode (x7 / interrogative)
+	:mod (x3 / 还))
+
+# ::id export_amr.38 ::2017-02-10 17:31:15
+# ::snt 开 “ 腐败 发票 ” 的 人 应该 追究 单位 行贿罪 ， 享受 了 “ 腐败 发票 ” 的 人 应该 追究 受贿罪 ， 只有 这样 严肃 处理 ， 看看 谁 以后 还 敢 开 “ 腐败 发票 ” 和 享受 “ 腐败 发票 ” ！
+(x49 / condition
+	:arg1 (x28 / 处理
+		:manner (x27 / 严肃)
+		:manner (x26 / 这样
+			:arg0-of (x54 / mean
+				:arg1 (x55 / and
+					:op1 (x8 / 应该-01
+						:arg0 (x9 / 追究-01
+							:arg1 (x11 / 行贿罪
+								:mod (x10 / 单位))
+							:beneficiary (x7 / 人
+								:arg0-of (x1 / 开-02
+									:arg1 (x4 / 发票
+										:mod (x3 / 腐败-01))))))
+					:op2 (x21 / 应该-01
+						:arg0 (x22 / 追究-01
+							:arg1 (x23 / 受贿罪)
+							:beneficiary (x20 / 人
+								:arg0-of (x13 / 享受-01
+									:arg1 (x17 / 发票
+										:mod (x16 / 腐败))
+									:aspect (x14 / 了)))))))))
+	:arg2 (x30 / 看看-01
+		:arg1 (x34 / 敢-02
+			:time (x32 / 以后)
+			:arg1 (x40 / and
+				:op1 (x35 / 开-02
+					:arg1 (x38 / 发票
+						:mod (x37 / 腐败))
+					:arg0 (x31 / amr-unknown))
+				:op2 (x41 / 享受-01
+					:arg1 (x44 / 发票
+						:mod (x43 / 腐败))
+					:arg0 x31))
+			:mode (x46 / expressive)
+			:mod (x33 / 还)
+			:arg0 x31)))
+
+# ::id export_amr.39 ::2017-02-10 17:31:40
+# ::snt 吃 人家 的 嘴 柔 ， 拿 人家 的 手 短 ， 法院 做出 不 公正 判决 ， 这 也 非常 正常 啊 ，
+(x26 / and
+	:op1 (x28 / and
+		:op1 (x5 / 柔-01
+			:arg0 (x4 / 嘴
+				:part-of (x33 / person
+					:arg0-of (x1 / 吃-01
+						:arg1 (x36 / thing
+							:poss (x2 / 人家))))))
+		:op2 (x11 / 短-01
+			:arg0 (x10 / 手
+				:part-of (x40 / person
+					:arg0-of (x7 / 拿-01
+						:arg1 (x42 / thing
+							:poss (x8 / 人家)))))))
+	:op2 (x22 / 正常-01
+		:degree (x21 / 非常)
+		:mode (x23 / expressive)
+		:arg0 (x19 / 这
+			:arg0-of (x54 / mean
+				:arg1 (x14 / 做出-01
+					:arg0 (x13 / 法院)
+					:arg1 (x17 / 判决
+						:arg0-of (x16 / 公正-01
+							:polarity (x15 / -))))))))
+
+# ::id export_amr.40 ::2017-02-10 17:33:38
+# ::snt 因为 法官 吃 了 政府 的 ， 拿 了 政府 的 ， 当然 要 维护 政府 啊 ，
+(x22 / causation
+	:arg1 (x29 / and
+		:op1 (x3 / 吃-01
+			:arg1 (x26 / thing
+				:poss (x5 / 政府))
+			:arg0 (x2 / 法官)
+			:aspect (x4 / 了))
+		:op2 (x8 / 拿-01
+			:arg1 (x33 / thing
+				:poss (x10 / x5))
+			:arg0 x2
+			:aspect (x9 / 了)))
+	:arg2 (x13 / 当然
+		:arg0 (x14 / 要-03
+			:arg0 (x15 / 维护-01
+				:arg0 x2
+				:arg1 (x16 / x5)))
+		:mode (x17 / expressive)))
+
+# ::id export_amr.41 ::2017-02-10 17:34:35
+# ::snt 谁 让 你 不 加倍 请 法官 吃 、 喝 、 拿 、 玩 啊 ， 这 就 是 现实 生活 中 打 官司 的 “ 潜规则 ” ！
+(x31 / and
+	:op1 (x2 / 让-02
+		:arg1 (x3 / 你-01)
+		:arg2 (x6 / 请-01
+			:arg0 x3
+			:arg1 (x7 / 法官)
+			:arg2 (x39 / and
+				:op1 (x8 / 吃-01
+					:arg0 x7)
+				:op2 (x10 / 喝-01
+					:arg0 x7)
+				:op3 (x12 / 拿-01
+					:arg0 x7)
+				:op4 (x14 / 玩-01
+					:arg0 x7))
+			:manner (x5 / 加倍)
+			:polarity (x4 / -))
+		:arg0 (x1 / amr-unknown))
+	:mode (x15 / interrogative)
+	:op2 (x27 / 潜规则
+		:mod (x23 / 打
+			:arg1 (x24 / 官司)
+			:time (x21 / 生活
+				:mod (x20 / 现实)))
+		:domain (x17 / 这)
+		:mode (x29 / expressive)
+		:mod (x18 / 就)))
+
+# ::id export_amr.42 ::2017-02-10 17:37:48
+# ::snt 法院 应该 “ 以 实事 为 依据 ， 以 法律 为 准绳 ” , 做出 公平 公正 的 判决 ，
+(x2 / 应该-02
+	:arg0 (x15 / 做出-01
+		:arg0 (x1 / 法院)
+		:arg1 (x19 / 判决-01
+			:arg0-of (x17 / 公正-01)
+			:arg0-of (x16 / 公平-01)
+			:arg0 x1)
+		:manner (x4_x6 / 以为-03
+			:arg1 (x5 / 实事)
+			:arg2 (x7 / 依据-01))
+		:manner (x9_x11 / 以为-03
+			:arg1 (x10 / 法律)
+			:arg2 (x12 / 准绳))))
+
+# ::id export_amr.43 ::2017-02-10 17:40:19
+# ::snt 湖南省 高院 的 法官 怎么 可以 “ 以 金钱 为 依据 ， 以 政府 为 准绳 ” ， 做出 如此 判决 来 呢 ？ ！
+(x6 / 可以-01
+	:arg0 (x19 / 做出-01
+		:arg0 (x4 / 法官
+			:mod (x2 / 高院
+				:location (x1 / 湖南省)))
+		:arg1 (x21 / 判决-01
+			:mod (x20 / 如此)
+			:arg0 x4)
+		:cause (x5 / amr-unknown)
+		:manner (x8_x10 / 以为-03
+			:arg1 (x9 / 金钱)
+			:arg2 (x11 / 依据-01))
+		:manner (x13_x15 / 以为-03
+			:arg1 (x14 / 政府)
+			:arg2 (x16 / 准绳)))
+	:mode (x23_x24 / interrogative)
+	:mode (x25 / expressive))
+
+# ::id export_amr.44 ::2017-02-10 17:42:06
+# ::snt 现在 法院 出 问题 了 ， 检察院 、 人大 、 纪委 应该 出面 管 一 管 这 件 事 ！ 给 老百姓 一 个 交待 ！
+(x28 / causation
+	:arg1 (x3 / 出
+		:arg0 (x2 / 法院)
+		:arg1 (x4 / 问题)
+		:time (x1 / 现在)
+		:aspect (x5 / 了))
+	:arg2 (x35 / and
+		:op1 (x12 / 应该-01
+			:arg0 (x13 / 出面-01
+				:arg1 (x14_x15_x16 / 管-01
+					:arg1 (x19 / 事
+						:mod (x17 / 这)
+						:cunit (x18 / 件))
+					:arg0 (x61 / and
+						:op1 (x7 / 检察院)
+						:op3 (x11 / 纪委)
+						:op2 (x71 / conference
+							:name (x9 / name
+								:op1 "人大"))))
+				:arg0 x61)
+			:mode (x20 / expressive))
+		:op2 (x21 / 给-01
+			:arg1 (x25 / 交待
+				:quant (x23 / 1)
+				:cunit (x24 / 个))
+			:arg2 (x22 / 老百姓)
+			:mode (x26 / expressive)
+			:arg0 x61)))
+
+# ::id export_amr.45 ::2017-02-10 17:45:21
+# ::snt 最高 人民 法院 在 公布 “ 五 个 严禁 ” 时 说 ： 面对 司法 腐败 的 潜规则 ， 根除 的 方法 就 是 要 将 潜规则 予以 曝光 ，
+(x12 / 说-01
+	:arg1 (x41 / and
+		:op1 (x14 / 面对-01
+			:arg1 (x18 / 潜规则
+				:mod (x16 / 腐败-01
+					:arg0 (x15 / 司法))))
+		:op2 (x25 / 要-03
+			:arg0 (x29 / 曝光-01
+				:arg1 (x27 / 潜规则)
+				:domain (x22 / 方法
+					:arg0-of (x20 / 根除-01
+						:arg1 x18))
+				:manner (x23 / 就))))
+	:time (x5 / 公布
+		:arg1 (x9 / 严禁
+			:cunit (x8 / 个)
+			:quant (x7 / 5)))
+	:arg0 (x59 / government-organization
+		:name (x1_x2_x3 / name
+			:op1 "最高"
+			:op2 "人民"
+			:op3 "法院")))
+
+# ::id export_amr.46 ::2017-02-10 17:48:48
+# ::snt 面向 社会 公开 其 丑陋 ， 让 社会 舆论 给予 监督 、 揭发 ， 让 那些 敢于 触摸 高压线 的 腐败 分子 无 藏身之处 ， 将 害群之马 坚决 清理 出 法官 队伍 。
+(x35 / and
+	:op1 (x3 / 公开-01
+		:arg1 (x5 / 丑陋
+			:poss (x4 / 其))
+		:manner (x1 / 面向-01
+			:arg1 (x2 / 社会)))
+	:op3 (x15 / 让-02
+		:arg1 (x23 / 无-01
+			:arg0 (x22 / 分子
+				:arg0-of (x17 / 敢于-01
+					:arg1 (x18 / 触摸-01
+						:arg1 (x19 / 高压线)))
+				:mod (x16 / 那些)
+				:arg0-of (x21 / 腐败-01))
+			:arg1 (x24 / 藏身之处)))
+	:op4 (x29 / 清理-03
+		:arg1 (x27 / 害群之马)
+		:arg3 (x32 / 队伍
+			:mod (x31 / 法官))
+		:manner (x28 / 坚决))
+	:op2 (x7 / 让-02
+		:arg1 (x9 / 舆论
+			:mod (x8 / 社会))
+		:arg2 (x10 / 给予-01
+			:arg0 x9
+			:arg1 (x72 / and
+				:op1 (x11 / 监督-01
+					:arg0 x9)
+				:op2 (x13 / 揭发-01
+					:arg0 x9)))))
+
+# ::id export_amr.47 ::2017-02-10 17:50:17
+# ::snt 闹 得 轰轰扬扬 沸腾 一时 的 合肥 中学 “ 少女 毁容 案件 ” ， 随着 媒体 暴光 大众 关注 有 新 进展 。
+(x20 / 有-05
+	:arg0 (x12 / 案件
+		:arg0-of (x28 / mean
+			:arg1 (x11 / 毁容-01
+				:arg1 (x10 / 少女
+					:poss (x47 / school
+						:name (x7_x8 / name
+							:op1 "合肥"
+							:op2 "中学")))))
+		:mod (x4_x5 / 沸腾一时)
+		:arg0-of (x1 / 闹
+			:manner (x3 / 轰轰扬扬)))
+	:cause (x39 / and
+		:op2 (x19 / 关注-01
+			:arg0 (x18 / 大众)
+			:arg1 x12)
+		:op1 (x17 / 曝光-01
+			:arg0 (x16 / 媒体)
+			:arg1 x12)))
+
+# ::id export_amr.48 ::2017-02-10 17:51:11
+# ::snt 受害人 伤情 已 鉴定 出 “ 重伤 ” ， 即将 进入 民事 赔偿 与 司法 审批 程序 。
+(x20 / and
+	:op1 (x4 / 鉴定-01
+		:arg1 (x2 / 伤情
+			:poss (x1 / 受害人))
+		:aspect (x3 / 已-01)
+		:arg2 (x7 / 重伤-01
+			:arg0 x1))
+	:op2 (x11 / 进入-01
+		:arg1 (x17 / 程序
+			:arg0 (x14 / and
+				:op1 (x13 / 赔偿
+					:mod (x12 / 民事))
+				:op2 (x16 / 审批
+					:mod (x15 / 司法))))
+		:time (x10 / 即将)))
+
+# ::id export_amr.49 ::2017-05-15 11:17:39
+# ::snt 随之 最 引 争议 眼球 的 ， 就 在 这 个 “ 赔偿 ” 与 “ 定罪 ” 。
+(x21 / temporal
+	:arg2 (x15 / and
+		:op1 (x13 / 赔偿)
+		:op2 (x17 / 定罪)
+		:mod (x10 / 这)
+		:cunit (x11 / 个)
+		:domain (x34 / thing
+			:arg0-of (x3 / 引-01
+				:arg1 (x24 / and
+					:op1 (x4 / 争议-01)
+					:op2 (x5 / 眼球))
+				:degree (x2 / 最)))
+		:mod (x8 / 就)))
+
+# ::id export_amr.50 ::2017-02-10 21:43:17
+# ::snt 围绕 此 相关 法律 人士 、 刑事 人员 纷纷 作说 ， 与 受害人 与 大家 一同 探讨 分析 以 求得 一 个 好 结局 。
+(x27 / and
+	:op1 (x10 / 作说
+		:arg0 (x31 / and
+			:op1 (x8 / 人员
+				:mod (x7 / 刑事))
+			:op2 (x5 / 人士
+				:mod (x4 / 法律))
+			:mod (x3 / 相关-01))
+		:manner (x1 / 围绕-01
+			:arg1 (x2 / 此))
+		:manner (x9 / 纷纷))
+	:op2 (x50 / and
+		:op1 (x17 / 探讨
+			:arg0 (x55 / and
+				:op1 x5
+				:op2 x8))
+		:op2 (x18 / 分析-01
+			:arg0 x55)
+		:accompanier (x13 / 受害人)
+		:accompanier (x15 / 大家)
+		:purpose (x20 / 求得-01
+			:arg1 (x24 / 结局
+				:quant (x21 / 1)
+				:cunit (x22 / 个)
+				:arg0-of (x23 / 好-01)))
+		:manner (x16 / 一同)))
+
+# ::id export_amr.51 ::2017-02-10 21:43:38
+# ::snt 据 最新 消息 显示 ， 周 家 在 咨询 过 专业 人员 后 开出 索偿 是 ， 280万 元 加 一 套 房子 。
+(x4 / 显示-01
+	:arg0 (x3 / 消息
+		:mod (x2 / 最新))
+	:arg1 (x51 / temporal
+		:arg1 (x9 / 咨询-01
+			:arg1 (x12 / 人员
+				:arg0-of (x11 / 专业-01))
+			:aspect (x10 / 过)
+			:arg0 (x6_x7 / 周家))
+		:arg2 (x20 / and
+			:op1 (x32 / monetary-quantity
+				:quant (x33 / 2800000)
+				:cunit (x19 / 元))
+			:op2 (x23 / 房子
+				:quant (x21 / 1)
+				:cunit (x22 / 套))
+			:domain (x15 / 索偿
+				:arg1-of (x14 / 开出-02
+					:arg0 x6_x7)))))
+
+# ::id export_amr.52 ::2017-02-10 21:44:39
+# ::snt 第一 感觉 就 是 低 了 ， 能 保证 把 周岩 治好 包括 其 一生 保障 费用 ！
+(x2 / 感觉-01
+	:ord (x25 / ordinal-entity
+		:value (x1 / 1))
+	:arg1 (x5 / 低-01
+		:aspect (x6 / 了)
+		:arg0 (x17 / 费用
+			:mode (x18 / expressive)
+			:cost-of (x48 / and
+				:op1 (x8 / 能-01
+					:arg0 (x9 / 保证-01
+						:arg1 (x12 / 治好
+							:arg1 (x58 / person
+								:name (x11 / name
+									:op1 "周岩")))))
+				:op2 (x16 / 保障-01
+					:arg1 (x15 / 一生
+						:poss (x14 / x58)))))
+		:arg0 (x23 / thing)
+		:mod (x3 / 就)))
+
+# ::id export_amr.53 ::2017-02-10 21:44:59
+# ::snt 看 专业 医生 病情 讲解 、 整容 医师 问答 可 知 ， 那 远远 不 足 太 小 了 这 个 数 。
+(x10 / 可-02
+	:arg0 (x11 / 知-01
+		:manner (x1 / 看-02
+			:arg1 (x48 / and
+				:op1 (x5 / 讲解-01
+					:arg0 (x3 / 医生
+						:arg0-of (x2 / 专业-01))
+					:arg1 (x4 / 病情))
+				:op2 (x9 / 问答-01
+					:arg0 (x8 / 医师
+						:mod (x7 / 整容)))))
+		:arg1 (x36 / and
+			:op1 (x16 / 足-01
+				:polarity (x15 / -)
+				:degree (x14 / 远远)
+				:arg0 (x13 / x22))
+			:op2 (x18 / 小-01
+				:degree (x17 / 太)
+				:arg0 (x22 / 数
+					:mod (x20 / 这)
+					:cunit (x21 / 个))
+				:aspect (x19 / 了)))))
+
+# ::id export_amr.54 ::2017-02-10 21:46:21
+# ::snt 据 上海 一 家 等级 权威性 医院 讲 ， 要 治好 至少 得 400多万 。
+(x8 / 讲-01
+	:arg0 (x7 / 医院
+		:quant (x3 / 1)
+		:cunit (x4 / 家)
+		:location (x41 / city
+			:name (x2 / name
+				:op1 "上海"))
+		:mod (x5 / 等级
+			:value (x6 / 权威性)))
+	:arg1 (x10 / 要-02
+		:arg0 (x11 / 治好
+			:cost (x37 / monetary-quantity
+				:quant (x14_4 / 多
+					:op1 (x32 / 4000000))
+				:mod (x12 / 至少)))))
+
+# ::id export_amr.55 ::2016-11-29 22:25:00
+# ::snt 还 只 是 个 估量 ， 现实 情况 也许 还 远 不止 。
+(x15 / and
+	:op1 (x5 / 估量
+		:cunit (x4 / 个)
+		:domain (x19 / thing)
+		:mod (x1 / 还)
+		:mod (x2 / 只))
+	:op2 (x9 / 也许
+		:arg0 (x12_2 / 止-01
+			:polarity (x12_1 / -)
+			:arg1 x5
+			:degree (x11 / 远)
+			:arg0 (x30 / thing
+				:mod (x8 / 情况
+					:mod (x7 / 现实)))
+			:mod (x10 / 还))))
+
+# ::id export_amr.56 ::2017-02-10 21:48:11
+# ::snt 腾讯 “ 微博 说客 ” 视频 里 主持人 一 句 ， 我 觉得 要 一千万 都 不 算 过 。
+(x45 / thing
+	:poss (x8 / 主持人
+		:location (x6 / 视频
+			:name (x3_x4 / name
+				:op1 "微博"
+				:op2 "说客")
+			:poss (x52 / company
+				:name (x1 / name
+					:op1 "腾讯"))))
+	:quant (x9 / 1)
+	:cunit (x10 / 句)
+	:arg0-of (x31 / mean
+		:arg1 (x13 / 觉得-01
+			:arg0 (x12 / x8)
+			:arg1 (x34 / condition
+				:arg1 (x14 / 要-01
+					:arg1 (x36 / monetary-quantity
+						:quant (x15 / 10000000)))
+				:arg2 (x18 / 算-01
+					:arg1 (x19 / 过)
+					:polarity (x17 / -))))))
+
+# ::id export_amr.57 ::2017-02-10 21:50:36
+# ::snt 的确 ， 这些 伤害 已 是 非 金钱 是 无 物 可 掂衡 。
+(x12 / 可-02
+	:aspect (x5 / 已)
+	:arg0 (x13 / 掂衡
+		:instrument (x8 / 金钱
+			:polarity (x7 / -))
+		:instrument (x11 / 物
+			:polarity (x10 / -))
+		:arg1 (x4 / 伤害
+			:mod (x3 / 这些)))
+	:mod (x1 / 的确))
+
+# ::id export_amr.58 ::2017-02-10 21:54:05
+# ::snt 事实上 我们 都 知道 ， 即便 给 多少 钱 多少 补偿 都 没用 挽 不 回 青春 容貌 人生 ， 人 都 变 那样 了 谁 会 稀罕 毫 无 作用 意义 。
+(x4 / 知道-01
+	:arg0 (x2 / 我们)
+	:arg1 (x40 / and
+		:op1 (x42 / concession
+			:arg1 (x7 / 给-01
+				:arg1 (x44 / and
+					:op1 (x9 / 钱
+						:quant (x8 / 多少))
+					:op2 (x11 / 补偿
+						:quant (x10 / 多少))))
+			:arg2 (x51 / and
+				:op1 (x13 / 没用-01
+					:arg0 x7)
+				:op2 (x54 / possible
+					:polarity (x15 / -)
+					:arg0 (x14_x16 / 挽回-01
+						:arg1 (x57 / and
+							:op1 (x18 / 容貌
+								:mod (x17 / 青春))
+							:op2 (x19 / 人生))))))
+		:op2 (x65 / causation
+			:arg1 (x23 / 变-01
+				:arg0 (x21 / 人)
+				:arg2 (x24 / 那样)
+				:aspect (x25 / 了))
+			:arg2 (x74 / and
+				:op1 (x27 / 会-02
+					:arg0 (x28 / 稀罕-01
+						:arg0 (x26 / amr-unknown)
+						:arg1 x9))
+				:op2 (x30 / 无-02
+					:arg1 (x77 / and
+						:op1 (x31 / 作用)
+						:op2 (x32 / 意义))
+					:degree (x29 / 毫)
+					:arg0 x7))))
+	:mod (x1 / 事实上)
+	:mod (x3 / 都))
+
+# ::id export_amr.59 ::2017-02-10 21:56:34
+# ::snt 现在 只 能 说 “ 尽量 ” 去 把 人 治好 ， 让 重新 步入 社会 里 去 。
+(x3 / 能-01
+	:arg0 (x4 / 说-01
+		:arg1 (x26 / and
+			:op2 (x13 / 让-02
+				:arg2 (x15 / 步入-01
+					:arg1 (x16 / 社会)
+					:arg0 (x10 / 人)
+					:arg0-of (x14 / 重新-01)))
+			:op1 (x11 / 治好
+				:arg1 x10
+				:manner (x6 / 尽量))))
+	:time (x1 / 现在)
+	:mod (x2 / 只))
+
+# ::id export_amr.60 ::2017-02-10 21:57:06
+# ::snt 那 想 也 是 大家 期望 ， 退步 最 好 的 召唤 希冀 。
+(x16 / and
+	:op1 (x2 / 想-01
+		:mod (x1 / 那)
+		:cause (x6 / 期望-01
+			:arg0 (x5 / 大家))
+		:mod (x3 / 也))
+	:op2 (x8 / 退步-01
+		:cause (x12 / 召唤-01
+			:arg1 (x13 / 希冀)
+			:arg0-of (x10 / 好-01
+				:degree (x9 / 最)))))
+
+# ::id export_amr.61 ::2016-11-29 22:37:55
+# ::snt 另外 ， 法律 上 有 规定 ， 对于 终身 伤害 非 一次性 能 赔清 的 ， 以后 在 需要 时 还 可 继续 提出 索赔 。
+(x28 / and
+	:op2 (x5 / 有-03
+		:arg0 (x3 / 法律)
+		:arg1 (x6 / 规定-01
+			:arg1 (x42 / condition
+				:arg2 (x22 / 可-02
+					:arg0 (x23 / 继续-01
+						:arg1 (x24 / 提出-01
+							:arg1 (x25 / 索赔))
+						:time (x17 / 以后)
+						:time (x19 / 需要))
+					:mod (x21 / 还))
+				:arg1 (x13 / 能-01
+					:polarity (x11 / -)
+					:arg0 (x14_1 / 赔-02
+						:arg1 (x52 / person
+							:poss (x10 / 伤害
+								:mod (x9 / 终身)))
+						:cause-of (x14_2 / 清)))))))
+
+# ::id export_amr.62 ::2017-02-10 21:57:53
+# ::snt 只要 保留 相关 字据 如 医院 费用 单据 ， 能 说明 是 应用 在 这 个 事 上 便 可 。
+(x23 / condition
+	:arg1 (x38 / progression
+		:arg1 (x2 / 保留-01
+			:arg1 (x4 / 字据
+				:mod (x3 / 相关)
+				:example (x8 / 单据
+					:mod (x7 / 费用
+						:mod (x6 / 医院)))))
+		:arg2 (x10 / 能-01
+			:arg0 (x11 / 说明-01
+				:arg1 (x13 / 应用-02
+					:arg2 (x17 / 事
+						:mod (x15 / 这)
+						:cunit (x16 / 个))))))
+	:arg2 (x20 / 可-02
+		:arg0 x2))
+
+# ::id export_amr.63 ::2017-02-10 21:58:31
+# ::snt 加之 大家 解囊 捐赠 相助 ， 相信 这些 都 不 会 再 成 问题 了 。
+(x23 / causation
+	:arg2 (x7 / 相信-01
+		:arg1 (x11 / 会-02
+			:arg0 (x13 / 成-02
+				:manner (x12 / 再)
+				:arg0 (x8 / 这些)
+				:arg1 (x14 / 问题)
+				:aspect (x15 / 了-01))
+			:polarity (x10 / -)
+			:manner (x9 / 都)))
+	:arg1 (x5 / 相助-01
+		:manner (x4 / 捐赠-01
+			:manner (x3 / 解囊-01
+				:arg0 (x2 / 大家))
+			:arg0 x2)
+		:arg0 x2))
+
+# ::id export_amr.64 ::2017-02-10 21:59:36
+# ::snt 最新 报道 ， 在 大家 帮助 下 周岩 昨天 （ 3月 5日 ） 已 到 北京 接受 治疗 且 院方 费用 全 免 。
+(x2 / 报道-01
+	:mod (x1 / 最新)
+	:arg1 (x29 / progression
+		:arg1 (x31 / and
+			:op1 (x15 / 到-01
+				:arg0 (x50 / person
+					:name (x8 / name
+						:op1 "周岩"))
+				:arg1 (x51 / location
+					:name (x16 / name
+						:op1 "北京")))
+			:op2 (x17 / 接受-01
+				:arg1 (x18 / 治疗-01
+					:arg1 x50)
+				:arg0 x50)
+			:manner (x6 / 帮助-01
+				:arg0 (x5 / 大家))
+			:aspect (x14 / 已)
+			:time (x9 / 昨天
+				:arg0-of (x46 / mean
+					:arg1 (x47 / date-entity
+						:month (x11 / 3)
+						:day (x12 / 5)))))
+		:arg2 (x23 / 免-01
+			:arg1 (x21 / 费用
+				:mod (x20 / 院方))
+			:degree (x22 / 全))))
+
+# ::id export_amr.65 ::2017-02-10 22:00:39
+# ::snt 多么 振奋 人心 的 消息 小 姑娘 有 希望 了 ！ 汇以 众人 之 力 面对 解决 ， 祈祷 奇迹 真情 爱心 暖 天地 。
+(x27 / multi-sentence
+	:snt1 (x29 / and
+		:op1 (x5 / 消息
+			:arg0-of (x2 / 振奋-01
+				:arg1 (x3 / 人心)
+				:degree (x1 / 多么)))
+		:op2 (x8 / 有-01
+			:arg0 (x7 / 姑娘
+				:arg0-of (x6 / 小-01))
+			:arg1 (x9 / 希望))
+		:mode (x11 / expressive)
+		:aspect (x10 / 了))
+	:snt2 (x51 / and
+		:op1 (x12_1 / 汇-02
+			:arg1 (x15 / 力-01
+				:poss (x13 / 众人))
+			:arg2 (x49 / and
+				:op1 (x16 / 面对)
+				:op2 (x17 / 解决-01)))
+		:op2 (x19 / 祈祷-01
+			:arg2 (x23 / 暖-01
+				:arg1 (x24 / 天地)
+				:arg0 (x57 / and
+					:op1 (x20 / 奇迹)
+					:op2 (x21 / 真情)
+					:op3 (x22 / 爱心))))))
+
+# ::id export_amr.66 ::2017-02-10 22:01:12
+# ::snt 周 家 原 并 不 曾 想 会 把 这 事 弄 网上 ， 更 没 想 会 引来 如此 之 大 效应 。
+(x26 / progression
+	:arg1 (x7 / 想-02
+		:arg1 (x8 / 会-02
+			:arg0 (x12 / 弄-05
+				:arg0 (x1_x2 / 周家)
+				:arg1 (x11 / 事
+					:mod (x10 / 这)
+					:location (x13 / 网上))))
+		:time (x6 / 曾)
+		:polarity (x5 / -))
+	:arg2 (x17 / 想-02
+		:arg1 (x18 / 会-02
+			:arg0 (x19 / 引来-01
+				:arg0 x11
+				:arg2 (x23 / 效应
+					:arg0-of (x22 / 大-01
+						:degree (x20 / 如此)))))
+		:polarity (x16 / -)))
+
+# ::id export_amr.67 ::2016-04-14 10:31:35
+# ::snt 他们 想 着 陶 家 会 ‘ 积极 ’ 赔偿 履行 诺言 ， 陪同 着 孩子 一直 治疗 直 到 好 为止 。
+(x2 / 想-01
+	:aspect (x3 / 着)
+	:arg0 (x1 / 他们)
+	:arg1 (x6 / 会-02
+		:arg0 (x30 / and
+			:op1 (x10 / 赔偿-01
+				:arg0 (x4_x5 / 陶家))
+			:manner (x8 / 积极)
+			:op2 (x11 / 履行-01
+				:arg1 (x12 / 诺言)
+				:arg0 x4_x5)
+			:op3 (x22 / 为止-01
+				:arg1 (x14 / 陪同-01
+					:aspect (x15 / 着-01)
+					:arg1 (x16 / 孩子)
+					:arg2 (x18 / 治疗-01
+						:time (x17 / 一直)
+						:arg1 x16)
+					:arg0 x4_x5)
+				:arg2 (x21 / 好-01
+					:arg0 x16)))))
+
+# ::id export_amr.68 ::2017-02-10 22:04:08
+# ::snt 然而 没 想 的 是 ， 陶 家 中途 露形 分道扬镳 。 意识 到 那 是 个 “ 无底洞 ” 难以 填补 ， 只 想 尽快 脱身 一次性 解决 付清 。
+(x33 / contrast
+	:arg2 (x3 / 想-01
+		:polarity (x2 / -)
+		:arg1 (x38 / causation
+			:arg2 (x40 / and
+				:op1 (x10 / 露形
+					:arg0 (x7_x8 / 陶家))
+				:op2 (x11 / 分道扬镳-01
+					:arg0 x7_x8)
+				:time (x9 / 中途))
+			:arg1 (x47 / causation
+				:arg1 (x13 / 意识-01
+					:arg0 x7_x8
+					:arg1 (x19 / 无底洞
+						:mod (x21 / 难以
+							:arg0 (x22 / 填补-01))
+						:cunit (x17 / 个)
+						:domain (x62 / thing
+							:mod (x15 / 那))))
+				:arg2 (x25 / 想-02
+					:arg1 (x55 / and
+						:op1 (x27 / 脱身-01
+							:arg0 x7_x8
+							:manner (x26 / 尽快-01))
+						:op2 (x58 / and
+							:op1 (x29 / 解决-01
+								:arg0 x7_x8)
+							:op2 (x30 / 付清-01
+								:arg0 x7_x8)
+							:manner (x28 / 一次性)
+							:arg0 x7_x8))
+					:mod (x24 / 只))))))
+
+# ::id export_amr.69 ::2017-02-10 22:05:39
+# ::snt 而 在 “ 取保 候审 ” 问题 上 ， 给 周 家 的 “ 情况 说明书 ” 严重 失实 而 让 拒绝 签字 。
+(x37 / contrast
+	:arg2 (x39 / causation
+		:arg1 (x19 / 失实-01
+			:arg0 (x16 / 说明书
+				:mod (x15 / 情况)
+				:topic (x7 / 问题
+					:arg0 (x32 / and
+						:op1 (x4 / 取保-01)
+						:op2 (x5 / 候审)))
+				:arg1-of (x10 / 给-01
+					:arg2 (x11_x12 / 周家)))
+			:degree (x18 / 严重))
+		:arg2 (x21 / 让-02
+			:arg1 x11_x12
+			:arg2 (x22 / 拒绝-01
+				:arg1 (x23 / 签字-01
+					:arg0 x11_x12)
+				:arg0 x11_x12))))
+
+# ::id export_amr.70 ::2017-02-10 22:07:45
+# ::snt 包括 后面 弄出 “ 早恋 ” “ 嗳味 ” “ 照片 ” 一一 被 否定 澄清 ， 是 他们 耍 的 手段 招式 。
+(x26 / and
+	:op1 (x37 / and
+		:op1 (x15 / 否定-01
+			:arg1 (x32 / and
+				:op1 (x5 / 早恋)
+				:op2 (x8 / 嗳味)
+				:op3 (x11 / 照片)
+				:arg1-of (x3 / 弄出-01
+					:time (x2 / 后面)))
+			:arg0 (x44 / person))
+		:op2 (x16 / 澄清-01
+			:arg1 x32
+			:arg0 x44))
+	:op2 (x38 / and
+		:op1 (x22 / 手段)
+		:op2 (x23 / 招式)
+		:arg2-of (x20 / 耍-01
+			:arg0 (x19 / 他们))
+		:domain x37))
+
+# ::id export_amr.71 ::2017-02-10 22:08:43
+# ::snt 如果 他们 能 “ 诚恳 ” 些 事情 或许 早 有 了结 ， 可 谓 是 被 ‘ 逼出 ’ 的 回应 了 。
+(x26 / and
+	:op1 (x28 / condition
+		:arg1 (x3 / 能-01
+			:arg0 (x5 / 诚恳-01
+				:degree (x7 / 些)
+				:arg0 (x2 / 他们)))
+		:arg2 (x9 / 或许
+			:arg0 (x12 / 了结-01
+				:arg1 (x8 / 事情)
+				:time (x10 / 早)
+				:arg0-of (x11 / 有-04))))
+	:op2 (x14_x15 / 可谓-01
+		:arg1 (x22 / 回应-01
+			:arg2-of (x19_1 / 逼-02
+				:arg1 x2))
+		:smood (x23 / 了)))
+
+# ::id export_amr.72 ::2017-02-10 22:09:26
+# ::snt 从 索赔 数据 也 可 看出 ， 周 家 的 老实 无夸 更 不 诈 试问 陶 家 颜容 何在 ！
+(x23 / and
+	:op1 (x5 / 可-02
+		:arg0 (x6 / 看出-01
+			:arg1 (x26 / progression
+				:arg1 (x27 / and
+					:op1 (x11 / 老实-01
+						:arg0 (x8_x9 / 周家))
+					:op2 (x12 / 无夸
+						:arg0 x8_x9))
+				:arg2 (x15 / 诈-01
+					:polarity (x14 / -)
+					:arg0 x8_x9))
+			:cause (x3 / 数据
+				:mod (x2 / 索赔)))
+		:manner (x4 / 也))
+	:op2 (x16 / 试问-01
+		:arg1 (x20 / 何在-01
+			:arg0 (x19 / 颜容
+				:poss (x17_x18 / 陶家)))
+		:mode (x21 / expressive)))
+
+# ::id export_amr.73 ::2017-02-10 22:10:12
+# ::snt 拿出 点 “ 良心 良知 ” 来 好好 认真 对待 吧 ， 那样 才 是 对 孩子 最好 属罪 也 是 判决 最好 帮助 。
+(x27 / and
+	:op1 (x1 / 拿出-01
+		:arg1 (x30 / and
+			:op1 (x4 / 良心)
+			:op2 (x5 / 良知)
+			:quant (x2 / 点))
+		:purpose (x10 / 对待
+			:arg0-of (x9 / 认真-01)
+			:arg0-of (x8 / 好好-01))
+		:mode (x11 / imperative))
+	:op2 (x19 / 赎罪
+		:mod (x18 / 最好)
+		:beneficiary (x17 / 孩子)
+		:domain (x13 / x1)
+		:mod (x14 / 才))
+	:op3 (x24 / 帮助-01
+		:mod (x23 / 最好)
+		:arg1 (x22 / 判决)
+		:mod (x20 / 也)
+		:domain x13))
+
+# ::id export_amr.74 ::2016-12-01 14:44:57
+# ::snt 还 有 个 是 案件 “ 性质 ” 问题 ， 关系 到 怎么 定罪 。
+(x28 / and
+	:op2 (x9 / 问题
+		:arg0-of (x20 / mean
+			:arg1 (x7 / 性质
+				:mod (x5 / 案件)))
+		:domain (x31 / thing
+			:arg0-of (x2 / 有-04
+				:mod (x1 / 还-01))
+			:cunit (x3 / 个))
+		:arg0-of (x11 / 关系-01
+			:arg1 (x14 / 定罪-01
+				:manner (x13 / amr-unknown))
+			:arg0 x31)
+		:cunit x3))
+
+# ::id export_amr.75 ::2016-12-01 14:46:06
+# ::snt 警方 提出 是 “ 故意 伤害 罪 ” ， 周 家 不 接受 坚称 “ 故意 杀人 。 ”
+(x23 / and
+	:op2 (x35 / and
+		:op1 (x13 / 接受-01
+			:arg0 (x10_x11 / 周家)
+			:polarity (x12 / -))
+		:op2 (x14 / 坚称-01
+			:arg1 (x17 / 杀人-01
+				:manner (x16 / 故意-01))
+			:arg0 x10_x11))
+	:op1 (x7 / 罪
+		:mod (x6 / 伤害-01
+			:manner (x5 / 故意))
+		:domain (x38 / thing
+			:arg1-of (x2 / 提出-01
+				:arg0 (x1 / 警方)))))
+
+# ::id export_amr.76 ::2017-02-10 22:12:42
+# ::snt 不同 动机 ， 对 量刑 的 决定性 。 两 者 相酌 ， 前者 固然 比 后者 轻 。
+(x20 / multi-sentence
+	:snt1 (x22 / and
+		:op1 (x2 / 动机
+			:arg0-of (x1 / 不同-01))
+		:op2 (x7 / 决定性
+			:topic (x5 / 量刑)))
+	:snt2 (x11 / 相酌
+		:cause-of (x14 / 固然
+			:arg0 (x17 / 轻-01
+				:arg0 (x13 / 前者)
+				:compared-to (x16 / 后者)))
+		:arg0 (x9_x10 / 两者)))
+
+# ::id export_amr.77 ::2017-02-10 22:45:39
+# ::snt 故意 伤害 他人 身体 致 人 重伤 的 ， 处 三 年 以上 十 年 以下 有期 徒刑 ， 故意 杀人 罪 最 高 可 处 死刑 、 无期 徒刑 或者 十 年 以上 有期 徒刑 。
+(x39 / and
+	:op1 (x10 / 处-02
+		:arg1 (x42 / person
+			:arg0-of (x2 / 伤害-01
+				:arg1 (x4 / 身体
+					:poss (x3 / 他人))
+				:cause-of (x7 / 重伤-01
+					:arg0 (x6 / 人))
+				:manner (x1 / 故意-01)))
+		:arg2 (x17_x18 / 有期徒刑
+			:duration (x47 / and
+				:op1 (x48 / temporal-quantity
+					:quant (x13 / 以上
+						:op1 (x11 / 3))
+					:cunit (x12 / 年))
+				:op2 (x58 / temporal-quantity
+					:quant (x16 / 以下
+						:op1 (x14 / 10))
+					:cunit (x15 / 年)))))
+	:op2 (x25 / 可-02
+		:arg0 (x26 / 处-02
+			:arg2 (x64 / or
+				:op1 (x27 / 死刑)
+				:op2 (x29_x30 / 无期徒刑)
+				:op3 (x35_x36 / 有期徒刑
+					:duration (x68 / temporal-quantity
+						:quant (x34 / 以上
+							:op1 (x32 / 10))
+						:cunit (x33 / 年)))
+				:degree (x24 / 高
+					:degree (x23 / 最)))
+			:arg3 (x22 / 罪
+				:mod (x21 / 杀人
+					:manner (x20 / 故意))))))
+
+# ::id export_amr.78 ::2017-02-10 22:49:17
+# ::snt 问题 是 如何 鉴定 ， 这 个 出发点 有 争歧 。 不 排除 是 报复性 伤人 有意 惩治 致 伤重 ， 也 有 可能 本身 就 抱 夺 命 之 念 却 没 杀成 。
+(x1 / 问题
+	:arg0-of (x39 / mean
+		:arg1 (x9 / 有-03
+			:arg0 (x8 / 出发点
+				:mod (x6 / 这)
+				:cunit (x7 / 个)
+				:arg0-of (x44 / mean
+					:arg1 (x4 / 鉴定-01
+						:manner (x3 / amr-unknown))))
+			:arg1 (x10 / 争歧
+				:arg0-of (x48 / mean
+					:arg1 (x74 / contrast
+						:arg1 (x13 / 排除-01
+							:polarity (x12 / -)
+							:arg1 (x55 / and
+								:op2 (x18 / 惩治-01
+									:manner (x17 / 有意)
+									:cause-of (x20 / 伤重-01
+										:arg0 (x16_2 / 人))
+									:arg1 x16_2)
+								:op1 (x16_1 / 伤-01
+									:arg1 x16_2)))
+						:arg2 (x24 / 可能-01
+							:arg0 (x62 / contrast
+								:arg1 (x27 / 抱-01
+									:arg1 (x31 / 念
+										:mod (x28 / 夺-01
+											:arg1 (x29 / 命)))
+									:arg0 (x25 / 本身)
+									:manner (x26 / 就))
+								:arg2 (x34_2 / 成
+									:arg0 (x34_1 / 杀)
+									:polarity (x33 / -)))
+							:arg0-of (x23 / 有-04)
+							:mod (x22 / 也))))))))
+
+# ::id export_amr.79 ::2016-04-14 15:08:21
+# ::snt 周 家 说法 认定 杀人 是 因 ， 若 非 现场 有 人 （ 小姨 ） 而 救起 孩子 怕 早 丢 命 了 。
+(x3 / 说法
+	:poss (x1_x2 / 周家)
+	:arg0-of (x30 / mean
+		:arg1 (x31 / and
+			:op1 (x4 / 认定-01
+				:arg1 (x7 / 因
+					:domain (x5 / 杀人-01))
+				:arg0 x1_x2)
+			:op2 (x35 / condition
+				:arg1 (x18 / 救起-01
+					:arg0 (x13 / 人
+						:arg0-of (x40 / mean
+							:arg1 (x15 / 小姨)))
+					:arg1 (x19 / 孩子)
+					:location (x11 / 现场)
+					:polarity (x10 / -))
+				:arg2 (x22 / 丢-01
+					:arg1 (x23 / 命)
+					:time (x21 / 早)
+					:aspect (x24 / 了))))))
+
+# ::id export_amr.80 ::2017-02-10 22:53:49
+# ::snt 施害人 纵容 这 种 行为 发生 显然 就 是 有 杀人 倾向 ， 当时 对方 是 站 一边 看 着 烧 不 动 还 不 让 人 救 。
+(x31 / causation
+	:arg2 (x7 / 显然
+		:arg0 (x10 / 有-01
+			:arg0 (x1 / 施害人)
+			:arg1 (x12 / 倾向-01
+				:arg1 (x11 / 杀人))
+			:mod (x8 / 就)))
+	:arg1 (x45 / and
+		:op2 (x46 / and
+			:op1 (x19 / 看-02
+				:aspect (x20 / 着)
+				:arg1 (x21 / 烧)
+				:manner (x17 / 站-01
+					:arg0 (x15 / x1)
+					:arg1 (x18 / 一边))
+				:arg0 x15)
+			:op2 (x23 / 动-01
+				:polarity (x22 / -))
+			:op3 (x26 / 让-02
+				:arg1 (x28 / 救-01
+					:arg0 (x27 / 人))
+				:polarity (x25 / -)
+				:arg0 x1))
+		:op1 (x2 / 纵容-01
+			:arg0 x1
+			:arg2 (x6 / 发生-01
+				:arg0 (x5 / 行为
+					:mod (x3 / 这)
+					:cunit (x4 / 种-01))))))
+
+# ::id export_amr.81 ::2017-02-10 22:56:03
+# ::snt 就 目前 形势 来 看 这 个 案子 怕 不 好 结 ， 如 李昌奎 案 的 骑虎难下 法律 民声 舆论 的 交织 汹涌 。
+(x27 / causation
+	:arg1 (x14 / 如-01
+		:arg1 (x32 / and
+			:op1 (x18 / 骑虎难下
+				:arg0 (x16 / 案
+					:topic (x53 / person
+						:name (x15 / name
+							:op1 "李昌奎"))))
+			:op2 (x35 / and
+				:op1 (x23 / 交织-01
+					:arg0 (x42 / and
+						:op1 (x19 / 法律)
+						:op2 (x20 / 民声)
+						:op3 (x21 / 舆论)
+						:topic x16))
+				:op2 (x24 / 汹涌-01
+					:arg0 x42))))
+	:arg2 (x9 / 怕-01
+		:arg1 (x12 / 结-01
+			:arg1 (x8 / 案子
+				:mod (x6 / 这)
+				:cunit (x7 / 个))
+			:cause (x5 / 看-01
+				:arg1 (x3 / 形势
+					:time (x2 / 目前)))
+			:arg0-of (x11 / 好-01
+				:polarity (x10 / -)))))
+
+# ::id export_amr.82 ::2017-02-10 22:56:50
+# ::snt 判 得 轻 周 家 不 会 认 可能 上诉 ， 同样 难免 激起 民愤 新 一 轮 唾战 。
+(x37 / condition
+	:arg1 (x1 / 判-01
+		:degree (x3 / 轻))
+	:arg2 (x43 / and
+		:op1 (x7 / 会-02
+			:arg0 (x8 / 认-02
+				:arg0 (x4_x5 / 周家)))
+		:op2 (x9 / 可能-01
+			:arg0 (x10 / 上诉-01
+				:arg0-of (x13 / 难免-01
+					:arg1 (x14 / 激起-01
+						:arg1 (x26 / and
+							:op1 (x15 / 民愤)
+							:op2 (x19 / 唾战
+								:cunit (x18 / 轮)
+								:quant (x17 / 1)
+								:arg0-of (x16 / 新-01)))))
+				:arg0 x4_x5))))
+
+# ::id export_amr.83 ::2017-02-10 22:57:18
+# ::snt 且 此 中 还 涉及 到 ‘ 未成年人 ’ ， 量刑 上 有 斟酌 或 减轻 也 难免 。
+(x21 / and
+	:op2 (x23 / causation
+		:arg1 (x5 / 涉及-01
+			:arg1 (x8 / 未成年人)
+			:arg0 (x2_x3 / 此中))
+		:arg2 (x18 / 难免-01
+			:arg1 (x30 / or
+				:op1 (x14 / 斟酌-01
+					:arg1 (x11 / 量刑))
+				:op2 (x16 / 减轻-01
+					:arg1 x11)))))
+
+# ::id export_amr.84 ::2016-04-14 15:55:31
+# ::snt 不管 怎样 但愿 此 案 能 完满 了结 ， 既 适用 了 法律 也 经 得 起 历史 与 正义 的 考验 。
+(x25 / and
+	:op1 (x28 / concession
+		:arg1 (x2 / 怎样)
+		:arg2 (x3 / 但愿-01
+			:arg1 (x6 / 能-01
+				:arg0 (x8 / 了结-01
+					:manner (x7 / 完满)
+					:arg1 (x5 / 案
+						:mod (x4 / 此))))))
+	:op2 (x36 / and
+		:op1 (x11 / 适用-01
+			:aspect (x12 / 了)
+			:arg1 (x13 / 法律)
+			:arg0 x5)
+		:op2 (x16_x17 / possible
+			:arg0 (x15 / 经-01
+				:arg1 (x22 / 考验-01
+					:arg2 (x19 / and
+						:op1 (x18 / 历史)
+						:op2 (x20 / 正义))
+					:arg1 x5)
+				:arg0 x5))))
+
+# ::id export_amr.85 ::2017-02-10 22:58:07
+# ::snt 最后 一 个 说 的 是 ， 若 双方 都 拿 不 出 这么 多 钱财 时 如何 保障 受害者 权益 。
+(x26 / condition
+	:arg1 (x13 / possible
+		:polarity (x12 / -)
+		:arg0 (x11 / 拿-02
+			:arg1 (x16 / 钱财
+				:quant (x15 / 多
+					:degree (x14 / 这么)))
+			:arg0 (x9 / 双方))
+		:mod (x10 / 都))
+	:arg2 (x19 / 保障-01
+		:arg1 (x21 / 权益
+			:poss (x20 / 受害者))
+		:manner (x18 / 如何))
+	:domain (x41 / thing
+		:arg1-of (x4 / 说-01
+			:ord (x43 / ordinal-entity
+				:value (x2 / 1)
+				:cunit (x3 / 个)
+				:mod (x1 / 最后)))))
+
+# ::id export_amr.86 ::2017-02-10 23:02:05
+# ::snt 这 该 不 是 个案 而 是 普遍 反映 ， 值得 深思 与 解决 的 话题 。
+(x19 / and
+	:op1 (x2 / 该-01
+		:arg0 (x25 / contrast
+			:arg1 (x5 / 个案
+				:polarity (x3 / -)
+				:domain (x34 / thing
+					:mod (x1 / 这)))
+			:arg2 (x9 / 反映
+				:mod (x8 / 普遍)
+				:domain x34)))
+	:op2 (x16 / 话题
+		:arg0-of (x11 / 值得-01
+			:arg1 (x13 / and
+				:op1 (x12 / 深思)
+				:op2 (x14 / 解决)))))
+
+# ::id export_amr.87 ::2017-02-10 23:02:40
+# ::snt 社会 国家 该 建立 这 种 救助 体制 ， 由 此 可 避免 “ 逃跑 作为 ” 包括 交通 事故 中 的 “ 撞伤 撞残 不 如 撞死 ” 现象 。
+(x33 / causation
+	:arg1 (x3 / 该-01
+		:arg0 (x4 / 建立-01
+			:arg0 (x37 / and
+				:op1 (x1 / 社会)
+				:op2 (x2 / 国家))
+			:arg1 (x8 / 体制
+				:mod (x7 / 救助)
+				:mod (x5 / 这)
+				:unit (x6 / 种))))
+	:arg1 (x12 / 可-02
+		:arg0 (x13 / 避免-01
+			:arg1 (x16 / 作为
+				:mod (x15 / 逃跑)
+				:arg0-of (x18 / 包括-01
+					:arg1 (x30 / 现象
+						:arg0-of (x60 / mean
+							:arg1 (x26_x27 / 不如-01
+								:arg0 (x54 / and
+									:op1 (x24 / 撞伤)
+									:op2 (x25 / 撞残))
+								:arg1 (x28 / 撞死)
+								:time (x20 / 事故
+									:mod (x19 / 交通))))))))))
+
+# ::id export_amr.88 ::2017-02-10 23:05:03
+# ::snt 很多 时候 只要 环境 提供 成熟 ， 许多 事情 原 是 可 避免 的 。 看 我们 有 无 心 去 推行 ， 国民 国民 真正 的 国 利于 民 。
+(x33 / multi-sentence
+	:snt1 (x35 / condition
+		:arg1 (x6 / 成熟-01
+			:time (x2 / 时候
+				:mod (x1 / 很多))
+			:arg0 (x4 / 环境
+				:arg1-of (x5 / 提供-01)))
+		:arg2 (x12 / 可-02
+			:arg0 (x13 / 避免-01
+				:arg1 (x9 / 事情
+					:mod (x8 / 许多)))))
+	:snt2 (x45 / and
+		:op1 (x16 / 看-01
+			:arg1 (x47 / or
+				:op1 (x18_x20 / 有心-01
+					:arg0 (x17 / 我们)
+					:arg1 (x22 / 推行-01))
+				:op2 (x19_x20 / 无心
+					:arg0 x17
+					:arg1 x22)))
+		:op2 (x56 / and
+			:op1 (x24 / 国民)
+			:op2 (x25 / 国民)
+			:arg0-of (x59 / mean
+				:arg1 (x29 / 利于-01
+					:arg0 (x28 / 国)
+					:arg1 (x30 / 民)
+					:arg0-of (x26 / 真正-01))))))
+
+# ::id export_amr.89 ::2017-02-10 23:05:49
+# ::snt 闹 得 轰轰扬扬 沸腾 一时 的 合肥 中学 “ 少女 毁容 案件 ” ， 随着 媒体 暴光 大众 关注 有 新 进展 。
+(x20 / 有-03
+	:arg1 (x22 / 进展
+		:arg0-of (x21 / 新-01))
+	:arg0 (x12 / 案件
+		:topic (x11 / 毁容-01
+			:arg1 (x10 / 少女
+				:poss (x45 / school
+					:name (x7_x8 / name
+						:op1 "合肥"
+						:op2 "中学"))))
+		:mod (x1 / 闹
+			:degree (x41 / and
+				:op1 (x3 / 轰轰扬扬)
+				:op2 (x4 / 沸腾
+					:duration (x5 / 一时)))))
+	:cause (x32 / and
+		:op1 (x17 / 曝光-01
+			:arg0 (x16 / 媒体)
+			:arg1 x12)
+		:op2 (x19 / 关注-01
+			:arg0 (x18 / 大众)
+			:arg1 x12)))
+
+# ::id export_amr.90 ::2017-02-10 23:06:18
+# ::snt 受害人 伤情 已 鉴定 出 “ 重伤 ” ， 即将 进入 民事 赔偿 与 司法 审批 程序 。
+(x20 / and
+	:op1 (x4 / 鉴定-01
+		:arg1 (x2 / 伤情
+			:poss (x1 / 受害人))
+		:aspect (x3 / 已)
+		:arg2 (x7 / 重伤-01
+			:arg0 x1))
+	:op2 (x11 / 进入-01
+		:time (x10 / 即将)
+		:arg1 (x17 / 程序-01
+			:arg0 (x14 / and
+				:op1 (x13 / 赔偿
+					:mod (x12 / 民事))
+				:op2 (x16 / 审批
+					:mod (x15 / 司法))))))
+
+# ::id export_amr.91 ::2017-02-10 23:07:51
+# ::snt 随之 最 引 争议 眼球 的 ， 就 在 这 个 “ 赔偿 ” 与 “ 定罪 ” 。
+(x31 / temporal
+	:arg2 (x15 / and
+		:op1 (x13 / 赔偿)
+		:op2 (x17 / 定罪)
+		:domain (x25 / thing
+			:arg0-of (x3 / 引-01
+				:arg1 (x27 / and
+					:op1 (x4 / 争议)
+					:op2 (x5 / 眼球))
+				:degree (x2 / 最)))
+		:mod (x8 / 就)
+		:mod (x10 / 这)
+		:cunit (x11 / 个)))
+
+# ::id export_amr.116 ::2016-04-01 14:57:10
+# ::snt 还 有 个 是 案件 “ 性质 ” 问题 ， 关系 到 怎么 定罪 。
+(x11 / 关系-01
+	:arg0 (x9 / 问题
+		:arg0-of (x30 / mean
+			:arg1 (x7 / 性质
+				:poss (x5 / 案件))))
+	:arg1 (x14 / 定罪-01
+		:manner (x13 / amr-unknown)))
+
+# ::id export_amr.131 ::2017-02-10 23:09:27
+# ::snt 请问 任志强 ： 开发商 在 哪里 倒 夜壶 ？
+(x1 / 请问-01
+	:arg2 (x7 / 倒-02
+		:arg1 (x8 / 夜壶)
+		:arg0 (x4 / 开发商)
+		:location (x6 / amr-unknown)
+		:mode (x9 / interrogative))
+	:arg1 (x21 / person
+		:name (x2 / name
+			:op1 "任志强")))
+
+# ::id export_amr.132 ::2017-02-10 23:10:18
+# ::snt 提要 ： 任志强 把 开发商 比作 夜壶 ， 表态 了 对 中央 调控 政策 的 强烈 不满 。
+(x1 / 提要
+	:arg0-of (x22 / mean
+		:arg1 (x9 / 表态-01
+			:arg1 (x17 / 不满-01
+				:arg1 (x14 / 政策
+					:mod (x13 / 调控-01
+						:arg0 (x36 / government-organization
+							:name (x12 / name
+								:op1 "中央"))))
+				:degree (x16 / 强烈))
+			:aspect (x10 / 了-02)
+			:manner (x6 / 比作-01
+				:arg1 (x5 / 开发商)
+				:arg2 (x7 / 夜壶)
+				:arg0 (x35 / person
+					:name (x3 / name
+						:op1 "任志强")))
+			:arg0 x35)))
+
+# ::id export_amr.133 ::2017-02-10 23:17:06
+# ::snt 其 背后 的 动因 就 是 ， 对 暴利 可 持续 的 渴望 ， 对 既 得 利益 的 坚守 ， 而 对于 倒 夜壶 地方 发生 了 什么 ， 开发商 是 从来 不 关心 的 。
+(x39 / contrast
+	:arg1 (x41 / and
+		:op1 (x13 / 渴望-01
+			:arg1 (x10 / 可-02
+				:arg0 (x11 / 持续-01
+					:arg0 (x9 / 暴利)))
+			:arg0 (x31 / 开发商))
+		:op2 (x20 / 坚守-01
+			:arg1 (x18 / 利益
+				:mod (x16_x17 / 既得))
+			:arg0 x31)
+		:domain (x4 / 动因
+			:mod (x2 / 背后
+				:poss (x1 / 其))
+			:mod (x5 / 就)))
+	:arg2 (x35 / 关心-01
+		:arg0 x31
+		:arg1 (x27 / 发生-01
+			:arg1 (x26 / 地方
+				:location-of (x24 / 倒-02
+					:arg1 (x25 / 夜壶)))
+			:aspect (x28 / 了)
+			:arg1 (x29 / amr-unknown))
+		:polarity (x34 / -)
+		:time (x33 / 从来)
+		:mode (x32_x36 / judgement)))
+
+# ::id export_amr.134 ::2017-02-10 23:18:18
+# ::snt 从 去年 至今 的 房产 调控 ， 没有 像 以前 的 数 次 那样 ， 雷声 大 雨点 小 ， 最后 不了了之 。
+(x9 / 像-01
+	:arg0 (x6 / 调控-01
+		:arg1 (x5 / 房产)
+		:duration (x44 / between
+			:op1 (x2 / 去年)
+			:op2 (x3 / 至今-01)))
+	:polarity (x8 / -)
+	:arg1 (x33 / thing
+		:frequency (x12_x13 / 数次)
+		:time (x10 / 以前))
+	:arg2 (x36 / and
+		:op1 (x37 / contrast
+			:arg1 (x17 / 大-01
+				:arg0 (x16 / 雷声))
+			:arg2 (x19 / 小-01
+				:arg0 (x18 / 雨点)))
+		:op2 (x22 / 不了了之-01
+			:time (x21 / 最后)
+			:arg0 x6)))
+
+# ::id export_amr.135 ::2017-02-10 23:22:29
+# ::snt 这 次 中央 很 执着 ， 要求 明确 ， 措施 有力 ， 紧紧 咬住 让 房价 回归 合理 水平 不 放 。
+(x24 / and
+	:op1 (x5 / 执着
+		:degree (x4 / 很)
+		:arg0 (x45 / government-organization
+			:name (x3 / name
+				:op1 "中央")))
+	:op2 (x8 / 明确-01
+		:arg1 (x7 / 要求-01
+			:arg0 x45))
+	:op3 (x11 / 有力-01
+		:arg0 (x10 / 措施
+			:poss x45))
+	:op4 (x34 / and
+		:op1 (x14 / 咬住
+			:manner (x13 / 紧紧)
+			:arg0 x45)
+		:op2 (x21 / 放-02
+			:polarity (x20 / -)
+			:arg0 x45))
+	:purpose (x15 / 让-02
+		:arg1 (x17 / 回归-01
+			:arg0 (x16 / 房价)
+			:arg1 (x19 / 水平
+				:arg0-of (x18 / 合理-01)))
+		:arg0 x45)
+	:time (x1_x2 / 这次))
+
+# ::id export_amr.136 ::2017-02-10 23:23:22
+# ::snt 去年 10月 ， 温家宝 总理 在 南宁 考察 时 指出 ， 要 进一步 巩固 房产 调控 成果 。
+(x10 / 指出-01
+	:arg1 (x12 / 要-03
+		:arg0 (x14 / 巩固-01
+			:degree (x13 / 进一步)
+			:arg1 (x17 / 成果
+				:mod (x16 / 调控-01
+					:arg1 (x15 / 房产)))))
+	:time (x8 / 考察-01
+		:time (x32 / date-entity
+			:year (x1 / 去年)
+			:month (x2 / 10))
+		:location (x36 / city
+			:name (x7 / name
+				:op1 "南宁")))
+	:arg0 (x5 / 总理
+		:name (x4 / name
+			:op1 "温家宝")))
+
+# ::id export_amr.137 ::2017-02-10 23:24:58
+# ::snt 今年 2月 ， 温家宝 总理 在 中南海 主持 召开 座谈会 时 又 强调 ， 为了 促进 公平 和 稳定 ， 政府 调控 （ 房产 ） 也 不 能 松 。
+(x13 / 强调-01
+	:arg0 (x5 / 总理
+		:name (x4 / name
+			:op1 "温家宝"))
+	:manner (x12 / 又)
+	:arg1 (x28 / 能-01
+		:polarity (x27 / -)
+		:arg0 (x29 / 松-01
+			:arg1 (x22 / 调控-01
+				:arg0 (x21 / 政府)
+				:arg1 (x24 / 房产)))
+		:manner (x26 / 也)
+		:purpose (x16 / 促进-01
+			:arg1 (x18 / and
+				:op1 (x17 / 公平)
+				:op2 (x19 / 稳定))))
+	:time (x8 / 主持-01
+		:arg1 (x9 / 召开-01
+			:arg1 (x10 / 座谈会))
+		:location (x57 / sea
+			:name (x7 / name
+				:op1 "中南海"))
+		:arg0 x5)
+	:time (x52 / date-entity
+		:year (x1 / 今年)
+		:month (x2 / 2)))
+
+# ::id export_amr.138 ::2017-02-10 23:25:35
+# ::snt 一些 地方 屡屡 想 为 房产 松绑 ， 但 一 露出 苗头 ， 马上 就 被 中央 有关 部门 “ 弹压 ” 了 。
+(x26 / contrast
+	:arg2 (x30 / condition
+		:arg1 (x11 / 露出-01
+			:arg1 (x12 / 苗头))
+		:arg2 (x21 / 弹压-01
+			:arg1 x12
+			:arg0 (x19 / 部门
+				:mod (x18 / 有关)
+				:poss (x44 / government-organization
+					:name (x17 / name
+						:op1 "中央")))
+			:time (x14 / 马上)
+			:aspect (x23 / 了)))
+	:arg1 (x4 / 想-02
+		:arg0 (x2 / 地方
+			:mod (x1 / 一些))
+		:frequency (x3 / 屡屡)
+		:arg1 (x7 / 松绑-01
+			:arg1 (x6 / 房产)
+			:arg0 x2)))
+
+# ::id export_amr.139 ::2017-02-10 23:26:37
+# ::snt 在 这 种 情况 下 ， 做 了 将近 30 年 中国 经济 宠儿 的 开发商 ， 首 次 感到 的 坐 不 住 了 。
+(x20 / 感到-01
+	:ord (x30 / ordinal-entity
+		:value (x18 / 1)
+		:cunit (x19 / 次))
+	:arg1 (x34 / possible
+		:arg0 (x22 / 坐-01
+			:polarity (x21 / -)
+			:arg0 (x16 / 开发商
+				:arg0-of (x7 / 做-02
+					:aspect (x8 / 了-01)
+					:duration (x46 / temporal-quantity
+						:quant (x9 / 将近
+							:op1 (x10 / 30))
+						:cunit (x11 / 年))
+					:arg1 (x14 / 宠儿
+						:mod (x13 / 经济
+							:poss (x51 / country
+								:name (x12 / name
+									:op1 "中国"))))))))
+	:arg0 x16)
+
+# ::id export_amr.140 ::2017-02-10 23:29:43
+# ::snt 2月 16日 ， 在 凤凰网 举办 的 “ 2012 金凤凰 地产 峰会 暨 2011 年度 颁奖 盛典 ” 上 ， 华远 地产 董事长 任志强 公然 指责 中央 所 开发商 当 夜壶 。
+(x26 / 指责-01
+	:arg1 (x30 / 当-01
+		:arg1 (x29 / 开发商)
+		:arg2 (x31 / 夜壶)
+		:arg0 (x69 / government-organization
+			:name (x27 / name
+				:op1 "中央")))
+	:manner (x25 / 公然)
+	:time (x45 / date-entity
+		:month (x1 / 2)
+		:day (x2 / 16))
+	:location (x13 / and
+		:op1 (x12 / 峰会
+			:time (x55 / date-entity
+				:year (x9 / 2012))
+			:poss (x67 / company
+				:name (x10_x11 / name
+					:op1 "金凤凰"
+					:op2 "地产")))
+		:op2 (x17 / 盛典
+			:mod (x16 / 颁奖)
+			:mod (x15 / 年度)
+			:time (x58 / date-entity
+				:year (x14 / 2011)))
+		:arg0-of (x6 / 举办-01
+			:arg0 (x5 / 凤凰网)))
+	:arg0 (x63 / person
+		:name (x24 / name
+			:op1 "任志强")
+		:arg0-of (x64 / have-org-role
+			:arg2 (x23 / 董事长)
+			:arg1 (x65 / company
+				:name (x21_x22 / name
+					:op1 "华远"
+					:op2 "地产")))))
+
+# ::id export_amr.141 ::2017-02-10 23:30:12
+# ::snt 任志强 说 ， 这 个 行业 被 不得已 而 为 之 的 行政 手段 打倒 的 ， 但是 这个 是 个 阶段性 的 ，
+(x2 / 说-01
+	:arg1 (x29 / contrast
+		:arg1 (x15 / 打倒-01
+			:arg0 (x14 / 手段
+				:mod (x13 / 行政)
+				:mod (x8_x9_x10_x11 / 不得已而为之))
+			:arg1 (x6 / 行业
+				:mod (x4 / 这)
+				:cunit (x5 / 个)))
+		:arg2 (x38 / thing
+			:mod (x22 / 阶段性)
+			:domain (x39 / thing
+				:mod (x19_1 / 这)
+				:cunit (x19_2 / 个))
+			:cunit (x21 / 个)))
+	:arg0 (x43 / person
+		:name (x1 / name
+			:op1 "任志强")))
+
+# ::id export_amr.142 ::2017-02-10 23:31:23
+# ::snt 一般 要 抓 兔子 的 时候 就 把 狗 养 的 肥肥 的 让 他 抓 兔子 ， 兔子 抓完 的 时候 一般 就 把 这 狗 杀 了 ，
+(x32 / temporal
+	:arg1 (x36 / condition
+		:arg1 (x3 / 抓-01
+			:arg1 (x4 / 兔子))
+		:arg2 (x10 / 养-01
+			:arg1 (x9 / 狗)
+			:cause-of (x11_x13 / 肥肥的)
+			:purpose (x14 / 让-02
+				:arg1 (x16 / 抓-01
+					:arg0 (x15 / x9)
+					:arg1 (x17 / 兔子))))
+		:mod (x1 / 一般))
+	:arg2 (x48 / condition
+		:arg1 (x20 / 抓完
+			:arg1 (x19 / 兔子))
+		:arg2 (x28 / 杀-01
+			:arg1 (x26_x27 / x9)
+			:aspect (x29 / 了))))
+
+# ::id export_amr.143 ::2017-02-10 23:32:33
+# ::snt 我们 一般 说 的 就 是 这 个 胡适 先生 说 的 ， 撒尿 要 把 夜壶 提 出来 ， 撒完 尿 再 把 夜壶 塞 回去 ，
+(x30 / thing
+	:domain (x37 / thing
+		:arg0-of (x3 / 说-01
+			:arg0 (x1 / 我们)
+			:mod (x2 / 一般)))
+	:manner (x5 / 就)
+	:arg0-of (x42 / mean
+		:arg1 (x55 / temporal
+			:arg1 (x15 / 要-03
+				:arg0 (x18 / 提-01
+					:arg1 (x17 / 夜壶)
+					:time (x14 / 撒尿)
+					:cause-of (x19 / 出来-01
+						:arg0 x17)))
+			:arg2 (x26 / 塞-01
+				:arg1 (x25 / 夜壶)
+				:time (x21 / 撒完
+					:arg1 (x22 / 尿))
+				:mod (x23 / 再)
+				:cause-of (x27 / 回去-01
+					:arg0 x25))))
+	:arg1-of (x11 / 说-01
+		:arg0 (x10 / 先生
+			:name (x9 / name
+				:op1 "胡适")
+			:mod (x7 / 这)
+			:cunit (x8 / 个))))
+
+# ::id export_amr.144 ::2017-02-10 23:35:39
+# ::snt 我们 就 是 当 这 夜壶 的 ， 需要 拉动 的 时候 我们 就 拉动 ， 不 需要 拉动 的 时候 我们 就 靠边站 ，
+(x29 / person
+	:arg0-of (x4 / 当-02
+		:arg1 (x6 / 夜壶
+			:mod (x5 / 这)))
+	:domain (x1 / 我们)
+	:mod (x2 / 就)
+	:arg0-of (x35 / mean
+		:arg1 (x36 / and
+			:op1 (x37 / condition
+				:arg1 (x9 / 需要-01
+					:arg1 (x10 / 拉动))
+				:arg2 (x15 / 拉动-01
+					:arg0 (x13 / x1)))
+			:op2 (x42 / condition
+				:arg1 (x18 / 需要-01
+					:polarity (x17 / -)
+					:arg1 (x19 / 拉动))
+				:arg2 (x24 / 靠边站
+					:arg0 (x22 / x1))))))
+
+# ::id export_amr.145 ::2016-04-18 09:25:44
+# ::snt 不管是 灰头土脸 也好 还是 打翻 在 地 也好 ， 这 时候 不 太 需要 ，
+(x17 / concession
+	:arg1 (x21 / and
+		:op1 (x2 / 灰头土脸)
+		:op2 (x5 / 打翻
+			:location (x7 / 地)))
+	:arg2 (x14 / 需要
+		:polarity (x12 / -)
+		:time (x11 / 时候
+			:mod (x10 / 这))
+		:degree (x13 / 太)))
+
+# ::id export_amr.146 ::2017-02-10 23:37:04
+# ::snt 有 人 说 把 地产商 都 打倒 了 ， 如果 没有 地产商 保障性 住房 都 谁 盖 的 ， 没有 地产商 了 你 的 房 就 能 住 得 更 好 吗 。
+(x35 / contrast
+	:arg1 (x3 / 说-01
+		:arg0 (x2 / 人)
+		:arg1 (x7 / 打倒-01
+			:arg1 (x5 / 地产商)
+			:smood (x8 / 了)
+			:mod (x6 / 都)))
+	:arg1 (x43 / and
+		:op1 (x44 / condition
+			:arg1 (x11_2 / 有-03
+				:polarity (x11_1 / -)
+				:arg1 (x12 / 地产商))
+			:arg2 (x14 / 住房
+				:mod (x13 / 保障性)
+				:arg1-of (x17 / 盖-01
+					:mod (x15 / 都)
+					:arg0 (x16 / amr-unknown))))
+		:op2 (x54 / condition
+			:arg1 (x20_2 / 有-03
+				:polarity (x20_1 / -)
+				:arg1 (x21 / 地产商)
+				:aspect (x22 / 了))
+			:arg2 (x27 / 能-01
+				:arg0 (x28 / 住-01
+					:arg1 (x25 / 房
+						:poss (x23 / 你))
+					:arg0-of (x31 / 好-01
+						:degree (x30 / 更)))))
+		:mode (x32 / interrogative)))
+
+# ::id export_amr.147 ::2017-02-10 23:39:17
+# ::snt 任志强 的 “ 开发商 是 夜壶 ” 论 显然 在 开发商 中 引起 了 共鸣 。
+(x13 / 引起-01
+	:arg0 (x8 / 论
+		:arg0-of (x24 / mean
+			:arg1 (x6 / 夜壶
+				:domain (x4 / 开发商)))
+		:poss (x29 / person
+			:name (x1 / name
+				:op1 "任志强")))
+	:arg1 (x15 / 共鸣-01
+		:arg0 (x11 / 开发商))
+	:aspect (x14 / 了))
+
+# ::id export_amr.148 ::2017-02-10 23:40:57
+# ::snt 出席 2012 金凤凰 地产 峰会 的 全国 经理人 联盟 副秘书 陈宝存 也 在 微博 中 就 任志强 的 “ 开发商 是 夜壶 ” 论 进行 了 热议 ：
+(x25 / 进行-01
+	:arg1 (x27 / 热议
+		:arg1 (x24 / 论
+			:arg0-of (x41 / mean
+				:arg1 (x22 / 夜壶
+					:domain (x20 / 开发商)))
+			:poss (x57 / person
+				:name (x17 / name
+					:op1 "任志强"))))
+	:aspect (x26 / 了)
+	:medium (x14 / 微博)
+	:manner (x12 / 也)
+	:arg0 (x52 / person
+		:name (x11 / name
+			:op1 "陈宝存")
+		:arg0-of (x53 / have-org-role
+			:arg2 (x10 / 副秘书)
+			:arg1 (x9 / 联盟
+				:name (x7_x8 / name
+					:op1 "全国"
+					:op2 "经理人")))
+		:arg0-of (x1 / 出席-01
+			:arg1 (x5 / 峰会
+				:time (x50 / date-entity
+					:year (x2 / 2012))
+				:mod (x55 / company
+					:name (x3_x4 / name
+						:op1 "金凤凰"
+						:op2 "地产"))))))
+
+# ::id export_amr.149 ::2017-02-10 23:41:48
+# ::snt 任 总 说 开发商 像 夜壶 ， 需要 的话 提 出来 ， 不 需要 踢到 床 底下 。
+(x3 / 说-01
+	:arg1 (x5 / 像-01
+		:arg0 (x4 / 开发商)
+		:arg1 (x6 / 夜壶)
+		:arg2 (x26 / and
+			:op1 (x27 / condition
+				:arg1 (x8 / 需要-01
+					:arg1 x6)
+				:arg2 (x10 / 提
+					:arg1 x6
+					:cause-of (x11 / 出来-01
+						:arg0 x6)))
+			:op2 (x31 / condition
+				:arg1 (x14 / 需要-01
+					:arg1 x6
+					:polarity (x13 / -))
+				:arg2 (x15 / 踢-01
+					:destination (x17 / 底下
+						:mod (x16 / 床))
+					:arg1 x6))))
+	:arg0 (x1_x2 / 任总))
+
+# ::id export_amr.150 ::2016-12-01 22:59:45
+# ::snt 任 总 对 调控 的 总 观点 和 我 认识 一致 ： “ 调控 手段 全 是 错误 的 。 ”
+(x11 / 一致-01
+	:arg0 (x25 / and
+		:op1 (x7 / 观点
+			:mod (x6 / 总)
+			:topic (x4 / 调控)
+			:poss (x1_x2 / 任总))
+		:op2 (x10 / 认识
+			:poss (x9 / 我))
+		:arg0-of (x32 / mean
+			:arg1 (x18 / 错误-01
+				:arg0 (x15 / 手段
+					:mod (x14 / 调控))
+				:mod (x16 / 全)
+				:mode (x17_x19 / judgement)))))
+
+# ::id export_amr.151 ::2017-06-01 21:06:32
+# ::snt SOHO 中国 董事长 潘石屹 也 在 微博 中 就 任志强 的 “ 开发商 是 夜壶 ” 论 发表 了 看法 ： 你们 这些 夜壶 啊 ！ 有 用途 就 不错 了 。
+(x18 / 发表-01
+	:medium (x7 / 微博)
+	:arg1 (x20 / 看法
+		:arg0-of (x48 / mean
+			:arg1 (x49 / and
+				:op1 (x24 / 夜壶
+					:mod (x23 / 这些)
+					:arg0-of (x52 / mean
+						:arg1 (x22 / 你们))
+					:mode (x25_x26 / expressive))
+				:op2 (x30 / 不错-01
+					:manner (x29 / 就)
+					:arg0 (x27 / 有-03
+						:arg1 (x28 / 用途)
+						:arg0 x24)
+					:smood (x31 / 了)))))
+	:arg3 (x17 / 论
+		:arg0-of (x44 / mean
+			:arg1 (x15 / 夜壶
+				:domain (x13 / 开发商)))
+		:poss (x10 / 任志强))
+	:aspect (x19 / 了)
+	:arg0 (x60 / person
+		:name (x4 / name
+			:op1 "潘石屹")
+		:arg0-of (x61 / have-org-role
+			:arg2 (x3 / 董事长
+				:poss (x63 / country
+					:name (x2 / name
+						:op1 "中国")))
+			:arg1 (x62 / company
+				:name (x1 / name
+					:op1 "SOHO")))))
+
+# ::id export_amr.152 ::2017-02-10 23:50:02
+# ::snt 在 我 看来 ， 任志强 的 “ 开发商 是 夜壶 ” 论 是 开发商 心理 的 生动 写照 ，
+(x3 / 看来-01
+	:arg0 (x2 / 我)
+	:arg1 (x18 / 写照
+		:domain (x12 / 论
+			:arg0-of (x27 / mean
+				:arg1 (x10 / 夜壶
+					:domain (x8 / 开发商)))
+			:poss (x5 / 任志强))
+		:topic (x15 / 心理
+			:poss (x14 / x8))
+		:arg0-of (x17 / 生动-01)))
+
+# ::id export_amr.153 ::2017-02-10 23:50:40
+# ::snt 其 背后 显然 的 动因 ， 就 是 眼看 暴利 将 不 可 持续 ， 对 既 得 利益 被 切割 的 强烈 不满 ， 如此 才 会 狗急跳墙 ， 如此 才 会 口吐 脏言 ， 如此 才 会 狂吠 中央 调控 政策 。
+(x46 / causation
+	:arg1 (x68 / and
+		:op1 (x13 / 可-01
+			:polarity (x12 / -)
+			:arg0 (x14 / 持续-01
+				:arg0 (x10 / 暴利))
+			:tense (x11 / 将-01))
+		:op2 (x24 / 不满-01
+			:degree (x23 / 强烈)
+			:arg1 (x21 / 切割-01
+				:arg1 (x19 / 利益
+					:mod (x17_x18 / 既得))))
+		:domain (x5 / 动因
+			:mod (x2 / 背后
+				:mod (x1 / 其))
+			:mod (x3 / 显然))
+		:mod (x7 / 就))
+	:arg2 (x70 / and
+		:op1 (x28 / 会-02
+			:arg0 (x29 / 狗急跳墙))
+		:op2 (x33 / 会-02
+			:arg0 (x34_x35 / 口吐脏言))
+		:op3 (x39 / 会-02
+			:arg0 (x40 / 狂吠-01
+				:arg1 (x43 / 政策
+					:mod (x42 / 调控-01
+						:arg0 (x80 / government-organization
+							:name (x41 / name
+								:op1 "中央"))))))))
+
+# ::id export_amr.154 ::2017-02-10 23:52:11
+# ::snt 中央 为何 这么 坚定 地 调控 房产 ？
+(x6 / 调控-01
+	:arg1 (x7 / 房产)
+	:manner (x4 / 坚定
+		:degree (x3 / 这么))
+	:cause (x2 / amr-unknown)
+	:mode (x8 / interrogative)
+	:arg0 (x18 / government-organization
+		:name (x1 / name
+			:op1 "中央")))
+
+# ::id export_amr.155 ::2017-02-10 23:53:07
+# ::snt 很 显然 ， 房产业 的 无序 发展 已经 使 中国 经济 严重 失衡 ， 再 不 进行 有效 、 有力 调控 ， 就 会 给 中国 经济 带来 灾难性 的 严重 后果 。
+(x2 / 显然
+	:degree (x1 / 很)
+	:arg0 (x39 / and
+		:op1 (x13 / 失衡-01
+			:arg0 (x11 / 经济-01
+				:poss (x61 / country
+					:name (x10 / name
+						:op1 "中国")))
+			:degree (x12 / 严重)
+			:time (x8 / 已经)
+			:cause (x7 / 发展-05
+				:arg1 (x4 / 房产业)
+				:arg0-of (x6 / 无序-01)))
+		:op2 (x48 / condition
+			:arg1 (x17 / 进行-01
+				:arg1 (x21 / 调控-01
+					:arg1 x7
+					:arg0-of (x18 / 有效-01)
+					:arg0-of (x20 / 有力-01))
+				:polarity (x16 / -))
+			:arg2 (x24 / 会-02
+				:arg0 (x28 / 带来-01
+					:arg1 (x32 / 后果
+						:mod (x29 / 灾难性)
+						:arg0-of (x31 / 严重-01))
+					:arg2 (x27 / 经济
+						:poss (x26 / x61)))))))
+
+# ::id export_amr.156 ::2017-02-11 21:56:56
+# ::snt 很 显然 ， 中国 的 高 房价 已 使 民怨 沸腾 ， 再 不 进行 有效 、 有力 调控 ， 就 会 中国 社会 稳定 带来 灾难性 的 严重 后果 。
+(x2 / 显然
+	:degree (x1 / 很)
+	:arg0 (x36 / and
+		:op1 (x11 / 沸腾-01
+			:arg0 (x10 / 民怨)
+			:cause (x7 / 房价
+				:arg0-of (x6 / 高-01)
+				:poss (x57 / country
+					:name (x4 / name
+						:op1 "中国")))
+			:time (x8 / 已-01))
+		:op2 (x43 / condition
+			:arg1 (x15 / 进行-01
+				:arg1 (x19 / 调控
+					:arg1 x7
+					:arg0-of (x16 / 有效-01)
+					:arg0-of (x18 / 有力-01))
+				:polarity (x14 / -))
+			:arg2 (x22 / 会-02
+				:arg0 (x26 / 带来-01
+					:arg1 (x30 / 后果
+						:mod (x27 / 灾难性)
+						:arg0-of (x29 / 严重-01))
+					:arg2 (x25 / 稳定-01
+						:arg1 (x24 / 社会
+							:mod (x23 / x57))))))))
+
+# ::id export_amr.157 ::2017-02-11 21:57:53
+# ::snt 很 显然 ， 中国 的 房产业 已 成为 腐败 的 重灾区 ， 再 不 进行 有效 、 有力 调控 ， 就 会 给 党 的 事业 、 国家 的 前程 带来 灾难性 的 严重 后果 。
+(x2 / 显然
+	:degree (x1 / 很)
+	:arg0 (x41 / and
+		:op1 (x8 / 成为-01
+			:arg0 (x6 / 房产业
+				:poss (x64 / country
+					:name (x4 / name
+						:op1 "中国")))
+			:arg1 (x11 / 重灾区
+				:location-of (x9 / 腐败))
+			:time (x7 / 已))
+		:op2 (x48 / condition
+			:arg1 (x15 / 进行-01
+				:arg1 (x19 / 调控
+					:arg0-of (x16 / 有效-01)
+					:arg0-of (x18 / 有力-01))
+				:polarity (x14 / -))
+			:arg2 (x22 / 会-02
+				:arg0 (x31 / 带来-01
+					:arg1 (x35 / 后果
+						:mod (x32 / 灾难性)
+						:arg0-of (x34 / 严重-01))
+					:arg2 (x59 / and
+						:op1 (x26 / 事业
+							:poss (x24 / 党))
+						:op2 (x30 / 前程
+							:poss (x28 / 国家))))))))
+
+# ::id export_amr.158 ::2017-02-11 21:59:17
+# ::snt 再说 相对 房产业 的 重病 ， 中央 的 调控 政策 还 显得 相当 温柔 ， 还 没有 使用 西医 疗法 在 要害处 直接 动 下刀 ， 而 是 采用 中医 疗法 讲究 阴阳 调和 。
+(x37 / and
+	:op2 (x12 / 显得-01
+		:compared-to (x5 / 重病
+			:mod (x3 / 房产业))
+		:arg0 (x10 / 政策
+			:topic (x9 / 调控-01
+				:arg0 (x69 / government-organization
+					:name (x7 / name
+						:op1 "中央")))
+			:arg0-of (x47 / mean
+				:arg1 (x48 / contrast
+					:arg2 (x59 / and
+						:op1 (x29 / 采用-01
+							:arg1 (x31 / 疗法
+								:mod (x30 / 中医)))
+						:op2 (x32 / 讲究-01
+							:arg1 (x34 / 调和-01
+								:arg1 (x33 / 阴阳))))
+					:arg1 (x25_1 / possible
+						:arg0 (x24_x25_2 / 动刀
+							:manner (x18 / 使用-01
+								:arg1 (x20 / 疗法
+									:mod (x19 / 西医))
+								:polarity (x27 / -)
+								:mod (x16 / 还))
+							:location (x22_1_2 / 要害))))))
+		:mod (x11 / 还)))
+
+# ::id export_amr.159 ::2017-02-11 22:00:19
+# ::snt 可是 任志强 之 流 的 开发商 不得 不 知 感激 ， 反面 忘恩负义 地 骂 娘 。
+(x19 / contrast
+	:arg2 (x21 / progression
+		:arg1 (x9 / 知-01
+			:polarity (x8 / -)
+			:arg1 (x10 / 感激-01
+				:arg0 (x6 / 开发商
+					:example (x34 / person
+						:name (x2 / name
+							:op1 "任志强"))))
+			:arg0 x6)
+		:arg2 (x15_x16 / 骂娘-01
+			:manner (x13 / 忘恩负义
+				:arg0 x6)
+			:arg0 x6)))
+
+# ::id export_amr.160 ::2016-12-01 23:18:58
+# ::snt 看来 ， 温家宝 总理 要求 开发商 血管 有 道德 血液 ， 简直 是 对牛弹琴 与虎谋皮 。
+(x1 / 看来-02
+	:arg0 (x20 / and
+		:op1 (x14 / 对牛弹琴)
+		:op2 (x15 / 与虎谋皮)
+		:domain (x5 / 要求-03
+			:arg0 (x4 / 总理
+				:name (x3 / name
+					:op1 "温家宝"))
+			:arg1 (x8 / 有-01
+				:arg0 (x7 / 血管
+					:poss (x6 / 开发商))
+				:arg1 (x10 / 血液
+					:mod (x9 / 道德-01))))
+		:mod (x12 / 简直)))
+
+# ::id export_amr.161 ::2017-02-11 22:01:09
+# ::snt 所以 ， 中央 是否 把 开发商 当 夜壶 大家 心知肚明 。
+(x13 / causation
+	:arg2 (x10 / 心知肚明-01
+		:arg0 (x9 / 大家)
+		:arg1 (x7 / 当-01
+			:arg1 (x8 / 夜壶)
+			:arg2 (x6 / 开发商)
+			:mode (x4 / interrogative)
+			:arg0 (x25 / government-organization
+				:name (x3 / name
+					:op1 "中央")))))
+
+# ::id export_amr.162 ::2017-02-11 22:03:02
+# ::snt 但 还 有 一 个 问题 大家 也 心知肚明 ， 这 是 要 问 任志强 的 ， 既然 开发商 自认 是 夜壶 ， 那么 请问 ： 发商 是 在 哪里 倒 夜壶 的 ？
+(x36 / contrast
+	:arg2 (x46 / and
+		:op1 (x9 / 心知肚明-01
+			:arg0 (x7 / 大家)
+			:arg1 (x6 / 问题
+				:quant (x4 / 1)
+				:cunit (x5 / 个))
+			:mod (x8 / 也)
+			:mod (x2 / 还-01))
+		:op2 (x51 / causation
+			:arg1 (x20 / 自认-01
+				:arg0 (x19 / 开发商)
+				:arg1 (x22 / 夜壶))
+			:arg2 (x25 / 请问-01
+				:arg1 (x31 / 倒-02
+					:arg1 (x32 / 夜壶)
+					:arg0 (x27 / 发商)
+					:mode (x34 / interrogative)
+					:location (x30 / amr-unknown)
+					:mode (x28_x33 / judgement))))
+		:op2 (x13 / 要-03
+			:arg0 (x14 / 问-01
+				:arg2 (x61 / person
+					:name (x15 / name
+						:op1 "任志强")))
+			:arg1 (x11 / x6)
+			:mode (x12_x16 / judgement))))
+
+# ::id export_amr.163 ::2017-02-11 22:03:43
+# ::snt 夜壶 喝 尿 喝 红 了 眼 。
+(x5_x7 / 红眼-01
+	:cause (x2 / 喝-01
+		:arg1 (x3 / 尿)
+		:arg0 (x1 / 夜壶))
+	:arg0 x1
+	:aspect (x6 / 了))
+
+# ::id export_amr.164 ::2017-02-12 15:54:38
+# ::snt 能够 让 你们 倒 夜壶 就 不错 了 ， 要 知道 当 你们 有 钱 挥霍 的 时候 ， 有些 人 辗转 在 租 房子 ， 有些 人 为了 房子 找 不 到 方向 ， 找 不 到 北 ，
+(x42 / causation
+	:arg2 (x7 / 不错-01
+		:arg0 (x1 / 能够-01
+			:arg1 (x2 / 让-02
+				:arg2 (x4 / 倒-02
+					:arg1 (x5 / 夜壶)
+					:arg0 (x3 / 你们))
+				:arg1 x3))
+		:smood (x8 / 了)
+		:mod (x6 / 就))
+	:arg1 (x10 / 要-03
+		:arg0 (x11 / 知道-01
+			:arg1 (x54 / and
+				:time (x14 / 有-01
+					:arg1 (x15 / 钱
+						:arg1-of (x16 / 挥霍-01))
+					:arg0 (x13 / x3))
+				:op1 (x22 / 辗转-01
+					:arg0 (x21 / 人
+						:mod (x20 / 有些))
+					:purpose (x24 / 租-01
+						:arg1 (x25 / 房子)
+						:arg0 x21))
+				:op2 (x64 / and
+					:op2 (x38 / possible
+						:arg0 (x31 / 找-01
+							:arg1 (x34 / 方向)
+							:arg0 (x28 / 人
+								:mod (x27 / 有些)))
+						:polarity (x32 / -))
+					:op1 (x33 / possbile
+						:arg0 (x36 / 找-01
+							:arg1 (x39 / 北)
+							:arg0 x28)
+						:polarity (x37 / -))
+					:cause (x30 / 房子))))))
+
+# ::id export_amr.165 ::2017-02-12 15:55:35
+# ::snt 现在 放 点 血 ， 你们 还 有 钱 投资 其他 的 ， 有些 人 一旦 失去 工作 ， 就 面临 着 破产 了 ！
+(x27 / contrast
+	:arg1 (x29 / condition
+		:arg1 (x2 / 放-02
+			:arg1 (x4 / 血
+				:quant (x3 / 点))
+			:time (x1 / 现在))
+		:arg2 (x8 / 有-01
+			:arg0 (x6 / 你们)
+			:arg1 (x9 / 钱)
+			:purpose (x10 / 投资-01
+				:arg1 (x38 / thing
+					:mod (x11 / 其他)))
+			:mod (x7 / 还-01)))
+	:arg2 (x41 / condition
+		:arg1 (x17 / 失去-01
+			:arg1 (x18 / 工作)
+			:arg0 (x15 / 人
+				:mod (x14 / 有些)))
+		:arg2 (x21 / 面临-01
+			:aspect (x22 / 着)
+			:arg1 (x23 / 破产-01
+				:arg0 x15)
+			:arg0 x15
+			:mode (x25 / expressive)
+			:aspect (x24 / 了))))
+
+# ::id export_amr.166 ::2017-02-12 15:59:02
+# ::snt 毛 主席 时代 任志强 的 言论 是 何等 的 反 党 反 人民 下埸 会 怎样 .
+(x19 / and
+	:op1 (x32 / and
+		:op1 (x10 / 反-02
+			:arg1 (x11 / 党)
+			:arg0 (x6 / 言论
+				:poss (x36 / person
+					:name (x4 / name
+						:op1 "任志强"))))
+		:op2 (x12 / 反-02
+			:arg1 (x13 / 人民)
+			:arg0 x6)
+		:degree (x8 / 何等)
+		:time (x3 / 时代
+			:mod (x37 / person
+				:name (x1 / name
+					:op1 "毛")
+				:arg0-of (x39 / have-org-role
+					:arg2 (x2 / 主席)))))
+	:op2 (x15 / 会-02
+		:arg0 (x16 / amr-unknown
+			:domain (x14 / 下场
+				:poss x36))))
+
+# ::id export_amr.167 ::2017-02-12 15:59:45
+# ::snt 哈哈 原来 这些 商界 精英 社会 名流 和 贤达 竟 也 说 得 出 如此 污秽不堪 的 语言 来
+(x21 / and
+	:op1 (x1 / 哈哈)
+	:op2 (x2 / 原来-01
+		:arg0 (x13_x14 / possible
+			:arg0 (x12 / 说-01
+				:arg1 (x18 / 语言
+					:arg0-of (x16 / 污秽不堪
+						:degree (x15 / 如此)))
+				:arg0 (x34 / and
+					:op1 (x5 / 精英
+						:mod (x4 / 商界))
+					:op2 (x7 / 名流
+						:mod (x6 / 社会))
+					:op3 (x9 / 贤达)
+					:mod (x3 / 这些)))
+			:mod (x10 / 竟)
+			:mod (x11 / 也))))
+
+# ::id export_amr.168 ::2017-02-12 16:09:54
+# ::snt 啊 看来 利益 所 致 就是 绅士 也 不 能 幸免于 不 气急败坏 而 轮于 不齿 之 徒 一样 的 啊
+(x23 / and
+	:op1 (x1 / 啊)
+	:op2 (x2 / 看来-01
+		:arg0 (x27 / causation
+			:arg1 (x3 / 利益)
+			:arg2 (x10 / 能-01
+				:polarity (x9 / -)
+				:arg0 (x11 / 幸免于-01
+					:cause (x13 / 气急败坏-01
+						:arg0 (x7 / 绅士))
+					:arg1 (x15 / 沦为-01
+						:arg1 (x16_x17_x18 / 不耻之徒)
+						:arg0 x7)
+					:arg0 x7)
+				:mod (x8 / 也)))
+		:mode (x21 / expressive)))
+
+# ::id export_amr.169 ::2017-03-28 10:34:26
+# ::snt 对 房地产 的 调控 是 国家 现在 首要 的 任务 ， 国内 物价 持续 上涨 ；
+(x18 / causation
+	:arg2 (x10 / 任务
+		:mod (x8 / 首要)
+		:domain (x4 / 调控-01
+			:arg1 (x2 / 房地产))
+		:time (x7 / 现在)
+		:poss (x6 / 国家))
+	:arg1 (x15 / 上涨-01
+		:arg0 (x13 / 物价
+			:range (x12 / 国内))
+		:manner (x14 / 持续)))
+
+# ::id export_amr.170 ::2017-02-12 16:11:09
+# ::snt 如果 国家 不 及时 采取 措施 ， 我 觉得 会 给 国家 80% 的 人口 带了 经济 危机 ；
+(x9 / 觉得-01
+	:arg0 (x8 / 我)
+	:arg1 (x24 / condition
+		:arg1 (x5 / 采取-01
+			:arg1 (x6 / 措施)
+			:polarity (x3 / -)
+			:arg0 (x2 / 国家)
+			:arg0-of (x4 / 及时-01))
+		:arg2 (x10 / 会-02
+			:arg0 (x16 / 带来-01
+				:arg1 (x18 / 危机
+					:mod (x17 / 经济))
+				:arg2 (x15 / 人口
+					:mod (x12 / 国家)
+					:quant (x39 / percentage-entity
+						:value (x13 / 80)))))))
+
+# ::id export_amr.171 ::2016-12-01 23:39:47
+# ::snt 在 此 也 请 夜壶 不 要 乱 倒 ， 以免 影响 环境 ！！！
+(x4 / 请-01
+	:time (x1_x2 / 在此)
+	:manner (x3 / 也)
+	:purpose (x11 / 以免-01
+		:arg1 (x12 / 影响-01
+			:arg1 (x13 / 环境)))
+	:arg2 (x7 / 要-03
+		:arg0 (x9 / 倒-01
+			:manner (x8 / 乱)
+			:arg1 (x5 / 夜壶))
+		:polarity (x6 / -))
+	:mode (x14 / expressive))
+
+# ::id export_amr.172 ::2017-02-12 16:13:27
+# ::snt 这些 年 丶 中国 的 开发商 组成 了 统一 思想 的 宗派 , 与 国家 和 人民 博弈 , 发 了 大 财 还 要 显 妊威 ,
+(x30 / and
+	:op1 (x7 / 组成-01
+		:aspect (x8 / 了)
+		:arg0 (x6 / 开发商
+			:poss (x60 / country
+				:name (x4 / name
+					:op1 "中国")))
+		:arg1 (x12 / 宗派
+			:mod (x9 / 统一-01
+				:arg1 (x10 / 思想))))
+	:op2 (x18 / 博弈-01
+		:op2 (x16 / and
+			:op1 (x15 / 国家)
+			:op2 (x17 / 人民))
+		:arg0 x6)
+	:op3 (x51 / progression
+		:arg1 (x20_x23 / 发财-01
+			:arg0 x6
+			:degree (x22 / 大)
+			:aspect (x21 / 了))
+		:arg2 (x26 / 显-01
+			:arg1 (x27 / 神威)
+			:arg0 x6))
+	:duration (x2 / 年
+		:mod (x1 / 这些)))
+
+# ::id export_amr.173 ::2017-02-12 16:15:15
+# ::snt 搞 的 地方 政府 背离 社会 丶 搞 的 官员 腐败 丶 搞 的 物价 暴涨 丶 搞 的 人心 混乱 丶 搞 的 风气 丧落 丶丶丶丶丶丶 是 开革 开放 的 最 大 罪者 .
+(x37 / causation
+	:arg1 (x39 / and
+		:op1 (x1_x2 / 搞得-01
+			:arg2 (x5 / 背离-01
+				:arg0 (x4 / 政府
+					:mod (x3 / 地方)))
+			:arg0 (x45 / person))
+		:op2 (x8_x9 / 搞得-01
+			:arg2 (x11 / 腐败-01
+				:arg0 (x10 / 官员))
+			:arg0 x45)
+		:op3 (x13_x14 / 搞得-01
+			:arg1 (x16 / 暴涨-01
+				:arg0 (x15 / 物价))
+			:arg0 x45)
+		:op4 (x18_x19 / 搞得-01
+			:arg1 (x21 / 混乱-01
+				:arg0 (x20 / 人心))
+			:arg0 x45)
+		:op5 (x23_x24 / 搞得-01
+			:arg1 (x26 / 丧落
+				:arg0 (x25 / 风气))
+			:arg0 x45))
+	:arg2 (x34 / 罪者
+		:domain x45
+		:mod (x29_x30 / 改革开放)
+		:arg0-of (x33 / 大-01
+			:degree (x32 / 最))))
+
+# ::id export_amr.174 ::2016-12-01 23:57:25
+# ::snt 请 ' 尿壶 ' 们 不 要 太 狂妄 了 丶 历史 会 证明 你们 遣臭万年 的 ,
+(x20 / and
+	:op1 (x1 / 请-01
+		:smood (x10 / 了)
+		:arg2 (x7 / 要-03
+			:arg0 (x9 / 狂妄
+				:degree (x8 / 太)
+				:arg0 (x3_x5 / 尿壶们))
+			:polarity (x6 / -)))
+	:op2 (x13 / 会
+		:arg0 (x14 / 证明-01
+			:arg0 (x12 / 历史)
+			:arg1 (x15 / x3_x5)
+			:arg2 (x16 / 遣臭万年
+				:arg0 x15))
+		:smood (x17 / 的)))
+
+# ::id export_amr.175 ::2017-02-12 19:16:47
+# ::snt 你们 所 抄 的 房价 和 各 地 平均 工资 比例 , 在 仼何 一 个 国家 都 无法 忍受 丶 狼子野心 何其 毒 也 丶 百姓 不 会 饶恕 你 丶 历史 一定 会 惩罚 你 ！
+(x61 / causation
+	:arg1 (x63 / and
+		:op1 (x19 / 无法-01
+			:arg1 (x20 / 忍受-01
+				:arg1 (x6 / and
+					:op1 (x5 / 房价
+						:arg1-of (x3 / 抄-02
+							:arg0 (x1 / 你们)))
+					:op2 (x11 / 比例
+						:mod (x10 / 工资
+							:mod (x9 / 平均)
+							:location (x8 / 地
+								:mod (x7 / 各)))))
+				:location (x17 / 国家
+					:mod (x14 / 仼何)
+					:quant (x15 / 1)
+					:cunit (x16 / 个)))
+			:mod (x18 / 都))
+		:op2 (x24 / 毒-02
+			:arg0 (x22 / 狼子野心)
+			:degree (x23 / 何其)
+			:mode (x25 / judgement)))
+	:arg2 (x68 / and
+		:op1 (x29 / 会-02
+			:arg0 (x30 / 饶恕-01
+				:arg1 (x31 / 你)
+				:arg0 (x27 / 百姓))
+			:polarity (x28 / -))
+		:op2 (x34 / 一定
+			:arg0 (x35 / 会-02
+				:arg0 (x36 / 惩罚-01
+					:arg0 (x33 / 历史)
+					:arg1 (x37 / x31))))
+		:mode (x38 / expressive)))
+
+# ::id export_amr.176 ::2017-02-12 19:17:45
+# ::snt 各 地 政府 为 月嫂 限 工资 ， 却 相方设法 涨 房价 。 真 不 让 老百姓 过 了 。
+(x22 / multi-sentence
+	:snt1 (x24 / contrast
+		:arg1 (x6 / 限-01
+			:arg0 (x3 / 政府)
+			:arg1 (x7 / 工资
+				:poss (x5 / 月嫂)))
+		:arg2 (x11 / 涨-01
+			:arg1 (x12 / 房价)
+			:manner (x10 / 想方设法-01
+				:arg0 x3)
+			:arg0 x3))
+	:snt2 (x16 / 让-02
+		:polarity (x15 / -)
+		:smood (x19 / 了-01)
+		:arg2 (x18 / 过
+			:arg0 (x17 / 老百姓))
+		:arg1 x17
+		:mod (x14 / 真)))
+
+# ::id export_amr.177 ::2016-04-19 09:49:28
+# ::snt 关注 。
+(x1 / 关注)
+
+# ::id export_amr.178 ::2016-04-19 09:54:24
+# ::snt 地产商 这些 既 得 利益 者 当然 不 愿意 到 嘴 的 肥肉 被 老百姓 平分 了 。
+(x7 / 当然
+	:arg0 (x9 / 愿意-01
+		:polarity (x8 / -)
+		:arg0 (x1 / 地产商
+			:arg0-of (x26 / mean
+				:arg1 (x6 / 者
+					:arg0-of (x3_x4 / 既得
+						:arg1 (x5 / 利益))
+					:mod (x2 / 这些))))
+		:arg1 (x16 / 平分-01
+			:arg1 (x13 / 肥肉
+				:arg1-of (x10_x11 / 到嘴))
+			:arg3 (x15 / 老百姓)
+			:arg2 x1))
+	:smood (x17 / 了))
+
+# ::id export_amr.179 ::2017-02-12 19:21:58
+# ::snt 房价 只有 快速 下降 50 - 70% 回到 与 老百姓 购买力 相当 的 合理 价位 ， 才 能 使 房地产 市场 火爆 ， 老百姓 都 买 得 起 房 ， 才 有 钱 去 消费 其他它 。
+(x39 / condition
+	:arg1 (x8 / 回到-01
+		:arg1 (x15 / 价位
+			:mod (x12 / 相当-01
+				:arg1 (x11 / 购买力
+					:poss (x10 / 老百姓)))
+			:arg0-of (x14 / 合理-01
+				:arg0 (x1 / 房价)))
+		:manner (x4 / 下降-01
+			:manner (x3 / 快速)
+			:arg1 (x50 / between
+				:op1 (x51 / percentage-entity
+					:value (x5 / 50))
+				:op2 (x53 / percentage-entity
+					:value (x7 / 70))))
+		:arg0 x1)
+	:arg2 (x55 / and
+		:op1 (x18 / 能-01
+			:arg0 (x19 / 使-01
+				:arg2 (x22 / 火爆-01
+					:arg0 (x21 / 市场
+						:mod (x20 / 房地产)))
+				:arg1 x21))
+		:op2 (x62 / possible
+			:arg0 (x26 / 买-01
+				:arg1 (x29 / 房)
+				:arg0 (x24 / x10))
+			:mod (x25 / 都))
+		:op3 (x32 / 有-01
+			:arg1 (x33 / 钱)
+			:purpose (x35 / 消费-01
+				:arg1 (x36 / 其他)
+				:arg0 x10)
+			:arg0 x10)))
+
+# ::id export_amr.180 ::2017-02-12 19:22:58
+# ::snt 中国 经济 才 能 健康 均衡 发展 ！ 否则 僵持 、 观望 下去 后果 更 严重 ！！
+(x21 / multi-sentence
+	:snt1 (x23 / condition
+		:arg2 (x4 / 能-01
+			:arg0 (x7 / 发展-05
+				:arg1 (x2 / 经济
+					:mod (x41 / country
+						:name (x1 / name
+							:op1 "中国")))
+				:arg0-of (x5 / 健康-01)
+				:arg0-of (x6 / 均衡-01))
+			:mode (x8 / expressive)))
+	:snt2 (x9 / 否则
+		:arg0 (x32 / condition
+			:arg1 (x13 / 下去-01
+				:arg0 (x34 / and
+					:op1 (x10 / 僵持)
+					:op2 (x12 / 观望)))
+			:arg2 (x16 / 严重-01
+				:arg0 (x14 / 后果)
+				:degree (x15 / 更)))
+		:mode (x17 / expressive)))
+
+# ::id export_amr.181 ::2017-02-12 19:24:35
+# ::snt 当 老百姓 的 夜壶 就 算 你 祖上 积德 ， 可 你 不 知 天下 还 有 羞耻 二 字 ， 钻进 钱眼 ， 利令智昏 ， 执迷不悟 ， 一 派 的 胡言乱语 ，
+(x35 / contrast
+	:arg1 (x6 / 算-01
+		:arg1 (x9 / 积德-01
+			:arg0 (x8 / 祖上
+				:poss (x7 / 你)))
+		:arg0 (x1 / 当-04
+			:arg1 (x4 / 夜壶
+				:poss (x2 / 老百姓)))
+		:mod (x5 / 就))
+	:arg2 (x46 / and
+		:op1 (x14 / 知-01
+			:arg1 (x17 / 有-03
+				:arg0 (x15 / 天下)
+				:arg1 (x20 / 字
+					:quant (x19 / 2)
+					:arg0-of (x52 / mean
+						:arg1 (x18 / 羞耻)))
+				:mod (x16 / 还))
+			:polarity (x13 / -)
+			:arg0 (x12 / x7))
+		:op2 (x22 / 钻进-01
+			:arg1 (x23 / 钱眼)
+			:arg0 x7)
+		:op3 (x25 / 利令智昏
+			:arg0 x7)
+		:op4 (x27 / 执迷不悟
+			:arg0 x7)
+		:op5 (x32 / 胡言乱语
+			:arg0 x7
+			:quant (x29 / 1)
+			:cunit (x30 / 派))))
+
+# ::id export_amr.182 ::2017-02-12 19:24:54
+# ::snt 已 成 过街 老鼠 ， 人人 喊 打 。
+(x11 / and
+	:op1 (x2 / 成-01
+		:arg1 (x4 / 老鼠
+			:arg0-of (x3 / 过街-01))
+		:aspect (x1 / 已))
+	:op2 (x7 / 喊-01
+		:arg0 (x6 / 人人)
+		:arg1 (x8 / 打-02
+			:arg1 x4)))
+
+# ::id export_amr.183 ::2016-04-19 10:44:59
+# ::snt 悲 哉 ！ 良药 苦口 利于 病 ， 忠言 逆耳 利于 行 。
+(x15 / and
+	:op1 (x1_x2 / 悲哉
+		:mode (x3 / expressive))
+	:op2 (x19 / and
+		:op1 (x20 / contrast
+			:arg1 (x5 / 苦口
+				:arg0 (x4 / 良药))
+			:arg2 (x6 / 利于-01
+				:arg1 (x7 / 病)
+				:arg0 x4))
+		:op2 (x26 / contrast
+			:arg1 (x10 / 逆耳-01
+				:arg0 (x9 / 忠言))
+			:arg2 (x11 / 利于-01
+				:arg1 (x12 / 行)
+				:arg0 x9))))
+
+# ::id export_amr.184 ::2016-04-19 10:48:21
+# ::snt 给 你 指 一 促 醒悟 良方 ： 摘掉 黑心 ， 换 颗 良心 。
+(x3 / 指-02
+	:arg1 (x7 / 良方
+		:mod (x6 / 醒悟-01)
+		:quant (x4 / 1)
+		:cunit (x5 / 促)
+		:arg0-of (x24 / mean
+			:arg1 (x25 / and
+				:op1 (x9 / 摘掉-01
+					:arg1 (x10 / 黑心))
+				:op2 (x12 / 换-01
+					:arg1 (x14 / 良心
+						:cunit (x13 / 颗))))))
+	:beneficiary (x2 / 你))
+
+# ::id export_amr.185 ::2017-02-12 19:26:15
+# ::snt · 我 国 企业 跨国 并购 者 日 众 ， 十 年 内 将 达 十万亿 美金 ， 为 低 成本 与 模仿 受阻 后 之 出路 。
+(x30 / and
+	:op1 (x9 / 众
+		:frequency (x8 / 日)
+		:arg0 (x7 / 者
+			:arg0-of (x6 / 并购-01
+				:manner (x5 / 跨国))
+			:arg1-of (x39 / include
+				:arg2 (x4 / 企业
+					:poss (x3 / 国
+						:poss (x2 / 我))))))
+	:op2 (x15 / 达-01
+		:duration (x43 / temporal-quantity
+			:unit (x12 / 年)
+			:quant (x13 / 内
+				:op1 (x11 / 10)))
+		:arg1 (x46 / monetary-quantity
+			:quant (x16 / 1000000000)
+			:unit (x17 / 美金))
+		:tense (x14 / 将))
+	:op3 (x27 / 出路
+		:mod (x22 / and
+			:op1 (x21 / 成本
+				:arg0-of (x20 / 低-01))
+			:op2 (x24 / 受阻-01
+				:arg0 (x23 / 模仿)))
+		:domain x6))
+
+# ::id export_amr.186 ::2017-02-12 19:29:06
+# ::snt · 中国 “ 乔丹 体育 ” 被 乔丹 投诉 侵犯 姓名 与 身份 权 ， 回应 ： 受 中国 法律 保护 。
+(x36 / and
+	:op1 (x9 / 投诉-01
+		:arg1 (x10 / 侵犯-01
+			:arg1 (x12 / and
+				:op1 (x11 / 姓名)
+				:op2 (x14 / 权
+					:mod (x13 / 身份))
+				:poss (x43 / person
+					:name (x8 / name
+						:op1 "乔丹")))
+			:arg0 (x44 / company
+				:name (x4_x5 / name
+					:op1 "乔丹"
+					:op2 "体育")
+				:poss (x47 / country
+					:name (x2 / name
+						:op1 "中国"))))
+		:arg0 x43)
+	:op2 (x16 / 回应-01
+		:arg2 (x18 / 受-04
+			:arg1 (x21 / 保护-01
+				:arg0 (x20 / 法律
+					:mod (x19 / x47))
+				:arg1 x44)
+			:arg0 x44)
+		:arg0 x44))
+
+# ::id export_amr.187 ::2017-02-12 19:30:05
+# ::snt 据查 ， 有 80% 的 网民 认为 侵权 成立 。
+(x1 / 据查
+	:arg0 (x7 / 认为-01
+		:arg1 (x9 / 成立-01
+			:arg0 (x8 / 侵权))
+		:arg0 (x6 / 网民
+			:quant (x16 / percentage-entity
+				:value (x4 / 80))
+			:arg0-of (x3 / 有-02))))
+
+# ::id export_amr.188 ::2017-02-12 19:31:33
+# ::snt 有 舆论 称 ： 我 国 企业 靠 抢注 之类 的 小 聪明 ， 钻 空子 ， 难以 强大 。
+(x3 / 称-02
+	:arg1 (x18 / 难以
+		:arg0 (x7 / 企业
+			:mod (x5_x6 / 我国))
+		:arg1 (x19 / 强大-01
+			:arg0 x7)
+		:manner (x8 / 靠-01
+			:arg1 (x13 / 聪明
+				:arg0-of (x12 / 小-01)
+				:example (x9 / 抢注))
+			:arg0 x7)
+		:manner (x15 / 钻-01
+			:arg1 (x16 / 空子)
+			:arg0 x7))
+	:arg0 (x2 / 舆论
+		:arg0-of (x1 / 有-04)))
+
+# ::id export_amr.189 ::2017-02-12 19:35:15
+# ::snt · 我 国 商标 抢注 成风 ， 周立波 被 注 丰胸 广告 、 谢霆锋 被 注 止泻 广告 、 林书豪 亦 在 此 列 。
+(x48 / expansion
+	:arg1 (x6 / 成风-01
+		:arg0 (x5 / 抢注
+			:arg1 (x4 / 商标))
+		:location (x2_x3 / 我国))
+	:arg2 (x34 / and
+		:op1 (x10 / 注-01
+			:arg1 (x12 / 广告-01
+				:arg1 (x11 / 丰胸))
+			:arg2 (x53 / person
+				:name (x8 / name
+					:op1 "周立波"))
+			:arg0 (x54 / person))
+		:op2 (x16 / 注-01
+			:arg1 (x18 / 广告-01
+				:arg1 (x17 / 止泻))
+			:arg2 (x52 / person
+				:name (x14 / name
+					:op1 "谢霆锋"))
+			:arg0 (x55 / person))
+		:op3 (x22 / be-located-at
+			:arg1 (x24 / 列
+				:mod (x23 / 此))
+			:mod (x21 / 亦)
+			:arg0 (x51 / person
+				:name (x20 / name
+					:op1 "林书豪")))))
+
+# ::id export_amr.190 ::2017-02-12 19:38:27
+# ::snt · 香港 的 深圳 “ 唯冠 ” 诉 苹果 手机 侵犯 其 抢注 的 商标权 ， 在 上海 浦东 法院 被 驳回 。
+(x22 / 驳回-01
+	:location (x20 / 法院
+		:location (x42 / local-region
+			:name (x19 / name
+				:op1 "浦东")
+			:location (x43 / city
+				:name (x18 / name
+					:op1 "上海"))))
+	:arg1 (x8 / 诉-01
+		:arg1 (x11 / 侵犯-01
+			:arg0 (x10 / 手机
+				:name (x9 / name
+					:op1 "苹果"))
+			:arg1 (x15 / 商标权
+				:arg1-of (x13 / 抢注
+					:arg0 (x12 / x44))))
+		:arg0 (x44 / company
+			:name (x4_x6 / name
+				:op1 "深圳"
+				:op2 "唯冠")
+			:location (x47 / city
+				:name (x2 / name
+					:op1 "香港")))))
+
+# ::id export_amr.191 ::2017-02-12 19:40:46
+# ::snt · “ 神州 租车 ” 在 国内 连年 亏损 ， 不 能 上市 ， 决定 到 美国 上市 ， 预计 融资 三亿多 美金 。
+(x26 / and
+	:op1 (x28 / causation
+		:arg1 (x37 / causation
+			:arg2 (x12 / 能-01
+				:polarity (x11 / -)
+				:arg0 (x13 / 上市-01
+					:arg0 (x48 / company
+						:name (x3_x4 / name
+							:op1 "神州"
+							:op2 "租车"))))
+			:arg1 (x9 / 亏损-01
+				:frequency (x8 / 连年)
+				:range (x7 / 国内)
+				:arg0 x48))
+		:arg2 (x15 / 决定-01
+			:arg1 (x18 / 上市-01
+				:location (x50 / country
+					:name (x17 / name
+						:op1 "美国")))
+			:arg0 x48))
+	:op2 (x20 / 预计-01
+		:arg1 (x21 / 融资-01
+			:arg1 (x31 / monetary-quantity
+				:quant (x22_3 / 多
+					:op1 (x22_1_2 / 300000000)))
+			:arg0 x48)))
+
+# ::id export_amr.192 ::2017-02-12 19:43:59
+# ::snt · 福建 “ 归真堂 ” 为 入市 称 其 活 熊 取 胆 令 熊 愉快 ， 并 反驳 质疑者 ： 你 如何 知 其 不 愉快 ？
+(x30 / progression
+	:arg1 (x8 / 称-02
+		:purpose (x7 / 入市-01
+			:arg0 (x33 / company
+				:name (x4 / name
+					:op1 "归真堂"
+					:location (x54 / province
+						:name (x2 / name
+							:op1 "福建")))))
+		:arg0 x33
+		:arg1 (x14 / 令-01
+			:arg0 (x12 / 取-01
+				:arg2 (x11 / 熊
+					:mod (x10 / 活))
+				:arg1 (x13 / 胆
+					:part-of x11))
+			:arg1 (x15 / x11)
+			:arg2 (x16 / 愉快-01
+				:arg0 x11)))
+	:arg2 (x19 / 反驳-01
+		:arg2 (x20 / 质疑者)
+		:arg1 (x24 / 知-01
+			:arg1 (x27 / 愉快-01
+				:polarity (x26 / -)
+				:arg0 (x25 / x11))
+			:manner (x23 / amr-unknown)
+			:mode (x28 / interrogative)
+			:arg0 (x22 / x33))))
+
+# ::id export_amr.193 ::2017-02-12 19:47:24
+# ::snt · 广东 肇庆 出现 开 豪车 “ 碰瓷 ” 者 ， 制造 事故 后 ， 以 被 刮蹭 为 名 ， 索要 高额 赔偿 。
+(x51 / and
+	:op1 (x4 / 出现-01
+		:arg1 (x10 / 者
+			:arg0-of (x8 / 碰瓷
+				:manner (x5 / 开-03
+					:arg1 (x6 / 豪车))))
+		:arg0 (x49 / city
+			:name (x3 / name
+				:op1 "肇庆")
+			:location (x50 / province
+				:name (x2 / name
+					:op1 "广东"))))
+	:op2 (x53 / temporal
+		:arg1 (x12 / 制造-01
+			:arg1 (x13 / 事故)
+			:arg0 x10)
+		:arg2 (x22 / 索要-01
+			:arg1 (x24 / 赔偿-01
+				:mod (x23 / 高额)
+				:arg1 x10)
+			:cause (x18 / 刮蹭
+				:arg1 x6)
+			:arg0 x10)))
+
+# ::id export_amr.194 ::2017-02-12 19:48:47
+# ::snt · 上海 宽松 楼市 限制 的 新 规 ： 外地人 居 沪 三 年 者 ， 可 购 第二 套 住房 ， 合格者 约 67万 。
+(x8 / 规
+	:arg0-of (x31 / mean
+		:arg1 (x36 / and
+			:op1 (x17 / 可-02
+				:arg0 (x18 / 购-01
+					:arg1 (x21 / 住房
+						:ord (x40 / ordinal-entity
+							:value (x19 / 2))
+						:cunit (x20 / 套))
+					:arg0 (x15 / 者
+						:arg0-of (x11 / 居-02
+							:arg1 (x12 / 沪)
+							:duration (x46 / temporal-quantity
+								:quant (x13 / 3)
+								:cunit (x14 / 年)))
+						:arg1-of (x55 / include
+							:arg2 (x10 / 外地人)))))
+			:op2 (x23 / 合格者
+				:quant (x24 / 约
+					:op1 (x25 / 670000)))))
+	:topic (x3 / 宽松-02
+		:arg1 (x5 / 限制-01
+			:arg1 (x4 / 楼市)))
+	:arg0-of (x7 / 新-01)
+	:location (x54 / city
+		:name (x2 / name
+			:op1 "上海")))
+
+# ::id export_amr.195 ::2017-02-12 19:54:56
+# ::snt · 银行业 高速 增长 ， 存贷款 利差 占 收入 80% ， 利润 12 倍 于 工业 ， 恳请 ： 不 要 太 爱 钱 。
+(x27 / and
+	:op1 (x4 / 增长-01
+		:manner (x3 / 高速)
+		:arg1 (x31 / thing
+			:poss (x2 / 银行业)))
+	:op2 (x8 / 占-01
+		:arg0 (x7 / 利差
+			:mod (x6 / 存贷款))
+		:arg1 (x9 / 收入
+			:quant (x37 / percentge-entity
+				:value (x10 / 80))))
+	:op3 (x41 / equal
+		:arg1 (x12 / 利润
+			:poss x2)
+		:arg2 (x14 / 倍
+			:op1 (x13 / 12))
+		:compared-to (x16 / 工业))
+	:op4 (x18 / 恳请-01
+		:arg2 (x21 / 要-03
+			:polarity (x20 / -)
+			:arg0 (x23 / 爱-01
+				:degree (x22 / 太)
+				:arg1 (x24 / 钱)))))
+
+# ::id export_amr.196 ::2017-02-12 19:58:44
+# ::snt · 信用卡 设 签名 被 盗取 由 银行 负责 ， 设 密码 由 用户 负责 ， 国外 多 设 签名 国内 多 设 密码 。
+(x53 / and
+	:op1 (x27 / and
+		:op1 (x9 / 负责-01
+			:arg0 (x8 / 银行)
+			:arg1 (x6 / 盗取-01
+				:arg1 (x4 / 签名-01
+					:arg1-of (x3 / 设-01
+						:arg2 (x2 / 信用卡)
+						:arg0 (x14 / 用户)))
+				:arg0 (x52 / person)))
+		:op2 (x15 / 负责-01
+			:arg0 x14
+			:arg1 (x11 / 设-01
+				:arg1 (x12 / 密码))))
+	:op2 (x57 / and
+		:op1 (x19 / 设-01
+			:arg1 (x20 / 签名)
+			:frequency (x18 / 多)
+			:range (x17 / 国外))
+		:op2 (x23 / 设-01
+			:arg1 (x24 / 密码)
+			:range (x21 / 国内)
+			:frequency (x22 / 多))))
+
+# ::id export_amr.197 ::2017-02-12 20:00:05
+# ::snt · 阿里巴巴 以 股权 私有化 退市 ， 邀约 上市 价格 回购 股票 ， 中 小 股民 普遍 吃亏 。
+(x21 / causation
+	:arg1 (x23 / and
+		:op1 (x6 / 退市
+			:manner (x5 / 私有化-01
+				:arg1 (x4 / 股权)
+				:arg0 (x38 / company
+					:name (x2 / name
+						:op1 "阿里巴巴")))
+			:arg0 x38)
+		:op2 (x8 / 邀约-01
+			:arg1 (x11 / 回购-01
+				:arg1 (x12 / 股票)
+				:cost (x10 / 价格
+					:mod (x9 / 上市-01)))
+			:arg0 x38))
+	:arg2 (x18 / 吃亏-01
+		:arg0 (x16 / 股民
+			:arg0-of (x14 / 中-01)
+			:arg0-of (x15 / 小-01))
+		:arg0-of (x17 / 普遍-01)))
+
+# ::id export_amr.198 ::2017-02-12 20:03:32
+# ::snt · 北京 去年 70% 的 医院 遭受 “ 医闹 ” ， 有 大 闹 大 赔 ， 小 闹 小 赔 ， 不 闹 不 赔 者 。
+(x7 / 遭受-01
+	:arg0 (x6 / 医院
+		:location (x65 / city
+			:name (x2 / name
+				:op1 "北京"))
+		:quant (x37 / percentage-entity
+			:value (x4 / 70))
+		:arg2-of (x41 / include-91
+			:arg1 (x27 / 者
+				:arg0 (x61 / and
+					:op1 (x62 / condition
+						:arg1 (x14 / 闹-01
+							:degree (x13 / 大)
+							:arg0 (x9 / 医闹))
+						:arg2 (x16 / 赔-01
+							:degree (x15 / 大)
+							:arg0 x6))
+					:op2 (x63 / condition
+						:arg1 (x19 / 闹-01
+							:degree (x18 / 小)
+							:arg0 x9)
+						:arg2 (x21 / 赔-01
+							:degree (x20 / 小)
+							:arg0 x6))
+					:op3 (x64 / condition
+						:arg1 (x24 / 闹-01
+							:polarity (x23 / -)
+							:arg0 x9)
+						:arg2 (x26 / 赔-01
+							:polarity (x25 / -)
+							:arg0 x6))))))
+	:arg1 x9
+	:time (x3 / 去年))
+
+# ::id export_amr.199 ::2017-02-12 20:19:05
+# ::snt 原因 ： 检查费 过 高 、 医生 态度 不 好 、 遇到 问题 缺乏 解释 ， 以及 病人 对 医生 、 医院 缺乏 信任 。
+(x1 / 原因
+	:arg0-of (x29 / mean
+		:arg1 (x30 / and
+			:op1 (x5 / 高-01
+				:arg0 (x3 / 检查费)
+				:degree (x4 / 过))
+			:op2 (x10 / 好-01
+				:arg0 (x8 / 态度
+					:poss (x7 / 医生))
+				:polarity (x9 / -))
+			:op3 (x38 / condition
+				:arg1 (x12 / 遇到-01
+					:arg1 (x13 / 问题))
+				:arg2 (x14 / 缺乏-01
+					:arg1 (x15 / 解释)))
+			:op4 (x23 / 缺乏-01
+				:arg1 (x24 / 信任-01
+					:arg0 (x18 / 病人)
+					:arg1 (x46 / and
+						:op1 (x20 / 医生)
+						:op2 (x22 / 医院)))))))
+
+# ::id export_amr.200 ::2017-02-12 20:22:26
+# ::snt 我们 中国 ， 这些 年 来 ， 靠 垄断 发财 的 国营 企业 与 靠 血汗 工厂 盘剥 农民工 发财 的 民营 企业 ， 在 现有 的 非 民主 社会 管理 模式 下 ， 已经 走到 头 了 。
+(x36 / 走到-01
+	:arg1 (x37 / 头)
+	:aspect (x38 / 了)
+	:arg0 (x14 / and
+		:op1 (x13 / 企业
+			:arg0-of (x10 / 发财-01
+				:manner (x8 / 靠-01
+					:arg1 (x9 / 垄断)))
+			:arg0-of (x12 / 国营-01))
+		:op2 (x23 / 企业
+			:arg0-of (x20 / 发财-01
+				:manner (x15 / 靠-01
+					:arg1 (x18 / 盘剥-01
+						:arg0 (x17 / 工厂
+							:mod (x16 / 血汗))
+						:arg1 (x19 / 农民工))))
+			:arg0-of (x22 / 民营-01))
+		:location (x75 / country
+			:name (x2 / name
+				:op1 "中国")
+			:poss (x1 / 我们)))
+	:condition (x32 / 模式
+		:mod (x31 / 管理-01
+			:arg1 (x30 / 社会))
+		:mod (x29 / 民主
+			:polarity (x28 / -))
+		:arg1-of (x26 / 现有-01))
+	:duration (x72 / temporal-quantity
+		:quant (x4 / 这些)
+		:unit (x5 / 年))
+	:aspect (x35 / 已经))
+
+# ::id export_amr.201 ::2017-03-28 11:02:20
+# ::snt 所以 ， 趁 欧 美 经济 危机 ， 寄 希望 于 并购 外企 ， 以为 是 一 条 出路 。 其实 ， 贴 肉 不 长膘 ， 别人 的 屁股 做 不 得 脸 ， 那 只 是 妄想 。
+(x42 / multi-sentence
+	:snt1 (x44 / causation
+		:arg2 (x9 / 寄-02
+			:arg1 (x10 / 希望-01)
+			:arg2 (x12 / 并购-01
+				:arg1 (x13 / 外企))
+			:arg2 (x15 / 以为-01
+				:arg1 (x19 / 出路
+					:quant (x17 / 1)
+					:cunit (x18 / 条)
+					:domain x12))
+			:time (x7 / 危机
+				:mod (x6 / 经济)
+				:location (x83 / world-region
+					:name (x4_x5 / name
+						:op1 "欧"
+						:op2 "美")))))
+	:snt2 (x21 / 其实
+		:arg0 (x59 / and
+			:op1 (x60 / and
+				:op1 (x26 / 长膘
+					:polarity (x25 / -)
+					:manner (x23 / 贴-01
+						:arg1 (x24 / 肉)))
+				:op2 (x33 / possible
+					:arg0 (x31 / 做-02
+						:arg1 (x34 / 脸)
+						:polarity (x32 / -)
+						:arg0 (x30 / 屁股
+							:poss (x28 / 别人)))))
+			:op2 (x39 / 妄想-01
+				:domain (x36 / x9)
+				:mod (x37 / 只)))))
+
+# ::id export_amr.202 ::2017-02-12 20:28:01
+# ::snt 日本人 就 曾经 如此 ，， 尽管 其 基础 远远 好于 我们 ， 结果 还是 帮 别人 做 了 奶妈 ， 等到 人家 缓 过 气 来 ， 自己 强弩之末 ， 一 翻 掌 ， 犹如 抢注 的 商标 还 得 卖 回去 ， 顶多 是 沾 了 点 小 便宜 。
+(x4 / 如此-01
+	:arg0 (x1 / 日本人)
+	:time (x3 / 曾经)
+	:arg0-of (x58 / mean
+		:arg1 (x59 / and
+			:op1 (x60 / concession
+				:arg1 (x10 / 好于
+					:arg0 (x8 / 基础
+						:poss (x7 / x1)
+						:poss (x11 / 我们))
+					:arg1 x8
+					:degree (x9 / 远远))
+				:arg2 (x15 / 帮-01
+					:arg1 (x16 / 别人)
+					:arg2 (x17 / 做-02
+						:arg1 (x19 / 奶妈)
+						:aspect (x18 / 了))
+					:domain (x13 / 结果)
+					:arg0 x1))
+			:op2 (x29 / 强弩之末
+				:time (x21 / 等到-01
+					:arg1 (x23_x24_x25 / 缓过气
+						:arg0 (x22 / 人家)))
+				:arg0-of (x78 / mean
+					:arg1 (x79 / condition
+						:arg1 (x32 / 翻-01
+							:arg1 (x33 / 掌)
+							:arg0 x22)
+						:arg2 (x82 / and
+							:op1 (x40 / 得
+								:arg0 (x41 / 卖-01
+									:arg1 (x38 / 商标
+										:arg1-of (x36 / 抢注
+											:arg1-of (x35 / 犹如)))
+									:arg0 x1)
+								:op2 (x44 / 顶多
+									:arg0 (x46 / 沾-01
+										:arg1 (x50 / 便宜
+											:arg0-of (x49 / 小-01)
+											:quant (x48 / 点))
+										:aspect (x47 / 了)
+										:arg0 x1))))))
+				:domain (x28 / x1))))
+	:mod (x2 / 就))
+
+# ::id export_amr.203 ::2017-02-12 20:28:37
+# ::snt 确确实实 ， 做人 做事 只 能 相信 规律 ， 靠 小 聪明 、 钻 空子 的 崛起 ， 翘 起来 的 只 能 是 挨打 的 屁股 。
+(x1 / 确确实实-01
+	:arg0 (x32 / and
+		:op1 (x5_x6 / 只能-01
+			:arg0 (x7 / 相信-01
+				:arg1 (x8 / 规律)
+				:condition (x42 / and
+					:op1 (x3 / 做人)
+					:op2 (x4 / 做事-01))))
+		:op2 (x51 / condition
+			:arg1 (x17 / 崛起-01
+				:manner (x10 / 靠
+					:arg1 (x52 / and
+						:op1 (x12 / 聪明
+							:arg0-of (x11 / 小-01))
+						:op2 (x14 / 钻-02
+							:arg1 (x15 / 空子)))))
+			:arg2 (x22_x23 / 只能-01
+				:arg0 (x27 / 屁股
+					:arg0-of (x25 / 挨打-01)
+					:domain (x46 / thing
+						:arg0-of (x19 / 翘-01
+							:direction (x20 / 起来))))))))
+
+# ::id export_amr.204 ::2017-02-12 20:32:33
+# ::snt 香港 的 深圳 “ 唯冠 ” 就 是 个 典型 ， 自己 的 公司 都 做 倒 了 ， 靠 抢注 的 稻草 ， 行 吗 ？
+(x55 / expansion
+	:arg1 (x49 / thing
+		:arg0-of (x10 / 典型-01)
+		:cunit (x9 / 个)
+		:domain (x31 / company
+			:name (x3_x5 / name
+				:op1 "深圳"
+				:op2 "唯冠")
+			:location (x54 / country-region
+				:name (x1 / name
+					:op1 "香港"
+					:op1 "香港"))))
+	:arg2 (x57 / and
+		:op1 (x17 / 倒-01
+			:arg1 (x14 / 公司
+				:poss x31)
+			:aspect (x18 / 了)
+			:mod (x15 / 都))
+		:op2 (x60 / condition
+			:arg1 (x20 / 靠-01
+				:arg1 (x23 / 稻草
+					:arg1-of (x21 / 抢注)))
+			:arg2 (x25 / 行-04
+				:arg0 x20
+				:mode (x26_x27 / interrogative)))))
+
+# ::id export_amr.205 ::2017-02-12 20:33:24
+# ::snt 朝前 看 ， 依照 我们 现在 的 这 条 非 民主 的 社会 管理 之 途 ， 出路 ， 还 真的 是 很 渺茫 。
+(x2 / 看-02
+	:direction (x1_2 / 前)
+	:arg0 (x32 / condition
+		:arg1 (x4 / 依照-01
+			:arg1 (x16 / 途
+				:mod (x14 / 管理-01
+					:arg1 (x13 / 社会)
+					:arg0-of (x11 / 民主-01
+						:polarity (x10 / -)))
+				:mod (x8 / 这)
+				:cunit (x9 / 条)
+				:time (x6 / 现在)
+				:poss (x5 / 我们)))
+		:arg2 (x24 / 渺茫-01
+			:degree (x23 / 很)
+			:arg0 (x18 / 出路)
+			:degree (x21 / 真的))))
+
+# ::id export_amr.206 ::2017-02-12 20:35:53
+# ::snt 政治 上 的 山穷水尽 ， 从 不 公开 但 又 人人 皆 知 的 叠出 事件 中 ， 已经 连 瞎子 都 感觉 得 出来 了 。
+(x24_x25 / possible
+	:arg0 (x23 / 感觉-01
+		:arg0 (x21 / 瞎子)
+		:arg1 (x4 / 山穷水尽
+			:fangmian (x1 / 政治))
+		:mod (x22 / 都)
+		:aspect (x26 / 了)
+		:cause (x16 / 事件
+			:mod (x15 / 叠出)
+			:arg1-of (x8 / 公开-01
+				:polarity (x7 / -))
+			:arg1-of (x13 / 知-01
+				:arg0 (x11 / 人人)
+				:mod (x12 / 皆)))))
+
+# ::id export_amr.207 ::2017-02-12 20:37:34
+# ::snt 而 经济 上 的 头 撞 南墙 ， 通过 通胀 和 股市 的 必然性 低落 ， 以及 莫名其妙 的 暴涨 ， 也 已经 众所周知 。
+(x32 / and
+	:op1 (x24 / 众所周知-01
+		:arg1 (x5_x6_x7 / 头撞南墙
+			:fangmian (x2 / 经济))
+		:manner (x9 / 通过-04
+			:arg1 (x36 / and
+				:op1 (x10 / 通胀)
+				:op2 (x15 / 低落-01
+					:arg0 (x12 / 股市)
+					:mod (x14 / 必然性))
+				:op3 (x20 / 暴涨-01
+					:arg0-of (x18 / 莫名其妙-01))))
+		:aspect (x23 / 已经)
+		:mod (x22 / 也)(x43 / contrast))
+
+# ::id export_amr.208 ::2017-02-12 20:40:31
+# ::snt 可笑 的 是 ， 走投无路 之下 ， 还 有 人 认为 美国 佬 最 傻 ， 最 容易 上当 ， 要 到 美国 去 上市 圈 票子 ， 殊 不 知 那里 正 是 来 这 手 的 祖宗 ， 五指山 下 等 猴 尿 ， 叫做 ： 没 跑 。
+(x1 / 可笑-01
+	:arg0 (x55 / contrast
+		:arg1 (x56 / causation
+			:arg1 (x11 / 认为-01
+				:arg1 (x65 / and
+					:op1 (x15 / 傻-01
+						:degree (x14 / 最)
+						:arg0 (x12_x13 / 美国佬))
+					:op2 (x18 / 容易-01
+						:arg0 (x19 / 上当-01
+							:arg0 x12_x13)
+						:degree (x17 / 最)))
+				:arg0 (x10 / 人
+					:arg1-of (x9 / 有-03
+						:mod (x8 / 还))))
+			:arg2 (x21 / 要-03
+				:arg0 (x25 / 上市-01
+					:purpose (x26 / 圈-01
+						:arg1 (x27 / 票子))
+					:location (x89 / country
+						:name (x23 / name
+							:op1 "美国"))
+					:arg0 x10)))
+		:arg2 (x29_x30_x31 / 殊不知-01
+			:arg0 (x81 / and
+				:op1 (x39 / 祖宗
+					:arg0-of (x35 / 来-04
+						:arg1 (x36_x37 / 这手))
+					:domain (x32 / x89))
+				:op2 (x43 / 等-01
+					:arg1 (x45 / 尿-01
+						:arg0 (x44 / 猴))
+					:location (x41 / 五指山)
+					:arg0-of (x86 / possible
+						:arg0 (x50 / 跑-03
+							:polarity (x49 / -))))))))
+
+# ::id export_amr.209 ::2017-02-12 20:44:13
+# ::snt 至于 ， 下作 到 将 取 活 熊 胆 当作 出路 者 ， 早晚 其 自身 的 胆汁 也 要 被 其 之 失算 榨 出来 ， 届时 ， 就 知道 有 多 舒服 了 。
+(x38 / and
+	:op2 (x41 / and
+		:op1 (x12 / 者
+			:mod (x3 / 下作
+				:degree (x10 / 当作-01
+					:arg1 (x6 / 取-01
+						:arg1 (x9 / 胆
+							:part-of (x8 / 熊
+								:mod (x7 / 活))))
+					:arg1 (x11 / 出路))))
+		:op2 (x20 / 要-03
+			:arg0 (x25 / 榨-01
+				:arg1 (x18 / 胆汁
+					:part-of (x15_x16 / x12))
+				:cause (x24 / 失算-01
+					:arg0 (x22 / x12))
+				:direction (x26 / 出来))
+			:time (x14 / 早晚)))
+	:op3 (x31 / 知道-01
+		:arg0 x12
+		:arg1 (x34 / 舒服
+			:degree (x33 / 多))
+		:smood (x35 / 了)
+		:time (x28 / x25)
+		:mod (x30 / 就)))
+
+# ::id export_amr.210 ::2017-02-12 20:46:13
+# ::snt 对比 起来 ， 真 还 不 如 开 豪车 “ 碰瓷 ” ， 拼 一下 ， 就是 坐牢 ， 好歹 还 有 饭 吃 。
+(x38 / causation
+	:arg1 (x40 / concession
+		:arg1 (x18 / 坐牢-01
+			:cause (x14_x15 / 拼一下))
+		:arg2 (x22 / 有-03
+			:arg1 (x23 / 饭
+				:arg1-of (x24 / 吃-01))
+			:mod (x20 / 好歹)))
+	:arg2 (x6_x7 / 不如-01
+		:condition (x1 / 对比)
+		:arg1 (x35 / and
+			:op1 (x11 / 碰瓷
+				:manner (x8 / 开-03
+					:arg1 (x9 / 豪车)))
+			:op2 x14_x15)
+		:mod (x4 / 真)
+		:mod (x5 / 还)))
+
+# ::id export_amr.211 ::2017-02-12 20:52:02
+# ::snt 当然 ， 眼下 最 愁 吃 不 上 饭 的 是 地方 政府 ， 上海 就 把 放松 楼市 调控 当作 出路 。 与 其 所 类似 的 ， 全国 已 有 17 个 城市 ， 但 其中 佛山 被 喝止 、 芜湖 遭 叫停 、 宁波 在 装傻 ……
+(x52 / multi-sentence
+	:snt1 (x1 / 当然
+		:arg0 (x65 / causation
+			:arg1 (x13 / 政府
+				:mod (x12 / 地方)
+				:domain (x57 / organization
+					:arg0-of (x5 / 愁-01
+						:arg1 (x8 / possible
+							:arg0 (x6 / 吃-01
+								:arg1 (x9 / 饭))
+							:polarity (x7 / -))
+						:degree (x4 / 最)))
+				:time (x3 / 眼下))
+			:arg2 (x21 / 当作-01
+				:arg1 (x18 / 放松-01
+					:arg1 (x20 / 调控-01
+						:arg1 (x19 / 楼市)))
+				:arg2 (x22 / 出路)
+				:arg0 (x100 / city
+					:name (x15 / name
+						:op1 "上海"))))
+		:snt2 (x88 / contrast
+			:arg1 (x27 / 类似-01
+				:arg0 (x76 / and
+					:op2 (x35 / 城市
+						:quant (x33 / 17)
+						:cunit (x34 / 个)
+						:arg1-of (x32 / 有-03
+							:arg0 (x30 / 全国)
+							:aspect (x31 / 已)))
+					:op1 (x25 / x100)))
+			:arg2 (x89 / and
+				:op1 (x41 / 喝止
+					:arg1 (x102 / city
+						:name (x39 / name
+							:op1 "佛山")
+						:arg1-of (x38 / include
+							:arg2 x35)))
+				:op2 (x44 / 遭-01
+					:arg1 (x45 / 叫停-01
+						:arg1 (x105 / city
+							:name (x43 / name
+								:op1 "芜湖")
+							:arg1-of x38))
+					:arg0 x105)
+				:op3 (x49 / 装傻-01
+					:arg0 (x106 / city
+						:name (x47 / name
+							:op1 "宁波")
+						:arg1-of x38)
+					:aspect (x48 / 在))))))
+
+# ::id export_amr.212 ::2017-02-12 20:54:09
+# ::snt 唯有 上海 ， 好像 有 大 靠山 ， 没 人 敢 奈何 ， 依旧 在 走 自选 的 出路 ， 或许 ， 这 同 政治 上 的 山穷水尽 有关 ？
+(x51 / and
+	:op1 (x53 / causation
+		:arg2 (x16 / 走-10
+			:arg1 (x19 / 出路
+				:mod (x17 / 自选-01
+					:arg0 (x61 / city
+						:name (x2 / name
+							:op1 "上海")
+						:mod (x1 / 唯有))))
+			:arg0 x61)
+		:arg1 (x60 / causation
+			:arg1 (x4 / 好像-01
+				:arg0 (x5 / 有-01
+					:arg1 (x7 / 靠山
+						:arg0-of (x6 / 大-01))
+					:arg0 x61))
+			:arg2 (x11 / 敢-01
+				:arg0 (x10 / 人
+					:polarity (x9 / -))
+				:arg1 (x12 / 奈何-01
+					:arg1 x61))))
+	:op2 (x21 / 或许
+		:arg0 (x29 / 有关-01
+			:arg1 (x28 / 山穷水尽
+				:fangmian (x25 / 政治))
+			:arg0 (x23 / x53))
+		:mode (x59 / interrogative)))
+
+# ::id export_amr.213 ::2017-02-12 20:55:13
+# ::snt 可知 ， 中国 的 根本 问题 在 政治 ， 在 社会 管理 的 方法 ， 在 有 ， 或者 没有 民主 。
+(x1 / 可知-01
+	:arg1 (x6 / 问题
+		:arg0-of (x31 / mean
+			:arg1 (x32 / and
+				:op1 (x8 / 政治)
+				:op2 (x14 / 方法
+					:mod (x12 / 管理-01
+						:arg1 (x11 / 社会)))
+				:op3 (x19 / or
+					:op1 (x17 / 有-03
+						:arg1 (x21 / 民主))
+					:op2 (x20_2 / 有-03
+						:polarity (x20_1 / -)
+						:arg1 x21))))
+		:arg0-of (x5 / 根本-01)
+		:poss (x42 / country
+			:name (x3 / name
+				:op1 "中国"))))
+
+# ::id export_amr.214 ::2017-02-12 20:56:03
+# ::snt 比如 ， 没有 民主 ， 银行 的 出路 就 在 盘剥 储户 、 就 在 乱 收费 、 就 在 抑制 包括 工业 在内 的 ， 国民 经济 的 发展 ……
+(x1 / 比如-01
+	:arg0 (x35 / condition
+		:arg1 (x3_2 / 有-03
+			:polarity (x3_1 / -)
+			:arg1 (x4 / 民主))
+		:arg2 (x39 / and
+			:op1 (x11 / 盘剥-01
+				:arg1 (x12 / 储户)
+				:arg0 (x6 / 银行))
+			:op2 (x17 / 收费-01
+				:manner (x16 / 乱)
+				:arg0 x6)
+			:op3 (x21 / 抑制-01
+				:arg1 (x30 / 发展-05
+					:arg1 (x28 / 经济
+						:mod (x27 / 国民)
+						:arg2-of (x22_x24 / include-91
+							:arg1 (x23 / 工业))))
+				:arg0 x6)
+			:domain (x8 / 出路
+				:poss x6))))
+
+# ::id export_amr.215 ::2017-02-12 20:56:36
+# ::snt 它 就 会 成为 社会 的 公害 ， 连 小小 的 信用卡 使用 都 要 为 客户 设 陷阱 。
+(x22 / and
+	:op1 (x3 / 会-02
+		:arg0 (x4 / 成为-01
+			:arg0 (x1 / 它)
+			:arg1 (x7 / 公害
+				:poss (x5 / 社会)))
+		:mod (x2 / 就))
+	:op2 (x30 / concession
+		:arg1 (x13 / 使用-01
+			:arg1 (x12 / 信用卡
+				:arg0-of (x10 / 小小-01)))
+		:arg2 (x15 / 要-03
+			:arg0 (x18 / 设-01
+				:arg1 (x19 / 陷阱)
+				:arg2 (x17 / 客户)))))
+
+# ::id export_amr.216 ::2017-02-12 21:00:03
+# ::snt 又 如 阿里巴巴 ， 在 非 民主 的 ， 老百姓 说 不 上 话 的 管理 之下 ， 它 就 能够 在 心满意足 地 圈完 钱 之后 ， 来 个 合法 的 “ 卷包会 ” —— 溜之大吉 。
+(x68 / thing
+	:example (x44 / condition
+		:arg2 (x21 / 能够-01
+			:arg0 (x47 / temporal
+				:arg1 (x25 / 圈完
+					:arg1 (x26 / 钱)
+					:manner (x23 / 心满意足)
+					:arg0 (x19 / x66))
+				:arg2 (x29 / 来-01
+					:arg1 (x34 / 卷包会
+						:cunit (x30 / 个)
+						:arg0-of (x55 / mean
+							:arg1 (x37 / 溜之大吉-01
+								:arg0 (x66 / company
+									:name (x3 / name
+										:op1 "阿里巴巴"))))
+						:arg0-of (x31 / 合法-01))
+					:arg0 x66)))
+		:arg1 (x16 / 管理-01
+			:mod (x13 / possible
+				:arg0 (x11_x14 / 说话-01
+					:arg0 (x10 / 老百姓))
+				:polarity (x12 / -))
+			:arg0-of (x7 / 民主-01
+				:polarity (x6 / -)))
+		:mod (x1 / 又)))
+
+# ::id export_amr.217 ::2017-02-12 21:00:51
+# ::snt 让 上当者 的 五 年 持股 ， 约 等于 零 。
+(x1 / 让-02
+	:arg1 (x6 / 持股-01
+		:arg0 (x2 / 上当者)
+		:duration (x21 / temporal-quantity
+			:quant (x4 / 5)
+			:unit (x5 / 年)))
+	:arg2 (x9 / 等于-01
+		:arg0 x6
+		:arg1 (x10 / 零)
+		:manner (x8 / 约)))
+
+# ::id export_amr.218 ::2017-02-12 21:02:05
+# ::snt 再 如 医疗 ， 全 世界 二百多 个 国家 ， 只 有 二十几 个 要 老百姓 看病 付钱 的 ， 我们 在 非 民主 之下 成为 其中 之一 。
+(x31 / and
+	:op2 (x2 / 如
+		:arg0 (x34 / and
+			:op1 (x3 / 医疗)
+			:op2 (x15 / 要-03
+				:location (x9 / 国家
+					:quant (x7_3 / 多
+						:op1 (x7_1_2 / 200))
+					:cunit (x8 / 个)
+					:location (x6 / 世界
+						:mod (x5 / 全))
+					:quant (x13_3 / 几
+						:op1 (x13_1_2 / 20))
+					:arg1-of (x44 / include-91
+						:arg2 x9))
+				:arg0 (x18 / 付钱-01
+					:cause (x17 / 看病-01
+						:arg0 (x16 / 老百姓))
+					:arg0 x16))
+			:op3 (x26 / 成为-01
+				:arg0 (x21 / 我们)
+				:arg1 (x28 / 之一
+					:arg1-of (x27 / include-91
+						:arg2 x9))
+				:condition (x24 / 民主
+					:polarity (x23 / -))))))
+
+# ::id export_amr.219 ::2017-02-12 21:02:37
+# ::snt 这 还 会 不 闹 ？
+(x3 / 会-02
+	:arg0 (x5 / 闹-03
+		:polarity (x4 / -))
+	:condition (x1 / 这)
+	:mode (x6 / interrogative)
+	:mod (x2 / 还))
+
+# ::id export_amr.220 ::2017-02-12 21:03:11
+# ::snt 当年 城乡 的 公费 加 合作 医疗 ， 为何 从 不 闻 其 闹 呢 ？
+(x12 / 闻-01
+	:arg1 (x14 / 闹-03
+		:arg0 (x13 / 其))
+	:polarity (x11 / -)
+	:time (x10 / 从)
+	:condition (x7 / 医疗
+		:location (x2 / 城乡)
+		:time (x1 / 当年)
+		:cost (x4 / 公费)
+		:mod (x6 / 合作))
+	:mode (x15_x16 / interrogative)
+	:cause (x9 / amr-unknown))
+
+# ::id export_amr.221 ::2016-12-02 10:52:33
+# ::snt 嘻 ， 为政 春眠 起 何 迟 ， 窗 外 民主 胜 柳丝 ； 规律 送 绿 安 可 拂 ， 唯 当 启 户 共舞 之 。
+(x30 / and
+	:op1 (x1 / 嘻)
+	:op2 (x35 / and
+		:op1 (x3 / 为政)
+		:op2 (x4 / 春眠)
+		:op3 (x7 / 迟-01
+			:arg0 (x5 / 起)
+			:degree (x6 / 何)))
+	:op2 (x12 / 胜-01
+		:arg0 (x11 / 民主-01
+			:location (x10 / 外
+				:op1 (x9 / 窗)))
+		:arg1 (x13 / 柳丝))
+	:op3 (x19 / 可
+		:arg0 (x18 / amr-unknown)
+		:arg0 (x20 / 拂-01
+			:arg1 (x16 / 送-01
+				:manner (x15 / 规律)
+				:arg1 (x17 / 绿))))
+	:op4 (x23 / 当
+		:arg0 (x51 / and
+			:op1 (x24 / 启-01
+				:arg1 (x25 / 户))
+			:op2 (x26 / 共舞))
+		:smood (x27 / 之)
+		:mod (x22 / 唯)))
+
+# ::id export_amr.222 ::2016-04-21 15:39:53
+# ::snt 其实 出路 在 眼前 ， 只 需 体制 得 改变 。
+(x13 / condition
+	:arg1 (x7 / 需-01
+		:arg1 (x9 / 得
+			:arg0 (x10 / 改变-01
+				:arg1 (x8 / 体制))))
+	:arg2 (x2 / 出路
+		:location (x4 / 眼前)
+		:manner (x1 / 其实)))
+
+# ::id export_amr.223 ::2016-04-21 15:41:49
+# ::snt 规律 民主 不 可 挡 ， 逆流 冲进 死亡线 ！
+(x12 / and
+	:op1 (x4 / 可-02
+		:polarity (x3 / -)
+		:arg0 (x5 / 挡-01
+			:arg1 (x17 / and
+				:op1 (x1 / 规律)
+				:op2 (x2 / 民主))))
+	:op2 (x8 / 冲进-01
+		:manner (x7 / 逆流)
+		:arg1 (x9 / 死亡线))
+	:mode (x10 / expressive))
+
+# ::id export_amr.224 ::2016-04-21 15:43:09
+# ::snt 玩 把 洋 的 试 末途 ，
+(x5 / 试-01
+	:arg1 (x6 / 末途)
+	:manner (x1 / 玩-01
+		:arg1 (x13 / thing
+			:mod (x3 / 洋))
+		:cunit (x2 / 把)))
+
+# ::id export_amr.225 ::2016-04-21 15:44:49
+# ::snt 病 急 投医 乱成 糊 。
+(x4_1 / 乱-01
+	:arg0 (x1_2_3 / 病急投医)
+	:degree (x4_5 / 成糊))
+
+# ::id export_amr.226 ::2016-12-02 10:53:07
+# ::snt 骑虎难下 早晚 事 ，
+(x3 / 事
+	:time (x2 / 早晚)
+	:domain (x1 / 骑虎难下))
+
+# ::id export_amr.227 ::2016-12-02 10:54:25
+# ::snt 葬身 之 地 有 也 无 ？ ！
+(x5 / and
+	:op1 (x4 / 有-03)
+	:op2 (x6 / 无-01)
+	:arg1 (x3 / 地
+		:location (x1 / 葬身))
+	:mode (x77 / interrogative)
+	:mode (x8 / expressive))
+
+# ::id export_amr.228 ::2016-12-02 10:55:31
+# ::snt 病态 思维 混 日子
+(x3 / 混-02
+	:arg1 (x4 / 日子)
+	:instrument (x2 / 思维
+		:mod (x1 / 病态)))
+
+# ::id export_amr.229 ::2016-12-02 10:56:00
+# ::snt 缩进 龟壳 装 孙子
+(x6 / and
+	:op1 (x1 / 缩进
+		:arg1 (x2 / 龟壳))
+	:op2 (x3 / 装-03
+		:arg1 (x4 / 孙子)))
+
+# ::id export_amr.230 ::2016-12-02 10:56:38
+# ::snt 其实 只 想 保 面子
+(x3 / 想-02
+	:mod (x2 / 只)
+	:mod (x1 / 其实)
+	:arg1 (x4 / 保-01
+		:arg1 (x5 / 面子)))
+
+# ::id export_amr.231 ::2016-12-02 10:56:53
+# ::snt 最终 留下 污迹子
+(x2 / 留下-01
+	:arg1 (x3 / 污迹子)
+	:time (x1 / 最终))
+
+# ::id export_amr.232 ::2016-12-02 10:57:29
+# ::snt 江山 惨烂 总 高潮
+(x4 / 高潮
+	:arg1-of (x8 / have-frequency
+		:arg2 (x3 / 总))
+	:arg0 (x2 / 惨烂
+		:arg0 (x1 / 江山)))
+
+# ::id export_amr.233 ::2016-12-02 10:58:01
+# ::snt 大吹特擂 胆气 豪
+(x8 / and
+	:op1 (x1 / 大吹特擂)
+	:op2 (x3 / 豪
+		:arg0 (x2 / 胆气)))
+
+# ::id export_amr.234 ::2016-12-02 10:58:25
+# ::snt 万事 世界 充 第一
+(x3 / 充-01
+	:arg1 (x4 / 第一)
+	:range (x2 / 世界)
+	:topic (x1 / 万事))
+
+# ::id export_amr.235 ::2016-12-02 10:59:08
+# ::snt 十三亿 民 苦 煎熬
+(x4 / 煎熬-01
+	:manner (x3 / 苦)
+	:arg0 (x2 / 民
+		:quant (x1 / 1300000000)))
+
+# ::id export_amr.236 ::2016-12-02 10:59:32
+# ::snt 紫禁城 里 寄生 时
+(x6 / thing
+	:time (x3 / 寄生-01
+		:arg1 (x1 / 紫禁城)))
+
+# ::id export_amr.237 ::2016-12-02 11:00:31
+# ::snt 九 头 恶 鸟 乐 难 支
+(x5 / 乐-01
+	:degree (x6 / 难-01
+		:arg0 (x7 / 支))
+	:arg0 (x4 / 鸟
+		:mod (x3 / 恶)
+		:part (x2 / 头
+			:quant (x1 / 9))))
+
+# ::id export_amr.238 ::2016-12-02 11:01:03
+# ::snt 私欲 膨胀 敢 吞 日
+(x2 / 膨胀-01
+	:arg0 (x1 / 私欲)
+	:degree (x3 / 敢
+		:arg1 (x4 / 吞
+			:arg1 (x5 / 日))))
+
+# ::id export_amr.239 ::2016-12-02 11:01:19
+# ::snt 到了 化为 碳 渣滓
+(x2 / 化为-01
+	:arg1 (x4 / 渣滓
+		:mod (x3 / 碳)))
+
+# ::id export_amr.240 ::2016-12-02 11:02:04
+# ::snt 哪 知 预想 面 全 非
+(x2 / 知-01
+	:polarity (x1 / -)
+	:arg1 (x6 / 非-01
+		:degree (x5 / 全)
+		:arg0 (x4 / 面
+			:mod (x3 / 预想))))
+
+# ::id export_amr.241 ::2016-12-02 11:02:28
+# ::snt 地狱 迎得 恶魔 归
+(x2 / 迎得
+	:location (x1 / 地狱)
+	:arg1 (x4 / 归-01
+		:arg0 (x3 / 恶魔)))
+
+# ::id export_amr.242 ::2016-12-02 11:03:06
+# ::snt 休想 害 民 能 自免
+(x1 / 休想-01
+	:arg1 (x9 / temporal
+		:arg1 (x2 / 害-01
+			:arg1 (x3 / 民))
+		:arg2 (x4 / 能-01
+			:arg0 (x5 / 自免))))
+
+# ::id export_amr.243 ::2016-12-02 11:03:45
+# ::snt 从来 瓜豆 要 收回
+(x3 / 要-03
+	:arg0 (x4 / 收回-01
+		:arg1 (x2 / 瓜豆))
+	:time (x1 / 从来))
+
+# ::id export_amr.244 ::2016-12-02 11:04:27
+# ::snt 扬 旗 扯 幡 脚步 急
+(x6 / 急-01
+	:arg0 (x5 / 脚步
+		:mod (x11 / and
+			:op1 (x1 / 扬-01
+				:arg1 (x2 / 旗))
+			:op2 (x3 / 扯-03
+				:arg1 (x4 / 幡)))))
+
+# ::id export_amr.245 ::2016-12-02 11:05:21
+# ::snt 惟恐 填土 来 不 及
+(x1 / 惟恐-01
+	:arg1 (x3_x4_x5 / 来不及-01
+		:arg1 (x2 / 填土)))
+
+# ::id export_amr.246 ::2016-12-02 11:05:44
+# ::snt 乾坤 反覆 须臾 事
+(x4 / 事
+	:time (x3 / 须臾)
+	:domain (x2 / 反覆
+		:arg1 (x1 / 乾坤)))
+
+# ::id export_amr.247 ::2016-12-02 11:07:44
+# ::snt 民愤 如 火 烧 眼皮
+(x4 / 烧-01
+	:arg0 (x1 / 民愤
+		:arg0-of (x2 / 如-01
+			:arg1 (x3 / 火)))
+	:arg1 (x5 / 眼皮))
+
+# ::id export_amr.248 ::2017-05-02 10:18:16
+# ::snt 重新 洗牌 行 不 行 ？
+(x8 / or
+	:op1 (x3 / 行-04
+		:arg0 (x2 / 洗牌
+			:manner (x1 / 重新)))
+	:op2 (x5 / 行-04
+		:polarity (x4 / -)
+		:arg0 x2)
+	:mode (x6 / interrogative))
+
+# ::id export_amr.249 ::2016-12-02 11:08:45
+# ::snt 走投无路 只好 行 。
+(x6 / causation
+	:arg1 (x1 / 走投无路)
+	:arg2 (x2 / 只好
+		:arg0 (x3 / 行)))
+
+# ::id export_amr.250 ::2016-12-02 11:09:02
+# ::snt 休看 今天 嘴巴 硬 ，
+(x1 / 休看
+	:arg1 (x4 / 硬-01
+		:arg0 (x3 / 嘴巴)
+		:time (x2 / 今天)))
+
+# ::id export_amr.251 ::2016-12-02 11:10:08
+# ::snt 其实 骨头 已 归零 ！
+(x4 / 归零-01
+	:arg0 (x2 / 骨头)
+	:aspect (x3 / 已)
+	:mod (x1 / 其实)
+	:mode (x5 / expressive))
+
+# ::id export_amr.252 ::2016-12-02 11:18:31
+# ::snt 当 网络 曝光 “ 近日 ， 一 份 署名 “ 司法厅 全体 领导 干部 ” 的 举报 信 ， 直 指 现任 河南省 司法厅 厅长 王文海 的 档案 年龄 涉嫌 造假 。
+(x3 / 曝光-01
+	:arg0 (x2 / 网络)
+	:arg1 (x21 / 指-02
+		:mod (x20 / 直)
+		:arg1 (x30 / 涉嫌-01
+			:arg1 (x31 / 造假)
+			:arg0 (x29 / 年龄
+				:location (x28 / 档案)
+				:poss (x41 / person
+					:name (x26 / name
+						:op1 "王文海")
+					:arg0-of (x43 / have-org-role-91
+						:arg2 (x25 / 厅长
+							:mod (x22 / 现任))
+						:arg1 (x24 / 司法厅
+							:location (x23 / 河南省))))))
+		:arg0 (x18 / 信
+			:instrument-of (x17 / 举报-01)
+			:arg0-of (x9 / 署名-01
+				:quant (x7 / 1)
+				:unit (x8 / 份)
+				:arg1 (x11_x12_x13_x14 / 司法全体领导干部)))
+		:time (x5 / 近日)))
+
+# ::id export_amr.253 ::2016-12-02 11:24:29
+# ::snt 该 举报 称 ， “ 13 岁 参军 ， 刚 满 16 岁 就 入D ， 真 是 神人 啊 ！ ” 的 新闻 曝光 的 时候 ， 引发 了 网友们 的 关注 ，
+(x36 / and
+	:op1 (x3 / 称-02
+		:arg0 (x2 / 举报
+			:mod (x1 / 该))
+		:arg1 (x41 / causation
+			:arg1 (x42 / and
+				:op1 (x8 / 参军-01
+					:time (x51 / age
+						:arg2 (x52 / temporal-quantity
+							:quant (x6 / 13)
+							:unit (x7 / 岁)))
+					:arg0 (x56 / person))
+				:op2 (x15 / 入队-01
+					:time (x11 / 满-02
+						:arg1 (x45 / age
+							:arg2 (x46 / temporal-quantity
+								:quant (x12 / 16)
+								:unit (x13 / 岁)))
+						:time (x10 / 刚))
+					:arg0 x56)
+				:op3 (x19 / 神人
+					:domain x56
+					:degree (x17 / 真)
+					:mode (x20_x21 / expressive)))))
+	:op2 (x29 / 引发-01
+		:arg1 (x33 / 关注-01
+			:arg0 (x31 / 网友们))
+		:aspect (x30 / 了)
+		:time (x25 / 曝光-01
+			:arg1 (x24 / 新闻
+				:arg0-of (x65 / mean
+					:arg1 x3)))
+		:arg0 x24))
+
+# ::id export_amr.254 ::2017-06-01 21:08:10
+# ::snt 正 如 某 个 网友 质疑 “ 更加 令 人 深思 的 是 , 简造 历 得 这样 假 , 是 如何 通过 组织 部门 审查 步步高升 的 ? ” 说 的 一样 ， 其实 一 想 这 是 中国 ， 什么 都 想通 了 ， 所以 造假 并 不 可怕 ， 也 不 可耻 ， 反之 是 被 认可 的 。
+(x64 / and
+	:op1 (x1_2 / 正如-01
+		:arg1 (x6 / 质疑-01
+			:arg0 (x5 / 网友
+				:mod (x3 / 某)
+				:cunit (x4 / 个))
+			:arg1 (x11 / 深思-01
+				:arg0 (x10 / 人)
+				:arg1 (x73 / thing
+					:arg0-of (x75 / mean
+						:arg1 (x76 / concession
+							:arg1 (x16 / 造-01
+								:arg1 (x15 / 简历
+									:mod (x19 / 假-01
+										:degree (x18 / 这样-01))))
+							:arg2 (x84 / and
+								:op1 (x23 / 通过-01
+									:arg0 x15
+									:arg1 (x26 / 审查-01
+										:arg0 (x25 / 部门)
+										:arg0 (x24 / 组织)))
+								:op2 (x27 / 步步高升)
+								:manner (x22 / amr-unknown)
+								:mode (x29 / interrogative)))))
+				:degree (x8 / 更加))))
+	:op2 (x91 / condition
+		:arg1 (x37 / 想-01
+			:arg1 (x113 / country
+				:name (x40 / name
+					:op1 "中国")
+				:domain (x114 / country
+					:mod (x38 / 这))))
+		:manner (x35 / 其实)
+		:arg2 (x44 / 想通
+			:arg1 (x42 / 什么)
+			:manner (x43 / 都)
+			:smood (x45 / 了)))
+	:op3 (x100 / causation
+		:arg2 (x108 / progression
+			:arg1 (x109 / and
+				:op1 (x51 / 可怕-01
+					:polarity (x50 / -)
+					:manner (x49 / 并))
+				:op2 (x55 / 可耻-01
+					:polarity (x54 / -))
+				:arg0 (x48 / 造假))
+			:arg2 (x60 / 认可-01
+				:arg1 x48))))
+
+# ::id export_amr.255 ::2016-04-22 10:26:20
+# ::snt 对于 这 个 司法 厅长 ， 其实 还是 有 许多 故事 的 ， 正 如 “ 2011年 年 9月 ， 洛阳市 公安局 原 副局长 李小选 、 刑警 支队 党委 成员 张建岳 、 民警 尤益民 等 人 ， 对 王文海 进行 实名 举报 ， 指 其 曾 在 1998年 交通 肇事 后 逃逸 ， 并 找 人 “ 顶包 ” 。
+(x9 / 有-03
+	:arg0 (x5 / 厅长
+		:mod (x4 / 司法)
+		:mod (x2 / 这)
+		:cunit (x3 / 个))
+	:arg1 (x11 / 故事
+		:mod (x10 / 许多))
+	:manner (x7 / 其实)
+	:example (x40 / 进行-01
+		:arg1 (x42 / 举报-01
+			:manner (x41 / 实名)
+			:arg1 (x39 / 王文海)
+			:arg0 (x76 / and
+				:op4 (x35_x36 / 等人)
+				:op1 (x107 / person
+					:arg0-of (x108 / have-org-role-91
+						:arg1 (x22 / 公安局
+							:location (x21 / 洛阳市))
+						:arg2 (x24 / 副局长
+							:mod (x23 / 原)))
+					:name (x25 / name
+						:op1 "李小选"))
+				:op2 (x112 / person
+					:arg0-of (x113 / have-org-role-91
+						:arg1 (x28 / 支队
+							:mod (x27 / 刑警))
+						:arg2 (x30 / 成员
+							:mod (x29 / 党委)))
+					:name (x31 / name
+						:op1 "张建岳"))
+				:op3 (x114 / person
+					:arg0-of (x116 / have-org-role-91
+						:arg2 (x33 / 民警))
+					:name (x34 / name
+						:op1 "尤益民")))
+			:arg2 (x91 / temporal
+				:arg1 (x50 / 肇事-01
+					:arg0 (x45 / x39)
+					:mod (x49 / 交通))
+				:arg2 (x52 / 逃逸
+					:arg0 x45)
+				:time (x46 / 曾)
+				:time (x100 / date-entity
+					:year (x48_1 / 1998))))
+		:time (x104 / date-entity
+			:year (x17_1 / 2011)
+			:month (x19_1 / 9))))
+
+# ::id export_amr.256 ::2016-04-22 10:26:47
+# ::snt 对 此 ， 王文海 称 系 诬陷 。
+(x5 / 称-02
+	:arg1 (x7 / 诬陷-01
+		:domain (x2 / 此))
+	:arg0 (x15 / person
+		:name (x4 / name
+			:op1 "王文海")))
+
+# ::id export_amr.257 ::2016-04-22 10:33:24
+# ::snt 曾 有 南方 都市报 记者 对 此 事 进行 采访 ， 采访 期间 ， 该 记者 手机 账单 上 莫名 多出 3000 元 话费 ， 该 记者 称 系 王文海 强行 为 其 充值 。 ”
+(x38 / and
+	:op1 (x9 / 进行-01
+		:arg1 (x10 / 采访-01
+			:arg1 (x8 / 事
+				:mod (x7 / 此))
+			:arg0 (x49 / person
+				:arg0-of (x50 / have-org-role-91
+					:arg1 (x4 / 都市报
+						:name (x3 / name
+							:op1 "南方"))
+					:arg2 (x5 / 记者))))
+		:time (x1 / 曾))
+	:op2 (x21 / 多出-01
+		:manner (x20 / 莫名)
+		:arg1 (x24 / 话费
+			:quant (x54 / monetary-quantity
+				:quant (x55 / 3000)
+				:cunit (x23 / 元)))
+		:arg0 (x18 / 账单
+			:mod (x17 / 手机
+				:poss (x59 / person
+					:arg0-of (x60 / have-org-role-91
+						:arg2 (x16 / 记者))
+					:mod (x15 / 该))))
+		:duration (x13 / 期间
+			:mod (x12 / 采访)))
+	:op3 (x28 / 称-02
+		:arg0 (x66 / person
+			:arg0-of (x67 / have-org-role-91
+				:arg2 (x27 / 记者))
+			:mod (x26 / 该))
+		:arg1 (x34 / 充值
+			:arg0 (x71 / person
+				:name (x30 / name
+					:op1 "王文海"))
+			:beneficiary (x33 / x66)
+			:manner (x31 / 强行))))
+
+# ::id export_amr.258 ::2017-03-28 10:25:39
+# ::snt 这 段 故事 说明 ， 其实 该 厅长 确实 是 造假 制假 行家 高手 ， 也 算是 组织 培养 的 一 个 优秀 人才 ， 所以 此 才 若 不 用 ， 当前 弃 之 可惜 啊 ，
+(x42 / causation
+	:arg1 (x4 / 说明-01
+		:arg0 (x3 / 故事
+			:mod (x1 / 这)
+			:cunit (x2 / 段))
+		:arg1 (x48 / and
+			:op1 (x9 / 确实
+				:arg0 (x55 / and
+					:op1 (x13 / 行家)
+					:op2 (x14 / 高手)
+					:domain (x57 / person
+						:arg0-of (x58 / have-org-role-91
+							:arg2 (x8 / 厅长))
+						:mod (x7 / 该))
+					:mod (x11 / 造假)
+					:mod (x12 / 制假))
+				:manner (x6 / 其实))
+			:op2 (x17 / 算是-01
+				:manner (x16 / 也)
+				:arg0 x57
+				:arg1 (x24 / 人才
+					:mod (x23 / 优秀)
+					:arg1-of (x19 / 培养-01
+						:arg0 (x18 / 组织))
+					:quant (x21 / 1)
+					:cunit (x22 / 个)))))
+	:arg2 (x70 / condition
+		:arg1 (x31 / 用-01
+			:polarity (x30 / -)
+			:arg0 (x28 / x57
+				:mod (x27 / 此)))
+		:arg2 (x34_x35_x36 / 弃之可惜
+			:mode (x37 / expressive)
+			:time (x33 / 当前))))
+
+# ::id export_amr.259 ::2016-04-22 11:27:36
+# ::snt 毕竟 得 花费 上亿 才 培养 个 厅级 干部 ， 就 这样 完蛋 求 ， 岂 非 不 是 如 重庆 的 公按部 英雄 文强 一样 吗 ？
+(x49 / and
+	:op1 (x1 / 毕竟
+		:arg0 (x33 / condition
+			:arg1 (x2 / 得
+				:arg0 (x3 / 花费-01
+					:arg1 (x37 / monetary-quantity
+						:quant (x4_1 / 上
+							:op1 (x4_2 / 100000000)))))
+			:arg2 (x6 / 培养
+				:arg1 (x43 / person
+					:arg0-of (x44 / have-org-role-91
+						:arg2 (x9 / 干部
+							:mod (x8 / 厅级)))
+					:cunit (x7 / 个)))))
+	:op2 (x51 / condition
+		:arg1 (x13 / 完蛋
+			:arg0 x43
+			:manner (x12 / 这样-01)
+			:manner (x11 / 就))
+		:arg2 (x26 / 一样-02
+			:arg0 x43
+			:arg1 (x24 / 英雄
+				:arg0-of (x61 / mean
+					:arg1 (x62 / person
+						:arg0-of (x63 / have-org-role-91
+							:arg1 (x23 / 公安部
+								:location (x21 / 重庆))))
+					:name (x25 / name
+						:op1 "文强")))
+			:manner (x16_x17_x18_x10 / 岂非不是)
+			:mode (x27_x28 / interrogative))))
+
+# ::id export_amr.260 ::2017-06-01 21:09:11
+# ::snt 文强 已 死 ， 是 中国 的 悲剧 ， 虽然 文强 死 了 ， 但 依旧 和 夏明翰 一样 值得 广大 重庆 人民 悼念 ，
+(x27 / and
+	:op1 (x8 / 悲剧
+		:domain (x3 / 死-01
+			:time (x2 / 已)
+			:arg0 (x46 / person
+				:name (x1 / name
+					:op1 "文强")))
+		:poss (x50 / country
+			:name (x6 / name
+				:op1 "中国")))
+	:op2 (x34 / contrast
+		:arg1 (x12 / 死-01
+			:aspect (x13 / 了)
+			:arg0 (x11 / x46))
+		:arg2 (x19 / 一样-02
+			:arg2 (x20 / 值得-01
+				:arg1 (x24 / 悼念-01
+					:arg0 (x23 / 人民
+						:mod (x21 / 广大)
+						:location (x51 / city
+							:name (x22 / name
+								:op1 "重庆")))
+					:arg1 x11))
+			:arg0 x46
+			:arg1 (x49 / person
+				:name (x18 / name
+					:op1 "夏明翰")))))
+
+# ::id export_amr.261 ::2016-12-07 16:48:45
+# ::snt 怎么 说 文强 也 曾经 是 重庆 的 救星 过 嘛 ，
+(x32 / concession
+	:arg1 (x2 / 说
+		:manner (x1 / 怎么))
+	:arg2 (x9 / 救星
+		:location (x7 / 重庆)
+		:domain (x21 / person
+			:name (x3 / name
+				:op1 "文强"))
+		:time (x5 / 曾经)
+		:aspect (x10 / 过)
+		:mode (x11 / expressive)
+		:mod (x4 / 也)))
+
+# ::id export_amr.262 ::2017-02-12 21:04:13
+# ::snt 当年 他 也 曾经 打黑 过 ， 所以 对待 文强 一般 的 官员 ， 建议 还是 保护 为好 ，
+(x21 / causation
+	:arg1 (x5 / 打黑
+		:arg0 (x2 / 他)
+		:time (x4 / 曾经)
+		:time (x1 / 当年)
+		:aspect (x6 / 过)
+		:mod (x3 / 也))
+	:arg2 (x15 / 建议-01
+		:arg1 (x17 / 保护-01
+			:arg1 (x32 / person
+				:arg0-of (x33 / have-org-role-91
+					:arg2 (x13 / 官员))
+				:arg0-of (x11 / 一般-01
+					:arg0 (x34 / person
+						:name (x10 / name
+							:op1 "文强")))))
+		:arg0 x2))
+
+# ::id export_amr.263 ::2016-12-02 12:16:30
+# ::snt 因为 处处 是 文强 ， 不 保护 ， 上 的 新 文强 说不定 更 牛B ， 这个 是 13 岁 参军 ， 那个 说不定 3 岁 参军 就 可以 打枪 了 ，
+(x34 / causation
+	:arg1 (x36 / and
+		:op1 (x4 / 文强
+			:location (x2 / 处处))
+		:op2 (x39 / condition
+			:arg1 (x7 / 保护
+				:polarity (x6 / -))
+			:arg2 (x13 / 说不定-01
+				:arg0 (x15 / 牛逼
+					:degree (x14 / 更)
+					:arg0 (x12 / 文强
+						:mod (x11 / 新)
+						:arg0-of (x9 / 上-09))))))
+	:arg2 (x48 / and
+		:op1 (x21 / 参军-01
+			:arg0 (x50 / person
+				:mod (x17 / 这个))
+			:time (x52 / age
+				:arg2 (x53 / temporal-quantity
+					:quant (x19 / 13)
+					:unit (x20 / 岁))))
+		:op2 (x29 / 可以-02
+			:arg0 (x30 / 打枪-01
+				:time (x27 / 参军-01
+					:time (x61 / age
+						:arg2 (x62 / temporal-quantity
+							:quant (x25 / 3)
+							:unit (x26 / 岁))))
+				:arg0 (x65 / person
+					:mod (x23 / 那个)))
+			:mod (x28 / 就)
+			:aspect (x31 / 了))))
+
+# ::id export_amr.264 ::2017-06-01 21:09:48
+# ::snt 所以 正 如 某 个 网友 惊叹 说 “ 都 是 人才 啊 ！ 神童 啊 ！ 中国 官场 是 一 个 创造 奇迹 ， 制造 奇迹 的 地方 ！ ”
+(x33 / causation
+	:arg2 (x2_x3 / 正如-01
+		:arg1 (x8 / 说-01
+			:arg0 (x6 / 网友
+				:mod (x4 / 某)
+				:quant (x5 / 个))
+			:cause (x7 / 惊叹
+				:arg0 x6)
+			:arg1 (x43 / and
+				:op1 (x12 / 人才
+					:domain (x45 / person)
+					:manner (x10 / 都)
+					:mode (x13_x14 / expressive))
+				:op2 (x15 / 神童
+					:mode (x16_x17 / expressive))
+				:op3 (x29 / 地方
+					:domain (x19 / 官场
+						:location (x61 / country
+							:name (x18 / name
+								:op1 "中国")))
+					:mod (x26 / 制造-01
+						:arg1 (x27 / 奇迹)
+						:arg0 x19)
+					:mod (x23 / 创造-01
+						:arg1 (x24 / 奇迹)
+						:arg0 x19)
+					:quant (x21 / 1)
+					:cunit (x22 / 个)
+					:mode (x30 / expressive))))))
+
+# ::id export_amr.265 ::2016-12-07 16:52:43
+# ::snt 说穿 了 ， 当官 谁 不 想 当 长 点 ， 谁 不 想 自己 年轻 点 ， 只有 不 当 官员 的 才 希望 自己 赶快 年纪 大 点 好 退休 ，
+(x38 / and
+	:op1 (x1 / 说穿-01
+		:smood (x2 / 了))
+	:op2 (x41 / condition
+		:arg1 (x4 / 当官)
+		:arg2 (x48 / and
+			:op1 (x7 / 想-02
+				:arg0 (x5 / 谁)
+				:arg1 (x8 / 当-02
+					:duration (x9 / 长
+						:degree (x10 / 点)))
+				:polarity (x6 / -))
+			:op2 (x14 / 想-02
+				:arg0 (x12 / 谁)
+				:arg1 (x16 / 年轻-01
+					:arg0 (x15 / x12))
+				:polarity (x13 / -))))
+	:op3 (x25 / 希望-01
+		:arg0 (x57 / person
+			:arg0-of (x21 / 当-02
+				:arg1 (x22 / 官员)
+				:polarity (x20 / -))
+			:mod (x19 / 只有))
+		:arg1 (x29 / 大-02
+			:arg0 (x28 / 年纪
+				:poss (x26 / x57))
+			:manner (x27 / 赶快)
+			:purpose (x32 / 退休-01
+				:arg0 x57))
+		:mod (x24 / 才)))
+
+# ::id export_amr.266 ::2016-12-07 16:56:20
+# ::snt 所以 我 可以 理解 为什么 河南省 司法厅 厅长 为何 能 13 岁 参军 ， 16 岁 入D ， 其实 领导 也 是 为了 方便 多 呆 在 位置 几 年 嘛 ， 毕竟 没有 监督 ， 权 无限 大 的 位置 上 谁 不 想 当 呢 ？
+(x50 / causation
+	:arg2 (x3 / 可以-03
+		:arg1 (x4 / 理解-01
+			:arg0 (x2 / 我)
+			:arg1 (x10 / 能-02
+				:arg0 (x67 / and
+					:op1 (x13 / 参军-01
+						:arg0 (x58 / person
+							:arg0-of (x59 / have-org-role-91
+								:arg1 (x7 / 司法厅
+									:location (x6 / 河南省))
+								:arg2 (x8 / 厅长))
+							:arg1-of (x62 / age
+								:arg2 (x63 / temporal-quantity
+									:quant (x11 / 13)
+									:unit (x12 / 岁))))
+						:cause (x9 / 为何
+							:arg0-of (x84 / mean
+								:arg1 (x87 / and
+									:op1 (x24 / 方便-01
+										:arg0 (x20 / 领导)
+										:arg2 (x26 / 呆-02
+											:arg1 (x28 / 位置)
+											:arg0 x20
+											:duration (x79 / temporal-quantity
+												:quant (x29 / 几)
+												:unit (x30 / 年)
+												:degree (x25 / 多)))
+										:manner (x19 / 其实)
+										:mode (x31 / expressive)
+										:op2 (x88 / causation
+											:arg1 (x34_2 / 有-03
+												:arg1 (x35 / 监督)
+												:polarity (x34_1 / -))
+											:arg2 (x45 / 想-02
+												:arg0 (x43 / 谁)
+												:polarity (x44 / -)
+												:arg1 (x46 / 当-02
+													:arg1 (x41 / 位置
+														:mod (x39 / 大
+															:arg0 (x37 / 权)
+															:degree (x38 / 无限))))
+												:mode (x47_x48 / expressive))))))))
+					:op2 (x17 / 入党-01
+						:arg0 x58
+						:time (x69 / age
+							:arg1 x58
+							:arg2 (x70 / temporal-quantity
+								:quant (x15 / 16)
+								:unit (x16 / 岁)))))))
+		:arg0 x2))
+
+# ::id export_amr.267 ::2016-12-07 16:58:53
+# ::snt 我们 有 句 话 说 得 好 ， “ 不 想 当 将军 的 不 是 好 兵 ” ， 所以 在 “ 不 想 当 书妓 的 公务员 不 是 好 干部 ” 的 环境 下 ， 为了 当官 ， 一切 都 不 是 奇迹 ，
+(x49 / causation
+	:arg1 (x2 / 有-03
+		:arg0 (x1 / 我们)
+		:arg1 (x4 / 话
+			:cunit (x3 / 句)
+			:arg1-of (x5 / 说-01
+				:manner (x7 / 好-02))
+			:arg0-of (x60 / mean
+				:arg1 (x18 / 兵
+					:domain (x63 / person
+						:arg0-of (x11 / 想-01
+							:arg1 (x12 / 当-02
+								:arg1 (x13 / 将军))
+							:polarity (x10 / -)))
+					:polarity (x15 / -)
+					:arg0-of (x17 / 好-01)))))
+	:arg2 (x46 / 奇迹
+		:domain (x42 / 一切)
+		:manner (x43 / 都)
+		:polarity (x44 / -)
+		:condition (x36 / 环境
+			:arg0-of (x75 / mean
+				:arg1 (x33 / 干部
+					:domain (x29 / 公务员
+						:arg0-of (x25 / 想-02
+							:arg1 (x26 / 当-02
+								:arg1 (x27 / 书记))))
+					:polarity (x24 / -)
+					:arg0-of (x32 / 好-01))))
+		:purpose (x40 / 当官)))
+
+# ::id export_amr.268 ::2016-04-25 10:28:59
+# ::snt 十三 岁 参军 ， 没有 什么 大不了 的 嘛 ， 要 能 改 ， 三 岁 参军 都 可以 ， 童子军 嘛 ， 难道 不 是 参军 吗 ？
+(x31 / and
+	:op1 (x5_2 / 有-06
+		:arg0 (x3 / 参军
+			:time (x35 / age
+				:arg2 (x36 / temporal-quantity
+					:quant (x1 / 13)
+					:unit (x2 / 岁))))
+		:arg1 (x7 / 大不了
+			:mod (x6 / 什么))
+		:mode (x9 / expressive)
+		:polarity (x5_1 / -))
+	:op2 (x53 / causation
+		:arg1 (x54 / condition
+			:arg1 (x12 / 能-01
+				:arg1 (x13 / 改))
+			:arg2 (x19 / 可以-02
+				:arg0 (x17 / 参军
+					:time (x49 / age
+						:arg2 (x50 / temporal-quantity
+							:quant (x15 / 3)
+							:unit (x16 / 岁))))))
+		:arg2 (x27 / 参军
+			:domain (x21 / 童子军
+				:mode (x22 / expressive)
+				:polarity (x25 / -))
+			:manner (x24 / 难道)
+			:mode (x28_x29 / interrogative))))
+
+# ::id export_amr.269 ::2016-12-07 17:03:23
+# ::snt 其实 13 岁 当兵 是 有 的 ， 以前 部队 里 文艺 演员 ， 运动员 很多 都 是 很 小 就 招 进去 了 ， 进去 了 就 开始 算 军龄 了
+(x51 / and
+	:op1 (x6 / 有-03
+		:arg1 (x36 / person
+			:arg0-of (x4 / 当兵
+				:time (x39 / age
+					:arg2 (x40 / temporal-quantity
+						:quant (x2 / 13)
+						:unit (x3 / 岁))))
+			:example (x49 / and
+				:op1 (x13 / 演员
+					:mod (x12 / 文艺))
+				:op2 (x15 / 运动员)
+				:location (x10 / 部队
+					:time (x9 / 以前))))
+		:mode (x5_x7 / judgement)
+		:manner (x1 / 其实))
+	:op3 (x66 / temporal
+		:arg1 (x26 / 进去-01
+			:aspect (x27 / 了)
+			:arg0 x49)
+		:arg2 (x29 / 开始-01
+			:arg1 (x30 / 算-02
+				:arg1 (x31 / 军龄
+					:poss x49))
+			:aspect (x32 / 了)))
+	:op2 (x22 / 招-01
+		:arg1 (x54 / person
+			:arg1-of (x73 / include-91
+				:arg2 x49)
+			:mod (x16 / 很多)
+			:time (x57 / age
+				:arg1 x54
+				:arg2 (x20 / 小-01
+					:degree (x19 / 很)
+					:arg0 x54)))
+		:direction (x23 / 进去)
+		:smood (x24 / 了)
+		:mod (x21 / 就)))
+
+# ::id export_amr.270 ::2016-12-07 17:04:00
+# ::snt 关键 是 他 到底 为 老百姓 做 了 什么 ？ 为了 当官 而 当官 ， 老百姓 可 就 惨 了 。
+(x23 / and
+	:op1 (x1 / 关键-01
+		:arg0 (x7 / 做-01
+			:arg0 (x3 / 他)
+			:arg1 (x9 / amr-unknown)
+			:aspect (x8 / 了)
+			:beneficiary (x6 / 老百姓)
+			:mode (x10 / interrogative)
+			:mod (x4 / 到底)))
+	:op2 (x33 / condition
+		:arg1 (x14 / 当官
+			:purpose (x12 / 当官))
+		:arg2 (x19 / 惨-01
+			:arg0 (x16 / 老百姓)
+			:smood (x20 / 了))))
+
+# ::id export_amr.271 ::2016-12-07 17:05:07
+# ::snt 悲催 啊 ， 我 户口本 上 改 个 年龄 好 困难 呀 。
+(x1 / 悲催
+	:mode (x2 / expressive)
+	:cause (x11 / 困难-01
+		:arg0 (x7 / 改-01
+			:arg1 (x9 / 年龄
+				:location (x5 / 户口本
+					:poss (x4 / 我))
+				:cunit (x8 / 个)
+				:poss x4))
+		:degree (x10 / 好)
+		:mode (x12 / expressive)))
+
+# ::id export_amr.272 ::2016-04-25 11:12:32
+# ::snt 看看 人家 厅长 多 牛 。
+(x1 / 看看-01
+	:arg1 (x5 / 牛-01
+		:degree (x4 / 多)
+		:arg0 (x2 / 人家
+			:arg0-of (x16 / mean
+				:arg1 (x17 / person
+					:arg0-of (x18 / have-org-role-91
+						:arg2 (x3 / 厅长)))))))
+
+# ::id export_amr.273 ::2016-12-07 18:23:38
+# ::snt 我 要 我 的 孙子 也 当 厅长 ， 给 我 把 年龄 改 过来 。
+(x2 / 要-01
+	:arg0 (x1 / 我)
+	:arg1 (x5 / 孙子
+		:poss (x3 / 我))
+	:arg2 (x7 / 当-02
+		:arg0 x5
+		:arg1 (x8 / 厅长)
+		:mod (x6 / 也))
+	:purpose (x14 / 改-01
+		:arg1 (x13 / 年龄)
+		:beneficiary (x11 / 我)))
+
+# ::id export_amr.274 ::2016-04-25 11:30:03
+# ::snt 都 说 法律 面前 人人 平等 ， 切 ， 我 看 不 一定 吧 ？
+(x26 / contrast
+	:arg1 (x2 / 说-01
+		:manner (x1 / 都)
+		:arg1 (x6 / 平等-01
+			:arg0 (x5 / 人人)
+			:condition (x4 / 面前
+				:mod (x3 / 法律))))
+	:arg2 (x11 / 看-11
+		:arg0 (x10 / 我)
+		:arg1 (x12_x13 / 不一定
+			:arg0 x6)
+		:mode (x14_x15 / interrogative)))
+
+# ::id export_amr.275 ::2016-12-07 18:35:09
+# ::snt 你 老百姓 就 是 冤大头 ， 你 反应 个 问题 吧 还 说 你 是 个 刁民 ， 不 安分 ， 看来 还 是 当官 好
+(x35 / causation
+	:arg1 (x37 / and
+		:op1 (x5 / 冤大头
+			:domain (x1 / 你
+				:arg0-of (x32 / mean
+					:arg1 (x2 / 老百姓))))
+		:op2 (x38 / condition
+			:arg1 (x8 / 反应-03
+				:arg0 (x7 / 你)
+				:arg1 (x10 / 问题
+					:cunit (x9 / 个)))
+			:arg2 (x13 / 说-01
+				:arg1 (x45 / and
+					:op1 (x17 / 刁民
+						:cunit (x16 / 个)
+						:domain (x14 / x1))
+					:op2 (x20 / 安分
+						:polarity (x19 / -)
+						:arg0 x1))
+				:mod (x12 / 还))))
+	:arg2 (x22 / 看来-02
+		:arg0 (x26 / 好-01
+			:arg0 (x25 / 当官)
+			:mod (x23_x24 / 还是))))
+
+# ::id export_amr.276 ::2016-12-07 18:43:06
+# ::snt 我 就 是 16 岁 去 当兵 的 ， 我 有 战友 是 14 岁 跟 我 一起 当兵 的 啊
+(x23 / and
+	:op1 (x6 / 去-01
+		:arg1 (x7 / 当兵-01
+			:arg0 (x1 / 我)
+			:time (x27 / age
+				:arg1 x1
+				:arg2 (x28 / temporal-quantity
+					:quant (x4 / 16)
+					:unit (x5 / 岁))))
+		:mode (x3_x8 / judgement)
+		:mod (x2 / 就))
+	:op2 (x19 / 当兵-01
+		:manner (x18 / 一起-01)
+		:arg0 (x10 / x1)
+		:accompanier (x12 / 战友
+			:poss x10
+			:arg1-of (x40 / age
+				:arg2 (x41 / temporal-quantity
+					:quant (x14 / 14)
+					:unit (x15 / 岁))))
+		:mode (x21 / expressive)
+		:mode (x13_x20 / judgement)))
+
+# ::id export_amr.277 ::2016-04-25 14:17:41
+# ::snt 我们 要 响应 领导 的 号招 ； 对于 这 位 13 岁 参军 的 厅长 大人 ； 要 开启 包容性 的 政治 进程 ；； 为 和谐 社会 在 作 贡献
+(x2 / 要-03
+	:arg0 (x3 / 响应-01
+		:arg0 (x1 / 我们)
+		:arg1 (x6 / 号召-01
+			:arg0 (x4 / 领导)
+			:arg0-of (x39 / mean
+				:arg1 (x18 / 要-03
+					:arg0 (x41 / and
+						:op1 (x19 / 开启-01
+							:arg1 (x23 / 进程
+								:mod (x22 / 政治
+									:mod (x20 / 包容性)))
+							:beneficiary (x16 / 大人
+								:mod (x9 / 这)
+								:cunit (x10 / 位)
+								:arg0-of (x53 / have-org-role-91
+									:arg2 (x15 / 厅长))
+								:arg0-of (x13 / 参军-01
+									:time (x56 / age
+										:arg1 x16
+										:arg2 (x57 / temporal-quantity
+											:quant (x11 / 13)
+											:unit (x12 / 岁))))))
+						:op2 (x29 / 作-01
+							:arg1 (x30 / 贡献-01
+								:arg1 (x27 / 社会
+									:mod (x26 / 和谐))))))))))
+
+# ::id export_amr.278 ::2016-12-07 20:00:26
+# ::snt 这 就 是 所谓 的 “ 自古 英雄 出 少年 ”
+(x9 / 出-04
+	:arg1 (x8 / 英雄)
+	:time (x7 / 自古)
+	:domain (x1 / 这)
+	:arg1-of (x4 / 所谓-01)
+	:arg0 (x10 / 少年))
+
+# ::id export_amr.279 ::2016-12-07 20:01:37
+# ::snt 吃饱 了 没 事 干 ， 通缉犯 都 能 办 一 个 新 身份证 ， 人家 一 个 厅长 改 个 年龄 想 多 干 几 年 不 是 什么 个 事情 ， 狗 咬 狗 的 有 什么 意思 ？
+(x43 / and
+	:op1 (x3 / 没-01
+		:arg1 (x4 / 事
+			:arg1-of (x5 / 干-01))
+		:time (x1 / 吃饱
+			:aspect (x2 / 了)))
+	:op2 (x50 / causation
+		:arg1 (x9 / 能-01
+			:arg0 (x10 / 办-01
+				:arg1 (x14 / 身份证
+					:mod (x13 / 新)
+					:quant (x11 / 1)
+					:cunit (x12 / 个))
+				:arg0 (x7 / 通缉犯))
+			:manner (x8 / 都))
+		:arg2 (x32 / 事情
+			:mod (x30 / 什么)
+			:cunit (x31 / 个)
+			:domain (x23 / 想-02
+				:arg0 (x16 / 人家
+					:arg0-of (x72 / mean
+						:arg1 (x73 / person
+							:arg0-of (x74 / have-org-role-91
+								:arg2 (x19 / 厅长))
+							:quant (x17 / 1)
+							:cunit (x18 / 个))))
+				:arg1 (x20 / 改-01
+					:arg1 (x22 / 年龄
+						:cunit (x21 / 个)
+						:poss x16)
+					:purpose (x25 / 干
+						:manner (x24 / 多)
+						:duration (x81 / temporal-quantity
+							:quant (x26 / 几)
+							:unit (x27 / 年)))
+					:arg0 x16)
+				:polarity (x28 / -))))
+	:op3 (x38 / 有-05
+		:arg0 (x35 / 咬-01
+			:arg0 (x34 / 狗)
+			:arg1 (x36 / 狗)
+			:smood (x37 / 的))
+		:arg1 (x40 / 意思
+			:mod (x39 / 什么))
+		:mode (x41 / interrogative)))
+
+# ::id export_amr.280 ::2016-12-07 20:04:26
+# ::snt 把 自己 的 日子 过 好 ， 不 要 天天 想 把 谁 搞 下去 ， 自己 如果 呆 在 那 个 位子 ， 没准 咬 你 的 人 更 多 。 风险 大 着 呢 。。。。。。
+(x53 / multi-sentence
+	:snt1 (x55 / causation
+		:arg2 (x56 / and
+			:op2 (x9 / 要-03
+				:polarity (x8 / -)
+				:arg0 (x11 / 想-01
+					:arg1 (x14 / 搞-01
+						:arg1 (x13 / 谁)
+						:direction (x15 / 下去))
+					:frequency (x10 / 天天))))
+		:arg1 (x57 / condition
+			:arg1 (x19 / 呆-02
+				:arg0 (x17 / x2)
+				:arg1 (x23 / 位子
+					:mod (x21 / 那)
+					:cunit (x22 / 个)))
+			:arg2 (x25 / 没准-01
+				:arg0 (x31 / 多
+					:degree (x30 / 更)
+					:arg0 (x29 / 人
+						:arg0-of (x26 / 咬-01
+							:arg1 (x27 / x2)))))))
+	:snt2 (x34 / 大-04
+		:arg0 (x33 / 风险)
+		:smood (x35 / 着)
+		:mode (x6 / expressive)))
+
+# ::id export_amr.281 ::2016-12-08 22:38:07
+# ::snt 特招 的 兵 也 有 八 九 岁 的 看看 是 什么 兵 了 16 岁 入D 那 就 不 符合 章程 了
+(x25 / and
+	:op1 (x5 / 有-07
+		:arg0 (x3 / 兵
+			:arg1-of (x1 / 特招))
+		:arg1 (x33 / person
+			:arg1-of (x35 / age
+				:arg2 (x36 / temporal-quantity
+					:quant (x37 / or
+						:op1 (x6 / 8)
+						:op2 (x7 / 9))
+					:unit (x8 / 岁)))))
+	:op2 (x10 / 看看-01
+		:arg1 (x13 / 兵
+			:mod (x12 / 什么)
+			:domain (x45 / person))
+		:smood (x14 / 了))
+	:op2 (x47 / condition
+		:arg2 (x21 / 符合-01
+			:arg0 (x17 / 入党
+				:arg0 (x49 / person)
+				:time (x50 / age
+					:arg1 x49
+					:arg1 (x51 / temporal-quantity
+						:quant (x15 / 16)
+						:unit (x16 / 岁))))
+			:arg2 (x22 / 章程)
+			:polarity (x20 / -)
+			:smood (x23 / 了))
+		:arg1 x17))
+
+# ::id export_amr.282 ::2016-04-25 14:47:11
+# ::snt 腐败 的 政府 无奇不有 !!!
+(x4 / 无奇不有
+	:location (x3 / 政府
+		:mod (x1 / 腐败))
+	:mode (x5 / expressive))
+
+# ::id export_amr.283 ::2016-04-25 14:49:02
+# ::snt 参军 的 好 早 ， 童子军 吗 ？
+(x10 / and
+	:op1 (x4 / 早-01
+		:degree (x3 / 好)
+		:arg0 (x1 / 参军))
+	:op2 (x6 / 童子军
+		:mode (x7_x8 / interrogative)))
+
+# ::id export_amr.284 ::2016-12-08 22:39:43
+# ::snt 现在 社会 就 是 这样 的 了 也 没 什么 办法
+(x15 / causation
+	:arg1 (x5 / 这样-01
+		:domain (x2 / 社会
+			:time (x1 / 现在))
+		:mode (x4_x6 / judgement)
+		:smood (x7 / 了)
+		:mod (x3 / 就))
+	:arg2 (x9 / 没-01
+		:arg1 (x11 / 办法
+			:mod (x10 / 什么))
+		:mod (x8 / 也)))
+
+# ::id export_amr.285 ::2016-04-25 14:53:03
+# ::snt 看 政府 什么 时候 能 透明 啊
+(x1 / 看-02
+	:arg2 (x5 / 能-01
+		:arg0 (x6 / 透明-01
+			:arg0 (x2 / 政府))
+		:time (x3_x4 / amr-unknown))
+	:mode (x7 / expressive))
+
+# ::id export_amr.286 ::2016-12-08 22:40:29
+# ::snt 实话实说 ， 当今 社会 就 这样
+(x10 / and
+	:op1 (x1 / 实话实说)
+	:op2 (x6 / 这样-01
+		:domain (x4 / 社会
+			:time (x3 / 当今))
+		:mod (x5 / 就)))
+
+# ::id export_amr.287 ::2016-12-08 22:41:09
+# ::snt 上梁 不 正 下梁 歪 呀 ， 警察 都 能 说出 ， 带 套 不 算 强奸 的 话 来 。
+(x23 / and
+	:op1 (x25 / condition
+		:arg1 (x3 / 正
+			:polarity (x2 / -)
+			:arg0 (x1 / 上梁))
+		:arg2 (x5 / 歪-01
+			:arg0 (x4 / 下梁))
+		:mode (x6 / expressive))
+	:op2 (x33 / concession
+		:arg1 (x8 / 警察)
+		:arg2 (x10 / 能-01
+			:arg0 (x11 / 说出-01
+				:arg0 x8
+				:arg1 (x19 / 话
+					:arg0-of (x16 / 算-01
+						:arg0 (x13 / 戴-01
+							:arg1 (x14 / 套))
+						:polarity (x15 / -)
+						:arg1 (x17 / 强奸)))))))
+
+# ::id export_amr.288 ::2016-12-08 22:41:52
+# ::snt 小偷 都 能 在 官员 家 偷出 5000万 。 百姓 还 能 指望 什么 、、、、
+(x17 / causation
+	:arg1 (x19 / concession
+		:arg1 (x1 / 小偷)
+		:arg2 (x3 / 能-01
+			:arg0 (x7 / 偷出
+				:arg0 x1
+				:arg1 (x23 / monetary-quantity
+					:quant (x24 / 50000000))
+				:location (x6 / 家
+					:poss (x5 / 官员)))))
+	:arg2 (x12 / 能-01
+		:arg0 (x13 / 指望-01
+			:arg0 (x10 / 百姓)
+			:arg1 (x14 / amr-unknown))
+		:manner (x11 / 还)))
+
+# ::id export_amr.289 ::2016-12-08 22:44:57
+# ::snt 总理 叫 开发商 流 着 道德 的 血 ， 可是 我们 的 官员 就 没 流 着 道德 的 血 ， 他们 与 开发商 狼狈为奸 ， 造成 目前 的 房价 。
+(x33 / contrast
+	:arg1 (x2 / 叫-04
+		:arg0 (x1 / 总理)
+		:arg2 (x4 / 流-01
+			:aspect (x5 / 着-01)
+			:arg0 (x8 / 血
+				:mod (x6 / 道德)
+				:part-of (x3 / 开发商)))
+		:arg1 x3)
+	:arg2 (x43 / and
+		:op1 (x16 / 流-01
+			:polarity (x15 / -)
+			:aspect (x17 / 着)
+			:arg0 (x20 / 血
+				:mod (x18 / 道德)
+				:part-of (x13 / 官员
+					:poss (x11 / 我们)))
+			:mod (x14 / 就))
+		:op2 (x25 / 狼狈为奸-01
+			:arg0 (x53 / and
+				:op1 (x22 / x13)
+				:op2 (x24 / 开发商)))
+		:op3 (x27 / 造成-01
+			:arg0 x53
+			:arg1 (x30 / 房价
+				:time (x28 / 目前)))))
+
+# ::id export_amr.290 ::2016-12-08 22:45:44
+# ::snt 官员 的 血 就 流 着 就 不道德 。
+(x5 / 流-01
+	:arg0 (x3 / 血
+		:part-of (x1 / 官员))
+	:manner (x8_2 / 道德
+		:polarity (x8_1 / -))
+	:aspect (x6 / 着)
+	:mod (x4 / 就))
+
+# ::id export_amr.291 ::2016-12-08 22:48:03
+# ::snt 总理 还 说 ， 叫 百姓 活着 有 尊严 ， 可是 ， 现在 的 工资 高低 工资 相差 几 倍 甚至 十几 倍 。
+(x33 / contrast
+	:arg1 (x35 / and
+		:op2 (x3 / 说-01
+			:arg0 (x1 / 总理)
+			:arg1 (x5 / 叫-04
+				:arg2 (x7 / 活着-01
+					:arg0 (x6 / 百姓)
+					:manner (x8 / 有-01
+						:arg1 (x9 / 尊严)
+						:arg0 x6))
+				:arg1 x6)))
+	:arg2 (x18 / 相差-01
+		:arg0 (x16 / 高低
+			:mod (x15 / 工资
+				:time (x13 / 现在)))
+		:quant (x21 / progression
+			:arg1 (x20 / 倍
+				:op1 (x19 / 几))
+			:arg2 (x23 / 倍
+				:op1 (x22 / 十几)))))
+
+# ::id export_amr.292 ::2016-12-08 22:49:23
+# ::snt 退休金 还 实行 双轨制 ， 相差 数 倍 。 这 怎么 叫 百姓 活着 有 尊严 呀
+(x19 / multi-sentence
+	:snt1 (x3 / 实行-01
+		:arg1 (x4 / 双轨制)
+		:arg2 (x1 / 退休金)
+		:cause-of (x6 / 相差-01
+			:quant (x8 / 倍
+				:op1 (x7 / 数-01)))
+		:mod (x2 / 还))
+	:snt2 (x12 / 叫-04
+		:manner (x11 / 怎么)
+		:arg0 (x10 / x3)
+		:mode (x17 / expressive)
+		:arg2 (x14 / 活着-01
+			:arg0 (x13 / 百姓)
+			:manner (x15 / 有-01
+				:arg1 (x16 / 尊严)
+				:arg0 x13))
+		:arg1 x13))
+
+# ::id export_amr.293 ::2017-01-11 16:58:00
+# ::snt 13 岁 当兵 的 我 都 认识 2 个
+(x7 / 认识-01
+	:arg0 (x5 / 我)
+	:arg1 (x15 / person
+		:quant (x8 / 2)
+		:cunit (x9 / 个)
+		:arg1-of (x19 / include-91
+			:arg2 (x20 / person
+				:arg0-of (x3 / 当兵-01
+					:time (x22 / age
+						:arg1 x20
+						:arg2 (x24 / temporal-quantity
+							:quant (x1 / 13)
+							:unit (x2 / 岁)))))))
+	:mod (x6 / 都))
+
+# ::id export_amr.294 ::2016-12-08 23:02:01
+# ::snt 都 是 酒精 考验 出来 的 党 的 好 干部 ， 这 点 能耐 算 啥 了 ？
+(x20 / causation
+	:arg1 (x10 / 干部
+		:arg1-of (x4 / 考验-01
+			:arg2 (x3 / 酒精))
+		:domain (x26 / person)
+		:poss (x7 / 党)
+		:mod (x1 / 都)
+		:arg0-of (x9 / 好-01))
+	:arg2 (x15 / 算-01
+		:arg0 (x14 / 能耐
+			:mod (x12 / 这)
+			:quant (x13 / 点))
+		:arg1 (x16 / 啥)
+		:smood (x17 / 了)
+		:mode (x18 / interrogative)))
+
+# ::id export_amr.295 ::2017-01-11 16:59:51
+# ::snt 13 岁 当兵 是 有 的 ， 但是 16 岁 入党 不 会 是 毛泽东 时代 的 事 ， 肯定 是 改革 开放 以后 的 事 ， 有 中国 特色 的 社会主义 吗 ， 就 是 这样 。
+(x44 / causation
+	:arg1 (x46 / contrast
+		:arg1 (x5 / 有-03
+			:arg1 (x54 / person
+				:arg0-of (x3 / 当兵-01
+					:time (x56 / age
+						:arg1 x54
+						:arg2 (x57 / temporal-quantity
+							:quant (x1 / 13)
+							:unit (x2 / 岁)))))
+			:mode (x4_x6 / judgement))
+		:arg2 (x47 / and
+			:op1 (x13 / 会-02
+				:arg0 (x18 / 事
+					:time (x16 / 时代
+						:mod (x63 / person
+							:name (x15 / name
+								:op1 "毛泽东")))
+					:domain (x11 / 入党-01
+						:arg0 (x71 / person)
+						:time (x67 / age
+							:arg2 (x68 / temporal-quantity
+								:quant (x9 / 16)
+								:unit (x10 / 岁))
+							:arg1 x71))))
+			:op2 (x20 / 肯定-02
+				:arg0 (x26 / 事
+					:domain x11
+					:time (x24 / 以后
+						:op1 (x22_x23 / 改革开放))))))
+	:arg2 (x37 / 这样-01
+		:domain (x32 / 社会主义
+			:arg0-of (x28 / 有-01
+				:arg1 (x30 / 特色
+					:mod (x79 / country
+						:name (x29 / name
+							:op1 "中国")))
+				:smood (x33 / 吗)))))
+
+# ::id export_amr.296 ::2016-12-08 23:07:00
+# ::snt 要不 现 政府 怎么 会 越来越 腐败 呢 。
+(x1 / 要不
+	:arg0 (x5 / 会-02
+		:arg0 (x7 / 腐败-01
+			:degree (x6 / 越来越)
+			:arg0 (x3 / 政府
+				:time (x2 / 现-01))))
+	:mode (x8 / expressive))
+
+# ::id export_amr.297 ::2017-01-11 16:48:34
+# ::snt 这 算 什么 啊 ， 不 记得 毛 主席 他 老人家 说 的 吗 ， “ 在 共产党 的 领导 下 ， 只要 有 了 人 ， 什么 人间 奇迹 也 能 造 出来 。 ” 这 可 是 原话 哦 ， 呵呵 。
+(x46 / and
+	:op1 (x2 / 算-01
+		:arg0 (x1 / 这)
+		:arg1 (x3 / 什么)
+		:mode (x4 / expressive))
+	:op2 (x7 / 记得-01
+		:polarity (x6 / -)
+		:arg1 (x66 / thing
+			:arg1-of (x12 / 说-01
+				:arg0 (x11 / 老人家
+					:arg0-of (x56 / mean
+						:arg1 (x10 / 他
+							:arg0-of (x63 / and
+								:op1 (x64 / person
+									:arg0-of (x65 / have-org-role-91
+										:arg2 (x9 / 主席))
+									:name (x8 / name
+										:op1 "毛")))))))
+			:arg0-of (x69 / mean
+				:arg1 (x70 / condition
+					:arg1 (x24 / 有-03
+						:arg1 (x26 / 人)
+						:aspect (x25 / 了))
+					:arg2 (x32 / 能-01
+						:arg0 (x33 / 造-01
+							:arg1 (x30 / 奇迹
+								:mod (x28 / 什么)
+								:location (x29 / 人间))
+							:manner (x31 / 也)))
+					:condition (x20 / 领导-01
+						:arg0 (x88 / political-party
+							:name (x18 / name
+								:op1 "共产党"))))))
+		:mode (x14 / interrogative))
+	:op3 (x40 / 原话
+		:domain (x37 / x70)
+		:mode (x41 / expressive))
+	:op4 (x43 / 呵呵))
+
+# ::id export_amr.298 ::2016-04-27 09:45:50
+# ::snt 我 是 15 岁 当兵 ， 很 正常 啊 ，
+(x8 / 正常-01
+	:arg0 (x5 / 当兵-01
+		:arg0 (x1 / 我)
+		:time (x16 / age
+			:arg1 x1
+			:arg2 (x17 / temporal-quantity
+				:quant (x3 / 15)
+				:unit (x4 / 岁))))
+	:degree (x7 / 很)
+	:mode (x9 / expressive))
+
+# ::id export_amr.299 ::2016-04-27 09:46:19
+# ::snt 文 / 心雨
+(x1 / 文-01
+	:arg0 (x7 / person
+		:name (x3 / name
+			:op1 "心雨")))
+
+# ::id export_amr.300 ::2017-03-24 16:45:58
+# ::snt 话说 最近 江湖 又 起 波澜 ， 公考 状元 因 体检 被 刷 一 事 今 得以 平反 该 生 正在 办理 入职 手续 。 从古至今 无论 是 中考 、 高考 、 甚至 公务员 考试 ， 都 有 各 路 人士 纷纷 报考 更 有 胆大 人士 暗箱 操作 左右 考试 。 小 到 考场 舞弊 ， 大 到 收受 贿赂 。 时 至 今日 已经 形成 了 一 条 近似于 完整 的 链条 ， 其 目的 无非 就 是 讨 碗 饭 、 升升官 、 发发财 。 行话 ： 给 钱 、 办事 。 值得 注意 的 是 ， 这 一 链条 的 规模 尚 待 考证 。
+(x111 / multi-sentence
+	:snt1 (x1 / 话说-01
+		:arg1 (x5 / 起-03
+			:arg0 (x6 / 波澜
+				:arg0-of (x119 / mean
+					:arg1 (x120 / and
+						:op1 (x17 / 得以-01
+							:arg0 (x18 / 平反-01
+								:arg1 (x15 / 事
+									:quant (x14 / 1)
+									:arg0-of (x125 / mean
+										:arg1 (x13 / 刷-02
+											:arg0 (x127 / person)
+											:arg1 (x9 / 状元
+												:mod (x8 / 公考))
+											:cause (x11 / 体检-01
+												:arg0 x9)))))
+							:time (x16 / 今))
+						:op2 (x22 / 办理-01
+							:arg0 (x20 / 生
+								:mod (x19 / 该))
+							:tense (x21 / 正在)
+							:arg1 (x24 / 手续
+								:mod (x23 / 入职))))))
+			:location (x3 / 江湖)
+			:mod (x4 / 又)
+			:time (x2 / 最近)))
+	:snt2 (x138 / concession
+		:arg1 (x33 / progression
+			:arg1 (x29 / 中考)
+			:arg2 (x31 / 高考)
+			:arg3 (x35 / 考试
+				:mod (x34 / 公务员)))
+		:arg2 (x44 / progression
+			:arg1 (x38 / 有-03
+				:arg1 (x41 / 人士
+					:mod (x39 / 各)
+					:cunit (x40 / 路)
+					:arg0-of (x43 / 报考-01
+						:manner (x42 / 纷纷)))
+				:mod (x37 / 都))
+			:arg2 (x45 / 有-03
+				:arg1 (x47 / 人士
+					:mod (x46 / 胆大)
+					:arg0-of (x50 / 左右-01
+						:arg1 (x51 / 考试))
+					:arg0-of (x49 / 操作-01
+						:manner (x48 / 暗箱)))))
+		:mod (x26 / 从古至今))
+	:snt3 (x162 / and
+		:op1 (x163 / thing
+			:mod (x53 / 小)
+			:example (x56 / 舞弊
+				:location (x55 / 考场)))
+		:op2 (x166 / thing
+			:mod (x58 / 大)
+			:example (x60 / 收受-01
+				:arg1 (x61 / 贿赂))))
+	:snt4 (x183 / and
+		:op1 (x67 / 形成-01
+			:aspect (x66 / 已经)
+			:aspect (x68 / 了)
+			:time (x64 / 至-01
+				:arg0 (x63 / 时)
+				:arg1 (x65 / 今日))
+			:arg1 (x74 / 链条
+				:quant (x69 / 1)
+				:cunit (x70 / 条)
+				:arg0-of (x72 / 完整-01
+					:mod (x71 / 近似于))))
+		:op2 (x184 / and
+			:op1 (x81 / 讨-01
+				:arg1 (x83 / 饭
+					:cunit (x82 / 碗)))
+			:op2 (x85 / 升官)
+			:op3 (x87 / 发财)
+			:domain (x77 / 目的
+				:poss (x76 / 其))))
+	:snt5 (x193 / condition
+		:arg1 (x91 / 给-01
+			:arg1 (x92 / 钱))
+		:arg2 (x94 / 办事)
+		:domain (x89 / 行话))
+	:snt6 (x107 / 待-01
+		:arg1 (x108 / 考证-01
+			:arg1 (x105 / 规模
+				:poss (x103 / 链条
+					:mod (x101 / 这)
+					:quant (x102 / 1))))
+		:mod (x106 / 尚)
+		:arg0 x105
+		:domain (x205 / thing
+			:arg0-of (x96 / 值得-01
+				:arg1 (x97 / 注意-01
+					:arg1 x205)))))
+
+# ::id export_amr.301 ::2016-12-09 13:28:10
+# ::snt 不 知道 从 什么 时候 起 ， 江湖 上 有 着 一 条 不 成文 的 规定 。 办事儿 没有 人 可以 ， 没有 钱 那 是 绝对 不 行 。 盖章 卡戳 ， 交 点 钱 ； 考试 升职 ， 交 点 钱 ； 钱 钱 钱 ， 只要 有 钱 什么 都 行 。 从而 催生 了 很多 “ 萝卜 ” 考试 ， 即 在 没 考试 之前 录取 人员 就 已经 内定 。 至于 有 几 个 不 怕 死 的 在 考试 的 时候 真的 考 了 高分 ， 也 会 因为 各 种 理由 被 刷 下去 。 这 阵子 的 公考 状元 因 体检 被 刷 就 是 其中 的 一 例 。 可悲 的 是 ， 被 刷 的 人 一般 除了 才气 之外 并 没有 什么 多余 的 实力 。 比如 ： 钱 、 人 。 在 不 认识 人 又 没有 多少 钱 的 情况 下 ， 他们 的 选择 一般 都 是 保持 沉默 。 间或 有 被 平反 的 也 多 出于 幸运 ， 但是 大多数 人 都 没 那么 幸运 。 所以 “ 萝卜 考试 ” 才 得以 留存 。
+(x194 / multi-sentence
+	:snt1 (x10 / 有-03
+		:aspect (x11 / 着)
+		:arg0 (x8 / 江湖)
+		:arg1 (x17 / 规定
+			:arg0-of (x15 / 成文-01
+				:polarity (x14 / -))
+			:quant (x12 / 1)
+			:cunit (x13 / 条))
+		:time (x2 / 知道-01
+			:polarity (x1 / -)
+			:arg1 (x6 / 起-02
+				:arg1 (x5 / 时候
+					:mod (x4 / amr-unknown)))))
+	:snt2 (x210 / contrast
+		:arg1 (x211 / condition
+			:arg1 (x19 / 办事儿)
+			:arg2 (x22 / 可以-01
+				:arg0 (x20_2 / 有-03
+					:polarity (x20_1 / -)
+					:arg1 (x21 / 人))))
+		:arg2 (x30 / 行-04
+			:polarity (x29 / -
+				:degree (x28 / 绝对))
+			:arg0 (x26 / 那
+				:arg0-of (x221 / mean
+					:arg1 (x24_2 / 有-03
+						:polarity (x24_1 / -)
+						:arg1 (x25 / 钱))))))
+	:snt3 (x225 / and
+		:op1 (x226 / condition
+			:arg1 (x227 / and
+				:op1 (x32 / 盖章)
+				:op2 (x33 / 卡戳))
+			:arg2 (x35 / 交-01
+				:arg1 (x37 / 钱
+					:quant (x36 / 点))))
+		:op2 (x233 / condition
+			:arg1 (x234 / and
+				:op1 (x39 / 考试)
+				:op2 (x40 / 升职))
+			:arg2 (x42 / 交-01
+				:arg1 (x44 / 钱
+					:quant (x43 / 点))))
+		:op3 (x240 / and
+			:op1 (x241 / and
+				:op1 (x46 / 钱)
+				:op2 (x47 / 钱)
+				:op3 (x48 / 钱))
+			:op2 (x245 / condition
+				:arg1 (x51 / 有-01
+					:arg1 (x52 / 钱))
+				:arg2 (x55 / 行-04
+					:arg0 (x54 / 都)
+					:arg0 (x53 / 什么)))))
+	:snt4 (x251 / and
+		:op1 (x58 / 催生-01
+			:aspect (x59 / 了)
+			:arg1 (x64 / 考试
+				:mod (x62 / 萝卜)
+				:quant (x60 / 很多)
+				:arg0-of (x66 / mean
+					:arg1 (x75 / 内定-01
+						:aspect (x74 / 已经)
+						:mod (x73 / 就)
+						:time (x70 / 之前
+							:op2 (x69 / 考试
+								:polarity (x68 / -)))
+						:arg1 (x72 / 人员
+							:arg1-of (x71 / 录取-01)))))))
+	:snt5 (x268 / contrast
+		:arg1 (x90 / 考-02
+			:mod (x89 / 真的)
+			:aspect (x91 / 了)
+			:arg4 (x92 / 高分)
+			:time (x86 / 考试)
+			:arg0 (x274 / person
+				:quant (x79 / 几)
+				:cunit (x80 / 个)
+				:arg0-of (x82 / 怕-01
+					:polarity (x81 / -)
+					:arg1 (x83 / 死))
+				:arg0-of (x78 / 有-04)))
+		:arg2 (x95 / 会-02
+			:arg0 (x101 / 刷-02
+				:direction (x102 / 下去)
+				:arg0 (x285 / person)
+				:arg1 x274
+				:cause (x99 / 理由
+					:mod (x97 / 各)
+					:unit (x98 / 种)))))
+	:snt6 (x118 / 例
+		:quant (x117 / 1)
+		:arg2-of (x115 / include)
+		:domain (x112 / 刷-02
+			:arg0 (x294 / person)
+			:arg1 (x108 / 状元
+				:mod (x107 / 公考))
+			:time (x105 / 阵子
+				:mod (x104 / 这))))
+	:snt7 (x133_2 / 有-01
+		:polarity (x133_1 / -)
+		:arg1 (x137 / 实力
+			:arg0-of (x135 / 多余-01)
+			:mod (x134 / 什么)
+			:example (x310 / and
+				:op1 (x141 / 钱)
+				:op2 (x143 / 人)))
+		:arg1-of (x129_x131 / 除了
+			:arg2 (x130 / 才气))
+		:arg0 (x127 / 人
+			:arg1-of (x125 / 刷-02)
+			:arg0 (x308 / person))
+		:arg0-of (x128 / 一般-02))
+	:snt8 (x163 / 保持-01
+		:arg1 (x164 / 沉默)
+		:domain (x159 / 选择-01
+			:arg0 (x157 / x127))
+		:condition (x149 / and
+			:op1 (x147 / 认识-01
+				:polarity (x146 / -)
+				:arg1 (x148 / 人)
+				:arg0 x127)
+			:op2 (x150_2 / 有-01
+				:polarity (x150_1 / -)
+				:arg1 (x152 / 钱
+					:quant (x151 / 多少))
+				:arg0 x127))
+		:arg0 x157)
+	:snt9 (x328 / causation
+		:arg1 (x329 / contrast
+			:arg1 (x330 / condition
+				:arg1 (x167 / 有-03
+					:arg1 (x334 / thing
+						:arg0 (x335 / person)
+						:arg1-of (x169 / 平反-01))
+					:mod (x166 / 间或))
+				:arg2 (x173 / 出于-01
+					:arg1 (x174 / 幸运)
+					:arg0 x334
+					:arg1-of (x340 / have-frequency
+						:arg2 (x172 / 多))))
+			:arg2 (x182 / 幸运-01
+				:arg0 (x178 / 人
+					:quant (x177 / 大多数))
+				:polarity (x180 / -)
+				:degree (x181 / 那么)
+				:mod (x179 / 都)))
+		:arg2 (x190 / 得以-01
+			:mod (x191 / 留存-01
+				:arg1 (x187 / 考试
+					:mod (x186 / 萝卜)))
+			:mod (x189 / 才))))
+
+# ::id export_amr.302 ::2017-02-06 13:38:48
+# ::snt 没 办法 ， 目前 “ 卷子 ” 是 唯一 一 种 接近于 清晰 的 评价 考生 能力 的 方式 。 也就是说 笔答 卷子 ， 到 目前 为止 是 唯一 能够 评价 考生 能力 最 接近于 清晰 的 方式 。 但是 这 后面 的 评分 、 录取 分数线 的 设定 ， 以及 开榜 是否 真的 清晰 就 不 好 说 了 。 反正 查 出来 的 都 查 出来 了 ， 查 不 出来 的 我们 也 不 知道 。 是 吧 ！ 对比 ， 所有 考试 舞弊 案件 。 其 规模 、 辐射面 大小 ， 都 不 尽 相同 ， 这 背后 的 市场 链 也 就 不言而喻 了 。
+(x112 / multi-sentence
+	:snt1 (x114 / and
+		:op1 (x1 / 没-02
+			:arg1 (x2 / 办法))
+		:op2 (x19 / 方式
+			:arg0-of (x12 / 接近于-01
+				:arg1 (x15 / 评价-01
+					:manner (x13 / 清晰-01)
+					:arg1 (x17 / 能力
+						:poss (x16 / 考生))))
+			:quant (x10 / 1)
+			:unit (x11 / 种)
+			:mod (x9 / 唯一)
+			:domain (x6 / 卷子)
+			:time (x4 / 目前)))
+	:snt2 (x21 / mean
+		:arg0 x19
+		:arg1 (x38 / 方式
+			:arg0-of (x35 / 接近于-01
+				:arg1 (x36 / 清晰)
+				:degree (x34 / 最))
+			:instrument-of (x31 / 评价-01
+				:arg1 (x33 / 能力
+					:poss (x32 / 考生))
+				:arg0-of (x30 / 能够-01))
+			:mod (x29 / 唯一)
+			:domain (x22 / 笔答-01
+				:arg1 (x23 / 卷子))
+			:time (x27 / 为止-01
+				:arg2 (x26 / 目前))))
+	:snt3 (x144 / contrast
+		:arg2 (x59 / 说-01
+			:manner (x58 / 好
+				:polarity (x57 / -))
+			:aspect (x60 / 了)
+			:arg1 (x55 / 清晰-01
+				:mod (x54 / 真的)
+				:arg0 (x51 / and
+					:op1 (x49 / 设定-01
+						:arg1 (x153 / and
+							:op1 (x44 / 评分)
+							:op2 (x47 / 分数线
+								:mod (x46 / 录取))))
+					:op2 (x52 / 开榜)
+					:location (x42 / 后面
+						:mod (x41 / 这)))
+				:mode (x53 / interrogative))))
+	:snt4 (x161 / and
+		:op1 (x67 / 查-01
+			:cause-of (x68 / 出来)
+			:aspect (x69 / 了)
+			:arg1 (x165 / thing
+				:arg1-of (x63 / 查-01
+					:cause-of (x64 / 出来))))
+		:op2 (x78 / 知道-01
+			:polarity (x77 / -)
+			:mod (x76 / 也)
+			:arg0 (x75 / 我们)
+			:arg1 (x172 / thing
+				:arg1-of (x71 / 查-01
+					:arg0-of (x175 / possible
+						:polarity (x72 / -))))))
+	:snt5 (x177 / and
+		:op1 (x80 / 是
+			:mode (x81_x82 / expressive))
+		:op2 (x99 / 相同-01
+			:mod (x98 / 尽
+				:polarity (x97 / -))
+			:arg0 (x94 / 大小
+				:mod (x91 / 规模)
+				:mod (x93 / 辐射面)
+				:mod (x90 / 其))
+			:compared-to (x88 / 案件
+				:mod (x85 / 所有)
+				:topic (x87 / 舞弊
+					:time (x86 / 考试)))))
+	:snt6 (x108 / 不言而喻-01
+		:aspect (x109 / 了)
+		:mod (x107 / 就)
+		:mod (x106 / 也)
+		:arg0 (x105 / 链
+			:mod (x104 / 市场)
+			:location (x102 / 背后
+				:mod (x101 / 这)))))
+
+# ::id export_amr.303 ::2016-12-09 15:07:43
+# ::snt 凡是 涉及 利益 的 就 有 竞争 ， 凡是 涉及 竞争 的 就 有 考试 ， 凡是 涉及 考试 的 多数 是 笔试 ， 凡是 涉及 笔试 的 就 一定 有 人 批卷 ， 凡是 有 人 批卷 的 就 一定 有 录取 分数 或 人数 ， 凡是 有 分数 或 人数 的 就 是 可以 商量 的 。 那么 怎么 商量 呢 ？ 一定 少 不 了 钱 。 那么 有 钱 就 有 了 标准 ， 大家 都 按照 这 给 标准 来 给 相关 人员 送 钱 会 产生 什么 呢 ？ 这 个 问题 就 显得 非常 明了 了 。 明 的 、 暗 的 、 大 的 、 小 的 。 被 查 出来 的 一定 是 搅行 的 、 不 守 规矩 的 ， 但是 没 被 查 出来 的 那些 呢 ？ 究竟 还 有 多少 呢 ？ 想必 早 已 心知肚明 罢了 。
+(x153 / multi-sentence
+	:snt1 (x179 / and
+		:op1 (x6 / 有-03
+			:arg1 (x7 / 竞争)
+			:arg0 (x157 / thing
+				:arg0-of (x2 / 涉及-01
+					:arg1 (x3 / 利益)))
+			:mod (x5 / 就))
+		:op2 (x14 / 有-03
+			:mod (x13 / 就)
+			:arg1 (x15 / 考试)
+			:arg0 (x164 / thing
+				:arg0-of (x10 / 涉及-01
+					:arg1 (x11 / 竞争))))
+		:op3 (x23 / 笔试
+			:domain (x168 / thing
+				:arg0-of (x18 / 涉及-01
+					:arg1 (x19 / 考试))
+				:mod (x21 / 多数)))
+		:op4 (x30 / 一定
+			:arg0 (x31 / 有-03
+				:arg1 (x32 / 人
+					:arg0-of (x33 / 批卷))
+				:arg0 (x175 / thing
+					:arg0-of (x26 / 涉及-01
+						:arg1 (x27 / 笔试)))))
+		:op4 (x41 / 一定
+			:arg0 (x42 / 有-03
+				:arg1 (x45 / or
+					:op1 (x44 / 分数)
+					:op2 (x46 / 人数)
+					:mod (x43 / 录取))
+				:arg0 (x188 / thing
+					:arg0-of (x36 / 有-03
+						:arg1 (x37 / 人
+							:arg0-of (x38 / 批卷)))))
+			:mod (x40 / 就))
+		:op5 (x192 / condition
+			:arg1 (x49 / 有-03
+				:arg1 (x51 / or
+					:op1 (x50 / 分数)
+					:op2 (x52 / 人数)))
+			:arg2 (x56 / 可以-01
+				:arg0 (x57 / 商量)
+				:mode (x55_x58 / judgement))))
+	:snt2 (x62 / 商量
+		:manner (x61 / amr-unknown)
+		:mode (x63_x64 / interrogative))
+	:snt3 (x65 / 一定
+		:arg0 (x68 / possible
+			:polarity (x67 / -)
+			:arg0 (x66 / 少-01
+				:arg1 (x69 / 钱))))
+	:snt4 (x209 / and
+		:op1 (x210 / condition
+			:arg1 (x72 / 有-01
+				:arg1 (x73 / 钱))
+			:arg2 (x75 / 有-01
+				:aspect (x76 / 了)
+				:arg1 (x77 / 标准)))
+		:op2 (x217 / condition
+			:arg1 (x89 / 送-01
+				:arg1 (x90 / 钱)
+				:arg2 (x88 / 人员
+					:arg0-of (x87 / 相关-01))
+				:manner (x81 / 按照-01
+					:arg1 (x84 / 标准
+						:mod (x82 / 这)
+						:cunit (x83 / 个))
+					:arg0 (x79 / 大家))
+				:arg0 x79
+				:mod (x80 / 都))
+			:arg2 (x91 / 会-02
+				:arg0 (x92 / 产生-01
+					:arg1 (x93 / amr-unknown)))
+			:mode (x94_x95 / interrogative)))
+	:snt5 (x100 / 显得-01
+		:arg0 (x98 / 问题
+			:mod (x96 / 这)
+			:cunit (x97 / 个))
+		:mod (x99 / 就)
+		:arg1 (x102 / 明了-01
+			:degree (x101 / 非常)
+			:arg0 x98)
+		:aspect (x103 / 了))
+	:snt6 (x242 / and
+		:op1 (x243 / thing
+			:arg0-of (x105 / 明-01))
+		:op2 (x245 / thing
+			:arg0-of (x108 / 暗))
+		:op3 (x247 / thing
+			:arg0-of (x111 / 大-01))
+		:op4 (x249 / thing
+			:arg0-of (x114 / 小-01)))
+	:snt7 (x251 / contrast
+		:arg1 (x259 / and
+			:op1 (x260 / person
+				:arg0-of (x123 / 搅行))
+			:op2 (x261 / person
+				:arg0-of (x127 / 守-03
+					:polarity (x126 / -)
+					:arg1 (x128 / 规矩)))
+			:domain (x262 / person
+				:arg1-of (x118 / 查-01
+					:arg0 (x264 / person)
+					:cause-of (x119 / 出来))))
+		:arg2 (x266 / person
+			:arg1-of (x134 / 查-01
+				:cause-of (x135 / 出来)
+				:polarity (x132 / -))
+			:mod (x137 / 那些)
+			:mode (x138_x139 / interrogative)))
+	:snt8 (x142 / 有-03
+		:mod (x140 / 究竟)
+		:mod (x141 / 还)
+		:arg1 (x276 / person
+			:quant (x143 / amr-unknown))
+		:mode (x144_x145 / interrogative))
+	:snt9 (x146 / 想必
+		:arg0 (x149 / 心知肚明
+			:smood (x150 / 罢了)
+			:time (x147 / 早)
+			:aspect (x148 / 已))))
+
+# ::id export_amr.304 ::2016-12-09 15:40:27
+# ::snt 表示 关注 。 楼主 透过 自己 看到 和 听到 的 一些 负面 信息 ， 进行 了 思考 和 分析 。 但是 本人 认为 稍 有 偏激 ， 就 本人 所 了解 到 的 一些 关于 公考 方面 的 信息 来说 ， 绝大多数 都 是 公开 、 透明 的 ， 当然 拉 “ 关系 ” ， 走 “ 后门 ” 的 现象 肯定 有 ， 但 对于 大多数 公考者 来说 ， 公考 目前 仍 是 选拔 人才 的 最 有效 途径 。 我们 应该 呼吁 政府 尽快 建立 更为 强大 的 、 有效 的 监督 机制 ， 让 存在 于 公考 中 的 歪风邪气 得以 有效 监管 ， 让 走 外门邪道 社会 风气 尽快 扭转 ， 让 敢 利用 公考 索贿 受贿 的 人 受到 应有 制裁 。 新闻 、 网络 和 向 楼主 这样 爱国 、 爱 人民 的 网友 都 是 很 强大 的 社会 监督 力量 。
+(x151 / multi-sentence
+	:snt1 (x1 / 表示-01
+		:arg1 (x2 / 关注))
+	:snt2 (x15 / 进行-01
+		:aspect (x16 / 了)
+		:arg1 (x18 / and
+			:op1 (x17 / 思考)
+			:op2 (x19 / 分析))
+		:arg0 (x4 / 楼主)
+		:manner (x5 / 透过-01
+			:arg1 (x13 / 信息
+				:mod (x12 / 负面)
+				:quant (x11 / 一些)
+				:arg1-of (x7 / 看到-01
+					:arg0 (x6 / x4))
+				:arg1-of (x9 / 听到-01
+					:arg0 x6))))
+	:snt3 (x168 / causation
+		:arg2 (x23 / 认为-01
+			:arg0 (x22 / x4)
+			:arg1 (x26 / 偏激
+				:degree (x24 / 稍)
+				:arg0-of (x25 / 有)))
+		:arg1 (x186 / and
+			:op1 (x28_x40 / according_to
+				:arg0 (x39 / 信息
+					:quant (x34 / 一些)
+					:topic (x36 / 公考)
+					:arg1-of (x31 / 了解-01
+						:arg0 (x29 / x4)))
+				:arg1 (x179 / thing
+					:arg0-of (x47 / 透明)
+					:arg1-of (x45 / 公开-01)
+					:domain (x183 / thing
+						:quant (x42 / 绝大多数))))
+			:op2 (x187 / contrast
+				:arg1 (x62 / 肯定-02
+					:arg0 (x63 / 有-03
+						:arg1 (x61 / 现象
+							:arg0-of (x191 / and
+								:op1 (x51 / 拉-01
+									:arg1 (x53 / 关系))
+								:op2 (x56 / 走-01
+									:arg1 (x58 / 后门))))))
+				:arg2 (x69 / 来说-01
+					:arg1 (x68 / 公考者
+						:quant (x67 / 大多数))
+					:arg2 (x80 / 途径
+						:arg0-of (x79 / 有效-01
+							:degree (x78 / 最))
+						:path-of (x75 / 选拔-01
+							:arg1 (x76 / 人才))
+						:domain (x71 / 公考))))))
+	:snt4 (x83 / 应该-01
+		:arg0 (x84 / 呼吁-01
+			:arg0 (x82 / 我们)
+			:arg1 (x87 / 建立-01
+				:manner (x86 / 尽快)
+				:arg1 (x95 / 机制
+					:mod (x94 / 监督)
+					:arg0-of (x92 / 有效-01)
+					:arg0-of (x89 / 强大-01))
+				:purpose (x218 / and
+					:op1 (x97 / 让-02
+						:arg1 (x103 / 歪风邪气
+							:arg0-of (x98 / 存在-01
+								:arg1 (x100 / 公考)))
+						:arg2 (x104 / 得以-01
+							:arg0 (x106 / 监管-01
+								:manner (x105 / 有效)
+								:arg1 x103)))
+					:op2 (x108 / 让-02
+						:arg1 (x112 / 风气
+							:mod (x111 / 社会)
+							:arg0-of (x230 / mean
+								:arg1 (x109 / 走-01
+									:arg1 (x110 / 外门邪道))))
+						:arg2 (x114 / 扭转-01
+							:manner (x113 / 尽快)
+							:arg1 x112))
+					:op3 (x116 / 让-02
+						:arg1 (x123 / 人
+							:arg0-of (x117 / 敢-01
+								:arg1 (x118 / 利用-01
+									:arg1 (x119 / 公考)
+									:purpose (x120 / 索贿))))
+						:arg2 (x124 / 受到-01
+							:arg1 (x126 / 制裁
+								:mod (x125 / 应有))
+							:arg0 x123))))))
+	:snt5 (x148 / 力量
+		:mod (x147 / 监督-01
+			:arg1 (x146 / 社会))
+		:domain (x131 / and
+			:op1 (x128 / 新闻)
+			:op2 (x130 / 网络)
+			:op3 (x140 / 网友
+				:arg0-of (x137 / 爱-01
+					:arg1 (x138 / 人民))
+				:example (x133 / 楼主)))
+		:arg0-of (x144 / 强大-01
+			:degree (x43 / 都))))
+
+# ::id export_amr.305 ::2016-12-12 13:47:48
+# ::snt 公务员 考试 相比 几 年 前 已经 有 很 大 的 近步 ， 在 公平性 、 透明度 等 方面 还是 让 我等 看到 希望 ， 当然 不 排除 部分 地方 的 萝卜坑 现象 ， 对 此 ， 应 加在 透明度 ， 通过 透明度 促进 公平性 。
+(x48 / and
+	:op1 (x8 / 有-03
+		:arg0 (x2 / 考试
+			:mod (x1 / 公务员))
+		:arg1 (x12 / 进步
+			:mod (x10 / 大
+				:degree (x9 / 很)))
+		:time (x7 / 已经)
+		:compared-to (x57 / thing
+			:time (x6 / 前
+				:op1 (x62 / temporal-quantity
+					:quant (x4 / 几)
+					:unit (x5 / 年)))))
+	:op3 (x80 / causation
+		:arg1 (x28 / 排除-01
+			:polarity (x27 / -)
+			:arg1 (x33 / 现象
+				:arg0-of (x74 / mean
+					:arg1 (x32 / 萝卜坑
+						:location (x30 / 地方
+							:mod (x29 / 部分)))))
+			:mod (x26 / 当然))
+		:arg2 (x38 / 应-02
+			:arg0 (x81 / and
+				:op1 (x39 / 加强-01
+					:arg1 (x40 / 透明度))
+				:op2 (x44 / 促进-01
+					:arg1 (x45 / 公平性)
+					:instrument (x43 / 透明度)))))
+	:op2 (x21 / 让-02
+		:arg1 (x22 / 我等)
+		:arg2 (x23 / 看到-01
+			:arg0 x22
+			:arg1 (x24 / 希望)
+			:fangmian (x95 / and
+				:op1 (x15 / 公平性)
+				:op2 (x17 / 透明度)
+				:op3 (x18 / 等)))))
+
+# ::id export_amr.306 ::2016-04-27 10:23:29
+# ::snt 文笔 不错 ， 值得 推荐 。 个人 认为 ， 真正 有 能力 就 别 去 做 公务员 ， 从 现在 的 体制 来 看 ， 做 了 公务员 那 是 浪费 人生 ， 还是 干 点 实事 好 ！
+(x41 / multi-sentencce
+	:snt1 (x44 / causation
+		:arg1 (x2 / 不错-01
+			:arg0 (x1 / 文笔))
+		:arg2 (x4 / 值得-01
+			:arg1 (x5 / 推荐)))
+	:snt2 (x8 / 认为-01
+		:arg0 (x7 / 个人)
+		:arg1 (x51 / causation
+			:arg2 (x56 / condition
+				:arg1 (x11 / 有-01
+					:arg1 (x12 / 能力)
+					:manner (x10 / 真正))
+				:arg2 (x14 / 别
+					:arg0 (x15 / 去-01
+						:arg1 (x16 / 做-02
+							:arg1 (x17 / 公务员)))))
+			:arg1 (x70 / causation
+				:arg1 (x61 / condition
+					:arg1 (x26 / 做-02
+						:arg1 (x28 / 公务员)
+						:aspect (x27 / 了))
+					:arg2 (x31 / 浪费-01
+						:arg1 (x32 / 人生)
+						:arg0 (x29 / x26))
+					:cause (x22 / 体制
+						:time (x20 / 现在)))
+				:arg2 (x38 / 好-01
+					:arg0 (x35 / 干-01
+						:arg1 (x37 / 实事
+							:quant (x36 / 点)))
+					:mode (x39 / expressive))))))
+
+# ::id export_amr.307 ::2017-06-01 21:10:34
+# ::snt 中国 就 这样 ， 全国 哪 都 是 这样 ， 所以 从来 不 会 去 参加 考试 。 一 没有 钱 ， 二 没有 人 ， 还 不 如 安心 找 个 工作 ， 因为 想 通过 公考 就 像 白日 做梦 一样 ， 以前 在 一 个 政府 部门 做 临时工 ， 里面 七 八 个 公务员 ， 就 一 个 是 在 N 年 前 通过 公考 考 上去 的 （ 而且 我 发现 在 平时 什么 活 都 他 干 ） ， 其余 的 我 不 说 大家 也 清楚 。 社会 就 是 这样 我 早 就 对 他 很 失望 了 。
+(x131 / multi-sentence
+	:snt1 (x134 / causation
+		:arg1 (x136 / and
+			:op1 (x3 / 这样-01
+				:mod (x2 / 就-01)
+				:domain (x332 / country
+					:name (x1 / name
+						:op1 "中国")))
+			:op2 (x9 / 这样-01
+				:arg0 (x6 / 哪
+					:range (x5 / 全国))
+				:mod (x7 / 都))
+			:arg2 (x14 / 会-02
+				:polarity (x13 / -)
+				:arg0 (x15 / 去-01
+					:arg1 (x16 / 参加-01
+						:arg1 (x17 / 考试)))
+				:time (x12 / 从来))))
+	:snt2 (x154 / causation
+		:arg2 (x28_x29 / 不如-01
+			:arg1 (x31 / 找-01
+				:aspect (x32 / 个)
+				:arg1 (x33 / 工作)
+				:manner (x30 / 安心))
+			:condition (x166 / and
+				:op1 (x20_2 / 有-01
+					:polarity (x20_1 / -)
+					:arg1 (x21 / 钱)
+					:li (x19 / 1))
+				:op2 (x24_2 / 有-01
+					:polarity (x24_1 / -)
+					:arg1 (x25 / 人)
+					:li (x23 / 2))))
+		:arg1 (x206 / and
+			:op1 (x40_x43 / 像-01
+				:arg0 (x36 / 想-02
+					:arg1 (x37 / 通过-01
+						:arg1 (x38 / 公考)))
+				:mod (x39 / 就)
+				:arg1 (x42 / 做梦
+					:time (x41 / 白日)))
+			:op2 (x212 / and
+				:op1 (x51 / 做-02
+					:arg1 (x52 / 临时工)
+					:location (x50 / 部门
+						:mod (x49 / 政府)
+						:quant (x47 / 1)
+						:cunit (x48 / 个)))
+				:op2 (x71 / 上去-01
+					:manner (x68 / 通过-01
+						:arg1 (x69 / 公考))
+					:time (x67 / 前
+						:op1 (x256 / temporal-quantity
+							:quant (x65 / N)
+							:unit (x66 / 年)))
+					:manner (x70 / 考-02)
+					:arg0 (x230 / person
+						:cunit (x62 / 个)
+						:arg2-of (x236 / include-91
+							:arg1 (x58 / 公务员
+								:quant (x240 / between
+									:op1 (x55 / 7)
+									:op2 (x56 / 8))
+								:cunit (x57 / 个)
+								:location (x54 / 里面)))
+						:quant (x61 / 1)))
+				:op3 (x272 / progression
+					:arg2 (x76 / 发现-01
+						:arg0 (x75 / 我)
+						:arg1 (x83 / 干-01
+							:arg0 (x82 / x230)
+							:arg1 (x80 / 活
+								:mod (x79 / 什么))
+							:mod (x81 / 都)
+							:time (x78 / 平时))))
+				:op3 (x294 / concession
+					:arg1 (x90 / 说-01
+						:arg0 (x88 / x75)
+						:polarity (x89 / -)
+						:arg1 (x302 / thing
+							:mod (x86 / 其余)))
+					:arg2 (x93 / 清楚-01
+						:arg0 (x91 / 大家))))))
+	:snt3 (x310 / and
+		:op1 (x98 / 这样-01
+			:arg0 (x95 / 社会)
+			:mod (x96 / 就))
+		:op2 (x105 / 失望-01
+			:aspect (x106 / 了)
+			:arg0 (x99 / x75)
+			:time (x100 / 早)
+			:mod (x101 / 就)
+			:arg1 (x103 / x95)
+			:degree (x104 / 很))))
+
+# ::id export_amr.308 ::2016-12-13 10:50:33
+# ::snt 庆幸 的 是 这 名 公考 状员 在 舆论 的 压力 下 得以 录取 ， 说明 这 个 世道 还 有 点 公道 。 只是 这 个 公道 来 之 太 不 易 了 。 没有 网络 的 造势 ， 就 没有 纠正 暗箱 操作 的 机会 。 迫于 舆论 的 压力 ， 政府 也 不 敢 太 有悖于 常理 。 强烈 要求 ： 玩 权术 者 下台 ！ 搞 阴谋 者 受到 制裁 ！
+(x80 / multi-sentence
+	:snt1 (x119 / and
+		:op1 (x13 / 得以-01
+			:arg0 (x7 / 状员
+				:mod (x6 / 公考)
+				:mod (x4 / 这)
+				:cunit (x5 / 名))
+			:arg1 (x14 / 录取-01)
+			:cause (x11 / 压力
+				:mod (x9 / 舆论))
+			:domain (x99 / thing
+				:arg1-of (x1 / 庆幸)))
+		:op2 (x16 / 说明-02
+			:arg1 (x21 / 有-01
+				:arg0 (x19 / 世道
+					:mod (x17 / 这)
+					:cunit (x18 / 个))
+				:arg1 (x23 / 公道
+					:quant (x22 / 点))
+				:mod (x20 / 还))
+			:arg0 x13))
+	:snt2 (x33 / 易-01
+		:polarity (x32 / -)
+		:arg0 (x29 / 来-01
+			:arg0 (x28 / 公道
+				:mod (x26 / 这)
+				:cunit (x27 / 个)))
+		:degree (x31 / 太)
+		:mod (x25 / 只是)
+		:aspect (x34 / 了))
+	:snt3 (x147 / condition
+		:arg1 (x39 / 造势-01
+			:polarity (x36 / -)
+			:arg0 (x37 / 网络))
+		:arg2 (x42_2 / 有-03
+			:polarity (x42_1 / -)
+			:arg1 (x47 / 机会
+				:mod (x43 / 纠正-01
+					:arg1 (x45 / 操作
+						:manner (x44 / 暗箱))))))
+	:snt4 (x169 / causation
+		:arg1 (x49 / 迫于-01
+			:arg1 (x52 / 压力
+				:mod (x50 / 舆论))
+			:arg0 (x54 / 政府))
+		:arg2 (x57 / 敢-02
+			:polarity (x56 / -)
+			:arg0 x54
+			:mod (x55 / 也)
+			:arg1 (x59 / 有悖于-01
+				:arg1 (x60 / 常理)
+				:degree (x58 / 太))))
+	:snt5 (x63 / 要求-01
+		:degree (x62 / 强烈)
+		:arg1 (x201 / and
+			:op1 (x68 / 下台-01
+				:arg0 (x67 / 者
+					:arg0-of (x65 / 玩-01
+						:arg1 (x66 / 权术)))
+				:mode (x69 / expressive))
+			:op2 (x73 / 受到-01
+				:arg0 (x72 / 者
+					:arg0-of (x70 / 搞-01
+						:arg1 (x71 / 阴谋)))
+				:arg1 (x74 / 制裁-01
+					:arg1 x72)
+				:mode (x75 / expressive)))))
+
+# ::id export_amr.309 ::2016-12-13 10:31:54
+# ::snt 好 贴 ， 建议 以后 公考 ， 先 体检 ， 再 面试 ， 然后 笔考 ， 阅卷 要 换 省份 阅卷 ， 面试 要 跨 省 找 面试官 ， 才 会 增加 公正度 。
+(x36 / and
+	:op1 (x2 / 贴
+		:mod (x1 / 好))
+	:op2 (x4 / 建议-01
+		:arg1 (x58 / condition
+			:arg1 (x41 / and
+				:op1 (x42 / temporal
+					:arg1 (x9 / 体检)
+					:arg2 (x12 / 面试)
+					:arg3 (x15 / 笔考))
+				:op2 (x46 / and
+					:op1 (x18 / 要-03
+						:arg0 (x21 / 阅卷
+							:manner (x19 / 换-01
+								:arg1 (x20 / 省份))))
+					:op2 (x24 / 要-03
+						:arg0 (x27 / 找-01
+							:arg1 (x28 / 面试官)
+							:manner (x25 / 跨-01
+								:arg1 (x26 / 省))
+							:condition (x23 / 面试))))
+				:time (x6 / 公考))
+			:arg2 (x31 / 会-02
+				:arg0 (x32 / 增加-01
+					:arg1 (x33 / 公正度))))))
+
+# ::id export_amr.310 ::2016-04-27 10:41:49
+# ::snt 看见 这 题目 大家 可能 会 有点 奇怪 ， 钱 怎么 可能 丢 银行 了 呢 ？
+(x5 / 可能-01
+	:arg0 (x6 / 会-02
+		:arg0 (x8 / 奇怪-02
+			:arg0 (x4 / 大家)
+			:arg1 (x12 / 可能-01
+				:arg0 (x13 / 丢-02
+					:aspect (x15 / 了)
+					:arg1 (x10 / 钱)
+					:location (x14 / 银行))
+				:cause (x11 / amr-unknown)
+				:mode (x16_x17 / interrogative))
+			:degree (x7 / 有点)))
+	:time (x1 / 看见-01
+		:arg1 (x3 / 题目
+			:mod (x2 / 这))))
+
+# ::id export_amr.311 ::2016-12-12 15:39:45
+# ::snt 可是 前 几 天 我 经历 的 一 件 事 印证 了 这 个 命题 ： 钱 ， 是 能 丢 在 银行 的 ！
+(x27 / contrast
+	:arg2 (x11 / 印证-01
+		:arg0 (x10 / 事
+			:quant (x8 / 1)
+			:cunit (x9 / 件)
+			:arg1-of (x6 / 经历-01
+				:arg0 (x5 / 我)
+				:time (x2 / 前
+					:op2 (x40 / temporal-quantity
+						:quant (x3 / 几)
+						:unit (x4 / 天))
+					:op1 (x58 / now))))
+		:arg1 (x15 / 命题
+			:mod (x13 / 这)
+			:cunit (x14 / 个)
+			:arg0-of (x43 / mean
+				:arg1 (x20 / 能-01
+					:arg0 (x21 / 丢-02
+						:arg1 (x17 / 钱)
+						:location (x23 / 银行))
+					:mode (x19_x24 / judegement)
+					:mode (x25 / expressive))))
+		:aspect (x12 / 了)))
+
+# ::id export_amr.312 ::2016-12-12 15:42:50
+# ::snt 上 周 我 去 银行 取 钱 ， 具体 数额 就 不 在 这 公布 了 ， 也 不 算 太 多 ，
+(x25 / and
+	:op1 (x4 / 去-01
+		:arg0 (x3 / 我)
+		:arg1 (x5 / 银行)
+		:purpose (x6 / 取-01
+			:arg1 (x7 / 钱)
+			:arg0 x3)
+		:time (x2 / 周
+			:mod (x1 / 上-02)))
+	:op2 (x15 / 公布-01
+		:arg1 (x10 / 数额
+			:mod (x9 / 具体))
+		:location (x14 / 这)
+		:polarity (x12 / -)
+		:smood (x16 / 了)
+		:mod (x11 / 就))
+	:op3 (x20 / 算-01
+		:arg1 (x22 / 多
+			:degree (x21 / 太))
+		:polarity (x19 / -)
+		:mod (x18 / 也)
+		:arg0 x10))
+
+# ::id export_amr.313 ::2016-04-27 10:56:53
+# ::snt 看 着 柜台 上 “ 钱款 请 在 柜台 点清 ” 的 提示语 ， 我 是 战战兢兢 ， 小心翼翼 的 数 了 两 遍 才 走人 。
+(x29 / causation
+	:arg1 (x1 / 看-02
+		:aspect (x2 / 着)
+		:arg1 (x13 / 提示语
+			:location (x3 / 柜台)
+			:arg0-of (x10 / 点清
+				:arg1 (x6 / 钱款)
+				:location (x9 / 柜台)))
+		:arg0 (x15 / 我))
+	:arg2 (x39 / and
+		:op1 (x17 / 战战兢兢
+			:arg0 x15)
+		:op2 (x26 / 走人-01
+			:arg0 (x21 / 数-01
+				:aspect (x22 / 了)
+				:frequency (x23 / 2)
+				:cunit (x24 / 遍)
+				:manner (x19 / 小心翼翼)
+				:arg0 x15))))
+
+# ::id export_amr.314 ::2016-12-12 15:48:55
+# ::snt 之后 就 是 购物 、 吃饭 买 零食 ，
+(x11 / temporal
+	:arg2 (x13 / and
+		:op1 (x4 / 购物)
+		:op2 (x6 / 吃饭)
+		:op3 (x7 / 买-01
+			:arg1 (x8 / 零食))
+		:mod (x2 / 就)))
+
+# ::id export_amr.315 ::2016-04-27 11:36:19
+# ::snt 在 最后 超市 结账 的 时候 出现 了 问题 ， 几十 张 百 元 大 钞 里 居然 有 三 张 是 假币 ！
+(x7 / 出现-01
+	:arg1 (x9 / 问题
+		:arg0-of (x33 / mean
+			:arg1 (x23 / 假币
+				:mode (x24 / expressive)
+				:domain (x38 / thing
+					:quant (x20 / 3)
+					:cunit (x21 / 张)
+					:arg1-of (x40 / include-91
+						:arg2 (x15_x16 / 大钞
+							:mod (x42 / monetary-quantity
+								:quant (x13 / 100)
+								:unit (x14 / 元))
+							:quant (x11_1 / 几
+								:op1 (x46 / 10))
+							:cunit (x12 / 张)))))))
+	:aspect (x8 / 了)
+	:time (x4 / 结账
+		:location (x3 / 超市))
+	:time (x2 / 最后))
+
+# ::id export_amr.316 ::2016-12-12 15:53:43
+# ::snt 我 当时 听到 这 消息 真是 气 的 七窍生烟 ， 心想 刚 从 银行 取 的 钱 怎么 会 出 假币 ！ ？
+(x25 / causation
+	:arg2 (x7 / 气-01
+		:cause-of (x9 / 七窍生烟)
+		:arg0 (x1 / 我)
+		:time (x2 / 当时)
+		:time (x3 / 听到-01
+			:arg0 x1
+			:arg1 (x5 / 消息
+				:mod (x4 / 这)))
+		:mod (x6 / 真是))
+	:arg2 (x11 / 心想-01
+		:arg0 x1
+		:arg1 (x19 / 会-02
+			:arg0 (x20 / 出-07
+				:arg1 (x21 / 假币)
+				:arg0 (x17 / 钱
+					:arg1-of (x15 / 取-01
+						:arg2 (x14 / 银行)
+						:time (x12 / 刚))))
+			:cause (x18 / amr-unknown)
+			:mode (x22 / expressive)
+			:mode (x23 / interrogative))))
+
+# ::id export_amr.317 ::2016-12-12 15:54:28
+# ::snt 由于 当时 银行 已经 下班 ， 就 没有 马上 去 理论 。
+(x14 / causation
+	:arg1 (x5 / 下班-01
+		:time (x4 / 已经)
+		:time (x2 / 当时)
+		:arg0 (x24 / person
+			:location (x3 / 银行)))
+	:arg2 (x10 / 去-01
+		:arg1 (x11 / 理论)
+		:time (x9 / 马上)
+		:polarity (x8 / -)))
+
+# ::id export_amr.318 ::2016-12-12 15:56:20
+# ::snt 回到 家 后 越 想 越 不 对劲 ， 当时 取 钱 时 确实 是 数 对 了 张数 ， 可是 没有 在意 钱 的 真假 。
+(x38 / causation
+	:arg1 (x41 / contrast
+		:arg1 (x17 / 对-02
+			:arg0 (x19 / 张数)
+			:aspect (x18 / 了)
+			:manner (x16 / 数-01
+				:arg1 x19)
+			:time (x10 / 当时)
+			:time (x11 / 取-01
+				:arg1 (x12 / 钱))
+			:mod (x14 / 确实))
+		:arg2 (x23 / 在意-01
+			:polarity (x22 / -)
+			:arg1 (x26 / 真假
+				:mod (x24 / 钱))))
+	:arg2 (x4_x6 / 越
+		:arg0 (x5 / 想-01)
+		:arg1 (x7_x8 / 不对劲)
+		:time (x1 / 回到-01
+			:arg1 (x2 / 家))))
+
+# ::id export_amr.319 ::2016-12-12 15:59:57
+# ::snt 但是 换 句 话 说 ， 如果 从 银行 取 钱 还 有 必要 担心 是 不 是 假币 的话 ， 那 这 个 世界 就 没 什么 好 相信 的 了 吧 ！
+(x36 / contrast
+	:arg2 (x2 / 换-01
+		:arg1 (x4 / 话
+			:cunit (x3 / 句)
+			:arg1-of (x5 / 说-01)
+			:arg0-of (x57 / mean
+				:arg1 (x39 / condition
+					:arg1 (x40 / concession
+						:arg1 (x11 / 钱
+							:arg1-of (x10 / 取-01
+								:arg2 (x9 / 银行)))
+						:arg2 (x13 / 有-04
+							:arg0 (x14 / 必要-01
+								:arg0 (x15 / 担心-01))))
+					:arg2 (x27 / 没-01
+						:arg1 (x63 / thing
+							:arg1-of (x30 / 相信-01
+								:arg0-of (x29 / 好-01))
+							:mod (x28 / 什么))
+						:arg0 (x25 / 世界
+							:mod (x23 / 这)
+							:cunit (x24 / 个))
+						:mode (x32_x33_x34 / expressive)))))))
+
+# ::id export_amr.320 ::2016-12-12 16:01:56
+# ::snt 由此 我 又 联想 到 了 之前 一 段 时间 发生 的 太原 农行 侵吞 21 位 储户 近 2亿 资金 的 事情 ，
+(x26 / causation
+	:arg2 (x4 / 联想-01
+		:arg0 (x2 / 我)
+		:arg1 (x23 / 事情
+			:arg0-of (x11 / 发生-01
+				:time (x7 / 之前
+					:op1 (x44 / now)
+					:op2 (x10 / 时间
+						:quant (x8 / 1)
+						:cunit (x9 / 段))))
+			:arg0-of (x50 / mean
+				:arg1 (x15 / 侵吞-01
+					:arg0 (x14 / 农行
+						:location (x13 / 太原))
+					:arg1 (x21 / 资金
+						:poss (x18 / 储户
+							:quant (x16 / 21)
+							:cunit (x17 / 位))
+						:quant (x19 / 近
+							:op1 (x54 / monetary-quantity
+								:quant (x58 / 200000000)))))))
+		:aspect (x6 / 了)
+		:mod (x3 / 又)))
+
+# ::id export_amr.321 ::2016-12-12 16:24:45
+# ::snt 这 件 事 现在 在 网上 可 谓 是 沸沸扬扬 ， 大众 的 声音 似乎 都 倒 向 储户 一边 ，
+(x23 / and
+	:op1 (x7_x8 / 可谓-01
+		:arg0 (x3 / 事
+			:mod (x1 / 这)
+			:cunit (x2 / 件))
+		:arg1 (x10 / 沸沸扬扬)
+		:location (x6 / 网上)
+		:time (x4 / 现在))
+	:op2 (x15 / 似乎-01
+		:arg0 (x17 / 倒-06
+			:arg0 (x14 / 声音
+				:poss (x12 / 大众))
+			:arg1 (x20 / 一边
+				:mod (x19 / 储户))
+			:mod (x16 / 都))))
+
+# ::id export_amr.322 ::2016-12-12 16:28:04
+# ::snt 起初 我 对 这 事 还 不 怎么 感冒 ， 现如今 自己 遇上 了 类似 的 事 ， 就 不由得 把 这些 掰开 了 揉碎 了 好好 想想 。
+(x31 / contrast
+	:arg1 (x9 / 感冒-02
+		:arg0 (x2 / 我)
+		:arg1 (x5 / 事
+			:mod (x4 / 这))
+		:polarity (x7 / -)
+		:degree (x8 / 怎么)
+		:time (x1 / 起初)
+		:manner (x6 / 还))
+	:arg2 (x41 / causation
+		:arg1 (x13 / 遇上-01
+			:arg1 (x17 / 事
+				:mod (x15 / 类似))
+			:aspect (x14 / 了)
+			:arg0 (x12 / x2)
+			:time (x11 / 现如今))
+		:arg2 (x20 / 不由得
+			:arg0 (x51 / and
+				:op1 (x23 / 掰开
+					:aspect (x24 / 了)
+					:arg1 (x55 / thing
+						:mod (x22 / 这些)))
+				:op2 (x25 / 揉碎
+					:aspect (x26 / 了)
+					:arg1 x55)
+				:purpose (x28 / 想想-01
+					:manner (x27 / 好好)
+					:arg1 x55)))))
+
+# ::id export_amr.323 ::2016-12-12 16:30:03
+# ::snt 话说 在 浏览 了 一 系列 相关 事件 后 我 震惊 了 ， 这些 年 银行 出现 的 问题 还 真 不 少 ，
+(x1 / 话说-01
+	:arg1 (x28 / causation
+		:arg2 (x29 / temporal
+			:arg1 (x3 / 浏览-01
+				:arg1 (x8 / 事件
+					:mod (x7 / 相关)
+					:quant (x5 / 1)
+					:unit (x6 / 系列))
+				:aspect (x4 / 了)
+				:arg0 (x10 / 我))
+			:arg2 (x11 / 震惊-01
+				:arg0 x10
+				:aspect (x12 / 了)))
+		:arg1 (x23 / 少-02
+			:polarity (x22 / -)
+			:arg0 (x19 / 问题
+				:arg1-of (x17 / 出现-01
+					:arg0 (x16 / 银行)
+					:duration (x15 / 年
+						:mod (x14 / 这些))))
+			:mod (x20 / 还)
+			:mod (x21 / 真))))
+
+# ::id export_amr.324 ::2016-12-12 20:33:11
+# ::snt ATM机 吐 假钞 、 吐 练功券 、 取 400 吐 4000 这些 事 都 是 司空见惯 ，
+(x16 / 司空见惯-01
+	:arg0 (x13 / 事
+		:mod (x12 / 这些)
+		:arg0-of (x41 / mean
+			:arg1 (x25 / and
+				:op1 (x2 / 吐-01
+					:arg0 (x1 / ATM机)
+					:arg1 (x3 / 假钞))
+				:op2 (x5 / 吐-01
+					:arg0 x1
+					:arg1 (x6 / 练功券))
+				:op3 (x32 / condition
+					:arg1 (x8 / 取-01
+						:arg1 (x34 / monetary-quantity
+							:quant (x9 / 400)))
+					:arg2 (x10 / 吐-01
+						:arg1 (x37 / monetary-quantity
+							:quant (x11 / 4000)))))))
+	:mod (x14 / 都))
+
+# ::id export_amr.325 ::2016-12-12 20:35:48
+# ::snt 更 严重 的 就 是 储户 存款 不翼而飞 ，
+(x8 / 不翼而飞
+	:arg0 (x7 / 存款-01
+		:arg0 (x6 / 储户))
+	:domain (x15 / thing
+		:arg0-of (x2 / 严重-01
+			:degree (x1 / 更))))
+
+# ::id export_amr.326 ::2016-12-12 20:37:56
+# ::snt 仅 涉及 金额 在 亿 元 以上 的 案件 就 有 三 四 起 之 多 ， 其中 就 包括 太原 农行 一 案 。
+(x41 / and
+	:op1 (x11 / 有-03
+		:arg1 (x9 / 案件
+			:arg0-of (x2 / 涉及-01
+				:arg1 (x3 / 金额
+					:quant (x7 / 以上
+						:op1 (x34 / monetary-quantity
+							:quant (x35 / 100000000)
+							:cunit (x6 / 元))))
+				:mod (x1 / 仅))
+			:quant (x37 / or
+				:op1 (x12 / 3)
+				:op2 (x13 / 4))
+			:cunit (x14 / 起)))
+	:op2 (x20 / 包括-01
+		:mod (x19 / 就)
+		:arg0 (x18 / 其中)
+		:arg1 (x24 / 案
+			:quant (x23 / 1)
+			:location (x22 / 农行
+				:location (x21 / 太原)))))
+
+# ::id export_amr.327 ::2016-12-12 20:42:30
+# ::snt 如此 巨大 的 数额 ， 广泛 的 影响 依然 没有 使 这 件 事 得到 解决 ，
+(x11 / 使-01
+	:arg0 (x36 / and
+		:op1 (x4 / 数额
+			:arg0-of (x2 / 巨大-01
+				:degree (x1 / 如此)))
+		:op2 (x8 / 影响
+			:arg0-of (x6 / 广泛-01)))
+	:mod (x9 / 依然)
+	:polarity (x10 / -)
+	:arg1 (x14 / 事
+		:mod (x12 / 这)
+		:cunit (x13 / 件))
+	:arg2 (x15 / 得到
+		:arg1 (x16 / 解决-01
+			:arg1 x14)
+		:manner x9))
+
+# ::id export_amr.328 ::2016-12-12 20:43:24
+# ::snt 想到 这 我 的 心里 不由得 一 颤 ： 我 这 几百 块 还 要 的 回来 吗 ？
+(x6 / 不由得
+	:arg0 (x7_x8 / 一颤
+		:location (x5 / 心里
+			:poss (x3 / 我))
+		:arg0-of (x28 / mean
+			:arg1 (x29 / possible
+				:arg0 (x15 / 要-01
+					:arg1 (x31 / monetary-quantity
+						:quant (x12_1 / 几
+							:op1 (x33 / 100))
+						:cunit (x13 / 块)
+						:poss (x10 / 我)
+						:mod (x11 / 这))
+					:direction (x17 / 回来))
+				:mode (x18_x19 / interrogative)
+				:mod (x14 / 还))))
+	:cause (x1 / 想到-01
+		:arg1 (x2 / 这)))
+
+# ::id export_amr.329 ::2016-12-12 20:45:30
+# ::snt 面对 着 赤裸裸 的 霸王 条款 我 头一 次 觉得 自己 在 这些 部门 面前 如此 无力 ，
+(x10 / 觉得-01
+	:arg0 (x7 / 我)
+	:arg1 (x17 / 无力-01
+		:degree (x16 / 如此)
+		:arg0 (x11 / x7))
+	:ord (x26 / ordinal-entity
+		:value (x8 / 1))
+	:cause (x1 / 面对-01
+		:arg1 (x6 / 条款
+			:mod (x5 / 霸王)
+			:arg0-of (x3 / 赤裸裸-01))
+		:aspect (x2 / 着)
+		:arg0 x7))
+
+# ::id export_amr.330 ::2016-04-27 17:58:48
+# ::snt 钱款 必须 在 柜台 点清 ， 如果 出现 任何 问题 储户 承担 责任 ；
+(x16 / and
+	:op1 (x2 / 必须-01
+		:arg0 (x5 / 点清
+			:arg1 (x1 / 钱款)
+			:location (x4 / 柜台)))
+	:op2 (x23 / condition
+		:arg1 (x8 / 出现-01
+			:arg1 (x10 / 问题
+				:mod (x9 / 任何)))
+		:arg2 (x12 / 承担-01
+			:arg0 (x11 / 储户)
+			:arg1 (x13 / 责任))))
+
+# ::id export_amr.331 ::2016-12-12 21:15:02
+# ::snt 自动 取款机 多 吐出 钱 来 储户 必须 还 ， 少 吐出 钱 银行 没 责任 ；
+(x19 / contrast
+	:arg1 (x21 / condition
+		:arg2 (x8 / 必须-01
+			:arg0 (x9 / 还-01
+				:arg0 (x7 / 储户)
+				:arg1 (x5 / 钱)))
+		:arg1 (x4 / 吐出-01
+			:arg1 x5
+			:manner (x3 / 多)
+			:arg0 (x2 / 取款机
+				:mod (x1 / 自动))))
+	:arg2 (x30 / condition
+		:arg1 (x12 / 吐出-01
+			:manner (x11 / 少)
+			:arg1 (x13 / 钱))
+		:arg2 (x15 / 没-02
+			:arg0 (x14 / 银行)
+			:arg1 (x16 / 责任))))
+
+# ::id export_amr.332 ::2016-04-28 09:35:54
+# ::snt 储户 存进 银行 的 资金 不翼而飞 ， 银行 毫 不 理会 ， 也 拒 不 还款 ……
+(x19 / contrast
+	:arg1 (x6 / 不翼而飞
+		:arg0 (x5 / 资金
+			:arg1-of (x2_1 / 存-01
+				:arg2 (x3 / 银行)
+				:arg0 (x1 / 储户))))
+	:arg2 (x31 / and
+		:op1 (x11 / 理会-01
+			:polarity (x10 / -)
+			:degree (x9 / 毫)
+			:arg0 (x8 / 银行))
+		:op2 (x33 / and
+			:op1 (x14 / 拒-01
+				:arg0 x8)
+			:op2 (x16 / 还款
+				:polarity (x15 / -)))))
+
+# ::id export_amr.333 ::2016-12-12 21:20:05
+# ::snt 这 一切 的 一切 都 让 我 感到 绝望 ， 也 让 我 陷入 了 深深 的 恐惧 中 ，
+(x24 / and
+	:op1 (x8 / 感到-01
+		:arg0 (x7 / 我)
+		:arg1 (x9 / 绝望-01
+			:cause (x2_x3_x4 / 一切的一切
+				:mod (x1 / 这))
+			:arg0 x7)
+		:manner (x5 / 都))
+	:op2 (x14 / 陷入-01
+		:arg1 (x18 / 恐惧-01
+			:degree (x16 / 深深)
+			:arg0 x7)
+		:aspect (x15 / 了)
+		:cause x2_x3_x4
+		:arg0 (x13 / x7)))
+
+# ::id export_amr.334 ::2016-12-12 21:26:18
+# ::snt 这 回 是 几百 ， 如果 下 次 是 几千 块 、 几万 块 或是 我 的 全部 身家 呢 ？
+(x23 / contrast
+	:arg1 (x25 / monetary-quantity
+		:quant (x4_1 / 几
+			:op1 (x27 / 100))
+		:domain (x28 / thing
+			:time (x1_x2 / 这回)))
+	:arg2 (x31 / condition
+		:arg2 (x49 / amr-unknown
+			:mode (x20_x21 / interrogative))
+		:arg1 (x15 / or
+			:op3 (x19 / 身家
+				:mod (x18 / 全部)
+				:poss (x16 / 我))
+			:op1 (x33 / thing
+				:quant (x10_1 / 几
+					:op1 (x35 / 1000)))
+			:op2 (x36 / thing
+				:quant (x13_1 / 几
+					:op1 (x38 / 10000)))
+			:domain (x42 / thing
+				:time (x7_x8 / 下次)))))
+
+# ::id export_amr.335 ::2016-12-12 21:27:33
+# ::snt 据说 这些 储户 在 万般 无奈 之下 选择 了 百万 悬赏 这样 的 方式 来 为 自己 讨 公道 ，
+(x1 / 据说-01
+	:arg0 (x8 / 选择-01
+		:arg0 (x3 / 储户
+			:mod (x2 / 这些))
+		:aspect (x9 / 了)
+		:arg1 (x14 / 方式
+			:mod (x12 / 这样)
+			:arg0-of (x31 / mean
+				:arg1 (x11 / 悬赏-01
+					:arg2 (x39 / monetary-entity
+						:quant (x10 / 百万)))))
+		:purpose (x18 / 讨-01
+			:arg2 (x19 / 公道)
+			:arg0 x3
+			:beneficiary (x17 / x3))
+		:cause (x6 / 无奈-01
+			:degree (x5 / 万般)
+			:arg0 x3)))
+
+# ::id export_amr.336 ::2016-04-28 10:02:52
+# ::snt 光天化日 ， 朗朗 乾坤 ， 堂堂 法制 社会 竟然 没有 为 他们 伸冤 诉苦 的 衙门 ， 这 是 何等 的 可悲 可叹 ！
+(x26 / and
+	:op1 (x28 / contrast
+		:arg1 (x34 / and
+			:op1 (x1 / 光天化日)
+			:op2 (x3_x4 / 朗朗乾坤)
+			:op3 (x8 / 社会
+				:mod (x7 / 法制)
+				:mod (x6 / 堂堂)))
+		:arg2 (x10_2 / 有-03
+			:polarity (x10_1 / -)
+			:arg0 x34
+			:arg1 (x16 / 衙门
+				:location-of (x43 / and
+					:op1 (x13 / 伸冤-01)
+					:op2 (x14 / 诉苦-01)
+					:beneficiary (x12 / 他们)))
+			:manner (x9 / 竟然)))
+	:op2 (x29 / and
+		:op1 (x22 / 可悲)
+		:op2 (x23 / 可叹)
+		:degree (x20 / 何等)
+		:domain (x18 / x28)
+		:mode (x24 / expressive)))
+
+# ::id export_amr.337 ::2016-04-28 10:06:18
+# ::snt 银行 现在 的 做法 俨然 就 是 在 践踏 人们 对 它 的 信任 ， 而且 践踏 的 堂而皇之 ， 有恃无恐 ，
+(x24 / progression
+	:arg1 (x9 / 践踏-01
+		:arg1 (x14 / 信任-01
+			:arg0 (x10 / 人们)
+			:arg1 (x12 / x1))
+		:domain (x4 / 做法
+			:poss (x1 / 银行)
+			:time (x2 / 现在))
+		:manner (x5 / 俨然)
+		:manner (x6 / 就))
+	:arg2 (x17 / 践踏-01
+		:manner (x19 / 堂而皇之)
+		:manner (x21 / 有恃无恐)
+		:arg0 x1
+		:arg1 x14))
+
+# ::id export_amr.338 ::2016-04-28 10:10:12
+# ::snt 等到 大家 都 跟 我 一样 对 银行 恐惧 了 ， 等待 银行 的 又 将 是 什么 呢 ？
+(x22 / condition
+	:arg1 (x1 / 等到-01
+		:arg1 (x6 / 一样
+			:arg0 (x2 / 大家)
+			:arg1 (x5 / 我)
+			:arg2 (x9 / 恐惧-01
+				:arg1 (x8 / 银行))
+			:manner (x4 / 跟))
+		:aspect (x10 / 了))
+	:arg2 (x18 / amr-unknown
+		:domain (x32 / thing
+			:arg0-of (x12 / 等待-01
+				:arg1 (x13 / 银行)))
+		:manner (x15 / 又)
+		:time (x16 / 将)
+		:mode (x19_x20 / interrogative)))
+
+# ::id export_amr.339 ::2016-04-28 10:32:34
+# ::snt 无论如何 ， 我 还是 决定 去 银行 做 最后 的 尝试 ， 希望 银行 不 要 再 践踏 我 所 剩 不 多 的 信任 。
+(x32 / condition
+	:arg1 (x1 / 无论如何)
+	:arg2 (x5 / 决定-01
+		:arg0 (x3 / 我)
+		:arg1 (x6 / 去-01
+			:arg1 (x7 / 银行)
+			:purpose (x8 / 做-01
+				:arg1 (x11 / 尝试
+					:mod (x9 / 最后))))
+		:cause (x13 / 希望-01
+			:arg1 (x18 / 践踏-01
+				:arg0 (x14 / 银行)
+				:arg1 (x25 / 信任
+					:poss (x19 / 我)
+					:mod (x20_x21_x22_x23 / 所剩不多))
+				:polarity (x15_x16 / -)
+				:manner (x17 / 再)))))
+
+# ::id export_amr.340 ::2016-04-28 10:35:26
+# ::snt 银行 最 黑心 ！
+(x3 / 黑心
+	:arg0 (x1 / 银行)
+	:degree (x2 / 最)
+	:mode (x4 / expressive))
+
+# ::id export_amr.341 ::2016-04-28 10:44:21
+# ::snt 我 的 卡 不见 了 ， 挂失 电话 却 一 整 晚 打 不 通 ， 只 能 第二 天 银行 营业 才 能 挂失 ， 但 钱 已经 被 取 。
+(x34 / contrast
+	:arg1 (x36 / contrast
+		:arg1 (x4 / 不见)
+		:arg2 (x47 / causation
+			:arg1 (x13_x15 / 打通
+				:polarity (x14 / -)
+				:duration (x10_x11_x12 / 一整晚)
+				:arg1 (x8 / 电话
+					:mod (x7 / 挂失)))
+			:arg2 (x24 / 能-01
+				:arg0 (x25 / 挂失)
+				:time (x22 / 营业-01
+					:arg0 (x21 / 银行)
+					:time (x53 / ordinal-entity
+						:value (x19 / 2)
+						:unit (x20 / 天))))))
+	:arg2 (x31 / 取-01
+		:arg1 (x28 / 钱)
+		:time (x29 / 已经)
+		:arg0 (x59 / person)))
+
