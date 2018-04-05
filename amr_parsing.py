@@ -310,7 +310,7 @@ def main():
             parsed_filename = dev_fname + '.' + parsed_suffix
             write_parsed_amr(parsed_amr, dev_instances, parsed_filename)
             if args.smatcheval:
-                smatch_path = "./smatch_2.0.2/smatch.py"
+                smatch_path = "./smatch/smatch.py"
                 python_path = 'python'
                 options = '--pr -f'
                 command = '%s %s %s %s %s' % (
