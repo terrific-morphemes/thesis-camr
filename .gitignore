@@ -1,6 +1,7 @@
 # Big files we don't need
 
 ./models/
+*.m
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
