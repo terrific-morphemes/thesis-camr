@@ -2,7 +2,7 @@
 
 """
 Interface for the parser:
-parse command line 
+parse command line
 read in corpus
 train and test
 """
@@ -138,7 +138,7 @@ def main():
         '-e', '--eval', nargs=2, help='Error Analysis: give parsed AMR file and gold AMR file')
     #arg_parser.add_argument('--section',choices=['proxy','all'],default='all',help='choose section of the corpus. Only works for LDC2014T12 dataset.')
     arg_parser.add_argument('--corpus_version', choices=[
-                            '5k', '10k'], default='5k', help='choose which version of chinese amr corpus to train on')
+                            '5k', '10k','mini'], default='5k', help='choose which version of chinese amr corpus to train on')
 
     args = arg_parser.parse_args()
 
@@ -272,6 +272,10 @@ def main():
             train_instances = all_instances[2541:]
             dev_instances = all_instances[:1264]
             test_instances = all_instances[1264:2541]
+        elif args.corpus_version == 'mini':
+            train_instances = all_instances[:20]
+            dev_instances = all_instances[20:30]
+            test_instances = all_instances[30:40]
 
         dev_fname = amr_file + '.dev.amr'
         test_fname = amr_file + '.test.amr'
