@@ -368,7 +368,7 @@ def main():
 
         print("DONE PARSING", file=experiment_log)
         if args.smatcheval:
-            smatch_path = "./smatch_2.0.2/smatch.py"
+            smatch_path = "./smatch/smatch.py"
             python_path = 'python'
             options = '--pr -f'
             gold_amr_file = amr_file + '.amr'
