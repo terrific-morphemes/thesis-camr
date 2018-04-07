@@ -177,6 +177,10 @@ FEATS_ABBR['eqpcpt'] = 'eqpcpt'
 FEATS_ABBR['pcptpart1'] = 'pcpt_part1'
 FEATS_ABBR['pcptpart2'] = 'pcpt_part2'
 
+#Add sibling abbreviations
+FEATS_ABBR['slsb'] = 'slsb'
+FEATS_ABBR['srsb'] = 'srsb'
+FEATS_ABBR['sr2sb'] = 'sr2sb'
 
 # import os
 
