@@ -175,10 +175,12 @@ def preprocess(input_file, START_SNLP=False, INPUT_AMR='amr', DEBUG_LEVEL=0, ALI
         #Fix for mysterious keyerror problem above
         for comment in comments:
             #print(comment)
+            id = comment['id']
             try:
                 sents.append(comment['snt'])
                 toks.append(comment['snt'])
             except KeyError:
+                print("Error with %s" % id)
                 print("Error with %s" % comment)
         tmp_sent_filename = amr_file + '.sent'  # raw
         tmp_tok_filename = amr_file + '.seg'
