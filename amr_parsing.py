@@ -258,7 +258,7 @@ def main():
         print("Incorporate SRL Information: %s" % (constants.FLAG_PROP))
         print("Dependency parser used: %s" % (constants.FLAG_DEPPARSER))
 
-        all_instances = preprocess(amr_file, START_SNLP=False, INPUT_AMR=args.amrfmt,
+        all_instances = preprocess(amr_file, START_SNLP=True, INPUT_AMR=args.amrfmt,
                                    DEBUG_LEVEL=args.verbose, ALIGN_FORMAT=args.alignfmt)
         if args.dev:  # have separate dev set
             train_instances = all_instances
