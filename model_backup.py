@@ -119,7 +119,13 @@ class Model():
                                   for tok in sent_tokens if tok['id'] in g_nset_srt]
 
                     g_span_form = ''.join(g_span_wds)
-                    g_span_ne = sent_tokens[g_nset_srt[0]]['ne']
+
+                    #possible hacky fix
+                    try:
+                        g_span_ne = sent_tokens[g_nset_srt[0]]['ne']
+                    except IndexError:
+                        g_span_ne = 'O'
+                    #g_span_ne = sent_tokens[g_nset_srt[0]]['ne']
                     g_entity_tag = gold_graph.get_node_tag(g)
 
                     if g_span_ne not in ['O', 'NUMBER']:  # is name entity
@@ -154,7 +160,13 @@ class Model():
                     d_nset_srt = sorted(list(d_nset))
                     d_span_wds = [tok['form'] for tok in sent_tokens
                                   if tok['id'] in d_nset_srt]
-                    d_span_ne = sent_tokens[d_nset_srt[0]]['ne']
+                    #for debugging
+                    #print(sent_tokens[d_nset_srt[0]]['ne'])
+                    #d_span_ne = sent_tokens[d_nset_srt[0]]['ne']
+                    try:
+                        d_span_ne = sent_tokens[d_nset_srt[0]]['ne']
+                    except IndexError:
+                        d_span_ne = 'O'
                     d_entity_tag = gold_graph.get_node_tag(d)
                     d_span_form = ''.join(d_span_wds)
 
@@ -359,8 +371,9 @@ class Model():
             with open(model_filename, 'wb') as f:
                 pickle.dump(self, f, pickle.HIGHEST_PROTOCOL)
         except:
-            print >> sys.stderr, 'Saving model error', sys.exc_info()[0]
-            # raise
+            #print >> sys.stderr, 'Saving model error', sys.exc_info()[0]
+            print(sys.exc_info()[0], file=sys.stderr)
+            #raise
             pass
 
         self.weight = weight
