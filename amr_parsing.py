@@ -308,6 +308,9 @@ def main():
             parsed_suffix = args.model.split(
                 '.', 2)[-1] + '.' + str(iter) + '.parsed'
             parsed_filename = dev_fname + '.' + parsed_suffix
+            print("parsed suffix: %s" % parsed_suffix)
+            print("parsed filename: %s" % parsed_filename)
+
             write_parsed_amr(parsed_amr, dev_instances, parsed_filename)
             if args.smatcheval:
                 smatch_path = "./smatch/smatch.py"
