@@ -1,0 +1,146 @@
+# COMMENT oHERE
+# TODO: FEATURE CONTEXT WINDOW
+
+# UNIGRAM
+s0_ne	tx
+s0_w	tx
+s0_lemma	tx
+s0_t		tx
+s0_dl		tx
+s0_len		tx
+
+# +
+s0_t	s0_txv
+
+# not involve with tag to predict +
+#s0_brown4
+#s0_brown6
+##s0_brown8
+#s0_brown10
+#s0_brown20
+
+# prop feature
+##eqfrmset
+#s0_frmset
+#s0_eqfrmset
+#b0_isarg
+#b0_arglabel
+#b0_dl	b0_arglabel
+#a0_isprd
+#a0_prdlabel
+
+
+# only invoke when at START_ID
+
+#s0_isnom
+s0_nech
+s0_lemma	s0_nech
+#s0_isnom	s0_nech
+s0_c1lemma	tx
+s0_c1dl		s0_c1lemma
+s0_cpt		s0_p1_ne	s0_c1lemma
+
+
+b0_ne
+b0_w
+b0_lemma
+b0_t
+b0_dl
+b0_len
+b0_reph
+
+# parent to attach
+a0_ne
+a0_w
+a0_lemma
+a0_t
+a0_dl
+
+
+# first parent
+s0_p1_ne
+s0_p1_w
+s0_p1_lemma
+s0_p1_t
+s0_p1_dl
+
+# siblings
+s0_slsb_ne
+s0_slsb_w
+s0_slsb_lemma
+s0_slsb_t
+s0_slsb_dl
+
+s0_srsb_ne
+s0_srsb_w
+s0_srsb_lemma
+s0_srsb_t
+s0_srsb_dl
+
+s0_sr2sb_ne
+s0_sr2sb_w
+s0_sr2sb_lemma
+s0_sr2sb_t
+s0_sr2sb_dl
+
+#sibling bigrams
+s0_slsb_lemma   b0_t
+s0_srsb_lemma   b0_t
+s0_sr2sb_lemma   b0_t
+
+s0_slsb_lemma   b0_dl
+s0_srsb_lemma   b0_dl
+s0_sr2sb_lemma   b0_dl
+
+s0_slsb_t	   b0_lemma
+s0_srsb_t	   b0_lemma
+s0_sr2sb_t	   b0_lemma
+
+s0_slsb_dl	   b0_lemma
+s0_srsb_dl	   b0_lemma
+s0_sr2sb_dl	   b0_lemma
+
+s0_slsb_ne	   b0_ne
+s0_srsb_ne	   b0_ne
+s0_sr2sb_ne	   b0_ne
+
+a0_cpt	   b0_cpt	s0_slsb_lemma
+a0_cpt	   b0_cpt	s0_srsb_lemma
+a0_cpt	   b0_cpt	s0_sr2sb_lemma
+
+
+
+# path
+b0_pathpwd	b0_lemma	s0_lemma
+b0_apathpwd	a0_lemma	b0_lemma
+
+b0_pathpwd
+b0_apathpwd
+
+# make conjunction swap specific
+b0_lemma	b0_rsb_dl
+
+
+# prevent 'and' swap too greedy
+b0_lemma	b0_nswp
+
+# sentence distance between s0 and b0
+dist1
+dist1	b0_pathp
+dist2
+dist2	b0_apathp
+
+# BIGRAM
+s0_lemma   b0_t
+s0_lemma   b0_dl
+s0_t	   b0_lemma
+s0_dl	   b0_lemma
+s0_ne	   b0_ne
+
+a0_t	   b0_lemma
+a0_dl	   b0_lemma
+a0_ne	   b0_ne
+
+a0_cpt	   b0_cpt
+a0_cpt	   b0_cpt	s0_lemma
+a0_cpt	   b0_ne
